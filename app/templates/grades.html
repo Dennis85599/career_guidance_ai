@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+{% block content %}
+
+<style>
+    .grade-card {
+        border-radius: 20px;
+        background: white;
+    }
+
+    .step-badge {
+        background: #eef2ff;
+        color: #4f46e5;
+        padding: 6px 18px;
+        border-radius: 50px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .progress {
+        height: 6px;
+        border-radius: 50px;
+    }
+
+    .progress-bar {
+        background: linear-gradient(135deg, #4f46e5, #6366f1);
+    }
+
+    .form-label {
+        font-weight: 500;
+        font-size: 13px;
+        color: #334155;
+    }
+
+    .form-select {
+        border-radius: 12px;
+        padding: 12px 14px;
+        font-size: 14px;
+    }
+
+    .form-select:focus {
+        border-color: #6366f1;
+        box-shadow: 0 0 0 0.15rem rgba(99,102,241,.25);
+    }
+
+    .subject-icon {
+        width: 34px;
+        height: 34px;
+        border-radius: 8px;
+        background: #eef2ff;
+        color: #4f46e5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .tip-box {
+        background: #f8fafc;
+        border-radius: 14px;
+        padding: 16px;
+        font-size: 14px;
+        color: #475569;
+    }
+</style>
+
+<div class="row justify-content-center animate__animated animate__fadeIn">
+    <div class="col-xl-8 col-lg-9 col-md-11">
+
+        <div class="card grade-card p-4 p-md-5 shadow-sm">
+
+            <!-- HEADER -->
+            <div class="text-center mb-4">
+                <span class="step-badge">Step 2 of 4</span>
+
+                <h3 class="mt-3 fw-semibold">
+                    Enter Your KCSE Grades
+                </h3>
+
+                <p class="text-muted mb-3">
+                    Select the grade you achieved for each subject
+                </p>
+
+                <!-- PROGRESS -->
+                <div class="progress mx-auto" style="max-width: 260px;">
+                    <div class="progress-bar" style="width: 50%"></div>
+                </div>
+            </div>
+
+            <!-- TIP -->
+            <div class="tip-box mb-4">
+                <i class="fa fa-lightbulb me-2 text-warning"></i>
+                Tip: Choose your official KCSE grades. Accurate input leads to better career recommendations.
+            </div>
+
+            <!-- FORM -->
+            <form method="POST">
+
+                <div class="row g-3">
+                    {% for subject in subjects %}
+                    <div class="col-md-6">
+
+                        <label class="form-label d-flex align-items-center gap-2">
+                            <span class="subject-icon">
+                                <i class="fa fa-book"></i>
+                            </span>
+                            {{ subject.replace('_', ' ') }}
+                        </label>
+
+                        <select class="form-select" name="{{ subject }}" required>
+                            <option value="" selected disabled>Select Grade</option>
+                            {% for g in ["A","A-","B+","B","B-","C+","C","C-","D+","D","D-","E"] %}
+                            <option value="{{ g }}">{{ g }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <!-- ACTION -->
+                <div class="d-flex justify-content-between align-items-center mt-5">
+                    <span class="text-muted small">
+                        You can review your choices before submission
+                    </span>
+
+                    <button type="submit" class="btn btn-main px-5">
+                        Continue
+                        <i class="fa fa-arrow-right ms-2"></i>
+                    </button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

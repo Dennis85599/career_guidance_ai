@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="row justify-content-center animate__animated animate__fadeIn">
+    <div class="col-lg-9 col-md-11">
+
+        <div class="card p-4 p-md-5">
+
+            <!-- HEADER -->
+            <div class="text-center mb-4">
+                <span class="step-indicator">Help & Guidance</span>
+                <h3 class="mt-3 fw-semibold">How to Use the Career Guidance System</h3>
+                <p class="text-muted">
+                    Follow the steps below to get accurate career recommendations
+                </p>
+            </div>
+
+            <!-- CONTENT -->
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <h5>🧭 Step-by-step process</h5>
+                    <ol class="mt-2">
+                        <li>Select your KCSE subjects</li>
+                        <li>Enter your grades honestly</li>
+                        <li>Rate your skills accurately</li>
+                        <li>View recommended careers</li>
+                    </ol>
+                </div>
+
+                <div class="col-md-6">
+                    <h5>📊 How recommendations work</h5>
+                    <ul class="mt-2">
+                        <li>Based on subject performance</li>
+                        <li>Based on skill strengths</li>
+                        <li>Aligned with career requirements</li>
+                    </ul>
+                </div>
+
+                <div class="col-12">
+                    <div class="alert alert-info mt-3">
+                        <strong>Important:</strong>
+                        Your information is used only for generating recommendations
+                        and is never shared with third parties.
+                    </div>
+                </div>
+
+                <div class="col-12 text-center mt-3">
+                    <a href="{{ url_for('main.subjects') }}" class="btn btn-main px-4">
+                        Get Started
+                        <i class="fa fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}

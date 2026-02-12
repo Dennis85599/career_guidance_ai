@@ -1,0 +1,298 @@
+{% extends "base.html" %}
+{% block content %}
+
+<script>
+const RAW_GRADES = {{ session["grades"] | tojson }};
+</script>
+
+<style>
+.option{
+  border:1px solid #dee2e6;
+  padding:14px;
+  border-radius:12px;
+  margin-bottom:10px;
+  cursor:pointer;
+  transition:.2s;
+}
+.option:hover{ background:#eef2ff; }
+.option.active{
+  background:#4f46e5;
+  color:#fff;
+  border-color:#4f46e5;
+}
+
+.question-block.missing{
+  border-left:4px solid #dc2626;
+  padding-left:12px;
+  animation:shake .3s;
+}
+
+@keyframes shake{
+  0%{transform:translateX(0)}
+  25%{transform:translateX(-4px)}
+  50%{transform:translateX(4px)}
+  75%{transform:translateX(-4px)}
+  100%{transform:translateX(0)}
+}
+
+.alert-warning{
+  background:#fff7ed;
+  color:#9a3412;
+  border-radius:12px;
+  border:1px solid #fed7aa;
+}
+</style>
+
+<div class="container mt-5 mb-5">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h4 class="fw-semibold">Quick Questions</h4>
+    <span id="progress" class="text-muted small"></span>
+  </div>
+
+  <div id="warning" class="alert alert-warning d-none mb-4">
+    <i class="fa fa-triangle-exclamation me-2"></i>
+    Please answer all questions before continuing.
+  </div>
+
+  <div id="questions"></div>
+
+  <div class="d-flex justify-content-between mt-4">
+    <button class="btn btn-outline-secondary" onclick="skip()">Skip</button>
+    <button class="btn btn-main px-4" onclick="next()">Next</button>
+  </div>
+
+  <form id="finalForm" method="POST" action="/skills" style="display:none;">
+    {% for i in range(10) %}
+      <input type="hidden" name="skill{{i}}" value="5">
+    {% endfor %}
+  </form>
+</div>
+
+<script>
+// ===================== SKILL ORDER =====================
+const SKILLS=[
+ "analytical","numerical","communication","creativity","technical",
+ "leadership","social","practical","artistic","entrepreneurial"
+];
+
+// ============= SUBJECT → SKILL INFERENCE ===============
+const SUBJECT_SKILL_MAP={
+ math:["analytical","numerical"],
+ english:["communication"],
+ kiswahili:["communication","social"],
+ physics:["analytical","technical"],
+ chemistry:["analytical","practical"],
+ biology:["analytical","practical"],
+ business:["entrepreneurial","leadership"],
+ computer:["technical"],
+ agriculture:["practical","entrepreneurial"],
+ cre:["social","leadership"],
+ history:["communication"],
+ geography:["analytical"]
+};
+
+// ============= GRADE → BASE SKILL SCORE ================
+function gradeToSkill(p){
+ if(p>=11) return 10;
+ if(p>=9) return 8;
+ if(p>=7) return 7;
+ if(p>=6) return 6;
+ if(p>=5) return 5;
+ if(p>=4) return 4;
+ if(p>=3) return 3;
+ if(p>=2) return 2;
+ return 1;
+}
+
+// ============= INFER BASE SKILLS =======================
+let inferred={}, inferredScore={};
+SKILLS.forEach(s=>inferred[s]=[]);
+
+Object.keys(RAW_GRADES).forEach(sub=>{
+ (SUBJECT_SKILL_MAP[sub]||[]).forEach(skill=>{
+  inferred[skill].push(gradeToSkill(RAW_GRADES[sub]));
+ });
+});
+
+SKILLS.forEach(s=>{
+ inferredScore[s]=inferred[s].length
+  ? Math.round(inferred[s].reduce((a,b)=>a+b,0)/inferred[s].length)
+  : null;
+});
+
+// ================= QUESTION BANK =======================
+function q(t,a){return{text:t,answers:a}}
+
+const BANK={
+analytical:[
+ q("When solving a tough problem you usually:",
+ ["Break it into steps","Analyze options","Try solutions","Wait","Avoid"]),
+ q("If something fails you:",
+ ["Review logic","Adjust method","Retry","Blame difficulty","Stop"]),
+ q("Your thinking style is:",
+ ["Logical","Structured","Flexible","Reactive","Unplanned"])
+],
+numerical:[
+ q("Working with numbers feels:",
+ ["Natural","Comfortable","Manageable","Hard","Overwhelming"]),
+ q("Calculations make you:",
+ ["Confident","Careful","Okay","Nervous","Avoid"]),
+ q("Formulas are:",
+ ["Easy","Understandable","Sometimes hard","Confusing","Impossible"])
+],
+communication:[
+ q("Explaining ideas is:",
+ ["Easy","Clear","Okay","Hard","Avoided"]),
+ q("In discussions you:",
+ ["Lead","Contribute","Sometimes speak","Listen","Stay silent"]),
+ q("People understand you:",
+ ["Very easily","Easily","Sometimes","Rarely","Never"])
+],
+creativity:[
+ q("New ideas make you feel:",
+ ["Excited","Interested","Neutral","Uncomfortable","Stuck"]),
+ q("You prefer tasks that are:",
+ ["Open","Flexible","Guided","Strict","Fixed"]),
+ q("Creativity feels:",
+ ["Natural","Enjoyable","Okay","Awkward","Unpleasant"])
+],
+technical:[
+ q("Learning new tools is:",
+ ["Easy","Manageable","Okay","Hard","Frustrating"]),
+ q("When tech fails you:",
+ ["Fix","Troubleshoot","Retry","Ask help","Avoid"]),
+ q("Using devices feels:",
+ ["Confident","Comfortable","Okay","Unsure","Lost"])
+],
+leadership:[
+ q("When decisions are needed you:",
+ ["Lead","Guide","Support","Wait","Avoid"]),
+ q("Responsibility feels:",
+ ["Natural","Comfortable","Okay","Stressful","Unpleasant"]),
+ q("People see you as:",
+ ["Leader","Reliable","Helpful","Quiet","Uninvolved"])
+],
+social:[
+ q("Working with others is:",
+ ["Enjoyable","Comfortable","Okay","Awkward","Unpleasant"]),
+ q("Meeting new people is:",
+ ["Easy","Fine","Sometimes hard","Difficult","Avoided"]),
+ q("In teams you:",
+ ["Collaborate","Participate","Observe","Withdraw","Avoid"])
+],
+practical:[
+ q("Hands-on work is:",
+ ["Enjoyable","Comfortable","Okay","Challenging","Difficult"]),
+ q("You learn best by:",
+ ["Doing","Practicing","Watching","Listening","Reading"]),
+ q("Fixing things feels:",
+ ["Confident","Interested","Neutral","Unsure","Avoid"])
+],
+artistic:[
+ q("Creative expression feels:",
+ ["Natural","Enjoyable","Okay","Awkward","Uncomfortable"]),
+ q("Art or design is:",
+ ["Exciting","Interesting","Neutral","Boring","Unpleasant"]),
+ q("You enjoy tasks with:",
+ ["Imagination","Design","Structure","Rules","Repetition"])
+],
+entrepreneurial:[
+ q("Opportunities make you:",
+ ["Think solutions","Plan ideas","Observe","Wait","Ignore"]),
+ q("Starting projects feels:",
+ ["Exciting","Motivating","Neutral","Risky","Stressful"]),
+ q("Risk handling is:",
+ ["Confident","Careful","Uncertain","Fearful","Avoided"])
+]
+};
+
+// ============= BUILD QUESTIONS =========================
+let QUESTIONS=[];
+Object.keys(BANK).forEach(skill=>{
+ const base=inferredScore[skill];
+ const count=base===null?3:base>=9?1:base>=6?2:3;
+ BANK[skill].slice(0,count).forEach(q=>{
+  QUESTIONS.push({skill,...q});
+ });
+});
+
+// ================= UI STATE ============================
+let index=0, answers={};
+
+// ================= LOAD ================================
+function load(){
+ const area=document.getElementById("questions");
+ area.innerHTML="";
+ document.getElementById("warning").classList.add("d-none");
+
+ QUESTIONS.slice(index,index+3).forEach((qObj,i)=>{
+  const g=index+i;
+  let html=`<p class="fw-semibold">${qObj.text}</p>`;
+  qObj.answers.forEach((a,ai)=>{
+   const v=5-ai;
+   html+=`
+   <div class="option ${answers[g]==v?"active":""}"
+        onclick="select(${g},${v},this)">
+     ${a}
+   </div>`;
+  });
+  area.innerHTML+=`<div class="mb-4 question-block" data-q="${g}">${html}</div>`;
+ });
+
+ document.getElementById("progress").innerText=
+  `${Math.min(index+3,QUESTIONS.length)} / ${QUESTIONS.length}`;
+}
+
+// ================= VALIDATE ============================
+function validate(){
+ let ok=true;
+ document.querySelectorAll(".question-block").forEach(b=>{
+  if(!(b.dataset.q in answers)){
+   b.classList.add("missing");
+   ok=false;
+  }else b.classList.remove("missing");
+ });
+ document.getElementById("warning").classList.toggle("d-none",ok);
+ return ok;
+}
+
+// ================= NAV ================================
+function select(i,v,e){
+ answers[i]=v;
+ e.parentNode.querySelectorAll(".option")
+  .forEach(o=>o.classList.remove("active"));
+ e.classList.add("active");
+}
+
+function skip(){
+ for(let i=index;i<index+3;i++) if(!(i in answers)) answers[i]=3;
+ next(true);
+}
+
+function next(skipped=false){
+ if(!skipped && !validate()) return;
+ index+=3;
+ index>=QUESTIONS.length?submit():load();
+}
+
+// ================= FINAL ===============================
+function submit(){
+ let skillVals={}; SKILLS.forEach(s=>skillVals[s]=[]);
+ Object.keys(answers).forEach(i=>{
+  skillVals[QUESTIONS[i].skill].push(answers[i]);
+ });
+ SKILLS.forEach((s,i)=>{
+  const qAvg=skillVals[s].length
+   ?skillVals[s].reduce((a,b)=>a+b,0)/skillVals[s].length
+   :5;
+  const base=inferredScore[s]??5;
+  document.querySelector(`input[name=skill${i}]`).value=
+   Math.round(0.7*base+0.3*qAvg);
+ });
+ document.getElementById("finalForm").submit();
+}
+
+load();
+</script>
+
+{% endblock %}

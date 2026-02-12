@@ -1,0 +1,2001 @@
+math,english,kiswahili,biology,chemistry,physics,geography,history,business,computer,cre,agriculture,mean_grade,analytical_skill,numerical_skill,communication_skill,creativity_skill,technical_skill,leadership_skill,social_skill,physical_skill,artistic_skill,entrepreneurial_skill,recommended_career,career_cluster
+9,4,6,1,6,3,7,11,5,9,11,3,6.25,10,9,3,9,5,1,7,1,9,1,Tour Guide,Hospitality & Tourism
+12,2,6,12,10,1,12,8,1,5,7,11,7.25,7,7,4,2,6,7,6,4,7,4,Environmental Scientist,Agriculture & Environment
+10,12,5,12,10,11,2,11,8,10,7,6,8.67,9,9,5,3,9,3,5,6,1,6,Software Developer,ICT & Computing
+3,3,3,4,9,5,12,12,5,6,9,1,6.0,1,6,9,3,6,2,7,4,7,10,Military Officer,Security & Defense
+10,11,5,11,12,1,7,8,4,5,2,4,6.67,8,4,1,10,3,9,9,8,10,5,Pharmacist,Health Sciences
+10,7,6,10,10,10,2,8,8,8,7,2,7.33,8,5,3,5,6,3,9,9,5,10,Pharmacist,Health Sciences
+10,9,1,9,7,2,4,11,8,11,8,4,7.0,9,1,9,3,1,1,1,2,8,10,Teacher,Education
+12,8,3,12,2,4,10,5,10,1,3,7,6.42,1,8,10,9,7,9,3,9,9,3,Graphic Designer,Creative Arts & Media
+10,10,6,3,10,2,1,4,10,3,3,4,5.5,2,3,9,6,3,3,1,5,5,4,Chef,Hospitality & Tourism
+12,10,6,12,8,12,7,3,4,12,7,12,8.75,9,9,10,3,9,2,6,7,5,5,Electrical Engineer,Engineering & Technology
+2,6,1,11,10,4,5,3,7,5,9,12,6.25,7,5,4,8,2,5,4,8,8,9,Marine Engineer,Transport & Aviation
+10,1,8,10,5,10,9,7,7,11,6,4,7.33,6,6,5,4,3,4,2,4,1,6,Chef,Hospitality & Tourism
+10,10,5,9,2,1,3,6,6,11,9,5,6.42,7,3,9,5,3,7,8,8,4,5,Education Officer,Education
+11,10,8,12,6,2,2,7,5,7,6,6,6.83,3,2,6,9,5,2,7,6,5,5,Marine Engineer,Transport & Aviation
+1,11,7,10,9,2,3,3,10,1,12,1,5.83,5,9,10,5,2,9,4,5,3,10,Pilot,Transport & Aviation
+3,2,5,6,4,7,7,6,6,1,4,8,4.92,5,8,4,9,5,3,2,3,7,8,Marine Engineer,Transport & Aviation
+9,7,5,4,9,10,5,4,12,12,11,11,8.25,9,9,8,10,9,2,6,8,1,6,Software Developer,ICT & Computing
+9,12,12,8,7,5,4,10,6,10,6,9,8.17,9,10,9,2,10,9,10,10,6,7,Lawyer,Law & Governance
+10,3,3,11,12,3,4,4,9,2,5,12,6.5,8,9,2,3,7,8,6,7,8,9,Actuary,Business & Finance
+7,1,6,11,6,2,4,7,10,6,10,10,6.67,10,10,1,9,7,9,10,8,1,10,Welder,Skilled Trades & Technical
+8,5,1,2,6,10,1,1,7,1,10,8,5.0,7,8,9,8,4,1,8,9,6,8,Tour Guide,Hospitality & Tourism
+11,10,5,1,6,10,4,7,9,10,12,12,8.08,9,9,3,2,9,2,3,9,8,1,Mechatronics Engineer,Engineering & Technology
+2,11,7,8,6,6,7,5,10,12,3,7,7.0,7,8,9,9,9,4,1,2,5,10,Lecturer,Education
+10,10,12,9,11,1,11,9,2,1,9,2,7.25,8,6,10,3,7,6,9,9,9,5,Pharmacist,Health Sciences
+4,4,4,12,11,11,9,4,2,6,12,10,7.42,5,5,4,1,5,6,2,4,1,1,Forester,Agriculture & Environment
+11,6,10,11,1,6,12,1,7,2,8,9,7.0,4,10,10,3,3,4,4,8,6,3,Veterinary Officer,Agriculture & Environment
+12,9,4,12,1,12,10,3,12,5,9,8,8.08,1,9,9,6,6,6,2,7,6,5,Hotel Manager,Hospitality & Tourism
+10,4,12,4,2,10,3,6,12,10,11,3,7.25,9,9,3,8,9,8,9,7,5,7,Data Scientist,ICT & Computing
+12,9,1,4,9,7,7,10,8,11,9,9,8.0,10,3,9,2,6,10,1,9,3,9,Lecturer,Education
+10,8,10,5,1,2,10,5,4,4,8,9,6.33,9,1,2,9,7,2,1,6,9,4,Journalist,Creative Arts & Media
+11,2,9,6,9,12,7,6,10,2,9,8,7.58,8,3,4,1,4,3,3,10,2,6,Logistics Officer,Transport & Aviation
+12,12,4,11,1,9,9,4,6,11,4,1,7.0,9,9,10,8,9,7,3,9,9,3,Data Scientist,ICT & Computing
+3,8,11,12,11,9,11,2,6,12,6,11,8.5,2,8,2,9,10,2,5,2,1,10,Military Officer,Security & Defense
+9,10,9,2,3,10,9,5,3,10,2,8,6.67,9,9,3,1,9,3,4,4,2,3,Civil Engineer,Engineering & Technology
+10,7,1,4,9,3,5,3,9,4,2,4,5.08,2,7,9,3,2,1,4,5,10,8,Welder,Skilled Trades & Technical
+6,2,6,5,12,9,10,12,2,11,2,7,7.0,8,10,5,7,2,4,10,8,2,2,Pilot,Transport & Aviation
+8,12,12,8,11,4,7,11,6,7,2,1,7.42,5,1,9,1,5,9,8,7,1,6,Public Administrator,Law & Governance
+12,9,9,4,5,11,12,9,4,5,5,2,7.25,10,7,9,5,1,9,4,1,10,7,Public Administrator,Law & Governance
+11,11,10,2,2,3,3,4,3,1,8,4,5.17,3,1,2,9,4,10,3,2,9,2,Journalist,Creative Arts & Media
+12,9,1,7,1,4,8,7,10,2,4,3,5.67,1,4,8,1,9,1,2,6,2,4,Military Officer,Security & Defense
+9,12,8,11,6,10,12,6,12,1,8,7,8.5,5,9,3,10,5,9,3,3,2,9,Accountant,Business & Finance
+9,8,4,9,5,5,2,3,12,9,3,12,6.75,5,9,2,9,2,4,10,10,4,9,Financial Analyst,Business & Finance
+10,6,7,5,7,6,9,3,10,2,12,1,6.5,9,9,3,2,5,2,4,6,3,9,Actuary,Business & Finance
+3,10,10,2,6,7,8,4,4,4,6,5,5.75,10,10,6,1,4,8,3,3,5,3,Police Officer,Security & Defense
+10,9,2,5,4,10,3,4,12,9,7,11,7.17,9,9,2,2,9,6,9,8,1,4,Mechatronics Engineer,Engineering & Technology
+1,2,11,7,3,8,5,4,12,5,6,12,6.33,9,5,9,9,7,2,5,7,9,3,Graphic Designer,Creative Arts & Media
+7,12,6,11,12,10,8,11,3,9,7,1,8.08,5,4,9,1,8,5,1,4,3,6,Lecturer,Education
+12,12,3,10,9,7,1,2,10,3,5,7,6.75,8,9,8,10,6,6,9,6,8,10,Pharmacist,Health Sciences
+12,7,6,6,4,11,2,6,5,11,11,3,7.0,9,9,5,4,9,8,9,9,5,8,Mechanical Engineer,Engineering & Technology
+8,2,3,1,10,2,5,11,12,8,1,10,6.08,1,5,9,9,6,7,1,1,5,7,Police Officer,Security & Defense
+2,1,3,10,12,7,4,8,9,1,1,12,5.83,8,3,4,7,10,7,9,8,8,2,Doctor,Health Sciences
+10,10,3,4,12,10,5,1,7,1,12,2,6.42,9,5,6,9,7,9,8,10,9,3,Film Producer,Creative Arts & Media
+10,3,8,7,6,6,3,8,11,7,9,1,6.58,10,9,2,8,3,5,6,4,2,9,Banker,Business & Finance
+4,9,7,12,11,9,8,11,7,3,2,9,7.67,8,1,7,10,2,5,9,10,2,9,Doctor,Health Sciences
+1,4,5,9,12,3,7,10,12,1,8,4,6.33,8,5,10,9,2,4,9,1,10,9,Lab Technologist,Health Sciences
+11,5,5,11,9,7,6,9,6,7,9,7,7.67,8,3,4,8,2,2,9,2,3,10,Clinical Officer,Health Sciences
+6,8,4,11,9,1,12,4,6,7,2,11,6.75,3,8,7,5,2,7,2,7,1,9,Veterinary Officer,Agriculture & Environment
+3,3,3,3,8,3,12,6,12,5,11,1,5.83,1,5,6,9,2,3,3,1,9,8,Film Producer,Creative Arts & Media
+9,1,4,12,4,7,3,3,9,1,6,10,5.75,7,9,3,1,6,5,1,4,7,9,Actuary,Business & Finance
+10,11,5,10,12,9,3,2,2,11,1,3,6.58,9,9,4,4,9,3,9,4,7,4,Software Developer,ICT & Computing
+10,12,7,10,10,3,3,10,7,7,3,4,7.17,7,9,4,7,2,6,1,8,1,7,Hotel Manager,Hospitality & Tourism
+10,9,8,9,10,6,12,5,9,5,3,2,7.33,7,9,1,7,8,1,1,7,7,9,Accountant,Business & Finance
+4,5,12,9,2,8,10,5,7,10,2,12,7.17,1,2,6,3,5,3,5,2,4,9,Agronomist,Agriculture & Environment
+10,12,6,3,5,10,8,11,2,7,4,9,7.25,3,1,4,2,5,7,1,2,5,8,Chef,Hospitality & Tourism
+5,10,9,2,12,11,12,3,10,3,1,10,7.33,3,3,9,9,4,7,8,6,1,4,Education Officer,Education
+2,12,6,5,9,12,3,6,5,12,4,1,6.42,3,9,9,4,4,6,4,7,7,5,Education Officer,Education
+5,3,12,12,1,7,4,9,7,1,1,10,6.0,2,2,3,2,5,9,5,7,5,10,Logistics Officer,Transport & Aviation
+11,10,8,11,2,9,12,11,8,12,4,9,8.92,9,9,4,10,9,4,1,3,10,5,Data Scientist,ICT & Computing
+2,12,11,3,7,5,3,11,10,7,3,11,7.08,4,4,9,8,10,9,7,8,1,7,Public Administrator,Law & Governance
+11,5,8,9,4,11,3,12,7,12,8,11,8.42,9,9,7,7,9,3,1,3,1,5,Mechatronics Engineer,Engineering & Technology
+7,1,11,10,3,12,7,12,6,1,12,10,7.67,9,6,8,10,7,8,9,8,8,5,Marine Engineer,Transport & Aviation
+1,3,7,9,10,12,9,8,2,7,11,4,6.92,8,8,1,5,10,2,9,8,3,7,Pharmacist,Health Sciences
+12,10,2,8,10,10,5,4,8,1,11,1,6.83,6,3,8,9,8,10,1,1,9,7,Graphic Designer,Creative Arts & Media
+6,2,3,9,5,11,12,1,2,11,1,9,6.0,7,2,7,10,10,9,5,3,1,5,Veterinary Officer,Agriculture & Environment
+8,5,9,10,12,1,4,3,8,6,10,12,7.33,8,8,6,3,9,8,9,7,4,4,Doctor,Health Sciences
+11,9,5,9,1,11,9,3,9,10,7,1,7.08,9,9,4,3,9,2,5,8,2,8,Civil Engineer,Engineering & Technology
+9,11,6,1,11,11,1,9,11,11,3,11,7.92,10,3,3,9,10,7,3,1,9,1,Film Producer,Creative Arts & Media
+11,1,1,1,2,11,10,5,9,12,8,8,6.58,9,9,8,7,9,1,7,3,3,2,Cybersecurity Analyst,ICT & Computing
+3,11,6,11,10,12,10,5,3,1,10,7,7.42,8,5,7,6,3,6,9,6,1,8,Clinical Officer,Health Sciences
+11,7,8,5,8,1,9,3,12,9,5,3,6.75,4,9,9,1,9,8,1,10,2,9,Banker,Business & Finance
+10,1,10,8,5,4,2,10,12,6,2,9,6.58,1,7,10,9,6,4,7,4,9,6,Journalist,Creative Arts & Media
+2,3,9,4,5,5,11,12,3,1,12,6,6.08,1,6,10,9,3,3,8,5,10,4,Police Officer,Security & Defense
+1,10,5,11,7,1,3,11,9,8,6,5,6.42,2,7,9,9,9,2,4,10,2,6,Teacher,Education
+10,2,10,7,9,10,7,5,9,5,8,5,7.25,1,9,3,6,7,10,5,5,6,9,Financial Analyst,Business & Finance
+9,12,5,5,12,7,5,10,1,11,7,12,8.0,5,8,3,9,1,3,8,10,9,5,Animator,Creative Arts & Media
+11,7,5,12,7,8,3,10,10,4,9,2,7.33,4,3,1,2,9,4,7,7,2,2,Pilot,Transport & Aviation
+12,11,11,7,2,10,6,5,8,10,11,6,8.25,9,9,10,3,9,3,5,10,7,4,Data Scientist,ICT & Computing
+9,1,7,3,1,1,4,12,9,2,9,10,5.67,1,8,3,7,5,2,10,3,4,5,Electrician,Skilled Trades & Technical
+7,10,8,10,10,3,8,2,3,6,7,9,6.92,8,9,8,9,6,5,1,8,9,5,Graphic Designer,Creative Arts & Media
+6,3,12,12,3,4,8,12,1,3,10,5,6.58,5,5,9,1,2,2,3,6,9,8,Marine Engineer,Transport & Aviation
+8,7,3,5,9,8,2,10,4,7,12,4,6.58,3,3,9,3,4,5,8,7,1,3,Marine Engineer,Transport & Aviation
+10,6,6,7,6,10,3,11,2,3,9,5,6.5,5,3,9,1,1,5,1,4,1,5,Chef,Hospitality & Tourism
+9,2,3,12,11,1,10,5,7,6,1,11,6.5,1,10,5,1,6,4,5,4,3,3,Forester,Agriculture & Environment
+4,2,12,12,1,11,7,4,6,10,7,3,6.58,3,4,9,5,7,3,1,2,2,9,Welder,Skilled Trades & Technical
+5,11,12,10,6,8,5,12,6,7,10,1,7.75,3,8,9,10,1,1,10,5,5,8,Lecturer,Education
+5,9,11,4,9,2,12,9,10,4,5,5,7.08,2,8,10,9,8,5,7,10,9,1,Graphic Designer,Creative Arts & Media
+5,1,11,7,7,3,2,8,3,10,4,7,5.67,1,7,4,9,4,6,5,1,3,7,Chef,Hospitality & Tourism
+1,6,9,6,12,4,10,11,11,11,6,11,8.17,8,4,1,4,6,7,2,5,9,6,Automotive Technician,Skilled Trades & Technical
+1,1,5,10,7,11,12,1,12,11,5,11,7.25,2,9,6,9,10,6,3,9,10,10,Environmental Scientist,Agriculture & Environment
+6,1,7,9,11,12,9,5,12,5,7,9,7.75,8,8,9,5,6,4,9,7,4,8,Clinical Officer,Health Sciences
+8,3,9,2,8,11,3,4,4,10,11,8,6.75,1,4,8,6,3,4,6,4,6,1,Electrician,Skilled Trades & Technical
+9,6,6,5,9,1,2,6,2,2,4,9,5.08,6,2,8,7,8,9,1,1,4,1,Welder,Skilled Trades & Technical
+11,12,6,8,9,5,10,4,12,8,10,3,8.17,1,5,3,2,8,9,6,7,7,4,Logistics Officer,Transport & Aviation
+2,6,9,8,3,11,5,4,3,5,7,1,5.33,6,1,4,8,1,2,5,4,4,2,Hotel Manager,Hospitality & Tourism
+9,6,11,8,6,10,8,5,7,11,6,11,8.17,9,9,6,7,9,6,7,3,8,6,Mechanical Engineer,Engineering & Technology
+12,10,8,8,2,11,11,7,9,7,2,10,8.08,5,9,10,4,1,10,10,4,6,9,Actuary,Business & Finance
+6,10,3,12,1,10,11,2,4,3,6,10,6.5,1,5,6,1,8,5,9,8,3,1,Forester,Agriculture & Environment
+2,10,7,3,10,5,10,11,11,3,4,4,6.67,6,1,1,4,7,10,9,5,2,2,Military Officer,Security & Defense
+10,9,1,2,6,11,2,6,11,9,12,2,6.75,9,9,8,3,9,1,4,8,7,5,Civil Engineer,Engineering & Technology
+3,10,2,8,11,8,7,9,3,12,11,5,7.42,7,7,7,7,8,4,5,6,5,9,Welder,Skilled Trades & Technical
+10,5,4,10,6,5,2,5,11,10,6,12,7.17,9,9,4,2,5,7,2,6,6,9,Financial Analyst,Business & Finance
+1,9,12,6,9,1,6,10,11,12,2,10,7.42,2,1,6,1,5,7,9,8,7,8,Tour Guide,Hospitality & Tourism
+1,3,8,5,12,10,11,12,10,10,1,6,7.42,6,9,2,7,9,1,7,4,10,2,Military Officer,Security & Defense
+8,5,2,12,10,6,2,5,4,6,7,7,6.17,8,1,7,4,4,2,9,9,1,4,Lab Technologist,Health Sciences
+11,4,8,3,3,2,12,8,6,1,4,7,5.75,2,3,7,4,2,5,2,3,8,10,Military Officer,Security & Defense
+10,12,3,12,5,2,4,7,9,8,3,1,6.33,9,9,6,9,7,1,5,6,9,9,Graphic Designer,Creative Arts & Media
+10,9,12,2,5,9,2,11,12,12,6,10,8.33,9,9,1,3,9,6,6,7,2,1,Mechatronics Engineer,Engineering & Technology
+4,2,7,10,4,11,9,3,10,7,5,11,6.92,7,3,8,6,5,9,8,8,7,4,Environmental Scientist,Agriculture & Environment
+4,6,8,3,5,11,3,11,3,6,3,9,6.0,9,8,2,1,10,6,7,9,3,4,Logistics Officer,Transport & Aviation
+11,2,10,1,10,7,9,10,9,7,5,2,6.92,1,9,6,5,2,1,7,3,7,9,Banker,Business & Finance
+11,4,1,6,8,12,7,10,10,12,7,12,8.33,1,5,9,2,4,10,9,4,8,7,Tour Guide,Hospitality & Tourism
+5,2,8,9,11,9,11,11,11,5,2,5,7.42,8,3,9,2,8,4,9,1,6,10,Clinical Officer,Health Sciences
+11,5,7,11,5,9,8,12,4,11,9,1,7.75,9,9,3,9,9,2,9,6,9,7,Mechatronics Engineer,Engineering & Technology
+4,8,11,2,6,8,12,4,9,6,5,8,6.92,2,10,4,10,7,6,10,6,6,8,Automotive Technician,Skilled Trades & Technical
+10,3,10,11,9,4,6,7,4,8,12,10,7.83,8,6,9,10,7,6,9,3,10,1,Doctor,Health Sciences
+10,11,4,4,9,12,8,8,12,12,3,11,8.67,9,9,8,5,9,1,8,3,2,10,Mechanical Engineer,Engineering & Technology
+12,1,12,11,1,9,7,2,12,9,1,7,7.0,9,9,6,7,9,2,3,6,7,8,Mechanical Engineer,Engineering & Technology
+12,12,11,3,7,10,1,11,11,12,12,1,8.58,9,9,3,10,9,7,9,4,8,10,Civil Engineer,Engineering & Technology
+10,12,2,2,9,12,10,6,11,9,4,8,7.92,9,9,7,6,9,8,1,10,10,3,Software Developer,ICT & Computing
+2,10,10,10,11,7,3,12,4,3,8,2,6.83,8,3,2,7,10,8,6,1,9,5,Electrician,Skilled Trades & Technical
+12,11,5,11,9,9,9,2,2,3,5,10,7.33,10,2,7,2,8,7,8,5,7,9,Veterinary Officer,Agriculture & Environment
+12,10,6,7,1,12,4,4,12,2,5,10,7.08,6,9,8,9,9,7,8,3,2,9,Economist,Business & Finance
+9,11,3,11,8,11,5,11,1,4,11,5,7.5,7,3,9,5,2,9,5,7,8,8,Lawyer,Law & Governance
+1,7,1,9,7,8,6,11,7,10,3,9,6.58,4,8,1,1,6,4,8,4,3,8,Logistics Officer,Transport & Aviation
+9,3,6,8,7,6,10,8,3,11,6,5,6.83,6,2,2,8,9,8,8,1,1,2,Police Officer,Security & Defense
+11,10,6,9,3,8,9,12,8,5,9,2,7.67,10,4,9,9,6,1,6,5,5,4,Education Officer,Education
+4,11,7,11,1,2,9,8,9,1,4,12,6.58,5,1,6,2,7,8,4,8,3,6,Veterinary Officer,Agriculture & Environment
+12,2,12,9,2,1,11,5,12,3,9,3,6.75,4,9,9,2,7,1,2,2,8,9,Economist,Business & Finance
+4,10,4,12,9,2,12,10,6,8,5,9,7.58,8,6,5,7,8,6,9,7,6,6,Lab Technologist,Health Sciences
+1,5,12,1,8,4,2,11,2,9,8,11,6.17,6,4,1,6,3,3,10,9,2,2,Logistics Officer,Transport & Aviation
+3,2,12,9,12,10,1,3,5,7,1,5,5.83,8,10,7,1,5,3,9,1,8,7,Doctor,Health Sciences
+12,7,8,6,10,1,10,3,4,8,3,3,6.25,10,3,9,4,9,7,8,9,5,6,Tour Guide,Hospitality & Tourism
+2,10,1,8,2,12,1,6,2,7,11,2,5.33,10,3,9,10,3,5,6,5,2,9,Teacher,Education
+10,5,2,12,3,10,3,8,10,9,2,4,6.5,9,9,5,8,9,9,10,10,2,10,Electrical Engineer,Engineering & Technology
+11,9,11,11,5,8,11,2,4,7,12,5,8.0,7,6,9,7,4,2,4,2,6,5,Education Officer,Education
+4,5,8,11,11,11,11,4,12,10,4,12,8.58,8,6,6,7,6,5,9,4,9,5,Lab Technologist,Health Sciences
+12,4,3,6,3,9,6,5,8,7,11,2,6.33,9,9,10,7,8,3,2,2,8,1,Hotel Manager,Hospitality & Tourism
+6,8,8,10,9,7,11,8,6,12,5,10,8.33,8,8,10,4,3,10,9,2,10,2,Lab Technologist,Health Sciences
+12,12,1,5,3,8,2,6,10,8,1,10,6.5,4,9,5,7,7,7,8,1,6,9,Actuary,Business & Finance
+9,11,8,10,8,12,2,9,4,1,5,3,6.83,7,1,10,8,9,8,9,4,1,4,Hotel Manager,Hospitality & Tourism
+12,2,12,12,5,4,8,11,9,9,12,3,8.25,4,1,10,1,6,4,1,1,9,2,Pilot,Transport & Aviation
+7,5,1,10,5,12,6,8,12,1,10,8,7.08,7,6,3,5,10,1,8,10,4,10,Military Officer,Security & Defense
+12,11,9,12,11,12,10,7,10,1,6,8,9.08,6,9,9,8,4,8,4,8,3,2,Lecturer,Education
+8,2,4,1,7,9,11,11,12,10,11,7,7.75,4,3,7,9,8,4,8,3,8,10,Electrician,Skilled Trades & Technical
+5,10,10,9,2,11,10,1,1,6,5,10,6.67,2,5,2,2,2,1,7,10,6,6,Marine Engineer,Transport & Aviation
+1,12,1,12,11,2,12,1,7,6,1,5,5.92,10,6,2,9,10,5,6,5,9,8,Journalist,Creative Arts & Media
+12,6,7,3,10,9,12,3,8,12,7,1,7.5,7,10,3,2,5,9,9,3,10,2,Pilot,Transport & Aviation
+11,5,2,2,10,10,11,1,3,11,8,1,6.25,9,9,2,2,9,6,10,4,4,1,AI Engineer,ICT & Computing
+10,10,8,12,10,12,8,12,8,12,11,9,10.17,9,9,9,3,9,7,9,7,4,8,AI Engineer,ICT & Computing
+11,1,9,10,8,1,3,5,5,2,10,7,6.0,7,9,9,9,5,9,10,9,9,2,Graphic Designer,Creative Arts & Media
+1,3,9,9,6,1,5,5,2,3,4,11,4.92,4,5,2,6,9,9,6,8,5,4,Tour Guide,Hospitality & Tourism
+11,9,10,12,10,5,10,4,11,5,2,6,7.92,7,9,5,5,2,7,10,3,6,9,Economist,Business & Finance
+5,4,11,12,7,10,3,9,1,1,5,7,6.25,6,2,6,10,10,10,5,10,2,6,Hotel Manager,Hospitality & Tourism
+1,6,11,12,11,10,8,2,6,6,4,3,6.67,8,10,5,10,8,10,9,10,1,3,Pharmacist,Health Sciences
+9,7,6,8,8,11,9,4,11,7,2,4,7.17,7,9,4,1,3,5,10,2,10,9,Banker,Business & Finance
+1,7,5,12,9,9,6,6,3,9,11,5,6.92,4,9,5,9,7,9,6,3,9,8,Film Producer,Creative Arts & Media
+9,10,7,8,7,9,12,3,5,9,5,8,7.67,9,9,4,5,9,2,4,6,10,1,Mechatronics Engineer,Engineering & Technology
+10,11,5,11,1,12,7,5,2,10,2,5,6.75,9,9,3,4,9,9,9,9,5,6,Cybersecurity Analyst,ICT & Computing
+3,8,3,12,11,9,1,8,5,4,2,4,5.83,8,1,10,5,1,2,7,5,9,7,Police Officer,Security & Defense
+10,3,4,9,9,5,6,4,6,7,1,6,5.83,8,3,5,3,10,10,9,10,7,1,Nurse,Health Sciences
+3,1,7,9,12,12,11,5,9,5,12,5,7.58,8,4,7,7,10,6,9,1,1,7,Nurse,Health Sciences
+5,11,12,10,7,4,12,10,2,3,2,1,6.58,9,9,8,8,7,8,9,4,6,8,Logistics Officer,Transport & Aviation
+11,5,2,9,7,10,1,2,11,3,10,4,6.25,5,9,3,1,1,9,4,7,3,9,Banker,Business & Finance
+8,2,4,9,7,12,3,2,10,2,9,1,5.75,4,9,4,4,8,9,5,6,10,8,Tour Guide,Hospitality & Tourism
+4,7,6,12,1,11,5,9,7,12,8,1,6.92,10,9,2,2,4,4,2,2,6,1,Marine Engineer,Transport & Aviation
+8,2,4,10,1,5,3,9,5,9,7,7,5.83,6,3,6,6,4,8,6,9,1,5,Marine Engineer,Transport & Aviation
+7,11,11,10,6,9,6,12,10,11,4,3,8.33,7,6,9,9,10,3,1,1,8,7,Teacher,Education
+4,11,7,1,9,12,12,11,12,12,9,9,9.08,3,3,9,6,7,9,5,9,2,8,Lawyer,Law & Governance
+4,4,5,9,2,9,1,8,12,9,11,5,6.58,1,3,1,1,10,3,2,8,10,9,Automotive Technician,Skilled Trades & Technical
+10,4,2,1,7,9,7,10,2,9,9,1,5.92,4,1,9,7,10,2,6,1,7,7,Logistics Officer,Transport & Aviation
+7,12,3,6,4,12,1,2,9,4,11,6,6.42,1,4,9,10,6,10,6,8,2,7,Marine Engineer,Transport & Aviation
+3,11,4,9,10,9,5,6,6,2,8,10,6.92,8,3,7,9,8,3,9,1,1,10,Nurse,Health Sciences
+3,9,7,11,9,8,2,6,6,3,2,9,6.25,8,7,1,6,3,8,9,4,6,4,Doctor,Health Sciences
+2,2,2,9,3,11,3,8,6,12,4,10,6.0,1,3,6,9,7,9,10,9,9,6,Film Producer,Creative Arts & Media
+11,11,7,7,8,2,7,1,11,6,6,6,6.92,1,9,7,6,1,4,5,10,2,9,Economist,Business & Finance
+2,11,8,5,7,2,12,12,7,6,7,12,7.58,2,5,10,9,4,10,6,7,9,1,Film Producer,Creative Arts & Media
+11,9,8,4,7,11,2,8,8,10,2,12,7.67,9,9,9,4,9,3,8,5,2,4,Software Developer,ICT & Computing
+1,5,4,3,12,4,12,9,11,6,3,3,6.08,7,6,7,9,8,7,6,2,9,10,Journalist,Creative Arts & Media
+11,8,8,4,8,12,11,7,5,9,7,2,7.67,9,9,4,2,9,10,2,3,7,4,Civil Engineer,Engineering & Technology
+7,12,12,11,9,5,11,6,11,9,4,10,8.92,8,1,2,2,4,1,9,8,4,1,Lab Technologist,Health Sciences
+11,1,8,10,4,9,10,3,1,2,6,9,6.17,8,3,10,9,4,1,3,10,4,1,Forester,Agriculture & Environment
+1,11,4,11,5,10,12,12,6,6,10,12,8.33,10,4,1,10,6,6,4,3,7,1,Forester,Agriculture & Environment
+3,10,12,10,3,4,11,12,2,2,6,9,7.0,10,1,3,7,5,7,6,6,1,4,Electrician,Skilled Trades & Technical
+12,8,6,11,9,12,3,10,11,12,6,4,8.67,9,9,1,8,9,7,7,8,1,4,Electrical Engineer,Engineering & Technology
+9,2,2,1,7,5,4,10,7,6,2,6,5.08,5,1,8,3,1,5,3,10,6,4,Pilot,Transport & Aviation
+5,1,4,10,9,4,1,10,3,12,4,11,6.17,8,9,1,8,9,6,9,6,1,7,Lab Technologist,Health Sciences
+8,12,12,8,5,1,8,10,2,3,11,7,7.25,3,1,9,5,5,9,4,8,8,4,Lawyer,Law & Governance
+11,3,4,11,12,3,9,9,5,4,5,2,6.5,8,5,7,8,5,6,9,9,4,1,Clinical Officer,Health Sciences
+3,1,10,11,5,7,9,6,3,4,10,9,6.5,1,3,10,9,4,1,6,9,5,1,Environmental Scientist,Agriculture & Environment
+7,12,3,4,3,6,3,9,8,4,9,9,6.42,3,9,2,7,9,9,7,6,1,3,Military Officer,Security & Defense
+5,11,4,1,3,9,6,8,3,12,11,5,6.5,7,9,9,3,1,10,3,3,4,5,Lecturer,Education
+10,7,2,9,3,2,3,12,9,7,3,12,6.58,3,9,5,9,2,10,4,6,2,9,Economist,Business & Finance
+8,6,4,11,12,11,8,2,12,10,4,10,8.17,8,3,10,10,6,9,9,10,4,2,Lab Technologist,Health Sciences
+5,9,10,1,5,3,8,9,3,2,3,11,5.75,10,6,9,2,10,9,3,6,2,3,Lawyer,Law & Governance
+10,6,9,8,6,9,9,8,8,9,4,7,7.75,9,9,2,5,9,5,9,8,6,7,AI Engineer,ICT & Computing
+12,1,2,1,11,12,2,3,12,1,3,1,5.08,1,9,1,5,3,4,9,4,8,9,Banker,Business & Finance
+12,1,8,8,5,11,6,2,7,11,10,7,7.33,9,9,3,6,9,1,6,8,3,10,Mechatronics Engineer,Engineering & Technology
+1,12,4,9,9,2,7,6,6,2,12,3,6.08,2,8,1,4,7,4,1,7,8,6,Electrician,Skilled Trades & Technical
+10,2,12,11,11,9,1,1,7,4,4,7,6.58,8,8,1,8,10,2,9,7,9,6,Doctor,Health Sciences
+7,8,7,2,11,11,12,9,3,8,9,7,7.83,1,8,10,9,2,9,5,8,9,7,Graphic Designer,Creative Arts & Media
+10,11,7,9,9,10,10,11,11,6,1,2,8.08,8,7,3,6,5,2,9,9,4,3,Doctor,Health Sciences
+11,2,11,12,6,9,1,4,4,3,8,1,6.0,10,8,7,1,6,2,8,8,4,3,Electrician,Skilled Trades & Technical
+8,4,8,10,7,12,7,4,3,4,6,2,6.25,9,8,6,2,1,6,9,8,2,8,Hotel Manager,Hospitality & Tourism
+10,9,6,7,12,9,6,7,11,10,12,12,9.25,4,2,9,6,10,10,9,9,7,7,Education Officer,Education
+9,11,10,5,3,4,6,7,2,11,3,6,6.42,2,2,9,2,5,1,2,2,1,9,Lecturer,Education
+1,7,4,6,10,11,1,1,8,11,4,6,5.83,7,1,10,3,1,6,7,4,1,7,Logistics Officer,Transport & Aviation
+2,6,10,11,11,4,6,6,11,12,12,9,8.33,7,1,9,7,4,8,4,9,5,6,Logistics Officer,Transport & Aviation
+10,7,11,1,7,11,8,8,4,8,12,9,8.0,5,4,7,10,5,2,7,10,2,6,Hotel Manager,Hospitality & Tourism
+4,5,4,1,7,12,10,9,1,6,6,6,5.92,3,4,4,1,7,1,6,1,6,1,Police Officer,Security & Defense
+12,12,8,8,5,7,3,8,5,4,6,1,6.58,2,5,3,2,4,9,6,2,4,6,Hotel Manager,Hospitality & Tourism
+4,9,8,7,7,11,3,11,11,3,9,6,7.42,4,6,9,2,10,1,1,4,10,8,Teacher,Education
+12,5,4,5,9,1,12,12,12,12,12,4,8.33,2,9,6,9,2,10,5,4,3,9,Actuary,Business & Finance
+11,6,5,4,5,3,8,3,12,9,4,10,6.67,3,9,1,2,5,4,7,1,6,9,Economist,Business & Finance
+1,7,10,8,3,8,5,12,3,9,4,10,6.67,1,8,1,8,2,4,5,4,7,4,Electrician,Skilled Trades & Technical
+4,3,10,10,10,12,4,12,10,12,8,6,8.42,4,5,6,7,5,1,4,5,7,7,Automotive Technician,Skilled Trades & Technical
+11,1,7,6,6,11,8,4,1,9,10,5,6.58,9,9,9,2,9,1,6,5,7,10,Mechatronics Engineer,Engineering & Technology
+12,4,8,9,9,1,2,4,8,10,11,6,7.0,8,10,7,1,2,8,9,8,9,8,Doctor,Health Sciences
+1,6,11,11,12,2,9,9,5,5,7,10,7.33,10,8,3,6,9,9,1,1,6,2,Forester,Agriculture & Environment
+10,6,1,12,10,4,5,7,11,10,7,2,7.08,8,7,3,3,5,3,9,4,1,2,Lab Technologist,Health Sciences
+10,5,4,4,7,2,5,3,1,4,1,2,4.0,9,10,7,3,2,5,5,4,4,7,Hotel Manager,Hospitality & Tourism
+3,9,11,2,1,1,9,3,8,7,11,11,6.33,7,1,9,4,8,1,7,9,5,4,Lecturer,Education
+5,9,7,9,12,12,2,10,2,12,9,11,8.33,8,3,4,5,7,1,9,8,4,2,Clinical Officer,Health Sciences
+7,1,3,8,10,11,11,6,1,5,7,5,6.25,6,10,4,3,6,10,9,8,6,1,Military Officer,Security & Defense
+1,10,5,10,5,5,12,10,4,10,10,12,7.83,2,1,9,5,10,9,7,1,4,4,Judge,Law & Governance
+12,12,10,1,4,8,11,9,2,7,5,6,7.25,5,1,9,10,3,6,8,9,8,4,Lecturer,Education
+11,2,2,3,11,7,4,7,12,7,8,1,6.25,5,9,5,4,10,10,10,10,1,9,Banker,Business & Finance
+7,3,10,11,10,10,6,6,5,12,10,11,8.42,8,5,6,5,3,3,9,8,3,9,Doctor,Health Sciences
+2,11,5,3,6,10,8,9,7,6,6,6,6.58,6,6,9,7,6,9,4,4,7,8,Judge,Law & Governance
+10,7,4,11,7,11,6,5,5,12,3,6,7.25,9,9,9,7,9,4,10,5,2,4,Electrical Engineer,Engineering & Technology
+3,12,6,8,2,1,5,11,12,8,4,10,6.83,8,7,10,2,10,2,1,2,4,9,Hotel Manager,Hospitality & Tourism
+11,5,7,9,3,11,3,4,11,11,12,10,8.08,9,9,2,9,9,10,8,6,3,8,AI Engineer,ICT & Computing
+9,6,5,2,1,11,6,3,8,11,1,7,5.83,9,1,5,5,2,6,1,6,8,6,Automotive Technician,Skilled Trades & Technical
+12,8,12,9,1,5,12,3,12,11,4,5,7.83,9,9,6,4,10,3,2,8,5,9,Banker,Business & Finance
+5,12,11,9,3,9,10,5,3,12,7,9,7.92,8,5,3,9,9,9,2,8,9,7,Forester,Agriculture & Environment
+12,2,2,2,10,11,2,4,10,9,1,3,5.67,9,9,9,3,9,10,9,5,7,10,Software Developer,ICT & Computing
+5,5,6,8,1,9,3,4,6,9,8,1,5.42,8,7,5,4,7,10,1,8,7,5,Marine Engineer,Transport & Aviation
+10,7,4,4,1,4,11,6,7,4,2,10,5.83,1,8,3,8,7,10,7,3,3,8,Hotel Manager,Hospitality & Tourism
+9,1,2,11,10,2,2,12,10,11,5,4,6.58,2,9,8,1,8,9,3,3,5,9,Economist,Business & Finance
+3,5,6,6,3,12,4,5,3,8,7,7,5.75,7,9,1,9,4,4,7,6,9,10,Animator,Creative Arts & Media
+4,5,3,5,7,6,3,2,6,4,2,10,4.75,4,9,5,3,9,9,9,4,1,7,Chef,Hospitality & Tourism
+12,12,4,6,7,11,6,7,4,8,10,5,7.67,8,5,7,2,6,4,5,10,1,9,Police Officer,Security & Defense
+10,12,5,7,3,6,8,11,7,2,11,1,6.92,4,10,9,2,7,9,8,7,7,1,Public Administrator,Law & Governance
+4,8,12,11,9,3,12,10,3,3,8,11,7.83,8,5,5,2,3,7,9,8,3,6,Doctor,Health Sciences
+11,8,12,9,6,10,5,8,6,2,6,10,7.75,6,6,5,6,3,6,9,2,5,3,Electrician,Skilled Trades & Technical
+11,5,4,12,6,10,10,11,5,12,4,9,8.25,9,9,9,1,9,3,4,2,8,6,Data Scientist,ICT & Computing
+9,4,10,12,5,10,10,2,12,3,12,12,8.42,10,9,5,9,7,8,7,9,6,8,Pilot,Transport & Aviation
+11,5,6,5,5,2,2,2,12,9,7,5,5.92,8,9,8,8,6,10,9,6,10,9,Economist,Business & Finance
+11,11,8,10,9,10,4,10,3,8,4,1,7.42,1,4,9,9,3,9,1,10,2,9,Judge,Law & Governance
+11,2,1,11,10,4,7,5,1,11,8,8,6.58,7,10,10,7,7,8,1,5,4,6,Military Officer,Security & Defense
+8,5,3,3,6,7,11,5,3,6,2,1,5.0,8,9,3,5,10,5,3,7,8,9,Welder,Skilled Trades & Technical
+10,10,12,12,9,11,6,1,8,10,8,7,8.67,9,9,9,5,9,10,4,8,9,4,Software Developer,ICT & Computing
+9,10,4,4,8,2,6,9,6,4,10,12,7.0,8,2,9,4,8,9,9,6,1,6,Lawyer,Law & Governance
+2,12,2,5,9,11,5,5,9,6,2,12,6.67,5,10,9,4,6,9,5,8,7,1,Education Officer,Education
+4,1,11,2,2,6,2,5,5,7,8,7,5.0,3,8,4,8,8,6,4,4,3,8,Police Officer,Security & Defense
+1,8,5,9,3,10,10,7,12,9,9,12,7.92,10,7,10,3,8,1,8,7,3,6,Forester,Agriculture & Environment
+9,7,2,2,11,9,12,4,6,9,3,8,6.83,9,9,8,6,9,1,2,10,4,9,Cybersecurity Analyst,ICT & Computing
+11,2,8,12,4,12,6,5,3,12,7,4,7.17,9,9,5,4,9,2,4,7,3,9,AI Engineer,ICT & Computing
+10,5,10,12,7,11,7,12,9,7,6,10,8.83,10,9,4,1,2,9,1,6,2,9,Actuary,Business & Finance
+6,7,4,7,6,3,5,3,1,10,1,10,5.25,10,8,2,7,1,6,7,6,9,9,Welder,Skilled Trades & Technical
+12,3,1,1,12,12,2,2,9,12,9,3,6.5,9,9,2,7,9,3,7,4,9,1,Mechanical Engineer,Engineering & Technology
+10,4,8,10,9,5,11,10,10,5,9,12,8.58,5,3,8,8,8,8,10,6,8,8,Agronomist,Agriculture & Environment
+10,5,3,5,2,11,9,3,8,12,9,3,6.67,9,9,1,2,9,8,8,3,4,8,Software Developer,ICT & Computing
+8,1,9,12,2,11,7,2,10,9,12,11,7.83,7,4,5,9,5,2,3,1,9,8,Journalist,Creative Arts & Media
+7,8,2,11,3,8,10,4,8,1,2,11,6.25,2,1,4,2,8,8,10,8,6,10,Police Officer,Security & Defense
+1,4,8,8,6,2,11,3,6,1,5,11,5.5,9,4,5,9,5,9,9,2,9,3,Journalist,Creative Arts & Media
+9,4,5,4,6,11,1,10,3,7,6,9,6.25,3,1,8,8,1,1,10,2,1,5,Hotel Manager,Hospitality & Tourism
+12,10,12,1,1,2,6,5,7,10,5,12,6.92,2,4,9,7,6,4,7,10,7,5,Teacher,Education
+12,5,8,1,6,2,12,5,11,9,12,10,7.75,3,9,6,9,6,7,8,5,8,9,Accountant,Business & Finance
+3,9,8,8,9,5,4,12,5,4,11,8,7.17,1,5,9,6,3,9,9,2,7,5,Lawyer,Law & Governance
+12,7,2,7,4,9,11,4,1,10,11,11,7.42,9,9,6,8,9,1,2,3,9,3,Electrical Engineer,Engineering & Technology
+12,11,9,6,5,8,6,11,6,8,6,1,7.42,4,8,5,9,10,10,5,3,9,4,Animator,Creative Arts & Media
+8,7,3,5,3,2,1,6,10,4,6,10,5.42,5,10,7,8,1,10,9,8,3,5,Logistics Officer,Transport & Aviation
+1,10,8,10,6,4,6,1,7,11,4,9,6.42,9,6,6,9,2,1,8,8,9,4,Journalist,Creative Arts & Media
+3,3,7,3,10,5,7,7,1,11,4,9,5.83,9,8,3,9,4,9,2,4,9,1,Graphic Designer,Creative Arts & Media
+10,9,4,7,4,12,2,7,10,12,2,11,7.5,9,9,10,1,9,10,10,9,6,10,Mechanical Engineer,Engineering & Technology
+11,4,9,9,8,3,11,11,1,10,11,10,8.17,9,5,8,4,6,1,2,8,2,1,Veterinary Officer,Agriculture & Environment
+1,9,11,4,10,3,5,4,12,6,3,9,6.42,6,1,9,7,9,2,7,6,9,7,Teacher,Education
+10,4,10,4,11,9,4,12,12,9,3,1,7.42,9,9,1,5,9,1,4,8,1,9,Cybersecurity Analyst,ICT & Computing
+2,1,10,10,3,8,3,10,1,9,4,3,5.33,4,4,7,3,9,6,7,10,10,1,Logistics Officer,Transport & Aviation
+11,1,11,7,4,2,6,1,2,11,11,12,6.58,8,1,1,10,9,10,4,9,2,10,Pilot,Transport & Aviation
+1,1,2,7,1,5,7,6,5,12,6,11,5.33,1,3,7,8,10,1,6,3,5,8,Automotive Technician,Skilled Trades & Technical
+9,3,5,12,3,4,7,7,10,6,3,1,5.83,6,9,1,1,7,7,1,9,9,9,Actuary,Business & Finance
+9,1,7,6,7,4,1,4,10,1,3,5,4.83,6,9,3,9,10,2,2,4,1,9,Actuary,Business & Finance
+3,2,12,12,4,5,9,1,7,5,2,12,6.17,4,8,8,4,4,2,2,10,2,10,Agronomist,Agriculture & Environment
+12,4,12,3,3,8,6,1,10,3,9,11,6.83,2,8,10,9,5,5,9,2,8,10,Logistics Officer,Transport & Aviation
+8,7,12,11,11,6,4,12,9,10,11,11,9.33,8,3,1,9,2,9,9,10,8,3,Lab Technologist,Health Sciences
+12,10,5,1,6,3,3,8,11,9,9,12,7.42,3,1,9,4,8,5,1,4,4,10,Lecturer,Education
+9,12,8,9,9,2,11,10,12,6,10,11,9.08,8,2,3,2,4,9,9,7,4,2,Agronomist,Agriculture & Environment
+12,10,12,7,4,6,6,9,6,6,11,10,8.25,10,3,9,10,1,9,8,5,3,8,Judge,Law & Governance
+2,5,1,12,4,7,7,12,3,2,5,1,5.08,10,3,7,9,4,7,6,5,9,1,Film Producer,Creative Arts & Media
+12,10,3,11,7,12,11,9,5,2,5,9,8.0,10,9,9,9,6,2,5,9,2,7,Teacher,Education
+11,1,8,9,7,6,12,6,2,4,1,11,6.5,3,8,10,1,6,2,5,6,2,1,Agronomist,Agriculture & Environment
+12,6,1,4,10,9,4,1,12,9,6,5,6.58,9,9,9,2,9,7,1,3,1,6,Mechanical Engineer,Engineering & Technology
+2,10,4,7,8,10,6,4,4,4,4,8,5.92,3,9,6,10,4,8,5,10,10,3,Police Officer,Security & Defense
+1,8,10,11,5,12,9,5,6,3,11,9,7.5,9,10,1,6,1,1,8,1,10,1,Agronomist,Agriculture & Environment
+7,12,3,12,5,1,11,5,3,10,6,12,7.25,7,9,8,8,5,6,2,1,9,5,Forester,Agriculture & Environment
+11,1,2,2,6,10,1,10,7,4,2,10,5.5,6,3,4,9,7,5,8,1,9,1,Animator,Creative Arts & Media
+8,5,4,9,2,3,11,11,6,12,12,9,7.67,9,10,3,1,4,10,1,3,9,3,Agronomist,Agriculture & Environment
+7,4,12,12,10,7,10,11,3,11,8,12,8.92,3,6,4,8,2,5,6,2,8,1,Veterinary Officer,Agriculture & Environment
+10,7,4,3,6,12,5,6,2,10,7,9,6.75,9,9,9,5,9,10,8,3,7,9,Civil Engineer,Engineering & Technology
+6,9,6,12,10,3,11,11,5,7,4,9,7.75,6,9,4,9,3,6,1,7,5,9,Agronomist,Agriculture & Environment
+12,1,3,9,7,11,10,6,8,12,8,7,7.83,4,2,1,3,5,1,10,2,1,6,Welder,Skilled Trades & Technical
+12,6,8,1,5,10,7,10,9,10,1,4,6.92,9,9,9,1,9,10,10,4,2,8,Data Scientist,ICT & Computing
+9,10,6,7,10,6,7,1,6,4,11,6,6.92,3,4,3,9,8,8,9,7,9,8,Graphic Designer,Creative Arts & Media
+11,2,10,9,7,9,8,2,7,11,1,5,6.83,9,9,2,7,9,2,3,4,9,9,Electrical Engineer,Engineering & Technology
+5,12,5,11,10,5,4,7,12,7,3,11,7.67,8,3,2,8,5,8,9,6,6,5,Pharmacist,Health Sciences
+7,9,6,1,12,5,2,12,9,6,11,12,7.67,2,1,9,4,6,9,5,7,3,9,Public Administrator,Law & Governance
+12,6,3,1,6,11,1,5,6,9,7,7,6.17,9,9,1,7,9,1,9,7,2,10,Electrical Engineer,Engineering & Technology
+11,4,12,11,4,11,1,3,12,10,12,3,7.83,3,9,10,10,9,5,4,10,2,9,Actuary,Business & Finance
+9,2,4,6,8,10,8,6,10,6,1,1,5.92,4,10,1,9,10,2,6,2,9,10,Journalist,Creative Arts & Media
+10,9,5,2,4,11,6,6,3,11,7,12,7.17,9,2,5,9,5,2,6,8,9,7,Graphic Designer,Creative Arts & Media
+12,2,7,2,1,11,10,2,7,6,2,5,5.58,7,7,4,9,1,8,8,5,9,1,Graphic Designer,Creative Arts & Media
+11,1,8,7,9,12,11,10,4,12,1,6,7.67,9,9,8,10,9,4,9,4,4,6,Software Developer,ICT & Computing
+11,6,7,3,5,10,1,5,2,12,4,10,6.33,9,9,1,1,9,7,1,3,8,8,Mechatronics Engineer,Engineering & Technology
+11,9,11,6,10,5,7,7,1,11,4,1,6.92,7,7,10,4,3,9,4,3,6,7,Pilot,Transport & Aviation
+2,4,9,6,4,3,4,8,5,1,2,6,4.5,4,7,7,9,1,9,3,9,4,2,Marine Engineer,Transport & Aviation
+4,4,4,10,11,6,1,3,11,11,1,8,6.17,8,10,2,2,1,7,9,1,4,10,Clinical Officer,Health Sciences
+12,6,10,7,10,3,5,2,9,11,5,5,7.08,7,9,9,9,8,9,3,1,7,9,Economist,Business & Finance
+12,1,6,11,12,12,12,4,1,2,5,9,7.25,2,2,6,10,6,5,4,6,4,6,Environmental Scientist,Agriculture & Environment
+12,3,10,12,3,2,8,10,12,12,1,12,8.08,2,2,2,1,3,1,4,8,5,3,Police Officer,Security & Defense
+10,10,10,8,12,9,9,12,1,11,8,6,8.83,2,1,6,7,9,8,1,9,9,4,Military Officer,Security & Defense
+2,8,12,1,5,2,3,2,2,2,7,5,4.25,2,6,6,3,7,4,10,5,9,7,Police Officer,Security & Defense
+6,12,3,5,6,4,3,11,7,3,12,11,6.92,3,3,9,10,3,9,9,5,2,6,Public Administrator,Law & Governance
+11,8,2,4,1,11,8,5,9,10,12,12,7.75,9,9,7,8,9,7,9,6,9,10,Mechanical Engineer,Engineering & Technology
+2,12,5,10,1,3,11,1,12,12,10,10,7.42,3,2,7,7,3,7,5,4,3,9,Veterinary Officer,Agriculture & Environment
+1,12,9,3,8,3,6,10,10,8,4,6,6.67,7,5,6,6,10,6,3,6,2,8,Logistics Officer,Transport & Aviation
+3,6,1,2,10,12,10,9,8,1,8,3,6.08,4,4,10,1,8,1,2,5,6,7,Hotel Manager,Hospitality & Tourism
+12,4,8,4,9,7,9,1,3,8,1,10,6.33,5,8,6,7,7,5,10,6,8,10,Automotive Technician,Skilled Trades & Technical
+9,11,2,10,11,9,1,6,7,4,8,10,7.33,8,10,7,1,10,8,9,2,5,4,Doctor,Health Sciences
+12,10,7,11,9,5,5,4,8,5,5,5,7.17,3,5,2,9,8,3,3,7,9,9,Graphic Designer,Creative Arts & Media
+11,2,10,6,11,7,2,4,2,4,11,11,6.75,10,4,10,9,8,10,2,6,9,7,Graphic Designer,Creative Arts & Media
+11,1,11,11,8,11,2,3,5,11,5,2,6.75,9,9,8,3,9,7,6,1,4,3,Data Scientist,ICT & Computing
+7,9,4,6,7,9,6,3,6,5,11,9,6.83,5,4,6,8,7,7,5,7,7,9,Automotive Technician,Skilled Trades & Technical
+12,11,10,12,7,2,9,1,12,1,11,10,8.17,9,3,10,9,4,7,8,6,7,9,Environmental Scientist,Agriculture & Environment
+12,12,9,12,11,6,8,2,1,11,4,1,7.42,6,7,7,2,3,8,2,1,9,5,Chef,Hospitality & Tourism
+12,5,10,10,10,1,6,5,12,5,6,2,7.0,8,7,4,4,2,4,9,4,7,4,Doctor,Health Sciences
+7,11,5,1,11,9,6,5,12,12,6,9,7.83,5,1,7,6,4,2,5,5,9,10,Welder,Skilled Trades & Technical
+12,10,12,6,11,12,5,8,8,12,9,9,9.5,9,9,10,10,9,2,1,8,1,1,Civil Engineer,Engineering & Technology
+1,1,4,9,3,2,9,5,11,7,9,12,6.08,2,3,7,8,4,1,9,5,4,7,Agronomist,Agriculture & Environment
+1,7,1,9,3,6,9,1,9,10,10,9,6.25,5,2,9,4,7,7,3,8,5,5,Electrician,Skilled Trades & Technical
+2,12,1,2,11,11,6,7,8,6,4,5,6.25,5,10,7,1,6,6,7,1,7,8,Military Officer,Security & Defense
+5,6,9,9,6,11,11,4,6,6,11,12,8.0,7,4,9,7,6,2,9,1,8,10,Veterinary Officer,Agriculture & Environment
+8,11,9,9,1,12,12,11,5,11,4,11,8.67,2,7,5,9,3,1,6,7,4,6,Veterinary Officer,Agriculture & Environment
+6,11,10,11,10,6,11,10,2,10,12,9,9.0,6,1,9,6,6,8,8,7,6,5,Environmental Scientist,Agriculture & Environment
+12,10,9,3,3,11,4,7,2,12,4,9,7.17,9,9,7,7,9,10,9,9,5,9,Electrical Engineer,Engineering & Technology
+2,10,4,2,5,4,2,10,8,6,7,4,5.33,2,3,3,9,6,6,5,2,4,3,Chef,Hospitality & Tourism
+11,1,12,9,4,12,4,12,11,1,9,10,8.0,10,2,6,4,1,2,8,3,8,3,Police Officer,Security & Defense
+8,9,12,3,1,6,7,1,5,6,6,7,5.92,1,10,10,9,3,9,2,3,9,2,Graphic Designer,Creative Arts & Media
+7,4,2,10,4,9,12,3,5,4,1,11,6.0,10,9,9,1,2,2,2,2,6,1,Automotive Technician,Skilled Trades & Technical
+5,10,1,12,9,3,6,10,7,3,4,3,6.08,9,3,6,7,7,9,7,2,6,9,Welder,Skilled Trades & Technical
+7,12,7,9,3,3,5,2,6,11,3,3,5.92,8,3,5,7,6,7,3,3,4,5,Electrician,Skilled Trades & Technical
+12,9,6,5,3,12,9,4,11,7,5,10,7.75,5,5,1,4,7,2,9,7,3,6,Hotel Manager,Hospitality & Tourism
+5,1,3,12,10,10,7,5,2,8,3,9,6.25,8,5,2,9,5,4,9,5,5,10,Lab Technologist,Health Sciences
+12,1,8,9,6,12,11,10,4,12,7,6,8.17,9,9,1,10,9,1,9,1,2,10,Data Scientist,ICT & Computing
+12,4,1,10,5,8,6,2,12,12,6,6,7.0,8,9,10,8,9,7,7,2,5,9,Banker,Business & Finance
+6,12,10,11,4,12,3,12,3,9,3,11,8.0,3,10,9,4,7,9,6,6,3,2,Judge,Law & Governance
+12,8,11,9,6,10,1,2,1,12,12,5,7.42,9,9,2,4,9,9,7,4,1,9,Mechatronics Engineer,Engineering & Technology
+3,12,1,10,10,9,10,10,11,6,9,5,8.0,9,1,4,3,3,8,9,4,10,10,Police Officer,Security & Defense
+12,9,10,12,6,2,12,11,9,4,1,9,8.08,3,2,6,1,10,8,9,6,4,8,Forester,Agriculture & Environment
+12,10,3,8,7,10,5,7,4,12,9,8,7.92,9,9,7,5,9,8,6,6,7,8,Cybersecurity Analyst,ICT & Computing
+11,10,12,12,12,6,4,11,6,12,1,3,8.33,5,5,9,10,8,9,7,4,7,2,Public Administrator,Law & Governance
+11,6,10,6,7,6,3,6,12,11,6,5,7.42,7,9,9,2,8,10,5,5,2,9,Economist,Business & Finance
+10,11,5,3,7,7,10,1,10,4,9,11,7.33,1,4,1,10,10,4,4,8,5,10,Marine Engineer,Transport & Aviation
+5,11,7,11,11,3,5,2,8,10,3,12,7.33,3,6,9,3,4,6,4,5,1,8,Tour Guide,Hospitality & Tourism
+12,6,1,6,6,5,1,11,4,9,7,7,6.25,9,4,3,10,8,9,5,7,5,9,Military Officer,Security & Defense
+3,8,2,10,11,12,11,5,4,3,4,1,6.17,7,6,6,5,10,7,7,10,4,5,Chef,Hospitality & Tourism
+3,8,7,9,4,8,12,6,7,6,12,10,7.67,3,1,4,4,4,6,1,2,9,9,Veterinary Officer,Agriculture & Environment
+9,3,10,9,11,10,5,2,2,9,2,8,6.67,9,9,1,6,9,1,7,4,6,6,Civil Engineer,Engineering & Technology
+3,12,7,12,3,12,10,11,10,9,7,9,8.75,3,2,5,9,10,7,4,10,4,5,Chef,Hospitality & Tourism
+12,2,7,9,4,7,1,5,2,6,8,2,5.42,2,9,10,9,6,2,1,7,9,6,Film Producer,Creative Arts & Media
+10,12,6,11,10,12,2,3,3,12,10,8,8.25,9,9,10,10,9,9,1,4,3,8,Cybersecurity Analyst,ICT & Computing
+10,2,3,3,5,11,6,9,1,12,3,12,6.42,9,9,9,4,9,6,1,2,9,7,Electrical Engineer,Engineering & Technology
+9,4,9,10,12,12,3,12,2,10,9,10,8.5,9,9,2,9,9,5,7,9,7,4,Electrical Engineer,Engineering & Technology
+12,2,11,9,7,12,3,12,12,10,6,5,8.42,9,9,6,6,9,9,10,9,8,9,Electrical Engineer,Engineering & Technology
+2,8,7,1,2,5,7,2,6,2,4,3,4.08,9,8,8,10,5,8,9,8,4,6,Tour Guide,Hospitality & Tourism
+3,10,6,5,7,3,3,10,10,3,10,1,5.92,4,8,9,4,10,9,4,8,4,1,Judge,Law & Governance
+12,1,12,11,12,4,3,1,6,2,5,3,6.0,4,4,9,9,9,7,2,10,9,3,Graphic Designer,Creative Arts & Media
+11,4,3,5,7,3,4,5,12,2,6,8,5.83,8,8,7,1,6,3,5,7,1,3,Tour Guide,Hospitality & Tourism
+11,5,9,5,6,12,9,10,7,11,1,6,7.67,9,9,8,9,9,9,1,2,10,9,AI Engineer,ICT & Computing
+8,10,11,11,3,6,3,9,12,9,11,2,7.92,2,8,9,6,3,9,6,7,9,5,Lawyer,Law & Governance
+11,11,10,3,3,4,6,5,9,8,9,7,7.17,1,9,6,7,9,5,2,1,10,9,Economist,Business & Finance
+5,2,7,10,10,5,1,4,6,9,9,4,6.0,6,4,1,5,1,4,8,7,5,5,Pilot,Transport & Aviation
+6,9,2,1,3,8,3,12,6,8,2,2,5.17,3,3,8,2,7,5,2,7,1,1,Police Officer,Security & Defense
+5,1,6,11,9,9,1,3,10,2,8,1,5.5,6,2,6,8,10,8,6,7,6,5,Tour Guide,Hospitality & Tourism
+5,4,8,3,3,6,10,2,1,3,12,3,5.0,9,5,4,6,9,2,10,2,1,9,Tour Guide,Hospitality & Tourism
+7,3,10,7,1,11,4,9,4,8,4,9,6.42,4,3,7,9,9,9,5,3,2,1,Tour Guide,Hospitality & Tourism
+10,5,12,11,9,12,1,10,12,9,5,1,8.08,9,9,2,2,9,2,7,4,1,1,Cybersecurity Analyst,ICT & Computing
+2,8,1,8,3,1,7,11,9,6,8,4,5.67,8,5,2,6,2,3,2,2,2,8,Military Officer,Security & Defense
+5,2,2,12,4,8,9,6,4,5,1,12,5.83,7,2,6,8,10,8,7,2,1,7,Agronomist,Agriculture & Environment
+9,8,7,2,12,12,5,10,12,9,2,3,7.58,4,9,4,7,3,2,5,6,1,9,Banker,Business & Finance
+7,11,2,2,11,11,5,1,10,5,2,9,6.33,10,7,8,7,3,6,7,6,2,1,Chef,Hospitality & Tourism
+7,5,8,3,9,12,6,12,10,12,4,1,7.42,4,6,2,7,9,5,1,8,7,6,Military Officer,Security & Defense
+7,7,11,6,4,6,2,8,1,4,2,2,5.0,5,4,2,3,5,3,2,8,9,1,Police Officer,Security & Defense
+5,6,2,9,9,3,10,5,8,9,4,4,6.17,4,4,8,9,1,1,2,9,9,6,Film Producer,Creative Arts & Media
+10,10,6,12,3,12,1,2,11,12,8,12,8.25,9,9,4,5,9,2,7,3,9,8,Electrical Engineer,Engineering & Technology
+11,2,2,2,11,9,11,4,4,9,7,9,6.75,9,9,3,6,9,9,6,5,10,10,AI Engineer,ICT & Computing
+6,12,7,2,4,2,11,12,12,5,11,9,7.75,10,7,9,1,9,9,9,1,8,9,Public Administrator,Law & Governance
+3,1,4,9,3,1,12,8,1,7,7,11,5.58,10,6,7,1,10,3,8,6,7,8,Veterinary Officer,Agriculture & Environment
+3,7,7,6,5,9,8,6,1,2,9,1,5.33,3,7,1,2,6,4,7,4,10,10,Police Officer,Security & Defense
+10,3,8,9,10,3,9,11,8,6,6,11,7.83,3,1,4,7,2,10,8,7,3,6,Forester,Agriculture & Environment
+7,10,2,11,1,4,1,9,1,5,1,12,5.33,8,4,9,4,8,9,10,8,2,1,Lawyer,Law & Governance
+9,1,9,1,9,4,2,1,7,10,7,5,5.42,4,4,8,8,1,1,10,9,6,4,Police Officer,Security & Defense
+12,4,10,6,8,9,6,8,10,12,8,2,7.92,9,9,8,8,9,2,4,4,6,7,Mechatronics Engineer,Engineering & Technology
+6,2,3,3,2,2,3,7,2,9,3,3,3.75,4,3,10,10,6,10,3,3,6,5,Police Officer,Security & Defense
+5,6,1,5,10,9,10,11,1,6,7,11,6.83,6,7,8,9,5,1,7,2,9,5,Film Producer,Creative Arts & Media
+6,1,2,7,3,2,12,10,10,10,5,4,6.0,10,5,5,5,9,1,9,1,9,5,Tour Guide,Hospitality & Tourism
+4,4,1,12,4,3,9,8,5,3,3,9,5.42,5,9,10,7,6,7,3,7,8,9,Forester,Agriculture & Environment
+3,5,10,8,9,6,8,1,9,3,6,6,6.17,5,1,2,3,2,8,6,3,3,3,Military Officer,Security & Defense
+7,12,11,11,2,3,6,9,8,1,3,4,6.42,5,8,9,1,9,9,1,4,9,9,Lawyer,Law & Governance
+11,12,9,1,11,6,4,10,9,3,7,3,7.17,1,3,9,2,4,4,9,5,2,2,Education Officer,Education
+3,7,10,5,6,11,5,5,6,11,3,11,6.92,10,3,7,3,7,7,8,2,5,7,Electrician,Skilled Trades & Technical
+4,3,11,12,12,8,10,11,3,5,6,2,7.25,9,1,9,2,10,8,3,9,10,6,Tour Guide,Hospitality & Tourism
+1,10,12,12,12,3,12,8,8,12,9,6,8.75,8,9,5,4,4,2,9,2,8,4,Nurse,Health Sciences
+6,10,9,7,11,5,9,7,11,8,10,6,8.25,7,1,5,6,6,10,4,3,5,2,Welder,Skilled Trades & Technical
+9,3,6,3,5,1,8,11,7,8,1,10,6.0,5,9,9,8,5,1,4,8,2,7,Marine Engineer,Transport & Aviation
+11,6,4,6,1,11,5,9,11,9,11,6,7.5,9,9,9,1,9,8,3,4,2,2,Electrical Engineer,Engineering & Technology
+2,1,12,6,4,7,3,3,4,10,4,3,4.92,3,6,2,1,3,5,4,2,6,2,Pilot,Transport & Aviation
+5,7,4,9,10,2,8,9,2,8,5,8,6.42,8,9,8,7,4,2,9,1,6,6,Clinical Officer,Health Sciences
+8,9,7,12,11,7,10,3,11,4,3,11,8.0,5,5,2,9,7,8,10,2,8,6,Environmental Scientist,Agriculture & Environment
+9,1,3,11,9,8,4,9,4,8,8,4,6.5,8,5,5,5,5,4,9,3,6,6,Pharmacist,Health Sciences
+1,12,9,3,10,2,5,5,9,1,3,3,5.25,10,7,9,8,7,4,5,9,6,8,Education Officer,Education
+9,7,8,9,9,4,4,3,4,11,2,12,6.83,8,3,4,7,6,3,9,1,3,6,Lab Technologist,Health Sciences
+11,3,5,10,8,11,11,8,3,12,6,8,8.0,9,9,1,1,9,6,7,1,7,8,Data Scientist,ICT & Computing
+6,4,11,4,12,9,7,3,6,7,6,10,7.08,7,1,2,8,9,2,4,6,10,10,Tour Guide,Hospitality & Tourism
+12,7,3,2,3,2,4,5,10,10,6,1,5.42,10,1,3,6,10,1,10,1,7,2,Marine Engineer,Transport & Aviation
+12,12,2,6,9,5,4,7,8,9,7,10,7.58,3,5,10,9,3,1,3,3,9,7,Film Producer,Creative Arts & Media
+11,12,7,8,7,11,3,5,8,12,2,11,8.08,9,9,6,5,9,7,4,1,10,10,Software Developer,ICT & Computing
+10,8,10,12,10,9,9,12,8,11,6,9,9.5,9,9,7,9,9,6,10,3,7,4,Mechatronics Engineer,Engineering & Technology
+8,6,12,5,5,12,6,12,6,5,2,2,6.75,3,10,9,9,2,3,4,3,9,4,Film Producer,Creative Arts & Media
+2,1,8,11,7,9,12,6,12,11,5,10,7.83,10,1,1,9,4,1,7,3,4,9,Agronomist,Agriculture & Environment
+6,10,12,3,12,4,12,7,5,1,11,4,7.25,6,4,2,10,2,1,3,6,8,4,Logistics Officer,Transport & Aviation
+3,6,7,11,11,6,2,6,10,1,4,7,6.17,8,5,6,7,7,1,9,6,4,8,Doctor,Health Sciences
+1,10,5,6,3,5,8,10,7,12,6,4,6.42,8,10,9,2,5,9,8,7,8,10,Public Administrator,Law & Governance
+4,5,2,4,5,12,8,4,12,10,6,10,6.83,9,8,4,10,6,6,1,6,8,8,Tour Guide,Hospitality & Tourism
+12,10,7,10,2,11,1,8,11,9,9,4,7.83,9,9,3,9,9,7,5,3,2,4,Mechanical Engineer,Engineering & Technology
+11,9,12,11,12,8,5,2,8,1,3,10,7.67,7,7,9,10,6,7,1,6,3,2,Police Officer,Security & Defense
+3,4,6,8,7,7,12,7,9,9,9,11,7.67,7,10,5,2,7,8,7,1,5,9,Welder,Skilled Trades & Technical
+6,7,1,4,11,4,8,8,6,8,8,12,6.92,1,10,9,4,4,7,7,10,6,8,Hotel Manager,Hospitality & Tourism
+11,3,4,12,10,12,5,9,8,11,7,10,8.5,9,9,10,4,9,9,6,10,5,7,Mechatronics Engineer,Engineering & Technology
+12,1,1,12,11,3,8,3,1,1,10,6,5.75,8,4,4,5,10,3,9,4,6,8,Nurse,Health Sciences
+9,3,11,9,11,6,6,3,11,5,12,11,8.08,8,1,2,10,2,9,9,10,5,5,Doctor,Health Sciences
+2,1,8,8,2,6,1,4,10,2,4,7,4.58,2,4,5,9,4,5,3,2,2,7,Electrician,Skilled Trades & Technical
+10,6,12,3,11,12,6,4,7,2,10,4,7.25,6,5,9,10,3,8,6,7,9,7,Automotive Technician,Skilled Trades & Technical
+11,10,4,10,7,9,6,3,9,9,7,1,7.17,1,9,5,9,4,2,8,4,9,10,Journalist,Creative Arts & Media
+9,12,3,12,12,11,11,8,11,7,2,10,9.0,1,9,4,6,8,4,2,10,9,9,Accountant,Business & Finance
+10,1,10,8,11,12,3,2,10,11,1,10,7.42,9,9,2,10,9,9,5,7,10,5,Mechatronics Engineer,Engineering & Technology
+12,5,2,10,2,12,9,10,4,10,8,6,7.5,9,9,1,5,9,5,6,5,5,9,Data Scientist,ICT & Computing
+10,10,11,5,2,8,6,5,10,10,3,2,6.83,5,9,6,4,3,5,6,4,6,9,Actuary,Business & Finance
+10,3,9,10,11,12,7,11,1,11,10,3,8.17,9,9,1,10,9,2,2,8,1,2,Electrical Engineer,Engineering & Technology
+2,9,2,3,7,4,10,3,5,10,2,11,5.67,3,4,4,6,2,8,9,1,1,6,Hotel Manager,Hospitality & Tourism
+11,6,3,4,10,7,2,4,6,10,3,1,5.58,6,2,1,4,8,7,3,6,5,1,Electrician,Skilled Trades & Technical
+12,5,10,1,11,10,4,11,3,12,6,12,8.08,9,9,7,8,9,5,6,4,6,10,Civil Engineer,Engineering & Technology
+10,5,3,9,7,8,4,7,4,12,2,5,6.33,5,4,6,6,9,6,9,6,1,3,Logistics Officer,Transport & Aviation
+1,2,9,4,4,9,5,11,4,5,4,10,5.67,4,2,4,10,7,10,5,5,4,8,Chef,Hospitality & Tourism
+1,12,9,11,9,7,9,12,9,11,1,3,7.83,8,1,7,6,2,6,9,10,7,8,Lab Technologist,Health Sciences
+10,10,8,4,8,9,12,10,9,3,10,2,7.92,7,9,9,7,9,9,4,2,3,6,Public Administrator,Law & Governance
+12,6,9,6,2,11,9,3,12,11,3,6,7.5,9,9,9,2,9,10,4,7,6,5,Cybersecurity Analyst,ICT & Computing
+10,6,10,7,2,1,1,5,10,8,9,10,6.58,1,10,6,6,4,1,1,9,4,8,Electrician,Skilled Trades & Technical
+10,7,10,11,2,10,12,5,11,1,1,12,7.67,3,1,6,2,1,4,9,9,10,3,Chef,Hospitality & Tourism
+4,12,9,5,10,8,8,5,9,3,6,7,7.17,5,5,2,3,4,2,8,9,10,10,Welder,Skilled Trades & Technical
+4,1,4,8,3,10,6,4,3,3,10,11,5.58,7,8,8,4,2,1,1,4,3,10,Chef,Hospitality & Tourism
+5,1,3,6,6,4,6,12,6,6,9,4,5.67,3,8,9,9,6,7,1,9,9,5,Film Producer,Creative Arts & Media
+5,4,3,6,8,6,9,10,9,9,7,1,6.42,9,9,2,5,5,6,5,7,1,10,Military Officer,Security & Defense
+10,2,11,9,3,10,11,11,7,10,8,11,8.58,9,9,10,4,9,6,4,9,8,2,AI Engineer,ICT & Computing
+10,7,3,11,2,2,12,9,1,4,3,12,6.33,3,10,1,10,1,1,10,2,6,6,Veterinary Officer,Agriculture & Environment
+11,10,11,11,5,11,7,12,5,12,8,4,8.92,9,9,4,6,9,4,4,7,10,9,Electrical Engineer,Engineering & Technology
+9,6,1,1,11,11,10,9,12,12,3,12,8.08,9,9,5,3,9,10,7,4,4,10,Software Developer,ICT & Computing
+10,11,4,3,2,8,4,10,12,11,4,10,7.42,1,4,9,3,1,9,4,6,8,4,Public Administrator,Law & Governance
+2,8,10,6,1,7,5,9,5,5,6,4,5.67,2,3,10,9,5,7,3,5,9,8,Graphic Designer,Creative Arts & Media
+6,10,10,9,5,12,1,9,6,9,10,2,7.42,5,8,9,8,4,9,9,3,7,7,Judge,Law & Governance
+11,2,4,9,3,9,9,10,3,12,11,4,7.25,9,9,6,9,9,10,9,5,1,10,Civil Engineer,Engineering & Technology
+4,3,3,6,1,5,7,6,1,1,7,5,4.08,10,6,2,9,2,9,4,10,4,1,Hotel Manager,Hospitality & Tourism
+10,5,11,9,2,10,12,12,5,12,10,6,8.67,9,9,9,7,9,8,2,9,6,8,Mechanical Engineer,Engineering & Technology
+12,11,8,6,10,8,10,12,3,4,12,9,8.75,7,2,10,3,1,8,10,8,7,2,Police Officer,Security & Defense
+7,6,5,5,8,9,10,4,12,4,3,6,6.58,1,8,2,9,6,1,2,9,9,5,Journalist,Creative Arts & Media
+7,1,9,8,2,12,5,8,12,1,8,6,6.58,1,7,9,10,5,3,6,6,1,10,Pilot,Transport & Aviation
+6,7,1,11,10,8,10,5,2,4,10,10,7.0,9,4,10,3,6,5,4,1,5,5,Environmental Scientist,Agriculture & Environment
+9,9,5,12,3,11,2,1,12,3,6,9,6.83,7,8,9,7,10,2,9,1,7,8,Automotive Technician,Skilled Trades & Technical
+9,6,7,4,9,10,3,4,3,10,4,2,5.92,9,9,2,10,9,7,6,10,5,7,Cybersecurity Analyst,ICT & Computing
+7,4,12,9,4,2,12,6,7,5,1,10,6.58,7,10,2,6,7,8,6,10,3,8,Environmental Scientist,Agriculture & Environment
+8,5,12,8,12,3,3,5,9,4,1,2,6.0,5,4,7,3,1,6,6,1,6,10,Tour Guide,Hospitality & Tourism
+1,9,12,4,2,9,10,4,3,5,3,4,5.5,10,1,3,9,7,9,5,4,1,7,Automotive Technician,Skilled Trades & Technical
+3,11,6,6,3,4,2,12,1,10,9,11,6.5,5,2,9,3,2,3,10,1,9,1,Lecturer,Education
+7,10,2,4,9,9,7,1,7,11,6,9,6.83,7,8,2,9,7,10,6,5,7,9,Military Officer,Security & Defense
+11,3,8,8,5,1,2,12,12,9,10,10,7.58,6,9,1,5,2,6,7,10,9,9,Accountant,Business & Finance
+11,3,6,9,9,7,10,7,1,1,4,7,6.25,8,3,10,5,2,2,9,8,9,8,Doctor,Health Sciences
+6,10,9,6,1,7,5,10,1,5,6,4,5.83,3,6,8,7,2,4,1,8,7,2,Tour Guide,Hospitality & Tourism
+12,9,2,10,5,9,12,6,7,9,8,3,7.67,9,9,2,2,9,2,10,9,10,4,Mechanical Engineer,Engineering & Technology
+11,11,5,9,5,7,10,4,11,6,2,11,7.67,8,5,1,2,10,7,1,9,4,1,Veterinary Officer,Agriculture & Environment
+11,11,11,5,6,9,10,2,11,2,6,9,7.75,9,9,8,4,1,7,6,10,3,9,Economist,Business & Finance
+10,7,12,2,8,2,9,5,9,10,3,1,6.5,3,9,8,10,7,3,4,10,5,7,Hotel Manager,Hospitality & Tourism
+11,9,4,3,12,10,11,11,11,9,7,8,8.83,9,9,4,5,9,9,8,8,5,9,Civil Engineer,Engineering & Technology
+10,11,11,6,5,11,3,10,7,9,1,5,7.42,9,9,7,2,9,8,2,6,6,1,AI Engineer,ICT & Computing
+9,10,9,2,7,4,8,4,1,1,2,2,4.92,5,6,5,6,2,1,9,1,3,7,Logistics Officer,Transport & Aviation
+4,11,9,7,6,3,6,11,8,11,4,3,6.92,8,8,9,8,5,3,10,10,2,9,Teacher,Education
+3,1,11,4,3,10,5,10,3,5,1,12,5.67,2,3,4,9,4,4,3,2,9,10,Animator,Creative Arts & Media
+10,9,9,11,10,12,12,5,11,12,8,5,9.5,1,9,6,3,5,1,7,7,2,9,Financial Analyst,Business & Finance
+9,3,9,9,9,4,12,7,6,6,9,11,7.83,2,4,4,9,1,6,9,6,4,1,Veterinary Officer,Agriculture & Environment
+10,6,11,12,2,3,3,3,12,1,10,2,6.25,7,3,9,6,1,3,4,8,1,9,Marine Engineer,Transport & Aviation
+3,8,12,6,5,8,11,2,2,10,12,12,7.58,5,5,9,8,4,5,7,9,3,3,Military Officer,Security & Defense
+9,4,1,7,11,6,6,10,9,8,1,4,6.33,4,9,6,9,9,3,3,5,8,9,Accountant,Business & Finance
+10,3,12,11,2,12,5,2,10,9,10,9,7.92,9,9,7,6,9,9,2,2,7,1,Cybersecurity Analyst,ICT & Computing
+12,2,5,3,2,12,3,7,5,12,4,7,6.17,9,9,9,2,9,3,8,6,7,7,Software Developer,ICT & Computing
+11,5,6,12,11,6,8,11,5,11,4,3,7.75,8,5,9,2,2,10,9,9,6,10,Doctor,Health Sciences
+6,9,2,5,4,4,10,4,5,12,5,6,6.0,5,5,5,10,1,2,1,8,7,8,Chef,Hospitality & Tourism
+3,6,4,8,7,8,8,1,8,4,11,5,6.08,8,4,10,3,7,7,8,8,7,8,Police Officer,Security & Defense
+8,5,1,12,1,2,12,4,10,2,12,9,6.5,8,2,3,10,5,2,6,4,2,4,Tour Guide,Hospitality & Tourism
+8,12,4,1,10,5,5,3,11,5,7,11,6.83,3,10,1,2,6,7,7,6,9,10,Automotive Technician,Skilled Trades & Technical
+12,6,10,9,12,8,3,4,10,11,1,8,7.83,8,6,4,7,1,4,9,7,9,6,Clinical Officer,Health Sciences
+3,11,12,10,6,3,12,3,11,9,6,10,8.0,1,8,2,7,7,4,2,2,4,3,Veterinary Officer,Agriculture & Environment
+5,11,4,11,6,10,8,11,5,9,12,9,8.42,9,5,6,9,1,2,5,3,4,1,Chef,Hospitality & Tourism
+12,11,1,8,11,11,7,8,4,12,9,12,8.83,9,9,8,8,9,7,10,2,3,4,Data Scientist,ICT & Computing
+12,5,8,1,12,3,5,2,11,1,5,5,5.83,8,9,6,2,2,7,10,7,3,9,Accountant,Business & Finance
+10,8,8,5,5,4,1,2,9,10,1,12,6.25,10,6,5,6,2,3,8,7,2,6,Hotel Manager,Hospitality & Tourism
+12,6,2,4,4,10,5,6,2,12,5,10,6.5,9,9,6,8,9,6,4,7,2,6,Cybersecurity Analyst,ICT & Computing
+9,9,1,1,6,12,11,8,8,12,4,12,7.75,9,9,6,3,9,3,3,5,9,1,Electrical Engineer,Engineering & Technology
+8,2,5,11,11,3,4,3,8,6,9,1,5.92,5,10,8,10,9,9,4,10,9,8,Electrician,Skilled Trades & Technical
+10,1,9,8,11,2,1,2,9,8,9,8,6.5,3,9,8,2,8,3,2,1,4,9,Economist,Business & Finance
+8,9,12,1,2,2,12,6,4,9,2,9,6.33,10,1,3,9,3,7,2,1,2,3,Tour Guide,Hospitality & Tourism
+9,5,4,2,9,8,6,4,2,10,7,5,5.92,1,5,5,1,4,1,2,7,3,2,Pilot,Transport & Aviation
+11,10,6,9,8,7,7,4,7,10,8,4,7.58,7,2,8,4,1,9,6,9,8,2,Hotel Manager,Hospitality & Tourism
+9,4,1,7,7,9,1,12,7,9,3,4,6.08,9,9,9,6,9,6,10,6,3,8,Mechanical Engineer,Engineering & Technology
+12,10,12,8,8,6,5,12,6,4,12,1,8.0,4,5,9,3,6,5,1,6,4,5,Education Officer,Education
+9,11,9,6,9,10,10,9,1,11,12,10,8.92,9,9,2,8,9,1,10,6,6,6,Data Scientist,ICT & Computing
+2,8,1,9,8,8,10,9,5,3,11,11,7.08,3,4,7,2,8,3,2,9,10,8,Agronomist,Agriculture & Environment
+11,3,6,10,11,10,10,8,5,3,2,6,7.08,8,9,4,4,9,4,9,1,7,6,Clinical Officer,Health Sciences
+11,4,6,8,12,10,4,6,6,10,9,2,7.33,9,9,7,4,9,1,6,6,10,4,Mechanical Engineer,Engineering & Technology
+3,6,3,6,5,4,12,10,7,6,12,11,7.08,5,5,6,9,8,3,10,3,9,5,Animator,Creative Arts & Media
+5,2,11,11,9,6,1,3,11,5,11,3,6.5,8,4,6,8,2,7,9,8,3,1,Doctor,Health Sciences
+10,11,4,2,11,8,9,11,5,2,9,12,7.83,9,4,9,10,9,9,2,3,5,3,Public Administrator,Law & Governance
+10,12,7,3,1,3,11,6,11,8,8,1,6.75,9,9,6,10,2,8,10,10,9,9,Financial Analyst,Business & Finance
+10,7,8,8,6,8,8,10,11,5,7,8,8.0,3,4,3,1,1,3,3,8,8,4,Welder,Skilled Trades & Technical
+9,5,11,2,12,3,5,1,10,1,5,2,5.5,10,1,5,9,8,10,9,3,9,4,Journalist,Creative Arts & Media
+9,8,12,7,4,1,1,11,3,4,7,1,5.67,3,2,8,8,6,7,6,6,2,9,Logistics Officer,Transport & Aviation
+11,1,8,2,2,9,1,5,9,9,8,4,5.75,9,9,10,10,9,3,2,5,7,4,Civil Engineer,Engineering & Technology
+12,1,8,12,6,11,7,2,10,1,8,11,7.42,9,9,7,7,3,6,6,4,7,9,Economist,Business & Finance
+2,8,6,9,9,2,9,11,3,5,3,3,5.83,8,6,10,5,7,9,9,7,2,6,Clinical Officer,Health Sciences
+9,12,5,4,2,11,12,2,10,10,12,2,7.58,9,9,8,5,9,7,4,6,8,3,Mechanical Engineer,Engineering & Technology
+9,5,4,9,9,9,4,2,12,3,5,12,6.92,8,9,4,10,2,4,8,10,8,2,Pilot,Transport & Aviation
+6,12,9,11,2,3,1,4,2,6,11,7,6.17,2,10,10,4,6,5,10,4,1,3,Military Officer,Security & Defense
+10,10,3,2,11,1,1,4,12,4,6,2,5.5,8,4,9,9,2,2,9,2,9,8,Journalist,Creative Arts & Media
+10,2,10,10,10,6,8,2,8,8,9,7,7.5,7,1,1,9,4,9,2,3,6,6,Logistics Officer,Transport & Aviation
+2,7,9,11,1,4,11,5,9,10,7,9,7.08,3,10,2,5,9,1,2,8,1,9,Veterinary Officer,Agriculture & Environment
+6,10,1,1,7,10,10,5,12,8,3,3,6.33,5,6,9,8,8,4,3,8,2,4,Lecturer,Education
+12,7,11,6,4,12,5,2,6,1,4,9,6.58,6,1,1,5,7,9,9,5,3,5,Electrician,Skilled Trades & Technical
+9,2,1,4,1,2,3,7,12,7,11,6,5.42,9,8,8,5,9,7,7,8,5,4,Marine Engineer,Transport & Aviation
+6,11,10,6,8,10,7,1,3,12,7,2,6.92,3,10,2,4,9,3,8,3,3,1,Electrician,Skilled Trades & Technical
+12,4,11,3,8,11,11,5,10,10,12,12,9.08,9,9,9,6,9,4,4,2,1,5,AI Engineer,ICT & Computing
+1,3,6,7,6,10,8,1,8,9,1,2,5.17,6,3,4,9,7,3,2,9,9,3,Animator,Creative Arts & Media
+12,12,5,10,3,10,12,1,2,12,10,7,8.0,9,9,6,9,9,8,3,10,9,10,Electrical Engineer,Engineering & Technology
+9,1,3,5,12,4,8,8,9,11,12,9,7.58,5,9,1,3,10,1,2,9,7,9,Accountant,Business & Finance
+12,10,10,10,11,5,8,5,3,4,4,5,7.25,4,6,10,10,10,3,8,6,8,6,Hotel Manager,Hospitality & Tourism
+12,4,10,11,10,12,4,2,11,12,9,2,8.25,9,9,10,4,9,2,2,2,9,9,Civil Engineer,Engineering & Technology
+2,11,4,5,11,11,11,11,7,4,2,5,7.0,4,9,9,2,9,9,4,7,10,5,Public Administrator,Law & Governance
+9,11,2,3,7,7,2,12,9,1,4,7,6.17,4,9,10,6,5,1,8,4,10,9,Accountant,Business & Finance
+8,6,2,10,12,5,12,11,7,2,7,12,7.83,9,6,2,5,3,9,3,10,9,4,Electrician,Skilled Trades & Technical
+10,11,5,9,4,11,6,2,6,9,6,6,7.08,9,9,8,4,9,7,4,4,9,3,Mechatronics Engineer,Engineering & Technology
+8,4,8,9,2,2,2,12,1,11,12,10,6.75,9,10,3,4,6,8,1,8,4,6,Chef,Hospitality & Tourism
+4,8,4,4,12,5,3,11,10,9,10,8,7.33,8,3,8,3,3,8,2,3,7,3,Electrician,Skilled Trades & Technical
+4,10,10,7,1,5,4,8,2,11,1,8,5.92,6,5,9,2,8,1,10,5,7,2,Education Officer,Education
+8,1,9,11,3,4,3,9,9,1,8,11,6.42,5,3,1,2,3,1,6,9,2,9,Military Officer,Security & Defense
+3,7,11,8,4,6,11,3,1,5,2,4,5.42,9,6,5,10,3,6,5,9,5,5,Electrician,Skilled Trades & Technical
+8,5,6,10,5,2,12,5,6,11,8,9,7.25,6,9,1,7,7,6,4,2,10,6,Environmental Scientist,Agriculture & Environment
+2,5,6,12,9,3,6,1,1,7,7,10,5.75,5,5,8,9,1,1,5,8,9,1,Animator,Creative Arts & Media
+2,9,5,7,5,12,7,5,4,9,5,1,5.92,5,1,9,5,6,10,9,6,10,1,Teacher,Education
+12,12,8,9,10,12,4,6,10,10,1,10,8.67,1,4,6,5,6,2,4,4,10,9,Hotel Manager,Hospitality & Tourism
+1,5,1,4,1,9,7,9,3,7,7,1,4.58,10,10,7,1,4,9,7,6,5,1,Police Officer,Security & Defense
+4,11,3,9,1,7,9,8,10,6,3,7,6.5,5,2,7,9,10,10,8,4,9,6,Film Producer,Creative Arts & Media
+10,2,9,3,5,2,7,8,5,10,8,4,6.08,6,4,3,4,4,9,7,9,6,5,Electrician,Skilled Trades & Technical
+1,10,10,10,6,10,11,9,12,11,4,5,8.25,1,4,2,9,5,10,10,3,9,8,Animator,Creative Arts & Media
+3,11,8,10,10,4,4,2,1,9,1,11,6.17,8,6,3,4,1,9,9,10,8,4,Nurse,Health Sciences
+6,11,10,4,2,7,7,7,7,8,11,3,6.92,6,2,8,2,1,5,9,7,4,7,Pilot,Transport & Aviation
+11,5,8,5,6,12,11,12,5,11,3,1,7.5,9,9,9,5,9,9,9,7,7,6,Electrical Engineer,Engineering & Technology
+10,3,8,12,10,6,2,12,11,10,11,4,8.25,8,6,7,7,3,10,9,10,3,9,Lab Technologist,Health Sciences
+11,7,6,5,8,11,8,11,11,6,10,12,8.83,7,5,3,2,2,4,9,2,4,2,Electrician,Skilled Trades & Technical
+2,10,9,10,10,1,7,8,6,2,1,8,6.17,5,10,6,5,5,7,10,2,1,8,Pilot,Transport & Aviation
+5,12,10,8,6,2,10,11,1,6,12,8,7.58,9,10,9,5,7,9,5,4,6,6,Lawyer,Law & Governance
+7,1,6,10,11,1,6,6,3,10,8,5,6.17,8,3,3,6,5,4,9,3,5,6,Clinical Officer,Health Sciences
+7,11,1,1,8,2,4,2,3,10,9,9,5.58,1,4,5,2,7,9,8,2,9,6,Police Officer,Security & Defense
+12,4,5,9,9,3,6,2,11,11,5,2,6.58,7,9,7,8,8,1,7,1,2,9,Accountant,Business & Finance
+11,12,12,2,4,9,5,4,9,8,2,7,7.08,4,9,1,8,10,7,9,3,1,9,Actuary,Business & Finance
+7,4,11,10,4,5,1,2,3,10,4,1,5.17,7,7,6,9,4,3,8,5,2,7,Chef,Hospitality & Tourism
+1,3,12,10,2,12,3,4,3,12,6,10,6.5,2,1,7,3,7,3,10,4,7,7,Police Officer,Security & Defense
+4,10,4,10,9,12,6,9,1,12,12,7,8.0,8,2,9,2,3,8,9,6,9,3,Clinical Officer,Health Sciences
+11,6,1,10,2,11,11,5,11,3,10,1,6.83,9,6,4,1,10,7,5,2,5,9,Electrician,Skilled Trades & Technical
+10,10,12,7,4,11,10,6,1,9,12,8,8.33,9,9,7,4,9,8,8,3,3,7,Data Scientist,ICT & Computing
+11,5,9,11,6,9,3,6,12,10,7,4,7.75,9,9,2,10,9,1,4,9,1,9,Data Scientist,ICT & Computing
+10,6,3,8,8,11,1,7,9,1,6,12,6.83,9,9,4,10,9,1,2,9,3,9,Actuary,Business & Finance
+12,7,9,9,5,4,12,11,10,12,1,11,8.58,6,10,9,6,5,7,7,6,9,5,Agronomist,Agriculture & Environment
+6,6,8,6,5,2,8,3,5,10,1,10,5.83,6,7,4,9,10,1,10,1,9,2,Graphic Designer,Creative Arts & Media
+12,3,6,11,10,7,5,1,1,9,10,4,6.58,8,8,10,4,6,10,9,2,3,5,Lab Technologist,Health Sciences
+10,11,7,12,10,10,10,4,8,12,1,11,8.83,9,9,6,3,9,4,10,5,7,7,AI Engineer,ICT & Computing
+10,5,2,10,8,3,5,5,9,3,10,8,6.5,10,9,5,1,10,5,10,5,10,9,Financial Analyst,Business & Finance
+2,10,8,2,3,9,10,5,6,9,3,10,6.42,10,9,9,9,5,5,1,5,10,2,Teacher,Education
+8,11,3,3,2,12,4,5,8,6,4,3,5.75,10,8,2,9,4,2,1,9,9,1,Journalist,Creative Arts & Media
+11,12,3,6,3,11,2,9,12,3,11,5,7.33,1,9,10,10,10,9,1,4,9,9,Economist,Business & Finance
+6,11,5,11,6,6,9,12,6,9,9,4,7.83,10,9,9,2,1,9,3,5,5,5,Judge,Law & Governance
+2,12,4,2,1,1,4,3,9,8,2,3,4.25,10,1,9,8,10,5,6,5,6,2,Lecturer,Education
+10,6,10,10,10,8,8,11,5,4,12,6,8.33,8,2,4,3,1,3,9,10,3,6,Clinical Officer,Health Sciences
+9,1,4,5,3,10,1,8,11,9,3,5,5.75,9,9,2,5,9,3,2,5,2,9,Civil Engineer,Engineering & Technology
+9,4,2,10,5,6,12,2,8,7,5,8,6.5,10,1,4,9,4,6,9,4,7,7,Police Officer,Security & Defense
+4,9,5,11,4,6,6,11,1,10,8,8,6.92,6,5,9,2,4,9,5,9,2,1,Lawyer,Law & Governance
+11,1,7,3,11,12,1,5,5,11,12,5,7.0,9,9,9,10,9,3,5,10,7,3,Data Scientist,ICT & Computing
+11,4,5,10,11,12,6,12,6,12,9,9,8.92,9,9,4,9,9,3,7,8,10,6,Mechanical Engineer,Engineering & Technology
+2,12,7,4,11,8,5,9,7,7,8,9,7.42,1,5,2,2,5,5,6,9,7,3,Military Officer,Security & Defense
+6,11,2,7,4,8,6,9,1,8,8,9,6.58,8,2,6,1,2,7,2,9,1,9,Chef,Hospitality & Tourism
+11,10,5,11,8,5,10,1,10,6,8,11,8.0,10,4,8,8,7,8,7,10,10,7,Forester,Agriculture & Environment
+4,5,7,10,9,3,9,11,10,5,7,12,7.67,4,7,4,9,1,10,8,3,7,9,Agronomist,Agriculture & Environment
+11,10,6,3,8,9,10,10,9,9,5,9,8.25,9,9,9,2,9,4,4,10,9,8,Data Scientist,ICT & Computing
+9,1,12,3,4,9,1,7,11,12,9,12,7.5,9,9,6,3,9,6,2,6,5,2,Mechanical Engineer,Engineering & Technology
+12,4,5,1,5,11,10,8,12,9,2,5,7.0,9,9,6,6,9,1,9,2,7,7,Cybersecurity Analyst,ICT & Computing
+7,11,7,9,4,7,11,5,12,9,11,6,8.25,5,2,9,2,5,8,3,1,2,1,Teacher,Education
+7,11,9,9,9,11,8,11,3,6,10,11,8.75,9,7,9,4,9,1,7,7,10,6,Teacher,Education
+11,1,3,1,12,10,11,3,5,12,12,10,7.58,9,9,7,8,9,3,10,8,2,1,Data Scientist,ICT & Computing
+12,6,8,5,10,5,4,7,11,5,9,8,7.5,5,9,8,9,9,5,10,5,2,9,Banker,Business & Finance
+8,2,2,5,1,6,8,10,3,1,10,4,5.0,1,1,1,9,7,6,5,7,9,8,Pilot,Transport & Aviation
+9,4,2,5,10,12,11,10,12,5,2,12,7.83,6,9,1,5,5,8,6,7,7,9,Accountant,Business & Finance
+10,9,10,4,11,9,10,6,9,5,8,11,8.5,9,7,9,6,1,2,1,3,9,3,Education Officer,Education
+7,11,10,6,7,6,8,12,3,9,7,5,7.58,1,10,9,9,1,9,8,4,3,3,Lawyer,Law & Governance
+6,6,12,3,9,10,7,12,5,1,10,8,7.42,2,2,10,9,8,2,9,10,7,1,Military Officer,Security & Defense
+4,1,10,9,2,11,4,1,3,6,12,1,5.33,4,5,9,1,10,5,5,6,6,9,Military Officer,Security & Defense
+2,10,3,5,2,11,12,9,7,5,3,8,6.42,1,3,9,5,8,9,7,2,8,9,Education Officer,Education
+6,2,4,2,6,6,10,3,4,1,12,10,5.5,10,8,8,1,1,4,4,5,7,4,Military Officer,Security & Defense
+12,3,2,10,5,2,9,3,4,8,9,7,6.17,10,10,3,1,10,7,1,9,10,1,Logistics Officer,Transport & Aviation
+7,9,1,11,5,12,12,9,9,7,7,9,8.17,1,7,10,9,5,1,5,2,7,9,Forester,Agriculture & Environment
+12,2,9,12,6,4,8,7,5,1,3,2,5.92,2,2,5,3,6,1,5,9,9,3,Marine Engineer,Transport & Aviation
+11,11,3,5,7,10,8,9,6,12,2,8,7.67,9,9,4,7,9,6,7,2,10,4,Civil Engineer,Engineering & Technology
+9,11,11,4,3,7,6,4,12,10,5,11,7.75,10,9,10,3,5,8,1,4,10,9,Accountant,Business & Finance
+2,2,8,10,6,7,4,2,2,12,6,11,6.0,4,1,2,9,3,4,6,8,9,1,Animator,Creative Arts & Media
+9,4,3,11,2,8,9,8,2,9,8,11,7.0,4,10,10,1,10,7,2,1,7,4,Tour Guide,Hospitality & Tourism
+12,1,10,7,12,12,2,12,11,10,4,7,8.33,9,9,3,5,9,6,5,4,1,4,Mechatronics Engineer,Engineering & Technology
+1,9,6,11,11,12,1,12,3,12,10,7,7.92,8,7,5,1,6,1,9,10,3,10,Doctor,Health Sciences
+3,8,1,10,12,7,12,10,5,4,9,12,7.75,10,9,1,1,2,9,8,9,7,4,Hotel Manager,Hospitality & Tourism
+12,3,6,7,10,6,1,11,3,1,4,1,5.42,1,5,3,4,7,5,1,3,9,3,Electrician,Skilled Trades & Technical
+8,6,10,3,8,11,6,10,2,3,8,10,7.08,4,2,4,5,3,1,2,9,10,7,Pilot,Transport & Aviation
+12,3,3,9,3,11,7,4,5,5,1,10,6.08,3,1,4,10,2,9,7,10,8,2,Marine Engineer,Transport & Aviation
+12,7,12,1,8,1,7,7,1,3,5,6,5.83,10,1,2,4,1,2,4,3,9,1,Military Officer,Security & Defense
+5,12,1,9,9,9,4,3,5,9,10,5,6.75,8,2,5,9,9,1,9,6,10,5,Clinical Officer,Health Sciences
+11,11,4,7,9,11,3,10,4,4,9,12,7.92,7,1,9,9,4,5,5,9,2,2,Lecturer,Education
+10,1,4,7,2,11,3,12,5,7,12,1,6.25,3,4,5,8,4,8,10,8,7,4,Military Officer,Security & Defense
+2,12,2,11,8,10,11,12,1,10,2,1,6.83,7,9,9,2,8,6,2,2,5,5,Teacher,Education
+12,11,6,11,11,11,4,4,10,7,3,4,7.83,3,5,9,6,1,1,10,1,1,2,Education Officer,Education
+9,12,5,10,8,2,4,7,9,10,7,2,7.08,8,9,5,9,1,3,7,10,3,9,Banker,Business & Finance
+9,8,11,9,2,12,11,1,8,10,3,5,7.42,9,9,4,5,9,9,1,7,3,6,Mechatronics Engineer,Engineering & Technology
+5,3,1,10,3,9,12,5,1,9,6,12,6.33,10,1,9,6,2,10,6,4,9,3,Veterinary Officer,Agriculture & Environment
+3,1,7,7,2,3,8,12,5,8,7,7,5.83,6,6,8,2,2,7,4,4,10,4,Military Officer,Security & Defense
+1,9,3,9,7,4,6,10,2,1,3,7,5.17,6,9,9,1,4,9,2,2,2,2,Judge,Law & Governance
+1,11,11,11,10,8,2,12,11,10,11,8,8.83,10,5,9,2,7,9,6,9,7,10,Public Administrator,Law & Governance
+10,8,11,4,5,2,8,6,9,11,6,9,7.42,6,9,6,8,9,4,8,10,9,9,Economist,Business & Finance
+12,1,3,1,1,1,9,12,11,8,8,12,6.58,6,9,1,6,10,1,10,4,1,9,Accountant,Business & Finance
+12,2,4,10,10,10,9,4,12,7,8,9,8.08,8,5,9,6,3,5,5,4,4,9,Marine Engineer,Transport & Aviation
+8,12,5,6,6,7,5,3,8,1,6,10,6.42,8,10,1,8,8,8,8,7,4,6,Marine Engineer,Transport & Aviation
+10,7,8,9,2,11,10,4,6,11,5,8,7.58,9,9,7,4,9,1,3,9,8,7,Mechatronics Engineer,Engineering & Technology
+8,1,3,6,10,3,5,3,11,12,6,7,6.25,2,10,10,9,3,10,2,8,9,7,Film Producer,Creative Arts & Media
+11,4,6,11,1,1,11,12,2,5,9,2,6.25,7,2,9,6,10,9,6,10,8,10,Automotive Technician,Skilled Trades & Technical
+3,9,9,2,3,4,5,12,10,1,10,7,6.25,7,9,9,8,1,9,9,10,5,7,Judge,Law & Governance
+10,11,5,1,2,8,1,9,3,3,7,12,6.0,4,1,9,2,8,8,5,4,7,3,Lecturer,Education
+9,9,4,9,8,12,1,4,4,2,11,1,6.17,4,8,2,9,4,4,6,5,9,9,Animator,Creative Arts & Media
+11,10,3,12,2,12,6,4,3,11,1,8,6.92,9,9,4,1,9,6,5,7,9,3,AI Engineer,ICT & Computing
+11,6,9,6,6,3,5,2,6,5,2,2,5.25,8,4,6,2,10,10,6,6,5,6,Police Officer,Security & Defense
+1,12,5,10,12,7,7,10,8,2,6,4,7.0,5,2,9,9,3,9,1,5,10,6,Lawyer,Law & Governance
+1,3,10,9,3,9,12,1,1,1,4,11,5.42,10,10,7,7,4,7,6,10,2,4,Environmental Scientist,Agriculture & Environment
+5,11,11,1,10,4,2,6,11,9,12,6,7.33,10,5,2,9,5,1,5,3,5,6,Chef,Hospitality & Tourism
+6,3,6,6,7,9,4,2,1,3,3,12,5.17,6,4,10,10,6,5,4,3,1,8,Logistics Officer,Transport & Aviation
+8,12,4,1,9,1,5,8,2,6,6,9,5.92,4,4,9,1,6,7,3,9,2,1,Teacher,Education
+2,10,12,6,12,9,4,12,5,12,11,5,8.33,3,3,9,2,10,9,10,7,2,8,Judge,Law & Governance
+6,10,3,12,1,8,4,9,2,5,9,10,6.58,2,4,8,9,1,6,3,5,9,7,Journalist,Creative Arts & Media
+3,7,11,8,5,6,8,6,12,6,7,3,6.83,5,1,5,1,2,6,8,4,7,10,Electrician,Skilled Trades & Technical
+10,4,8,5,3,6,12,7,9,12,12,10,8.17,6,5,4,5,4,7,8,3,9,4,Pilot,Transport & Aviation
+5,10,8,1,5,8,4,1,4,10,5,8,5.75,5,10,9,2,2,6,7,1,6,4,Teacher,Education
+1,11,5,9,6,11,12,6,8,1,3,10,6.92,7,3,1,7,4,10,9,3,4,9,Forester,Agriculture & Environment
+12,9,4,9,11,9,4,2,8,6,12,11,8.08,4,3,3,10,3,4,7,2,3,4,Electrician,Skilled Trades & Technical
+8,10,10,2,12,3,1,11,11,1,2,8,6.58,8,9,9,3,6,2,7,8,5,5,Lecturer,Education
+12,7,5,9,8,9,12,9,6,12,4,12,8.75,9,9,3,2,9,5,6,6,8,7,Mechatronics Engineer,Engineering & Technology
+9,9,7,7,7,11,10,6,7,7,8,8,8.0,10,6,9,9,7,3,1,1,10,2,Pilot,Transport & Aviation
+4,5,4,9,11,6,3,5,11,11,1,10,6.67,10,6,5,10,3,9,6,1,6,9,Electrician,Skilled Trades & Technical
+4,12,12,12,3,2,9,9,5,9,6,7,7.5,10,4,9,4,5,9,6,4,5,1,Judge,Law & Governance
+7,4,12,5,11,12,3,3,9,1,2,6,6.25,5,4,1,7,2,5,9,3,6,5,Chef,Hospitality & Tourism
+10,2,12,10,3,9,8,8,7,12,8,8,8.08,9,9,7,9,9,8,7,6,10,3,Cybersecurity Analyst,ICT & Computing
+5,9,6,1,10,5,3,10,9,5,1,10,6.17,3,10,9,9,9,9,8,2,9,5,Judge,Law & Governance
+4,2,8,12,1,2,11,6,3,10,9,11,6.58,9,2,8,9,8,7,8,5,9,8,Film Producer,Creative Arts & Media
+12,6,6,9,2,5,10,9,8,4,12,9,7.67,1,8,1,7,5,9,5,9,2,1,Environmental Scientist,Agriculture & Environment
+10,1,9,11,9,10,9,9,8,12,12,8,9.0,9,9,3,8,9,1,10,3,6,10,Mechanical Engineer,Engineering & Technology
+12,9,7,5,2,4,7,11,3,11,7,6,7.0,3,6,10,1,3,4,1,4,2,5,Logistics Officer,Transport & Aviation
+1,6,11,11,5,12,10,6,9,8,5,10,7.83,1,7,4,2,4,1,2,2,7,8,Forester,Agriculture & Environment
+1,5,9,12,7,1,7,10,7,10,5,7,6.75,9,10,2,5,3,1,1,7,1,4,Pilot,Transport & Aviation
+10,1,2,6,2,2,8,12,10,8,10,8,6.58,4,9,1,7,9,1,7,6,4,9,Banker,Business & Finance
+12,2,12,12,3,12,12,9,7,11,3,12,8.92,9,9,5,1,9,10,1,1,2,3,Mechanical Engineer,Engineering & Technology
+10,1,9,9,12,7,10,9,5,1,12,9,7.83,8,9,5,6,6,4,9,5,4,7,Doctor,Health Sciences
+10,8,3,2,6,12,7,6,5,9,9,12,7.42,9,9,10,2,9,2,6,3,6,6,Civil Engineer,Engineering & Technology
+2,2,8,12,9,3,8,12,9,3,8,12,7.33,8,1,1,2,5,1,9,3,2,8,Lab Technologist,Health Sciences
+1,12,9,5,1,6,12,9,8,10,1,2,6.33,7,3,9,6,4,9,2,10,1,2,Public Administrator,Law & Governance
+10,4,1,12,9,12,7,11,1,12,10,9,8.17,10,1,10,10,7,5,8,2,6,8,Police Officer,Security & Defense
+4,7,8,12,9,9,1,10,9,2,12,1,7.0,8,4,3,2,7,6,9,6,1,1,Pharmacist,Health Sciences
+2,1,6,2,10,11,12,4,2,9,12,4,6.25,7,1,10,5,1,2,7,2,7,5,Military Officer,Security & Defense
+11,11,7,11,11,7,8,8,1,4,12,4,7.92,8,1,5,5,6,8,9,2,4,8,Lab Technologist,Health Sciences
+10,10,2,5,7,1,3,1,9,10,5,5,5.67,4,4,4,1,8,8,6,6,8,2,Electrician,Skilled Trades & Technical
+2,9,2,2,8,9,7,12,8,3,11,1,6.17,4,9,9,1,7,9,5,3,5,4,Lawyer,Law & Governance
+5,5,6,11,9,10,8,12,9,4,7,12,8.17,8,6,10,2,3,10,9,8,9,5,Nurse,Health Sciences
+4,11,12,12,11,10,4,3,3,4,6,6,7.17,7,9,6,2,6,5,10,1,1,10,Welder,Skilled Trades & Technical
+7,10,4,9,6,6,6,12,2,9,3,4,6.5,8,8,6,9,2,5,4,9,9,2,Journalist,Creative Arts & Media
+12,9,4,11,11,7,11,10,10,4,1,8,8.17,8,3,1,3,4,3,9,9,3,8,Doctor,Health Sciences
+10,12,11,1,9,4,4,3,1,6,12,7,6.67,10,5,1,8,1,3,6,7,4,6,Chef,Hospitality & Tourism
+1,10,12,6,9,3,9,7,12,3,4,2,6.5,1,4,6,9,10,7,2,2,5,2,Electrician,Skilled Trades & Technical
+9,5,5,3,4,11,6,9,8,11,12,1,7.0,9,9,6,1,9,1,7,9,6,1,Mechanical Engineer,Engineering & Technology
+10,8,5,5,11,8,11,8,3,5,1,6,6.75,5,1,10,8,5,5,10,3,2,8,Electrician,Skilled Trades & Technical
+9,10,7,4,3,10,11,12,3,4,12,7,7.67,4,9,2,9,5,4,1,2,9,4,Film Producer,Creative Arts & Media
+7,2,1,4,2,7,10,11,9,4,4,2,5.25,2,5,5,2,9,8,7,8,7,7,Police Officer,Security & Defense
+9,8,6,4,1,7,10,12,10,10,3,10,7.5,6,9,4,2,8,2,2,10,7,9,Accountant,Business & Finance
+9,3,7,1,2,9,12,6,4,10,3,8,6.17,9,9,7,9,9,10,3,3,4,3,Software Developer,ICT & Computing
+7,10,1,8,11,6,11,12,6,5,4,4,7.08,2,3,9,1,3,9,1,1,6,2,Public Administrator,Law & Governance
+12,3,11,4,12,12,5,7,3,6,1,6,6.83,1,2,10,1,5,6,10,1,9,6,Police Officer,Security & Defense
+10,3,6,2,7,7,9,2,12,8,5,8,6.58,8,9,6,8,7,2,6,5,6,9,Accountant,Business & Finance
+9,5,11,8,8,11,9,5,12,8,4,4,7.83,10,9,3,1,6,8,6,5,4,9,Financial Analyst,Business & Finance
+1,6,8,2,10,10,1,5,1,12,6,8,5.83,10,10,3,3,9,8,5,9,6,8,Welder,Skilled Trades & Technical
+5,9,3,10,6,12,5,5,3,2,1,11,6.0,6,2,6,9,2,2,4,6,9,9,Graphic Designer,Creative Arts & Media
+11,2,1,7,6,4,10,2,3,4,5,8,5.25,8,5,10,2,8,3,1,5,1,10,Welder,Skilled Trades & Technical
+4,9,10,1,6,8,11,12,10,2,12,5,7.5,4,5,9,5,10,9,10,9,6,9,Judge,Law & Governance
+7,11,12,7,7,3,12,12,12,10,4,7,8.67,4,5,9,3,6,9,1,9,9,5,Judge,Law & Governance
+2,6,7,12,2,11,11,2,4,9,3,9,6.5,8,8,3,6,3,10,8,6,4,3,Agronomist,Agriculture & Environment
+6,12,5,6,10,6,11,4,6,1,6,6,6.58,8,6,9,1,4,8,7,2,9,7,Police Officer,Security & Defense
+3,8,9,6,4,6,5,2,3,3,4,6,4.92,5,8,6,9,10,5,6,8,9,10,Journalist,Creative Arts & Media
+8,1,3,3,1,8,5,3,1,4,10,8,4.58,9,6,8,7,6,6,1,3,5,4,Logistics Officer,Transport & Aviation
+12,10,12,5,1,11,4,9,9,8,5,10,8.0,10,1,5,9,10,3,3,4,9,2,Journalist,Creative Arts & Media
+8,12,6,9,9,9,3,12,4,3,7,10,7.67,3,1,9,8,2,7,7,10,2,7,Education Officer,Education
+10,10,7,10,4,12,3,2,8,9,11,11,8.08,9,9,8,2,9,3,2,3,9,2,AI Engineer,ICT & Computing
+11,3,2,8,7,2,1,12,8,10,5,1,5.83,3,1,5,6,5,6,8,3,8,3,Pilot,Transport & Aviation
+2,10,8,2,3,7,7,9,7,3,9,3,5.83,2,9,9,2,10,9,9,7,3,2,Judge,Law & Governance
+12,12,2,2,8,12,10,9,7,11,8,3,8.0,9,9,2,4,9,9,1,7,6,1,AI Engineer,ICT & Computing
+10,6,3,1,9,9,5,5,7,11,9,11,7.17,9,9,5,8,9,5,6,8,9,3,Electrical Engineer,Engineering & Technology
+9,8,5,7,12,11,7,7,12,1,5,12,8.0,10,9,4,8,4,3,1,5,9,9,Financial Analyst,Business & Finance
+12,9,9,5,7,11,7,12,6,11,6,1,8.0,9,9,7,8,9,2,6,3,8,1,AI Engineer,ICT & Computing
+9,10,2,10,10,9,2,12,10,10,9,2,7.92,9,9,6,6,9,8,10,2,6,10,Data Scientist,ICT & Computing
+11,2,10,5,5,11,2,11,12,9,12,1,7.58,9,9,6,8,9,6,10,6,6,5,Civil Engineer,Engineering & Technology
+9,8,4,2,11,11,8,7,2,9,10,2,6.92,9,9,8,6,9,6,2,10,8,7,Civil Engineer,Engineering & Technology
+5,8,2,5,2,10,5,11,6,10,10,4,6.5,4,2,10,6,7,10,2,6,9,2,Logistics Officer,Transport & Aviation
+5,11,4,4,12,10,4,5,3,11,11,1,6.75,1,9,4,1,1,8,2,4,7,4,Marine Engineer,Transport & Aviation
+5,8,12,2,11,2,9,2,6,6,11,4,6.5,4,3,4,9,7,8,4,7,9,4,Animator,Creative Arts & Media
+4,11,6,6,7,2,3,10,8,9,5,1,6.0,2,4,10,8,1,9,9,3,6,7,Logistics Officer,Transport & Aviation
+9,3,5,5,9,3,7,5,9,10,12,12,7.42,10,7,1,8,5,7,3,10,5,1,Military Officer,Security & Defense
+3,9,12,1,4,6,3,3,11,3,6,11,6.0,3,1,6,4,4,5,1,10,10,3,Military Officer,Security & Defense
+11,11,7,4,6,11,7,8,2,11,7,12,8.08,6,10,8,10,7,1,6,3,3,1,Chef,Hospitality & Tourism
+9,10,2,1,10,9,10,11,6,12,10,11,8.42,9,9,1,5,9,5,9,5,9,3,Mechanical Engineer,Engineering & Technology
+11,2,5,6,3,4,4,3,3,6,7,1,4.58,8,4,3,2,6,7,6,1,3,1,Automotive Technician,Skilled Trades & Technical
+8,11,7,8,8,4,9,11,8,5,2,12,7.75,8,3,9,5,9,9,10,7,6,8,Lawyer,Law & Governance
+12,9,9,1,3,2,1,10,1,6,6,10,5.83,2,1,9,3,10,9,5,10,3,3,Lawyer,Law & Governance
+12,1,7,1,12,11,4,8,10,7,11,10,7.83,1,9,4,7,9,1,8,1,10,9,Actuary,Business & Finance
+7,6,10,5,3,7,9,7,3,10,4,1,6.0,8,3,7,7,4,9,10,3,9,5,Welder,Skilled Trades & Technical
+11,1,7,1,10,11,1,4,2,10,9,5,6.0,9,9,3,8,9,5,6,9,8,2,Cybersecurity Analyst,ICT & Computing
+10,1,2,11,8,10,3,2,3,9,1,11,5.92,9,9,8,7,9,7,1,8,3,4,AI Engineer,ICT & Computing
+11,10,10,11,10,11,3,6,6,10,12,4,8.67,9,9,2,3,9,6,6,10,5,2,AI Engineer,ICT & Computing
+8,4,11,9,10,10,5,6,12,6,7,5,7.75,8,4,7,6,6,1,9,4,2,5,Nurse,Health Sciences
+6,10,2,3,1,2,7,8,9,4,2,1,4.58,2,7,9,5,4,3,7,9,4,7,Lecturer,Education
+11,1,9,10,11,3,9,4,3,6,9,1,6.42,8,2,1,6,8,7,9,1,10,5,Clinical Officer,Health Sciences
+9,6,6,5,11,7,11,12,10,6,5,8,8.0,7,2,1,7,5,9,10,10,8,7,Hotel Manager,Hospitality & Tourism
+7,10,1,4,9,12,3,4,1,3,3,6,5.25,9,5,1,9,4,2,10,2,9,10,Film Producer,Creative Arts & Media
+6,3,6,3,5,11,10,1,8,1,8,7,5.75,7,3,1,6,5,2,4,3,8,3,Military Officer,Security & Defense
+3,11,8,8,3,12,12,9,12,3,11,1,7.75,6,1,9,7,10,9,7,1,9,3,Lawyer,Law & Governance
+7,4,7,11,7,9,8,5,3,1,5,3,5.83,6,4,1,1,1,10,6,8,9,2,Police Officer,Security & Defense
+11,5,10,7,5,12,12,1,5,9,12,7,8.0,9,9,6,9,9,1,4,2,7,9,Software Developer,ICT & Computing
+4,12,2,12,11,5,4,11,1,4,1,2,5.75,8,6,8,4,1,5,9,7,7,5,Pharmacist,Health Sciences
+11,6,11,12,2,10,6,4,12,10,5,3,7.67,9,9,4,2,9,6,7,10,7,2,Software Developer,ICT & Computing
+11,5,4,5,4,11,10,12,12,11,7,12,8.67,9,9,8,3,9,5,5,3,5,5,AI Engineer,ICT & Computing
+9,7,12,1,4,9,4,1,5,12,7,10,6.75,9,9,6,9,9,2,3,8,1,4,Mechanical Engineer,Engineering & Technology
+12,9,2,8,7,8,8,7,10,1,1,1,6.17,2,10,9,3,7,1,1,7,3,3,Education Officer,Education
+9,11,8,6,5,12,6,7,9,6,8,1,7.33,6,9,6,5,5,10,3,1,4,9,Accountant,Business & Finance
+4,10,8,12,9,9,2,10,10,10,6,7,8.08,10,6,9,4,8,9,10,10,7,2,Public Administrator,Law & Governance
+10,2,5,7,9,4,7,7,11,2,6,6,6.33,3,4,2,5,9,7,5,9,6,1,Welder,Skilled Trades & Technical
+8,6,4,4,6,3,12,4,10,7,9,12,7.08,5,4,7,9,5,4,7,7,9,5,Graphic Designer,Creative Arts & Media
+7,10,11,5,9,11,3,2,4,5,9,2,6.5,5,6,3,9,7,7,8,8,9,4,Journalist,Creative Arts & Media
+10,9,9,9,11,9,12,7,9,8,5,2,8.33,10,6,9,5,5,1,2,9,4,3,Lecturer,Education
+6,9,9,10,12,10,3,2,12,10,10,3,8.0,8,7,2,7,6,2,9,4,5,9,Nurse,Health Sciences
+6,1,5,8,9,7,6,7,10,9,10,1,6.58,6,2,5,9,6,4,3,6,9,2,Film Producer,Creative Arts & Media
+6,1,2,11,9,9,5,8,7,7,7,8,6.67,8,3,9,3,2,6,9,9,9,10,Lab Technologist,Health Sciences
+11,7,6,4,3,10,12,5,2,7,5,3,6.25,6,8,6,9,1,2,8,1,9,1,Graphic Designer,Creative Arts & Media
+12,3,5,7,3,10,12,3,12,1,12,4,7.0,8,9,2,3,8,3,1,4,6,9,Economist,Business & Finance
+2,11,7,6,10,12,7,1,2,11,4,4,6.42,9,9,9,7,2,3,9,3,6,10,Lecturer,Education
+10,4,11,5,10,11,6,7,5,9,4,8,7.5,9,9,3,6,9,8,5,10,5,1,Software Developer,ICT & Computing
+10,1,6,3,5,6,2,4,7,7,2,11,5.33,10,7,5,2,6,8,8,3,3,9,Electrician,Skilled Trades & Technical
+5,5,9,6,8,8,4,4,4,2,7,8,5.83,2,8,5,5,7,3,5,1,2,5,Hotel Manager,Hospitality & Tourism
+12,7,2,12,8,4,12,2,1,5,4,9,6.5,7,7,10,7,8,2,1,5,3,7,Environmental Scientist,Agriculture & Environment
+7,9,11,10,6,2,9,12,1,2,2,4,6.25,10,10,9,8,9,9,7,1,2,1,Judge,Law & Governance
+10,6,8,8,12,12,6,1,3,12,1,6,7.08,9,9,1,4,9,3,1,9,10,1,Mechanical Engineer,Engineering & Technology
+9,10,12,10,7,7,8,10,9,8,12,10,9.33,3,2,9,8,6,9,10,10,9,8,Teacher,Education
+9,6,11,11,4,9,2,3,5,10,5,12,7.25,9,9,1,9,9,4,5,5,7,10,Civil Engineer,Engineering & Technology
+6,9,2,7,2,5,3,8,10,5,5,6,5.67,2,2,9,5,2,5,9,7,1,6,Education Officer,Education
+4,11,11,6,11,12,9,12,8,5,10,2,8.42,7,6,9,10,9,2,2,5,2,1,Education Officer,Education
+5,10,3,5,2,9,4,2,4,8,1,8,5.08,10,7,9,7,6,6,2,10,6,4,Education Officer,Education
+11,3,6,8,1,10,8,1,11,5,7,1,6.0,10,9,8,1,4,1,7,2,4,9,Actuary,Business & Finance
+4,12,6,10,10,11,4,11,12,8,5,4,8.08,8,6,1,8,9,9,9,2,9,9,Doctor,Health Sciences
+10,3,2,1,3,10,9,4,2,12,9,9,6.17,9,9,5,2,9,1,5,10,10,10,Software Developer,ICT & Computing
+12,11,10,1,2,9,8,3,4,8,7,8,6.92,1,1,9,8,9,2,3,9,6,9,Welder,Skilled Trades & Technical
+9,10,2,12,12,7,12,12,5,1,5,6,7.75,8,4,7,8,2,9,9,8,5,3,Nurse,Health Sciences
+7,10,10,8,12,7,10,10,10,11,11,8,9.5,1,4,2,2,9,3,10,5,4,7,Military Officer,Security & Defense
+12,9,2,7,12,10,7,11,1,9,10,8,8.17,1,5,8,7,1,3,9,1,8,3,Marine Engineer,Transport & Aviation
+8,12,4,4,8,8,8,11,10,11,2,2,7.33,3,4,6,2,4,1,10,8,9,7,Marine Engineer,Transport & Aviation
+11,7,3,12,2,7,2,11,11,11,2,6,7.08,8,9,8,5,2,2,7,1,5,9,Accountant,Business & Finance
+6,10,8,6,2,8,7,6,8,12,9,2,7.0,9,8,1,9,2,1,4,4,9,4,Film Producer,Creative Arts & Media
+9,11,10,8,9,5,12,9,9,12,11,6,9.25,2,4,9,4,5,9,9,6,5,6,Lecturer,Education
+11,12,10,6,1,1,10,11,1,10,12,2,7.25,4,8,9,9,10,8,5,9,10,5,Lecturer,Education
+10,3,2,9,12,7,9,7,6,1,8,11,7.08,10,3,6,3,3,4,5,4,10,2,Agronomist,Agriculture & Environment
+8,12,6,4,3,9,5,3,6,2,3,11,6.0,8,7,9,2,1,2,3,6,2,10,Teacher,Education
+2,4,3,6,1,2,5,12,12,3,5,1,4.67,9,4,2,5,10,6,1,9,6,5,Pilot,Transport & Aviation
+9,9,8,2,6,1,6,9,3,2,6,9,5.83,4,2,9,5,6,9,5,3,5,5,Judge,Law & Governance
+9,10,9,10,6,9,12,9,7,9,1,1,7.67,9,9,3,4,9,5,4,3,8,2,Mechanical Engineer,Engineering & Technology
+9,11,6,9,11,5,9,12,8,6,1,5,7.67,8,4,5,7,3,1,9,9,3,6,Nurse,Health Sciences
+11,6,5,2,5,1,5,8,9,12,6,7,6.42,2,9,8,5,1,4,9,4,7,9,Actuary,Business & Finance
+9,10,2,3,2,12,2,10,11,12,7,5,7.08,9,9,1,7,9,3,3,4,9,10,Data Scientist,ICT & Computing
+6,10,1,10,10,1,8,1,6,8,12,7,6.67,10,1,9,9,9,5,7,8,7,10,Teacher,Education
+8,10,10,12,4,2,10,12,12,5,6,9,8.33,4,8,9,5,8,6,4,5,2,5,Veterinary Officer,Agriculture & Environment
+12,7,11,8,4,7,10,8,9,12,4,9,8.42,9,2,2,1,10,7,6,8,3,1,Hotel Manager,Hospitality & Tourism
+9,12,2,5,8,12,12,6,2,10,8,6,7.67,9,9,3,5,9,3,7,5,8,2,Data Scientist,ICT & Computing
+8,9,9,12,9,5,3,12,4,8,2,1,6.83,2,8,10,9,4,6,3,8,9,6,Film Producer,Creative Arts & Media
+6,3,3,4,6,4,10,1,4,1,10,11,5.25,6,5,2,7,5,3,5,6,1,4,Automotive Technician,Skilled Trades & Technical
+12,9,5,3,11,10,2,5,3,11,8,9,7.33,10,2,2,6,5,6,8,5,2,2,Welder,Skilled Trades & Technical
+12,3,6,4,5,9,10,6,12,7,10,4,7.33,10,9,3,2,5,6,8,2,7,9,Financial Analyst,Business & Finance
+6,12,3,8,1,4,1,7,9,2,11,12,6.33,3,3,9,9,3,1,10,5,9,5,Police Officer,Security & Defense
+9,9,11,2,7,5,4,11,5,9,2,12,7.17,9,6,9,2,4,9,5,4,6,6,Lawyer,Law & Governance
+10,8,10,10,8,9,2,10,8,9,7,7,8.17,9,9,1,4,9,2,10,10,9,2,Cybersecurity Analyst,ICT & Computing
+1,3,2,10,2,8,10,12,9,7,7,6,6.42,10,6,6,9,9,1,7,4,9,2,Graphic Designer,Creative Arts & Media
+10,9,7,5,5,9,5,8,11,6,10,6,7.58,2,9,2,2,6,7,3,6,8,9,Banker,Business & Finance
+1,9,9,7,6,2,3,10,2,2,5,6,5.17,7,2,9,10,6,9,5,1,3,7,Public Administrator,Law & Governance
+12,5,2,1,5,9,6,4,9,11,5,6,6.25,7,9,2,1,1,6,5,9,4,9,Banker,Business & Finance
+3,7,5,8,6,2,6,5,4,12,4,3,5.42,2,1,3,7,9,4,1,2,10,5,Logistics Officer,Transport & Aviation
+6,12,11,10,12,9,3,4,12,6,7,9,8.42,2,2,9,10,2,6,3,10,10,9,Education Officer,Education
+7,4,9,10,11,11,1,7,11,11,9,12,8.58,8,4,2,8,8,9,9,9,6,3,Lab Technologist,Health Sciences
+10,4,6,8,3,6,2,1,6,1,12,5,5.33,7,2,9,5,2,9,2,6,2,9,Military Officer,Security & Defense
+1,4,2,11,7,8,4,9,9,6,7,11,6.58,4,3,6,9,10,6,6,5,3,2,Automotive Technician,Skilled Trades & Technical
+5,8,9,2,9,10,2,3,5,7,2,1,5.25,4,4,5,6,5,1,4,5,2,1,Logistics Officer,Transport & Aviation
+9,5,7,12,10,1,11,6,12,6,3,9,7.58,1,2,7,6,6,1,8,10,7,9,Veterinary Officer,Agriculture & Environment
+11,4,12,4,9,5,11,10,6,1,8,9,7.5,1,6,1,9,5,9,6,5,9,7,Film Producer,Creative Arts & Media
+8,8,10,10,6,7,7,5,4,5,7,12,7.42,1,9,9,5,1,4,1,1,4,10,Automotive Technician,Skilled Trades & Technical
+6,9,9,8,8,7,8,7,6,2,7,9,7.17,5,9,10,1,5,10,9,5,4,4,Hotel Manager,Hospitality & Tourism
+6,2,9,3,9,3,6,1,3,11,1,1,4.58,3,8,10,6,8,10,2,8,6,10,Welder,Skilled Trades & Technical
+2,9,8,9,3,1,9,11,12,9,7,8,7.33,5,4,9,1,4,9,8,10,7,3,Public Administrator,Law & Governance
+9,4,8,11,10,1,10,11,12,3,12,11,8.5,6,9,3,2,3,1,1,7,1,9,Financial Analyst,Business & Finance
+1,2,9,1,10,5,3,9,5,1,9,8,5.25,8,3,10,2,4,1,4,3,4,3,Welder,Skilled Trades & Technical
+12,12,3,6,10,11,7,10,10,4,7,4,8.0,10,5,9,2,9,9,8,6,3,1,Public Administrator,Law & Governance
+4,11,3,9,11,9,2,11,8,3,8,5,7.0,5,6,9,3,1,9,9,2,3,9,Public Administrator,Law & Governance
+10,4,6,4,7,10,4,8,5,2,6,7,6.08,5,10,9,10,2,9,9,8,1,3,Military Officer,Security & Defense
+9,3,9,7,1,8,9,2,12,6,9,4,6.58,5,9,2,10,9,7,3,9,4,9,Financial Analyst,Business & Finance
+10,7,9,1,10,12,6,2,11,6,4,7,7.08,2,5,9,7,4,6,9,2,8,10,Hotel Manager,Hospitality & Tourism
+10,1,5,2,2,6,12,2,11,3,2,7,5.25,6,1,6,7,7,10,6,9,5,2,Automotive Technician,Skilled Trades & Technical
+9,6,7,12,6,10,9,1,4,9,1,6,6.67,9,9,10,3,9,9,10,7,1,10,AI Engineer,ICT & Computing
+11,11,3,11,9,9,3,7,10,7,3,12,8.0,8,7,1,5,6,1,9,10,3,5,Lab Technologist,Health Sciences
+1,3,11,1,10,6,2,12,9,7,1,10,6.08,8,6,8,9,5,7,4,2,4,8,Logistics Officer,Transport & Aviation
+9,8,2,12,8,9,8,9,2,9,10,8,7.83,9,9,7,7,9,9,1,2,8,9,Software Developer,ICT & Computing
+3,3,5,3,2,3,9,1,3,11,11,6,5.0,7,6,4,1,6,10,10,8,5,10,Logistics Officer,Transport & Aviation
+7,4,9,9,9,12,9,2,5,9,6,8,7.42,8,8,3,8,6,7,9,2,2,4,Doctor,Health Sciences
+3,6,7,1,8,1,2,12,2,7,5,4,4.83,8,5,6,6,3,6,10,9,6,10,Electrician,Skilled Trades & Technical
+1,11,9,1,11,10,9,12,10,1,7,4,7.17,7,4,9,6,4,5,6,9,4,7,Education Officer,Education
+12,9,11,12,3,6,6,4,7,2,3,12,7.25,8,7,4,10,5,8,8,4,7,7,Automotive Technician,Skilled Trades & Technical
+6,11,5,7,9,11,11,12,11,4,2,2,7.58,4,2,9,6,2,9,1,10,1,3,Public Administrator,Law & Governance
+12,1,12,1,5,12,12,5,6,12,7,2,7.25,9,9,6,3,9,4,3,10,4,6,Mechanical Engineer,Engineering & Technology
+10,2,7,6,12,12,11,10,10,1,1,4,7.17,1,5,3,8,9,2,1,8,8,1,Chef,Hospitality & Tourism
+5,9,9,6,4,5,9,10,12,3,12,5,7.42,2,4,2,9,5,10,4,5,9,10,Film Producer,Creative Arts & Media
+5,10,8,11,12,7,12,11,8,5,5,4,8.17,7,6,4,2,9,2,5,8,7,1,Military Officer,Security & Defense
+1,10,9,12,9,12,3,5,8,4,12,6,7.58,8,7,6,9,4,5,9,4,4,5,Pharmacist,Health Sciences
+12,12,10,9,4,11,12,11,9,11,12,11,10.33,9,9,2,2,9,7,10,6,3,8,Cybersecurity Analyst,ICT & Computing
+4,9,6,9,1,5,8,1,3,1,4,1,4.33,1,9,9,2,1,9,2,3,1,5,Lecturer,Education
+10,5,1,4,12,3,9,10,11,6,11,6,7.33,3,9,10,9,7,9,5,3,9,9,Accountant,Business & Finance
+11,5,12,2,11,6,7,3,9,9,1,4,6.67,7,9,1,4,1,7,2,6,4,4,Police Officer,Security & Defense
+10,11,3,11,12,11,1,4,3,11,2,10,7.42,9,9,3,9,9,4,5,10,1,2,Data Scientist,ICT & Computing
+5,10,3,10,12,11,4,11,7,9,10,8,8.33,8,8,2,6,4,10,9,10,5,9,Lab Technologist,Health Sciences
+1,7,5,9,5,9,6,12,9,7,8,9,7.25,10,4,10,4,10,3,5,6,9,1,Police Officer,Security & Defense
+11,10,1,8,5,11,2,11,9,9,2,2,6.75,3,1,9,8,9,9,5,9,6,1,Lawyer,Law & Governance
+11,10,2,9,10,10,6,7,8,3,2,5,6.92,8,7,8,9,8,1,9,1,1,8,Clinical Officer,Health Sciences
+12,7,2,11,3,12,5,3,11,11,4,7,7.33,10,9,3,5,4,3,8,2,1,9,Accountant,Business & Finance
+12,2,4,3,3,10,3,11,7,12,3,8,6.5,9,9,3,2,9,8,1,5,6,6,Software Developer,ICT & Computing
+5,11,12,5,4,5,10,10,5,9,6,8,7.5,6,7,6,8,9,10,10,5,10,5,Marine Engineer,Transport & Aviation
+8,12,6,5,12,11,10,5,12,1,12,6,8.33,7,2,9,8,8,8,6,5,4,7,Police Officer,Security & Defense
+3,10,12,1,10,7,11,3,3,12,3,12,7.25,3,10,9,6,6,4,4,3,2,9,Lecturer,Education
+12,9,5,12,9,8,3,7,2,4,4,10,7.08,8,5,6,2,7,5,9,7,7,10,Clinical Officer,Health Sciences
+1,10,11,10,12,4,10,11,3,12,2,10,8.0,7,5,6,1,7,7,10,6,8,1,Forester,Agriculture & Environment
+10,3,7,1,10,9,12,7,3,9,6,11,7.33,9,9,1,1,9,6,9,1,3,8,Data Scientist,ICT & Computing
+8,8,11,11,5,3,11,8,8,2,5,12,7.67,4,4,7,7,9,4,3,8,10,6,Agronomist,Agriculture & Environment
+3,1,12,9,3,3,7,7,7,2,12,7,6.08,3,8,2,7,6,8,6,6,1,7,Electrician,Skilled Trades & Technical
+12,9,3,11,10,10,7,10,1,10,12,1,8.0,9,9,10,10,9,9,7,9,10,5,AI Engineer,ICT & Computing
+9,10,8,2,4,4,5,10,1,6,2,3,5.33,10,2,2,4,7,2,2,8,2,1,Police Officer,Security & Defense
+12,10,8,8,5,10,1,8,8,10,5,9,7.83,9,9,7,4,9,6,8,9,1,6,Software Developer,ICT & Computing
+9,8,8,5,1,5,4,2,6,8,5,11,6.0,9,3,6,9,1,5,1,8,2,3,Hotel Manager,Hospitality & Tourism
+5,9,10,6,1,9,3,9,6,8,4,12,6.83,5,4,9,4,2,9,7,9,5,7,Teacher,Education
+1,11,5,12,9,8,10,11,12,8,1,12,8.33,2,7,3,5,7,7,6,5,10,1,Forester,Agriculture & Environment
+12,2,11,6,12,11,9,3,6,11,7,2,7.67,4,7,8,9,10,6,7,4,9,5,Graphic Designer,Creative Arts & Media
+2,6,4,4,1,12,3,11,11,10,1,3,5.67,4,6,9,9,8,2,6,1,9,3,Film Producer,Creative Arts & Media
+12,4,9,4,12,11,11,11,2,9,9,12,8.83,9,9,8,4,9,10,9,5,7,2,Civil Engineer,Engineering & Technology
+9,9,3,4,6,12,4,9,2,4,7,8,6.42,8,6,9,1,6,9,10,3,5,3,Public Administrator,Law & Governance
+8,1,4,12,9,10,4,2,10,6,5,11,6.83,9,6,6,10,3,1,5,4,10,7,Military Officer,Security & Defense
+6,3,9,11,12,2,7,10,5,2,5,7,6.58,8,4,10,6,10,4,9,1,2,6,Doctor,Health Sciences
+12,5,6,9,2,10,6,2,11,10,1,6,6.67,9,9,4,4,9,6,1,2,7,8,Mechanical Engineer,Engineering & Technology
+7,2,6,9,5,12,4,11,9,6,4,3,6.5,1,7,9,10,5,2,1,5,6,3,Welder,Skilled Trades & Technical
+3,9,2,10,9,2,4,8,12,6,7,2,6.17,8,4,6,4,8,8,9,1,10,2,Clinical Officer,Health Sciences
+6,3,12,7,1,12,1,9,4,6,11,11,6.92,6,7,5,8,6,2,10,1,6,4,Military Officer,Security & Defense
+8,1,3,12,4,7,8,5,2,10,6,9,6.25,9,7,5,9,6,8,3,9,9,10,Graphic Designer,Creative Arts & Media
+8,5,6,3,6,2,12,8,11,11,1,12,7.08,9,1,6,8,1,1,1,6,10,10,Marine Engineer,Transport & Aviation
+4,10,6,3,3,2,10,10,3,10,1,10,6.0,6,7,9,1,7,9,6,1,10,3,Lawyer,Law & Governance
+1,9,10,2,4,6,12,4,7,10,3,5,6.08,1,4,10,10,7,9,5,8,3,6,Hotel Manager,Hospitality & Tourism
+11,12,8,8,3,1,8,4,3,1,2,5,5.5,7,7,9,2,4,9,4,7,5,4,Education Officer,Education
+8,12,11,6,4,1,7,12,10,7,2,2,6.83,5,5,9,4,6,9,3,2,5,5,Judge,Law & Governance
+10,9,4,6,10,10,1,11,1,10,7,9,7.33,9,9,1,5,9,1,9,10,6,4,AI Engineer,ICT & Computing
+10,1,5,2,1,11,11,4,6,9,3,10,6.08,9,9,1,8,9,6,7,1,3,9,AI Engineer,ICT & Computing
+1,9,11,3,8,8,7,1,10,2,2,5,5.58,3,7,7,3,1,8,4,2,7,1,Military Officer,Security & Defense
+10,12,11,1,12,5,8,9,2,3,2,12,7.25,10,3,9,4,5,9,2,6,1,1,Public Administrator,Law & Governance
+7,10,1,11,6,6,9,9,12,8,8,12,8.25,9,9,2,10,10,1,2,5,2,8,Forester,Agriculture & Environment
+10,9,5,6,2,11,10,7,8,11,5,5,7.42,9,9,7,5,9,8,5,8,6,5,Cybersecurity Analyst,ICT & Computing
+2,2,3,5,11,10,2,7,4,7,8,7,5.67,4,9,3,9,4,7,3,2,9,1,Film Producer,Creative Arts & Media
+10,4,8,5,9,12,10,7,10,10,2,1,7.33,9,9,2,5,9,9,2,2,6,6,Electrical Engineer,Engineering & Technology
+1,11,9,3,2,5,12,10,3,7,12,10,7.08,2,5,9,4,3,4,3,4,9,9,Teacher,Education
+5,5,10,1,8,6,8,3,11,4,4,5,5.83,6,10,5,2,3,2,10,5,4,7,Police Officer,Security & Defense
+3,11,9,9,11,5,5,12,12,2,2,10,7.58,1,2,9,6,7,9,5,5,5,2,Public Administrator,Law & Governance
+9,10,8,8,8,11,7,5,2,2,6,10,7.17,4,1,4,6,7,4,3,3,4,7,Pilot,Transport & Aviation
+12,10,12,11,1,4,2,7,7,12,4,4,7.17,10,4,3,7,4,6,5,1,9,3,Marine Engineer,Transport & Aviation
+10,3,3,2,9,1,3,7,9,3,1,4,4.58,7,9,7,1,10,10,4,5,4,9,Economist,Business & Finance
+2,1,12,11,7,5,11,9,6,5,3,9,6.75,9,1,10,2,2,10,7,10,7,9,Environmental Scientist,Agriculture & Environment
+11,1,8,11,2,11,12,5,4,11,3,9,7.33,9,9,7,5,9,6,7,5,6,3,Civil Engineer,Engineering & Technology
+11,9,11,4,6,6,10,1,7,11,8,9,7.75,3,8,9,4,9,3,9,7,9,6,Lecturer,Education
+6,4,7,11,10,2,9,12,11,12,12,7,8.58,8,4,6,3,2,8,9,7,8,2,Doctor,Health Sciences
+10,1,8,11,9,11,3,4,1,2,6,1,5.58,6,6,10,3,8,4,7,9,8,5,Logistics Officer,Transport & Aviation
+3,10,6,10,4,10,3,9,12,5,9,4,7.08,3,7,8,4,7,7,2,4,4,5,Police Officer,Security & Defense
+8,12,1,4,10,6,12,12,7,10,12,11,8.75,5,8,10,10,2,9,8,2,3,5,Police Officer,Security & Defense
+11,2,8,9,1,11,8,4,7,9,8,3,6.75,9,9,5,10,9,7,5,7,6,10,AI Engineer,ICT & Computing
+2,9,1,1,6,11,2,1,9,1,5,5,4.42,2,6,2,10,6,4,1,1,8,7,Automotive Technician,Skilled Trades & Technical
+3,11,3,8,6,8,8,9,8,4,8,5,6.75,7,8,9,2,1,9,10,3,4,10,Judge,Law & Governance
+10,11,10,12,1,12,8,2,5,9,1,1,6.83,9,9,5,1,9,8,2,6,8,6,Mechanical Engineer,Engineering & Technology
+6,3,10,12,12,2,9,1,9,3,9,2,6.5,8,7,10,9,4,3,9,5,5,2,Lab Technologist,Health Sciences
+9,1,3,12,4,3,1,2,4,9,10,8,5.5,7,10,5,9,1,5,8,3,9,8,Film Producer,Creative Arts & Media
+9,9,6,2,6,1,10,1,9,12,2,9,6.33,5,9,5,8,1,10,7,4,6,9,Economist,Business & Finance
+11,9,2,10,1,9,12,1,2,9,4,10,6.67,9,9,6,1,9,2,1,3,2,6,Electrical Engineer,Engineering & Technology
+8,11,4,3,3,8,3,2,11,9,11,6,6.58,2,1,9,7,1,6,6,1,7,8,Education Officer,Education
+9,10,7,4,8,11,5,4,4,9,12,3,7.17,9,9,5,2,9,2,9,4,7,9,Data Scientist,ICT & Computing
+7,11,10,3,8,10,12,10,1,7,4,10,7.75,4,4,9,9,5,4,2,8,5,9,Education Officer,Education
+8,4,8,10,12,8,10,12,7,5,7,12,8.58,2,7,4,4,8,8,5,8,5,7,Environmental Scientist,Agriculture & Environment
+12,6,11,10,6,8,10,9,9,8,4,12,8.75,2,9,5,10,2,5,3,7,3,4,Environmental Scientist,Agriculture & Environment
+6,9,3,4,11,12,3,12,5,6,11,12,7.83,5,1,1,9,2,6,6,5,9,2,Tour Guide,Hospitality & Tourism
+2,6,2,12,4,12,12,3,7,2,11,12,7.08,8,7,5,5,5,5,2,3,8,5,Environmental Scientist,Agriculture & Environment
+5,1,12,9,12,1,11,4,3,10,11,10,7.42,8,4,6,9,4,7,9,5,5,3,Nurse,Health Sciences
+12,1,7,11,9,1,9,4,4,10,7,11,7.17,1,4,8,8,8,4,7,3,6,3,Agronomist,Agriculture & Environment
+12,7,2,4,2,11,10,2,11,11,12,7,7.58,9,9,3,4,9,5,6,4,4,7,Civil Engineer,Engineering & Technology
+10,8,11,8,3,10,6,9,1,12,10,7,7.92,9,9,5,1,9,10,5,5,3,5,Data Scientist,ICT & Computing
+6,8,1,12,5,1,8,3,4,12,6,6,6.0,2,2,6,9,8,5,6,7,4,9,Electrician,Skilled Trades & Technical
+12,1,7,11,1,8,2,5,10,12,7,4,6.67,6,1,4,5,7,1,7,9,1,7,Military Officer,Security & Defense
+11,7,7,9,9,11,10,4,12,9,7,4,8.33,9,9,7,9,9,6,6,5,10,1,Electrical Engineer,Engineering & Technology
+10,8,6,5,8,6,10,12,1,3,10,6,7.08,8,3,3,9,3,7,10,5,1,8,Automotive Technician,Skilled Trades & Technical
+8,12,7,9,4,6,11,10,1,7,11,11,8.08,10,1,2,1,3,7,1,4,6,2,Veterinary Officer,Agriculture & Environment
+11,12,6,12,7,12,10,5,12,9,6,9,9.25,10,8,9,3,7,2,8,7,7,2,Education Officer,Education
+9,7,12,5,5,2,7,12,11,4,2,6,6.83,10,9,3,10,9,7,7,5,8,9,Accountant,Business & Finance
+11,8,1,11,6,8,12,8,9,4,12,12,8.5,4,9,5,10,6,7,2,3,3,9,Actuary,Business & Finance
+5,9,1,2,12,7,11,11,7,12,1,2,6.67,9,6,9,7,8,9,10,7,6,3,Lawyer,Law & Governance
+12,11,11,4,4,9,4,9,2,10,7,1,7.0,9,9,6,1,9,2,2,5,8,8,Cybersecurity Analyst,ICT & Computing
+5,12,5,12,4,8,3,10,1,11,6,6,6.92,8,1,9,1,10,9,8,5,1,6,Lawyer,Law & Governance
+12,12,5,5,3,2,5,10,2,5,7,10,6.5,3,5,9,9,5,9,2,5,9,3,Lawyer,Law & Governance
+8,11,6,12,2,11,10,11,6,2,10,9,8.17,4,3,7,4,6,8,6,5,9,8,Environmental Scientist,Agriculture & Environment
+5,10,9,11,11,12,8,7,10,9,1,11,8.67,4,9,9,8,5,10,8,8,1,2,Teacher,Education
+9,11,3,6,3,1,5,11,3,11,7,4,6.17,9,1,9,4,6,9,9,1,1,10,Lawyer,Law & Governance
+6,12,1,12,7,7,10,6,12,7,4,12,8.0,9,6,5,6,10,4,1,3,5,8,Agronomist,Agriculture & Environment
+1,6,12,4,1,10,5,8,1,4,9,7,5.67,7,1,10,9,5,2,5,10,9,8,Journalist,Creative Arts & Media
+9,6,10,12,6,10,9,1,10,12,8,7,8.33,9,9,4,7,9,10,2,7,9,1,Civil Engineer,Engineering & Technology
+1,8,1,7,2,9,2,2,6,11,2,1,4.33,4,8,6,4,7,8,4,4,7,4,Military Officer,Security & Defense
+7,12,1,7,9,9,6,10,11,4,1,10,7.25,7,3,9,1,10,9,2,7,9,4,Public Administrator,Law & Governance
+7,11,7,9,5,12,10,5,2,6,11,10,7.92,8,4,5,9,10,3,6,4,9,5,Journalist,Creative Arts & Media
+3,9,10,5,4,9,3,12,1,9,9,8,6.83,3,4,9,7,8,9,9,7,7,4,Public Administrator,Law & Governance
+7,11,11,7,10,10,11,4,7,9,4,6,8.08,4,3,8,6,6,9,10,10,9,1,Police Officer,Security & Defense
+1,3,5,9,11,6,3,9,8,2,9,1,5.58,8,6,5,10,10,10,9,1,5,8,Pharmacist,Health Sciences
+12,12,11,5,8,5,8,12,10,5,1,6,7.92,1,9,5,1,3,5,8,8,1,9,Actuary,Business & Finance
+6,7,9,5,5,4,2,10,5,10,4,8,6.25,10,6,4,1,8,7,9,7,8,8,Police Officer,Security & Defense
+5,10,8,4,5,10,3,7,8,11,12,10,7.75,7,1,9,5,8,5,8,4,7,10,Chef,Hospitality & Tourism
+6,10,4,9,10,6,3,12,8,12,6,1,7.25,3,5,9,10,6,9,10,2,5,6,Judge,Law & Governance
+1,10,6,11,8,12,4,10,5,12,12,3,7.83,1,7,9,6,5,9,10,9,8,8,Lawyer,Law & Governance
+3,3,10,2,12,9,8,7,4,1,11,8,6.5,1,3,1,4,1,5,2,6,8,5,Military Officer,Security & Defense
+1,11,3,12,2,12,9,6,2,1,2,11,6.0,7,6,8,3,10,3,7,8,10,6,Forester,Agriculture & Environment
+9,3,2,1,8,9,12,12,5,9,7,5,6.83,9,9,8,8,9,10,10,8,4,7,Software Developer,ICT & Computing
+9,3,12,12,4,10,8,1,4,10,12,9,7.83,9,9,1,2,9,2,5,2,5,3,Software Developer,ICT & Computing
+1,1,2,11,6,11,9,7,7,10,1,10,6.33,1,4,7,4,7,6,2,6,9,6,Agronomist,Agriculture & Environment
+2,12,7,9,3,10,1,8,7,5,7,9,6.67,8,6,7,9,7,4,10,8,9,6,Film Producer,Creative Arts & Media
+4,3,4,8,3,2,3,11,7,11,11,6,6.08,4,10,1,9,6,6,3,2,9,2,Film Producer,Creative Arts & Media
+11,12,9,6,2,10,7,9,11,9,5,8,8.25,9,9,10,2,9,5,9,6,2,10,Cybersecurity Analyst,ICT & Computing
+12,12,4,10,7,5,10,3,3,11,12,9,8.17,4,3,2,4,5,4,9,5,8,7,Military Officer,Security & Defense
+6,1,12,9,11,6,1,2,9,10,5,4,6.33,5,5,3,9,3,7,7,1,9,6,Graphic Designer,Creative Arts & Media
+4,4,5,12,5,1,11,12,9,8,12,9,7.67,1,8,5,8,7,5,4,7,9,5,Veterinary Officer,Agriculture & Environment
+1,12,9,4,12,2,11,5,4,12,7,12,7.58,8,2,7,3,10,10,9,6,7,4,Military Officer,Security & Defense
+1,9,3,2,10,1,3,5,4,3,9,2,4.33,5,2,1,8,6,6,8,4,5,4,Welder,Skilled Trades & Technical
+9,2,10,4,6,2,12,4,10,8,7,5,6.58,9,9,2,4,3,10,8,7,8,9,Accountant,Business & Finance
+3,3,10,7,1,10,1,1,5,3,3,11,4.83,1,5,3,5,9,6,7,6,9,5,Police Officer,Security & Defense
+7,10,7,11,4,4,12,7,4,5,9,10,7.5,4,6,2,9,10,3,2,4,9,10,Environmental Scientist,Agriculture & Environment
+11,5,11,12,5,2,5,5,7,8,3,1,6.25,4,5,5,10,7,10,7,10,2,8,Chef,Hospitality & Tourism
+5,12,1,6,5,7,9,2,3,11,8,2,5.92,9,1,10,9,6,6,4,2,8,2,Police Officer,Security & Defense
+12,12,9,7,1,8,5,9,11,12,7,10,8.58,4,9,5,10,8,7,5,9,6,9,Accountant,Business & Finance
+9,7,5,3,11,2,11,5,6,3,2,12,6.33,7,9,2,2,4,3,4,10,1,5,Automotive Technician,Skilled Trades & Technical
+6,11,6,1,6,2,2,10,4,4,12,4,5.67,1,5,9,4,2,9,3,9,10,5,Judge,Law & Governance
+7,12,4,12,2,1,4,5,9,10,3,12,6.75,10,1,6,4,2,3,6,8,6,8,Automotive Technician,Skilled Trades & Technical
+4,4,1,5,6,12,8,5,9,9,6,4,6.08,8,8,7,10,5,3,5,1,6,1,Marine Engineer,Transport & Aviation
+9,11,7,4,4,5,5,12,10,9,12,6,7.83,7,8,9,2,9,9,3,6,8,10,Judge,Law & Governance
+8,9,1,10,12,4,5,6,4,10,4,9,6.83,8,1,3,8,2,10,9,3,5,3,Pharmacist,Health Sciences
+6,2,8,7,1,12,8,7,3,10,11,11,7.17,10,1,4,5,7,4,1,3,8,5,Police Officer,Security & Defense
+1,12,11,12,2,4,2,2,2,1,4,2,4.58,1,7,9,8,10,1,7,7,3,10,Education Officer,Education
+12,9,1,3,10,9,8,3,6,9,6,5,6.75,9,9,1,4,9,2,5,8,7,4,Cybersecurity Analyst,ICT & Computing
+4,5,8,10,2,7,9,10,3,3,7,7,6.25,6,8,9,10,8,6,8,4,4,7,Pilot,Transport & Aviation
+11,11,9,10,8,12,1,12,8,10,8,7,8.92,9,9,1,7,9,9,5,1,4,7,Electrical Engineer,Engineering & Technology
+12,4,12,6,8,11,5,5,12,2,12,4,7.75,10,9,7,9,8,4,5,10,2,9,Actuary,Business & Finance
+2,12,3,11,9,9,6,8,11,9,6,9,7.92,8,8,4,10,4,2,9,2,1,3,Nurse,Health Sciences
+7,12,9,7,2,10,6,2,7,1,5,10,6.5,3,9,2,6,10,9,4,6,4,5,Electrician,Skilled Trades & Technical
+8,12,1,9,9,9,6,3,4,11,7,2,6.75,1,4,9,6,1,5,3,5,8,3,Education Officer,Education
+1,4,5,10,11,10,5,10,8,7,6,6,6.92,8,7,10,7,5,8,9,7,6,4,Clinical Officer,Health Sciences
+12,6,4,6,2,6,7,11,12,2,10,1,6.58,10,9,8,6,7,8,1,6,6,9,Financial Analyst,Business & Finance
+3,12,12,5,4,5,6,9,3,5,1,2,5.58,2,9,9,3,2,9,9,2,5,9,Lawyer,Law & Governance
+10,12,8,10,8,10,12,12,9,8,9,12,10.0,1,3,9,8,1,9,10,4,6,1,Judge,Law & Governance
+11,9,2,1,4,7,1,2,6,1,5,1,4.17,8,2,9,2,9,2,6,2,4,6,Teacher,Education
+8,5,2,10,9,5,12,5,2,12,3,10,6.92,2,9,9,4,5,8,7,7,8,1,Agronomist,Agriculture & Environment
+6,5,7,9,6,7,2,10,12,12,6,10,7.67,3,8,9,9,10,7,6,3,3,2,Electrician,Skilled Trades & Technical
+5,8,5,2,9,11,2,3,9,3,6,7,5.83,4,7,3,10,10,2,5,6,7,7,Police Officer,Security & Defense
+9,6,3,5,5,4,8,2,12,6,4,11,6.25,4,5,2,9,7,8,1,2,9,1,Film Producer,Creative Arts & Media
+3,4,6,12,12,10,4,9,12,1,10,3,7.17,8,3,4,1,1,3,9,8,5,2,Lab Technologist,Health Sciences
+4,11,7,2,4,8,5,7,4,7,6,6,5.92,3,5,7,3,9,2,6,6,9,9,Automotive Technician,Skilled Trades & Technical
+1,1,10,3,4,11,11,1,2,7,8,2,5.08,2,6,8,3,4,3,6,2,1,4,Hotel Manager,Hospitality & Tourism
+9,3,4,9,8,4,6,11,2,9,7,12,7.0,2,3,5,9,10,8,4,8,2,6,Military Officer,Security & Defense
+2,5,12,2,9,8,12,11,6,9,12,10,8.17,4,2,4,9,7,4,2,6,9,3,Journalist,Creative Arts & Media
+2,10,8,5,10,1,3,10,12,2,8,3,6.17,3,3,8,8,6,5,7,5,3,3,Automotive Technician,Skilled Trades & Technical
+4,12,8,3,10,2,1,3,6,2,1,7,4.92,6,1,10,4,9,9,9,10,10,3,Pilot,Transport & Aviation
+11,1,9,10,9,12,6,7,9,10,11,10,8.75,9,9,9,8,9,1,10,9,6,1,Electrical Engineer,Engineering & Technology
+11,10,5,4,10,11,2,5,7,12,11,12,8.33,9,9,4,3,9,1,7,4,2,3,Mechatronics Engineer,Engineering & Technology
+5,4,10,11,12,12,6,5,5,2,12,1,7.08,8,4,10,6,9,5,9,1,7,1,Clinical Officer,Health Sciences
+1,4,9,4,2,3,7,7,12,3,12,4,5.67,5,9,8,5,7,5,9,4,2,9,Police Officer,Security & Defense
+3,10,10,2,2,7,10,5,1,12,9,4,6.25,8,7,8,9,5,3,6,1,7,8,Pilot,Transport & Aviation
+1,3,4,8,3,1,10,4,2,2,7,4,4.08,5,5,2,2,8,6,6,9,3,1,Chef,Hospitality & Tourism
+12,6,7,11,2,6,10,3,5,5,9,10,7.17,8,1,3,2,10,6,5,2,3,2,Forester,Agriculture & Environment
+4,12,2,5,2,8,10,9,2,9,10,4,6.42,3,4,9,7,10,9,9,9,6,9,Judge,Law & Governance
+10,3,4,3,3,12,5,10,6,7,10,6,6.58,10,4,2,5,3,4,2,5,7,9,Welder,Skilled Trades & Technical
+7,5,4,10,8,2,9,3,4,11,11,11,7.08,3,7,8,7,2,10,6,4,10,9,Agronomist,Agriculture & Environment
+3,5,3,9,1,1,9,5,3,10,5,12,5.5,10,6,9,7,8,9,7,7,4,1,Tour Guide,Hospitality & Tourism
+10,5,8,9,4,5,11,11,1,10,12,8,7.83,5,5,6,10,1,10,3,5,1,10,Automotive Technician,Skilled Trades & Technical
+8,9,12,12,11,7,5,5,8,12,4,1,7.83,8,9,2,10,1,5,9,2,5,6,Lab Technologist,Health Sciences
+9,1,1,12,12,10,5,5,7,7,7,1,6.42,6,10,9,4,9,1,3,4,5,7,Automotive Technician,Skilled Trades & Technical
+10,1,9,1,4,1,7,11,10,2,7,2,5.42,2,9,1,8,7,4,6,9,1,9,Financial Analyst,Business & Finance
+9,10,11,6,11,10,1,4,8,11,1,8,7.5,9,9,10,6,9,10,6,6,6,3,Cybersecurity Analyst,ICT & Computing
+5,9,3,9,6,9,9,8,1,5,9,12,7.08,1,1,10,7,6,1,8,3,2,6,Veterinary Officer,Agriculture & Environment
+12,10,9,12,9,1,8,12,12,9,6,2,8.5,8,8,1,8,7,3,8,7,2,4,Police Officer,Security & Defense
+12,4,2,4,3,11,9,6,11,11,6,6,7.08,2,9,1,8,2,9,2,1,8,9,Actuary,Business & Finance
+9,7,9,5,7,9,9,8,3,11,2,1,6.67,4,4,8,8,2,9,7,5,9,7,Pilot,Transport & Aviation
+7,3,9,5,2,1,8,6,3,2,11,12,5.75,3,1,7,6,9,9,9,2,10,4,Automotive Technician,Skilled Trades & Technical
+1,10,10,11,12,7,2,6,6,2,4,8,6.58,8,8,5,5,3,9,9,2,10,6,Lab Technologist,Health Sciences
+9,12,4,11,3,6,11,11,10,12,9,11,9.08,3,2,2,1,5,1,2,6,7,7,Forester,Agriculture & Environment
+10,3,4,11,10,11,9,2,1,9,1,10,6.75,1,3,5,9,8,6,4,6,7,7,Environmental Scientist,Agriculture & Environment
+4,9,8,3,11,1,12,9,10,2,10,10,7.42,8,3,9,4,3,5,7,6,1,2,Education Officer,Education
+10,8,4,6,8,3,2,8,11,8,12,12,7.67,6,9,5,10,2,8,8,5,7,9,Actuary,Business & Finance
+3,7,3,8,10,8,6,11,6,11,6,2,6.75,4,1,2,5,2,7,4,1,9,4,Police Officer,Security & Defense
+1,4,4,12,2,12,5,3,8,3,3,5,5.17,7,9,9,7,6,6,4,9,8,9,Logistics Officer,Transport & Aviation
+7,12,11,11,11,6,11,1,5,9,6,5,7.92,2,5,6,9,3,4,9,1,9,6,Animator,Creative Arts & Media
+11,5,9,1,7,10,10,5,12,10,3,2,7.08,3,8,10,7,2,6,8,5,8,10,Military Officer,Security & Defense
+8,7,6,5,11,6,4,11,12,10,4,7,7.58,6,6,7,7,7,8,10,5,3,7,Military Officer,Security & Defense
+10,10,2,10,1,5,12,5,4,10,2,9,6.67,9,7,10,2,5,10,3,1,1,4,Veterinary Officer,Agriculture & Environment
+11,5,8,4,6,8,9,7,9,10,12,1,7.5,7,9,2,1,8,1,5,8,1,9,Actuary,Business & Finance
+10,4,7,5,11,6,12,5,11,5,4,8,7.33,10,9,5,4,5,6,10,3,3,9,Actuary,Business & Finance
+10,4,11,11,1,4,2,6,6,10,12,4,6.75,7,9,9,6,6,6,6,6,3,8,Electrician,Skilled Trades & Technical
+1,3,12,9,7,1,1,1,10,12,1,12,5.83,10,10,3,3,7,6,2,7,8,9,Pilot,Transport & Aviation
+9,12,1,5,10,11,12,11,9,6,11,10,8.92,5,9,1,3,7,5,8,3,1,9,Banker,Business & Finance
+9,3,3,9,11,5,11,4,5,8,3,11,6.83,10,8,2,7,7,2,10,10,3,5,Veterinary Officer,Agriculture & Environment
+6,2,2,9,7,9,12,1,11,5,8,11,6.92,7,1,3,4,4,7,4,9,1,3,Military Officer,Security & Defense
+12,5,8,1,12,11,12,5,12,4,6,2,7.5,2,9,4,5,1,5,3,10,5,9,Economist,Business & Finance
+11,11,1,8,12,10,4,8,3,2,12,9,7.58,7,4,3,7,9,5,2,6,3,9,Hotel Manager,Hospitality & Tourism
+3,12,3,11,7,4,12,4,11,8,3,11,7.42,1,8,1,8,4,5,3,6,8,8,Forester,Agriculture & Environment
+1,10,1,1,8,3,6,9,7,9,3,11,5.75,1,4,9,10,10,9,3,5,4,8,Judge,Law & Governance
+3,6,4,8,8,10,4,3,8,12,2,1,5.75,4,2,5,5,4,8,5,1,9,10,Tour Guide,Hospitality & Tourism
+5,11,5,2,3,11,11,4,3,4,6,5,5.83,10,6,3,1,6,5,10,2,4,4,Tour Guide,Hospitality & Tourism
+11,4,8,11,9,4,12,9,8,3,4,12,7.92,2,3,6,4,1,2,3,6,5,7,Environmental Scientist,Agriculture & Environment
+7,5,1,7,1,8,6,1,10,2,11,6,5.42,6,3,5,9,5,1,6,1,7,10,Tour Guide,Hospitality & Tourism
+12,4,5,12,3,7,1,11,12,7,9,11,7.83,4,9,2,3,5,1,9,10,1,9,Economist,Business & Finance
+5,12,12,10,7,11,4,4,10,11,9,9,8.67,10,10,2,10,4,1,2,5,7,9,Automotive Technician,Skilled Trades & Technical
+4,7,7,1,12,9,4,2,6,5,9,5,5.92,8,3,5,9,8,9,7,3,9,3,Animator,Creative Arts & Media
+2,9,7,9,2,10,7,8,4,3,6,11,6.5,7,3,2,8,9,6,8,2,2,6,Tour Guide,Hospitality & Tourism
+11,9,11,9,8,10,9,10,1,10,6,1,7.92,9,9,10,2,9,2,1,3,9,9,Data Scientist,ICT & Computing
+6,3,12,10,1,11,9,2,5,8,12,5,7.0,7,4,6,5,3,9,9,5,10,7,Police Officer,Security & Defense
+12,10,1,1,10,9,3,7,12,12,1,3,6.75,9,9,6,2,9,9,4,6,8,3,Civil Engineer,Engineering & Technology
+3,4,12,1,4,1,4,4,9,8,3,2,4.58,2,7,8,9,1,1,9,7,9,2,Film Producer,Creative Arts & Media
+2,4,2,9,9,11,11,12,11,5,2,7,7.08,8,8,6,4,1,8,9,4,2,10,Doctor,Health Sciences
+7,12,4,8,8,6,3,11,12,6,1,4,6.83,3,10,9,1,6,5,6,9,3,6,Lecturer,Education
+11,2,10,1,9,2,12,8,11,11,5,12,7.83,8,9,1,10,1,3,1,9,5,9,Banker,Business & Finance
+11,9,6,12,7,10,5,9,5,10,2,3,7.42,9,9,1,3,9,5,6,3,3,5,AI Engineer,ICT & Computing
+3,8,2,2,11,12,4,11,1,2,9,6,5.92,10,5,5,7,3,4,8,8,6,4,Marine Engineer,Transport & Aviation
+10,1,2,1,5,4,5,12,10,7,10,9,6.33,7,9,7,1,7,6,6,8,7,9,Actuary,Business & Finance
+9,9,11,10,12,11,6,5,5,10,7,4,8.25,9,9,4,7,9,3,1,10,8,2,Electrical Engineer,Engineering & Technology
+10,8,1,4,8,3,7,5,4,9,1,12,6.0,1,3,10,8,4,8,3,4,3,5,Electrician,Skilled Trades & Technical
+12,12,6,11,9,12,2,1,2,9,7,5,7.33,9,9,8,8,9,6,4,6,7,2,Mechanical Engineer,Engineering & Technology
+7,1,11,10,11,12,12,12,1,10,1,11,8.25,10,7,6,3,7,6,2,9,5,2,Agronomist,Agriculture & Environment
+11,10,11,4,10,10,5,5,3,5,4,3,6.75,2,3,9,3,1,3,1,4,3,8,Teacher,Education
+3,4,12,11,9,11,3,11,4,3,4,5,6.67,8,8,9,6,5,6,9,8,5,3,Doctor,Health Sciences
+11,8,5,7,11,9,11,10,9,11,7,10,9.08,1,9,3,1,10,5,2,8,10,9,Accountant,Business & Finance
+4,9,10,12,7,10,7,12,9,10,1,2,7.75,4,3,9,9,1,3,3,4,2,1,Military Officer,Security & Defense
+10,10,4,8,2,8,5,9,1,5,5,2,5.75,7,8,9,5,4,9,7,9,9,9,Public Administrator,Law & Governance
+11,7,6,7,8,9,5,1,3,11,2,12,6.83,9,9,4,9,9,6,5,3,3,2,Cybersecurity Analyst,ICT & Computing
+9,10,10,1,6,12,5,4,11,4,6,10,7.33,8,9,5,8,2,1,8,1,8,10,Tour Guide,Hospitality & Tourism
+9,12,5,7,3,11,6,11,2,9,6,8,7.42,9,9,9,6,9,9,2,10,4,7,Mechatronics Engineer,Engineering & Technology
+6,5,3,10,10,8,11,6,5,3,3,10,6.67,8,3,9,7,8,3,1,6,10,5,Agronomist,Agriculture & Environment
+5,1,12,11,3,3,7,12,1,8,1,3,5.58,1,5,5,2,6,9,10,4,5,10,Pilot,Transport & Aviation
+9,8,10,10,2,1,11,1,10,2,11,11,7.17,8,8,4,6,1,8,7,7,5,2,Agronomist,Agriculture & Environment
+2,9,9,9,9,12,9,10,4,9,6,11,8.25,9,4,4,4,4,9,9,7,10,8,Agronomist,Agriculture & Environment
+10,9,3,4,6,11,5,7,6,10,11,8,7.5,9,9,2,9,9,6,6,9,5,7,Civil Engineer,Engineering & Technology
+5,4,3,10,11,2,9,5,11,5,1,12,6.5,3,5,9,6,4,3,6,7,10,5,Forester,Agriculture & Environment
+4,2,1,11,9,4,10,6,4,9,10,6,6.33,9,7,9,9,2,4,2,3,1,7,Military Officer,Security & Defense
+12,10,1,3,12,9,4,5,11,7,3,1,6.5,4,9,9,5,8,6,1,5,3,9,Actuary,Business & Finance
+2,10,5,11,9,8,3,6,4,1,6,4,5.75,2,8,1,5,4,9,8,7,6,2,Marine Engineer,Transport & Aviation
+9,3,9,7,10,10,12,8,6,10,5,6,7.92,9,9,2,6,9,5,1,2,6,3,Electrical Engineer,Engineering & Technology
+11,5,5,9,11,11,8,8,1,12,9,2,7.67,9,9,2,9,9,10,8,7,8,8,AI Engineer,ICT & Computing
+7,11,4,12,11,12,1,12,2,9,5,11,8.08,8,8,5,2,2,1,9,8,1,8,Pharmacist,Health Sciences
+2,2,3,11,8,11,10,9,6,8,6,11,7.25,2,6,10,5,4,10,4,10,10,1,Agronomist,Agriculture & Environment
+10,4,6,4,7,11,11,2,10,10,9,11,7.92,3,9,3,6,4,6,10,10,6,9,Banker,Business & Finance
+9,5,2,10,9,1,10,5,12,6,7,8,7.0,8,10,5,6,7,4,9,1,1,9,Pharmacist,Health Sciences
+12,4,12,6,10,7,8,12,10,6,10,7,8.67,4,9,9,3,2,10,8,7,9,9,Actuary,Business & Finance
+11,7,1,3,7,9,11,12,9,12,9,12,8.58,9,9,2,2,9,6,2,4,1,2,Civil Engineer,Engineering & Technology
+10,11,5,11,10,3,9,10,8,11,5,3,8.0,8,3,4,6,10,1,9,9,10,5,Pharmacist,Health Sciences
+9,6,1,7,7,9,9,7,3,11,5,9,6.92,9,9,5,3,9,4,9,10,9,8,Mechanical Engineer,Engineering & Technology
+12,9,5,8,4,6,7,12,12,8,12,3,8.17,2,5,4,5,2,7,5,3,10,2,Logistics Officer,Transport & Aviation
+10,6,5,4,5,12,2,8,2,10,4,4,6.0,9,9,8,6,9,2,2,2,9,6,Cybersecurity Analyst,ICT & Computing
+6,2,5,1,5,4,6,3,4,2,3,2,3.58,6,10,9,7,6,1,3,7,5,1,Automotive Technician,Skilled Trades & Technical
+3,4,4,2,10,10,9,9,9,2,12,1,6.25,3,1,9,6,4,10,6,6,7,9,Chef,Hospitality & Tourism
+11,3,1,3,9,11,8,1,11,11,12,12,7.75,9,9,9,5,9,5,7,1,1,9,Data Scientist,ICT & Computing
+3,10,3,12,11,11,10,12,1,8,11,4,8.0,9,8,6,4,7,1,9,9,6,4,Automotive Technician,Skilled Trades & Technical
+9,2,10,10,3,3,10,12,1,9,12,12,7.75,2,4,9,4,2,10,7,2,8,9,Veterinary Officer,Agriculture & Environment
+11,5,7,11,9,7,6,11,9,5,5,6,7.67,8,9,6,9,4,5,9,10,7,6,Nurse,Health Sciences
+9,12,11,6,2,10,9,11,11,10,1,8,8.33,6,2,9,7,9,9,10,2,3,5,Judge,Law & Governance
+12,5,1,12,3,5,10,7,8,10,1,11,7.08,7,10,9,4,10,2,5,1,8,9,Forester,Agriculture & Environment
+4,2,7,8,9,6,5,6,12,9,6,1,6.25,7,9,9,6,8,10,3,2,1,3,Pilot,Transport & Aviation
+10,1,11,2,4,10,2,6,8,9,4,10,6.42,9,9,8,3,9,1,9,3,3,3,Civil Engineer,Engineering & Technology
+2,10,12,5,11,8,4,2,11,10,3,3,6.75,1,1,6,9,6,5,10,10,5,8,Pilot,Transport & Aviation
+10,8,4,12,3,4,9,1,12,3,1,4,5.92,5,9,9,7,6,10,7,2,7,9,Actuary,Business & Finance
+12,7,2,5,9,11,4,3,7,11,9,7,7.25,9,9,3,4,9,6,7,6,9,1,AI Engineer,ICT & Computing
+6,6,3,9,4,10,10,4,6,1,2,10,5.92,7,7,9,7,8,10,1,1,4,2,Veterinary Officer,Agriculture & Environment
+8,12,2,3,6,9,5,7,2,6,6,12,6.5,2,6,9,8,6,9,3,8,7,8,Teacher,Education
+9,4,12,11,11,5,8,11,2,12,9,3,8.08,2,8,8,1,3,9,6,8,10,4,Logistics Officer,Transport & Aviation
+9,11,1,9,4,12,5,8,7,9,6,2,6.92,9,9,5,6,9,1,3,7,3,10,Electrical Engineer,Engineering & Technology
+5,11,11,4,3,11,6,11,12,4,4,11,7.75,1,10,2,7,9,1,6,1,10,3,Military Officer,Security & Defense
+12,7,5,1,10,12,8,3,9,9,6,5,7.25,9,9,4,2,9,1,3,6,9,6,Mechanical Engineer,Engineering & Technology
+11,4,5,7,11,9,1,1,3,11,7,5,6.25,9,9,8,2,9,6,6,2,8,2,Data Scientist,ICT & Computing
+7,10,3,9,1,10,7,10,8,7,5,10,7.25,10,4,9,8,5,9,10,3,6,7,Judge,Law & Governance
+8,7,2,2,2,9,10,9,4,2,4,9,5.67,8,9,10,1,7,3,1,7,4,9,Marine Engineer,Transport & Aviation
+2,4,11,5,11,6,5,2,3,8,3,6,5.5,9,4,2,9,2,9,6,3,9,8,Journalist,Creative Arts & Media
+2,11,9,1,7,12,8,9,11,6,8,8,7.67,4,6,9,6,1,9,10,8,8,3,Lawyer,Law & Governance
+8,9,9,1,8,7,1,12,4,6,4,1,5.83,6,4,9,10,10,9,1,2,2,5,Public Administrator,Law & Governance
+6,5,12,12,8,3,11,10,6,1,3,1,6.5,1,8,7,3,1,3,8,2,2,4,Chef,Hospitality & Tourism
+12,3,1,12,11,12,5,4,4,11,8,6,7.42,9,9,1,3,9,7,4,1,10,9,AI Engineer,ICT & Computing
+9,7,9,12,4,10,9,9,8,9,11,7,8.67,9,9,10,2,9,8,4,10,7,4,Mechatronics Engineer,Engineering & Technology
+10,7,6,11,4,5,5,1,4,5,4,9,5.92,1,1,8,8,5,10,9,9,5,5,Chef,Hospitality & Tourism
+11,5,10,10,8,8,3,9,7,3,3,1,6.5,5,7,7,9,6,7,7,9,9,2,Journalist,Creative Arts & Media
+9,12,6,7,10,10,3,12,1,11,12,3,8.0,9,9,5,8,9,2,2,5,4,1,Software Developer,ICT & Computing
+1,8,9,8,9,4,10,4,5,2,10,4,6.17,3,1,5,9,10,6,1,7,9,7,Graphic Designer,Creative Arts & Media
+11,12,5,6,10,11,2,9,5,8,9,8,8.0,6,2,9,6,10,9,5,2,10,2,Public Administrator,Law & Governance
+9,11,2,10,12,5,5,10,2,10,8,8,7.67,7,4,6,10,1,9,5,9,9,10,Tour Guide,Hospitality & Tourism
+10,6,6,6,3,9,6,9,4,10,9,7,7.08,9,9,6,1,9,7,2,9,10,9,Mechatronics Engineer,Engineering & Technology
+8,6,6,10,10,10,5,8,7,10,7,12,8.25,8,3,10,6,1,5,9,4,10,6,Clinical Officer,Health Sciences
+11,10,12,2,1,12,9,7,7,1,7,11,7.5,1,2,9,5,10,7,6,7,5,9,Logistics Officer,Transport & Aviation
+3,7,11,2,10,7,9,12,3,10,7,9,7.5,7,4,7,4,8,6,3,7,5,2,Logistics Officer,Transport & Aviation
+8,2,11,12,1,11,12,9,7,5,12,9,8.25,9,9,4,3,3,1,9,6,7,1,Environmental Scientist,Agriculture & Environment
+5,11,9,12,12,11,5,7,6,11,12,12,9.42,8,3,1,4,5,3,9,7,7,8,Nurse,Health Sciences
+4,11,2,9,5,9,2,5,2,10,3,10,6.0,10,4,5,1,5,4,7,1,9,5,Hotel Manager,Hospitality & Tourism
+3,9,8,8,4,1,9,5,8,1,3,11,5.83,3,2,9,7,2,2,3,6,7,4,Tour Guide,Hospitality & Tourism
+4,9,10,5,2,4,9,2,11,7,7,4,6.17,1,6,9,4,3,2,7,5,4,8,Lecturer,Education
+4,5,5,12,5,1,2,1,2,8,4,1,4.17,10,2,3,8,7,8,4,2,2,10,Welder,Skilled Trades & Technical
+11,7,1,9,12,3,3,5,10,7,9,1,6.5,8,1,10,4,4,2,9,3,1,4,Doctor,Health Sciences
+9,12,6,3,8,10,6,10,10,10,9,8,8.42,9,9,7,1,9,7,3,7,5,7,Civil Engineer,Engineering & Technology
+10,10,6,11,9,8,2,7,9,9,10,2,7.75,3,9,10,8,3,3,5,4,1,9,Banker,Business & Finance
+11,1,1,3,2,9,12,11,6,11,6,9,6.83,9,9,8,5,9,5,6,1,10,9,Data Scientist,ICT & Computing
+12,6,8,12,6,1,3,3,5,8,5,5,6.17,4,2,8,10,10,8,7,1,8,3,Hotel Manager,Hospitality & Tourism
+2,9,2,8,5,3,11,6,2,6,8,2,5.33,6,6,1,1,5,4,5,4,4,10,Military Officer,Security & Defense
+7,10,7,4,10,8,1,9,7,8,8,1,6.67,5,7,1,9,7,9,6,8,9,9,Graphic Designer,Creative Arts & Media
+11,12,8,7,12,4,4,3,4,10,12,11,8.17,8,7,7,3,6,5,4,9,1,10,Military Officer,Security & Defense
+9,7,6,2,10,6,6,11,1,9,10,1,6.5,5,4,1,4,4,8,5,8,3,2,Hotel Manager,Hospitality & Tourism
+4,9,12,9,9,7,10,11,2,1,12,12,8.17,8,6,9,4,9,9,7,9,8,7,Public Administrator,Law & Governance
+9,3,10,8,6,9,3,2,4,11,1,12,6.5,9,9,9,9,9,4,3,5,1,10,Electrical Engineer,Engineering & Technology
+2,12,8,10,9,12,7,10,7,5,9,7,8.17,2,4,9,8,8,9,8,9,9,3,Lawyer,Law & Governance
+9,10,4,5,2,7,7,10,8,2,1,5,5.83,5,2,4,9,3,4,9,8,9,1,Graphic Designer,Creative Arts & Media
+2,3,8,12,3,1,9,11,10,6,8,1,6.17,6,2,7,9,7,5,4,3,9,3,Journalist,Creative Arts & Media
+9,10,11,9,12,11,7,9,3,9,7,11,9.0,9,9,7,2,9,7,6,8,2,5,Mechatronics Engineer,Engineering & Technology
+6,7,5,10,12,4,12,6,8,3,7,5,7.08,3,3,10,8,9,5,2,10,8,6,Police Officer,Security & Defense
+9,11,11,5,12,10,3,12,9,11,8,9,9.17,9,9,7,10,9,1,3,5,7,1,AI Engineer,ICT & Computing
+1,1,6,4,11,10,9,3,10,10,9,7,6.75,6,8,5,6,1,4,2,7,7,9,Electrician,Skilled Trades & Technical
+3,1,6,5,2,3,3,8,4,8,5,3,4.25,1,2,2,6,8,9,3,2,6,5,Marine Engineer,Transport & Aviation
+7,8,6,10,10,3,3,6,4,12,2,4,6.25,8,3,2,9,8,4,9,10,10,4,Clinical Officer,Health Sciences
+4,2,9,4,9,9,10,7,10,9,12,12,8.08,4,8,3,4,2,3,1,9,2,1,Automotive Technician,Skilled Trades & Technical
+9,10,7,4,2,8,4,1,2,11,6,6,5.83,5,10,8,9,2,5,10,6,9,5,Graphic Designer,Creative Arts & Media
+11,12,10,2,10,12,8,6,9,9,1,2,7.67,8,9,8,2,8,10,7,10,4,9,Accountant,Business & Finance
+10,12,8,10,4,5,11,11,11,11,8,4,8.75,2,3,9,4,9,9,2,7,4,4,Lawyer,Law & Governance
+7,9,7,8,11,7,8,12,10,6,6,2,7.75,10,5,9,10,1,6,2,3,5,4,Education Officer,Education
+7,12,3,12,9,1,10,11,11,3,8,7,7.83,8,4,6,6,2,6,9,4,9,10,Doctor,Health Sciences
+10,9,10,11,6,10,2,4,8,10,11,2,7.75,9,6,2,1,10,2,9,10,8,5,Military Officer,Security & Defense
+8,9,9,2,12,11,4,11,1,5,3,11,7.17,3,6,10,9,5,2,2,9,9,1,Animator,Creative Arts & Media
+12,8,7,9,6,11,6,8,6,9,4,6,7.67,9,9,6,9,9,5,5,1,4,7,Software Developer,ICT & Computing
+6,12,3,2,10,1,12,6,1,1,9,11,6.17,1,1,2,5,7,5,7,5,2,2,Police Officer,Security & Defense
+6,9,2,5,11,1,2,4,5,1,11,1,4.83,10,7,4,5,2,7,9,7,3,9,Logistics Officer,Transport & Aviation
+4,8,6,8,7,8,4,11,2,8,5,2,6.08,9,7,7,8,3,8,3,10,7,8,Welder,Skilled Trades & Technical
+3,7,7,3,5,4,8,4,3,7,1,5,4.75,5,4,7,3,5,4,3,6,2,5,Tour Guide,Hospitality & Tourism
+8,7,2,5,6,8,5,4,1,6,10,5,5.58,10,3,9,1,6,2,4,1,9,7,Electrician,Skilled Trades & Technical
+7,6,2,7,3,4,10,1,11,10,9,9,6.58,5,7,7,3,2,2,1,5,3,2,Hotel Manager,Hospitality & Tourism
+10,10,4,6,4,11,2,3,10,1,5,5,5.92,7,5,9,4,2,3,3,8,5,8,Education Officer,Education
+8,9,11,11,2,7,8,2,6,10,7,6,7.25,6,5,9,6,5,9,5,8,4,7,Lecturer,Education
+12,3,12,7,12,6,9,10,1,7,1,10,7.5,4,8,7,5,4,6,3,2,3,9,Hotel Manager,Hospitality & Tourism
+2,10,6,9,12,2,2,11,3,5,2,3,5.58,5,7,5,9,8,7,3,4,9,9,Graphic Designer,Creative Arts & Media
+1,8,4,2,7,1,1,8,6,12,5,4,4.92,2,2,8,9,9,8,7,9,8,4,Police Officer,Security & Defense
+7,12,3,6,9,7,12,9,9,6,7,9,8.0,4,1,9,2,9,9,6,7,6,2,Lawyer,Law & Governance
+7,10,2,10,10,8,10,1,8,12,6,8,7.67,5,5,1,1,6,3,6,5,9,2,Chef,Hospitality & Tourism
+12,10,10,9,4,7,7,3,3,5,2,1,6.08,8,6,9,6,7,10,6,5,8,3,Lecturer,Education
+11,8,8,3,3,11,7,12,1,10,12,8,7.83,9,9,7,8,9,10,5,3,2,8,Civil Engineer,Engineering & Technology
+2,8,9,12,10,7,7,8,11,8,4,8,7.83,8,3,6,4,2,8,9,2,1,5,Lab Technologist,Health Sciences
+2,8,1,9,12,11,9,4,3,2,2,4,5.58,7,5,8,9,7,7,4,4,9,5,Journalist,Creative Arts & Media
+1,11,5,2,6,5,3,4,3,9,1,10,5.0,1,7,9,4,2,9,2,6,1,8,Automotive Technician,Skilled Trades & Technical
+2,3,4,9,2,4,10,12,1,6,3,9,5.42,6,9,8,2,1,8,4,8,9,10,Forester,Agriculture & Environment
+11,3,10,1,10,10,1,6,10,6,11,4,6.92,4,9,6,4,5,7,9,8,8,9,Financial Analyst,Business & Finance
+8,1,6,12,11,3,7,2,6,3,8,3,5.83,8,1,5,8,2,5,9,6,1,4,Lab Technologist,Health Sciences
+3,7,8,2,4,11,3,1,3,12,12,4,5.83,6,1,9,2,5,10,1,3,4,6,Police Officer,Security & Defense
+5,11,3,8,10,9,8,4,1,2,6,6,6.08,5,3,1,4,4,4,1,7,1,2,Marine Engineer,Transport & Aviation
+9,6,12,10,1,12,6,3,6,12,6,7,7.5,7,8,1,9,2,8,10,9,9,7,Film Producer,Creative Arts & Media
+4,11,1,8,9,7,10,6,12,9,4,10,7.58,3,9,9,7,9,1,6,8,5,4,Teacher,Education
+10,3,10,11,8,6,6,7,10,12,12,12,8.92,2,9,8,7,3,2,2,10,8,9,Economist,Business & Finance
+7,7,11,7,5,7,12,4,6,1,3,8,6.5,3,5,5,8,4,3,4,1,2,10,Marine Engineer,Transport & Aviation
+12,3,7,5,8,10,1,8,9,11,4,2,6.67,9,9,1,1,9,8,3,2,4,2,Software Developer,ICT & Computing
+6,4,7,1,2,3,12,12,12,8,9,9,7.08,10,8,2,8,1,10,8,9,7,1,Marine Engineer,Transport & Aviation
+7,9,3,9,11,7,12,8,9,9,3,8,7.92,9,6,6,5,7,10,3,7,2,1,Tour Guide,Hospitality & Tourism
+6,6,12,6,5,12,10,5,1,2,11,2,6.5,8,8,6,9,6,4,5,1,5,7,Police Officer,Security & Defense
+1,5,2,6,9,10,5,9,8,5,1,11,6.0,3,4,6,9,10,9,9,6,9,10,Animator,Creative Arts & Media
+10,5,11,12,9,4,12,10,10,7,2,2,7.83,10,9,8,7,5,8,2,5,3,9,Actuary,Business & Finance
+6,4,7,3,7,2,5,11,6,6,5,5,5.58,5,3,7,9,1,2,5,3,9,7,Film Producer,Creative Arts & Media
+10,11,12,2,2,4,4,4,9,10,6,9,6.92,1,9,6,6,8,8,4,6,4,9,Banker,Business & Finance
+12,10,9,8,7,12,5,11,4,10,1,6,7.92,9,9,2,7,9,2,2,7,1,8,Software Developer,ICT & Computing
+10,1,6,7,2,12,11,4,2,6,1,12,6.17,4,10,10,1,4,7,1,10,1,7,Logistics Officer,Transport & Aviation
+11,1,7,12,11,11,9,6,5,7,1,9,7.5,6,1,2,1,10,5,4,7,1,4,Veterinary Officer,Agriculture & Environment
+11,6,10,7,5,12,12,8,6,9,9,6,8.42,9,9,5,1,9,5,7,8,6,3,Civil Engineer,Engineering & Technology
+9,5,4,5,5,9,2,7,9,7,11,10,6.92,9,5,3,9,10,6,4,6,9,2,Journalist,Creative Arts & Media
+5,12,3,2,4,4,1,3,5,5,10,5,4.92,7,7,9,1,9,1,3,6,6,2,Education Officer,Education
+11,1,11,5,11,4,10,6,11,1,8,4,6.92,6,10,5,5,5,10,2,7,3,5,Police Officer,Security & Defense
+11,6,9,3,6,9,7,10,11,10,1,1,7.0,9,9,6,10,9,7,10,6,4,3,AI Engineer,ICT & Computing
+12,1,6,2,7,1,10,2,2,7,2,8,5.0,8,4,8,9,6,10,6,8,9,9,Graphic Designer,Creative Arts & Media
+11,8,8,6,9,11,6,2,8,11,11,8,8.25,9,9,4,5,9,3,3,5,8,2,Electrical Engineer,Engineering & Technology
+11,2,11,10,12,10,5,1,9,3,5,1,6.67,6,9,9,10,1,10,9,4,8,9,Financial Analyst,Business & Finance
+11,5,4,5,7,10,3,12,9,10,7,9,7.67,9,9,10,2,9,8,8,10,7,9,Data Scientist,ICT & Computing
+10,4,2,4,4,11,11,10,8,11,3,9,7.25,9,9,5,9,9,10,2,8,10,9,Software Developer,ICT & Computing
+4,10,9,11,11,11,9,2,11,7,4,11,8.33,4,5,8,4,4,2,3,1,6,9,Veterinary Officer,Agriculture & Environment
+6,11,12,11,11,7,10,8,12,9,4,6,8.92,8,8,2,8,9,2,9,10,10,5,Clinical Officer,Health Sciences
+11,9,7,10,2,1,1,4,9,3,7,9,6.08,4,8,3,9,6,6,1,4,9,4,Animator,Creative Arts & Media
+1,10,6,10,11,10,11,12,7,12,12,12,9.5,1,5,6,10,7,10,2,7,1,7,Environmental Scientist,Agriculture & Environment
+10,12,7,4,2,12,7,10,2,3,6,8,6.92,10,2,10,2,2,10,6,3,8,5,Police Officer,Security & Defense
+11,9,5,2,5,10,6,10,7,11,8,4,7.33,9,9,3,10,9,10,3,1,1,1,Electrical Engineer,Engineering & Technology
+10,8,9,6,10,9,1,3,3,9,7,6,6.75,1,1,6,9,7,3,8,10,9,7,Logistics Officer,Transport & Aviation
+12,12,3,9,5,11,5,10,6,12,4,10,8.25,9,9,1,5,9,4,8,10,3,4,Cybersecurity Analyst,ICT & Computing
+5,10,7,11,2,8,12,9,9,4,8,9,7.83,6,7,9,9,9,2,9,1,9,2,Animator,Creative Arts & Media
+3,8,10,11,10,6,4,1,11,2,7,5,6.5,7,2,2,9,4,5,6,9,9,5,Film Producer,Creative Arts & Media
+7,12,12,7,10,9,4,4,2,3,3,9,6.83,2,3,3,8,9,9,8,9,8,2,Police Officer,Security & Defense
+3,10,9,9,11,1,8,8,8,12,9,9,8.08,8,8,3,8,5,3,9,8,2,4,Doctor,Health Sciences
+12,4,12,11,4,7,12,8,3,7,9,10,8.25,2,3,9,9,3,4,9,9,7,6,Agronomist,Agriculture & Environment
+9,12,9,10,4,3,3,9,6,10,4,6,7.08,2,5,9,3,6,9,10,2,10,1,Judge,Law & Governance
+12,1,5,10,4,2,10,12,7,6,3,3,6.25,9,9,4,2,4,2,1,1,4,4,Electrician,Skilled Trades & Technical
+11,11,8,8,5,9,3,7,12,11,3,7,7.92,9,9,3,3,9,1,1,9,6,2,Data Scientist,ICT & Computing
+7,3,5,10,9,1,1,9,6,6,9,5,5.92,8,5,6,3,1,10,9,1,7,9,Pharmacist,Health Sciences
+1,2,5,1,6,4,6,1,8,9,2,9,4.5,2,6,10,3,8,4,5,9,6,5,Logistics Officer,Transport & Aviation
+7,6,5,8,11,10,9,4,7,3,7,4,6.75,3,9,5,3,8,10,1,5,1,7,Military Officer,Security & Defense
+11,9,9,12,5,8,5,7,7,12,1,4,7.5,4,5,3,3,7,3,5,6,1,9,Hotel Manager,Hospitality & Tourism
+9,9,11,5,12,9,9,5,1,6,10,10,8.0,2,8,2,9,7,2,6,4,9,7,Film Producer,Creative Arts & Media
+5,7,7,2,5,10,9,2,2,5,9,9,6.0,4,7,3,9,3,10,9,5,9,10,Film Producer,Creative Arts & Media
+2,10,6,9,11,6,3,12,2,4,2,5,6.0,5,9,9,5,2,9,2,5,10,5,Lawyer,Law & Governance
+9,10,10,2,4,11,1,4,5,4,11,1,6.0,1,2,5,10,3,7,10,1,4,8,Hotel Manager,Hospitality & Tourism
+5,12,6,9,9,5,1,11,10,4,8,12,7.67,6,9,9,1,2,8,6,7,8,7,Lecturer,Education
+4,3,12,9,10,6,11,1,6,8,2,8,6.67,5,9,4,2,6,2,8,2,4,10,Military Officer,Security & Defense
+5,2,7,11,4,3,4,2,1,10,11,10,5.83,9,6,2,1,3,3,6,8,10,3,Marine Engineer,Transport & Aviation
+1,5,1,11,3,4,12,2,10,4,10,11,6.17,2,8,10,9,7,4,6,8,9,6,Graphic Designer,Creative Arts & Media
+7,1,11,3,2,12,5,8,5,7,4,1,5.5,10,3,3,8,5,9,10,8,2,8,Tour Guide,Hospitality & Tourism
+6,7,1,12,8,4,12,12,5,12,7,6,7.67,10,9,5,10,9,3,5,1,7,3,Hotel Manager,Hospitality & Tourism
+3,10,3,7,6,5,8,5,6,4,12,5,6.17,5,1,8,5,8,8,6,2,4,2,Military Officer,Security & Defense
+8,5,6,9,12,1,9,7,10,10,3,2,6.83,8,5,3,2,9,9,9,8,8,8,Nurse,Health Sciences
+9,12,8,9,12,11,10,2,1,8,11,12,8.75,5,3,10,3,6,3,10,5,4,1,Agronomist,Agriculture & Environment
+4,8,1,9,10,2,3,6,9,7,2,10,5.92,8,6,1,10,5,4,9,3,8,10,Nurse,Health Sciences
+1,10,11,10,2,1,4,12,3,9,6,7,6.33,2,8,9,7,7,9,8,10,4,6,Public Administrator,Law & Governance
+11,10,5,1,3,12,8,6,12,12,11,9,8.33,9,9,8,10,9,8,8,6,8,9,Electrical Engineer,Engineering & Technology
+1,11,5,3,8,12,2,11,3,1,4,5,5.5,4,7,5,8,9,1,9,9,6,8,Tour Guide,Hospitality & Tourism
+10,6,2,11,11,11,7,2,3,10,12,6,7.58,9,9,6,6,9,5,2,8,4,10,AI Engineer,ICT & Computing
+4,7,6,4,1,11,4,7,4,10,10,7,6.25,3,9,8,9,10,2,4,8,4,8,Chef,Hospitality & Tourism
+1,11,6,9,10,8,1,2,7,4,11,1,5.92,7,1,7,3,3,1,1,10,8,7,Welder,Skilled Trades & Technical
+2,8,3,12,12,7,3,11,5,10,12,8,7.75,8,6,3,4,6,8,9,10,4,2,Lab Technologist,Health Sciences
+2,8,6,11,3,12,12,11,4,11,4,4,7.33,8,10,5,7,5,1,7,6,2,7,Welder,Skilled Trades & Technical
+5,1,8,11,10,10,10,2,4,12,9,10,7.67,6,5,1,4,10,7,2,4,8,8,Forester,Agriculture & Environment
+2,8,6,12,5,4,1,8,8,9,5,10,6.5,5,10,3,9,3,6,5,7,9,10,Animator,Creative Arts & Media
+9,9,9,10,5,11,10,3,3,12,2,3,7.17,3,3,7,2,1,3,10,2,4,3,Military Officer,Security & Defense
+4,9,3,10,5,3,3,12,3,1,10,9,6.0,2,7,9,6,9,9,7,8,4,2,Public Administrator,Law & Governance
+10,8,2,10,8,11,11,8,9,10,12,5,8.67,9,9,9,5,9,2,7,8,6,4,Data Scientist,ICT & Computing
+2,4,12,11,12,4,9,9,10,6,1,5,7.08,8,1,2,7,10,6,9,1,7,8,Lab Technologist,Health Sciences
+10,2,12,2,5,12,1,11,9,12,6,8,7.5,9,9,10,7,9,3,7,6,9,2,Cybersecurity Analyst,ICT & Computing
+12,12,4,5,2,10,7,11,10,7,6,5,7.58,5,3,9,1,7,9,4,9,10,3,Lawyer,Law & Governance
+11,10,9,11,12,7,11,6,12,4,5,3,8.42,8,4,9,2,5,1,9,3,10,7,Clinical Officer,Health Sciences
+1,12,2,8,7,8,1,9,7,7,3,11,6.33,1,6,9,4,9,9,9,5,7,2,Public Administrator,Law & Governance
+12,12,1,1,11,9,6,2,2,9,6,12,6.92,9,9,1,5,9,1,7,9,5,7,Mechanical Engineer,Engineering & Technology
+9,8,10,6,7,5,5,7,8,4,9,6,7.0,2,1,6,5,4,4,10,5,10,3,Military Officer,Security & Defense
+6,3,10,3,9,5,9,9,2,5,5,11,6.42,5,7,2,10,1,1,3,5,9,4,Marine Engineer,Transport & Aviation
+7,11,11,5,12,8,10,12,9,1,6,4,8.0,1,6,9,9,1,1,6,10,7,7,Lecturer,Education
+6,3,11,10,5,6,11,6,11,1,8,8,7.17,4,1,6,2,6,9,3,7,6,3,Hotel Manager,Hospitality & Tourism
+10,11,11,9,10,2,8,8,12,7,3,3,7.83,8,7,6,5,4,3,9,10,1,1,Nurse,Health Sciences
+12,11,8,10,3,5,5,6,7,4,2,5,6.5,1,9,9,10,3,6,5,4,6,6,Lecturer,Education
+12,8,5,9,6,1,4,5,11,1,10,12,7.0,1,2,5,1,3,1,5,9,1,1,Marine Engineer,Transport & Aviation
+9,5,10,7,2,11,5,1,1,10,5,8,6.17,9,9,1,5,9,5,6,7,1,1,Mechatronics Engineer,Engineering & Technology
+9,6,8,11,9,12,1,3,6,9,5,3,6.83,9,9,2,8,9,1,9,3,3,1,AI Engineer,ICT & Computing
+3,9,2,9,9,9,9,3,5,10,8,3,6.58,8,2,8,1,6,7,9,7,7,10,Doctor,Health Sciences
+9,5,11,1,7,10,3,8,11,9,4,6,7.0,7,9,6,7,5,8,5,2,4,9,Financial Analyst,Business & Finance
+3,8,7,6,8,10,1,7,6,1,4,7,5.67,5,10,10,9,8,3,3,3,9,3,Journalist,Creative Arts & Media
+7,11,1,5,1,2,1,5,3,2,2,12,4.33,7,10,9,6,1,9,7,4,6,9,Teacher,Education
+5,8,3,12,12,11,10,8,8,6,6,6,7.92,8,2,9,8,8,7,9,5,9,2,Doctor,Health Sciences
+12,9,6,1,3,11,6,8,9,12,11,4,7.67,9,9,7,2,9,2,9,6,4,9,Electrical Engineer,Engineering & Technology
+7,12,11,1,10,10,2,7,6,2,8,12,7.33,8,7,9,6,3,10,6,1,2,2,Lecturer,Education
+11,12,11,6,4,10,2,12,1,9,5,12,7.92,9,9,7,5,9,6,3,7,1,3,Software Developer,ICT & Computing
+12,11,6,4,4,11,4,11,10,3,10,5,7.58,3,9,9,7,1,4,4,10,9,9,Economist,Business & Finance
+11,10,6,2,2,10,12,10,4,8,7,10,7.67,9,3,9,2,4,9,10,10,9,2,Public Administrator,Law & Governance
+8,5,6,9,12,10,8,5,8,8,11,11,8.42,8,2,3,6,8,2,9,10,5,6,Nurse,Health Sciences
+11,2,12,2,10,12,4,2,2,12,6,1,6.33,9,9,6,1,9,9,1,10,5,8,AI Engineer,ICT & Computing
+12,2,11,10,7,10,12,3,8,6,11,10,8.5,9,3,1,10,2,6,8,5,10,5,Veterinary Officer,Agriculture & Environment
+8,2,3,10,2,5,11,8,5,8,6,9,6.42,4,5,3,9,10,3,2,7,1,9,Veterinary Officer,Agriculture & Environment
+7,12,12,6,9,5,3,10,2,6,1,8,6.75,8,6,9,10,6,8,6,1,1,9,Lecturer,Education
+2,1,11,7,5,7,11,11,1,1,12,4,6.08,3,1,8,8,5,3,10,5,3,9,Chef,Hospitality & Tourism
+9,12,7,7,5,12,9,9,9,2,10,4,7.92,2,9,7,5,1,8,5,9,4,9,Banker,Business & Finance
+12,10,12,3,6,12,12,1,4,12,10,9,8.58,10,5,3,1,7,10,6,3,9,9,Tour Guide,Hospitality & Tourism
+12,8,11,6,5,10,7,2,12,12,12,1,8.17,9,9,6,6,9,2,7,1,6,9,Cybersecurity Analyst,ICT & Computing
+11,8,12,10,5,10,5,7,12,10,12,6,9.0,4,4,10,3,2,5,5,4,3,9,Marine Engineer,Transport & Aviation
+7,3,3,9,10,10,3,3,3,12,6,4,6.08,6,10,5,4,3,6,7,4,8,2,Electrician,Skilled Trades & Technical
+10,2,10,4,6,9,4,4,10,12,4,8,6.92,9,9,1,4,9,5,7,3,10,3,Software Developer,ICT & Computing
+2,9,12,12,3,2,6,1,12,1,4,1,5.42,8,2,10,6,10,1,2,5,6,2,Automotive Technician,Skilled Trades & Technical
+12,1,12,10,10,10,7,3,9,5,8,10,8.08,5,9,2,4,5,8,7,7,6,9,Banker,Business & Finance
+5,7,10,12,11,4,10,9,9,11,12,12,9.33,8,6,7,1,8,7,9,3,7,7,Pharmacist,Health Sciences
+2,6,3,10,12,11,11,12,12,11,6,4,8.33,8,1,7,2,8,2,9,5,7,2,Nurse,Health Sciences
+9,4,5,11,5,6,6,4,5,8,7,11,6.75,6,3,4,10,6,2,9,4,2,8,Tour Guide,Hospitality & Tourism
+2,10,6,9,3,2,5,8,8,2,8,9,6.0,5,3,9,4,10,2,1,6,3,5,Education Officer,Education
+6,1,9,6,8,4,10,7,12,3,10,2,6.5,3,4,6,3,1,7,8,9,10,1,Military Officer,Security & Defense
+8,2,7,3,6,4,1,3,6,2,11,8,5.08,7,1,2,7,1,2,4,4,3,6,Automotive Technician,Skilled Trades & Technical
+11,9,1,5,9,7,7,12,11,2,7,9,7.5,2,9,7,8,3,7,3,7,2,9,Financial Analyst,Business & Finance
+9,4,6,9,3,6,12,11,11,4,4,10,7.42,6,8,10,6,10,2,3,8,1,9,Forester,Agriculture & Environment
+10,6,9,6,2,3,6,12,12,9,4,12,7.58,4,9,6,6,2,9,7,8,9,9,Banker,Business & Finance
+10,10,4,5,9,10,7,2,9,12,1,11,7.5,9,9,6,8,9,1,3,3,4,7,Electrical Engineer,Engineering & Technology
+9,3,10,1,11,8,6,9,6,5,11,4,6.92,9,10,3,9,6,1,4,8,9,4,Journalist,Creative Arts & Media
+10,12,6,7,4,5,1,11,12,7,9,9,7.75,1,3,9,1,6,6,8,9,10,2,Education Officer,Education
+2,6,8,2,11,9,6,12,5,4,7,6,6.5,4,1,6,7,10,8,4,1,6,7,Automotive Technician,Skilled Trades & Technical
+11,4,10,4,8,3,3,3,9,11,10,7,6.92,10,8,4,7,5,1,10,8,9,5,Logistics Officer,Transport & Aviation
+1,10,1,9,8,10,1,5,3,1,3,12,5.33,8,6,9,2,3,6,5,4,9,10,Teacher,Education
+10,2,2,8,8,9,5,11,6,12,8,3,7.0,4,5,9,9,8,5,4,8,9,7,Automotive Technician,Skilled Trades & Technical
+5,11,10,4,7,1,12,4,3,10,11,12,7.5,8,1,10,8,2,9,2,10,5,3,Automotive Technician,Skilled Trades & Technical
+12,4,12,12,1,9,6,10,4,9,9,8,8.0,9,9,5,8,9,2,8,9,1,3,Software Developer,ICT & Computing
+10,9,3,10,2,10,12,4,10,11,10,12,8.58,9,9,1,4,9,8,10,7,3,4,Civil Engineer,Engineering & Technology
+6,9,5,10,9,4,7,7,9,8,5,6,7.08,7,10,9,3,6,6,1,4,1,7,Teacher,Education
+7,1,11,10,8,8,9,10,3,12,5,10,7.83,8,2,2,4,9,8,10,1,1,2,Forester,Agriculture & Environment
+11,9,4,3,7,12,3,11,11,10,7,12,8.33,9,9,10,2,9,9,2,7,7,6,Civil Engineer,Engineering & Technology
+8,4,11,5,2,1,8,4,2,2,7,6,5.0,1,10,2,9,7,1,6,2,8,2,Hotel Manager,Hospitality & Tourism
+12,4,8,5,4,1,8,10,8,9,12,7,7.33,10,9,10,10,9,10,5,9,1,2,Hotel Manager,Hospitality & Tourism
+11,3,7,9,2,7,7,3,2,6,12,2,5.92,3,6,7,1,10,10,9,3,2,7,Pilot,Transport & Aviation
+2,12,4,12,3,10,12,4,7,4,10,1,6.75,3,2,3,9,8,10,2,6,9,4,Journalist,Creative Arts & Media
+9,9,7,10,10,9,10,1,7,12,7,1,7.67,9,9,5,4,9,2,2,7,6,3,Mechatronics Engineer,Engineering & Technology
+3,1,2,2,9,9,8,6,9,5,7,2,5.25,2,4,9,5,5,9,3,3,8,3,Military Officer,Security & Defense
+8,1,6,1,3,5,8,3,8,9,5,8,5.42,7,7,2,10,10,3,8,8,7,3,Automotive Technician,Skilled Trades & Technical
+5,5,2,8,9,2,11,8,5,5,1,12,6.08,4,8,9,9,10,2,9,5,9,7,Journalist,Creative Arts & Media
+7,12,5,2,5,6,5,2,8,2,4,3,5.08,5,9,8,2,4,4,10,9,5,5,Police Officer,Security & Defense
+12,8,2,4,11,10,2,1,5,11,2,8,6.33,9,9,3,3,9,4,3,10,5,1,Data Scientist,ICT & Computing
+2,11,2,5,2,4,8,12,4,2,6,8,5.5,5,3,9,10,1,9,2,9,4,3,Public Administrator,Law & Governance
+12,1,8,3,8,12,9,7,12,5,8,8,7.75,4,10,1,2,5,3,9,8,10,4,Police Officer,Security & Defense
+11,10,10,2,11,5,4,11,1,11,7,4,7.25,10,6,9,2,5,9,2,5,10,8,Public Administrator,Law & Governance
+10,12,1,11,6,11,3,11,12,10,9,8,8.67,9,9,1,8,9,9,5,2,10,7,AI Engineer,ICT & Computing
+9,7,9,7,10,5,8,3,10,3,5,2,6.5,7,9,5,10,9,6,8,3,6,9,Economist,Business & Finance
+8,2,6,10,8,12,11,3,11,12,5,12,8.33,4,7,6,3,4,5,10,9,7,2,Agronomist,Agriculture & Environment
+10,10,9,7,4,2,8,3,11,6,1,2,6.08,9,3,3,9,7,5,8,3,9,5,Journalist,Creative Arts & Media
+6,5,11,11,5,7,2,10,3,6,1,12,6.58,6,9,1,8,3,8,7,3,1,9,Electrician,Skilled Trades & Technical
+7,8,4,9,12,8,5,7,1,5,5,3,6.17,8,9,5,4,8,4,9,3,3,7,Nurse,Health Sciences
+3,8,7,10,12,2,10,7,3,1,6,1,5.83,8,6,4,1,5,1,9,6,7,1,Nurse,Health Sciences
+9,2,9,1,7,3,7,2,9,6,8,7,5.83,5,9,8,9,8,7,4,7,9,9,Actuary,Business & Finance
+8,4,5,12,6,9,7,6,10,11,10,9,8.08,10,4,6,9,7,10,3,1,1,9,Military Officer,Security & Defense
+1,1,8,8,9,3,5,9,6,10,12,4,6.33,7,1,7,7,10,6,3,4,3,9,Tour Guide,Hospitality & Tourism
+12,10,8,10,6,2,3,2,7,1,12,5,6.5,1,3,8,2,2,1,5,9,7,1,Chef,Hospitality & Tourism
+7,12,12,9,3,12,9,5,1,8,3,3,7.0,5,10,9,1,9,8,3,4,2,3,Lecturer,Education
+2,4,7,1,8,8,10,11,3,2,1,7,5.33,1,1,5,9,10,10,4,10,9,10,Film Producer,Creative Arts & Media
+12,5,12,5,5,10,9,5,9,10,9,6,8.08,9,9,2,7,9,1,6,3,5,6,Cybersecurity Analyst,ICT & Computing
+6,4,3,5,4,6,3,4,9,6,1,4,4.58,6,8,2,10,6,4,3,9,5,1,Police Officer,Security & Defense
+9,12,6,2,9,4,11,10,12,2,6,9,7.67,4,9,6,3,8,6,7,9,2,9,Financial Analyst,Business & Finance
+10,12,4,8,11,12,6,9,8,9,4,9,8.5,9,9,9,7,9,2,8,7,10,3,Civil Engineer,Engineering & Technology
+10,6,10,7,10,12,3,2,1,9,5,4,6.58,9,9,9,7,9,9,2,5,10,10,Software Developer,ICT & Computing
+10,1,4,3,10,11,9,5,6,10,10,2,6.75,9,9,3,8,9,2,9,7,10,2,Data Scientist,ICT & Computing
+11,3,6,1,11,10,7,6,5,10,6,8,7.0,9,9,9,7,9,7,10,6,7,10,Software Developer,ICT & Computing
+4,12,7,12,9,3,9,11,2,12,12,2,7.92,8,10,5,1,4,2,9,10,7,3,Lab Technologist,Health Sciences
+12,4,5,11,7,12,12,3,10,10,7,11,8.67,6,7,6,2,5,5,8,6,4,3,Veterinary Officer,Agriculture & Environment
+11,1,4,8,4,10,9,7,10,4,9,9,7.17,9,9,8,1,5,5,10,8,4,9,Economist,Business & Finance
+5,7,10,9,8,7,11,9,9,4,10,10,8.25,2,7,7,3,4,3,4,2,10,5,Agronomist,Agriculture & Environment
+5,11,12,10,8,5,2,9,7,9,11,4,7.75,2,7,9,9,5,9,6,10,5,1,Judge,Law & Governance
+10,10,6,3,4,9,10,6,10,9,2,8,7.25,9,9,5,1,9,7,4,10,9,4,AI Engineer,ICT & Computing
+9,9,10,7,12,2,4,12,8,3,7,4,7.25,2,6,9,5,6,9,3,8,6,2,Public Administrator,Law & Governance
+12,8,12,7,8,12,10,9,11,10,8,4,9.25,3,5,6,7,7,3,1,3,10,6,Electrician,Skilled Trades & Technical
+12,11,11,6,6,3,1,11,4,5,7,8,7.08,9,2,9,9,4,2,4,10,9,10,Graphic Designer,Creative Arts & Media
+6,2,11,9,8,11,5,2,11,4,5,6,6.67,4,8,3,9,4,8,9,6,9,10,Graphic Designer,Creative Arts & Media
+9,1,12,4,1,11,5,7,9,8,2,2,5.92,3,9,2,6,7,7,4,7,2,9,Banker,Business & Finance
+3,5,11,10,4,10,4,7,10,11,4,12,7.58,5,5,5,3,10,7,7,6,7,3,Marine Engineer,Transport & Aviation
+9,9,9,3,11,4,5,10,12,7,9,2,7.5,5,7,9,2,7,9,9,10,10,9,Lawyer,Law & Governance
+11,7,3,9,5,10,10,1,7,11,6,6,7.17,9,9,3,2,9,5,5,8,2,2,Mechatronics Engineer,Engineering & Technology
+11,5,11,11,12,4,3,4,11,3,9,12,8.0,8,6,10,1,2,10,9,7,8,7,Lab Technologist,Health Sciences
+1,1,12,3,5,11,11,3,3,9,3,5,5.58,10,6,5,3,10,4,9,1,3,6,Logistics Officer,Transport & Aviation
+11,12,3,5,7,12,4,12,4,10,12,5,8.08,7,5,1,4,3,10,2,6,6,8,Pilot,Transport & Aviation
+10,11,5,5,8,2,3,12,7,4,10,1,6.5,3,4,9,10,10,9,8,10,5,5,Lawyer,Law & Governance
+12,8,3,2,3,7,11,11,11,7,11,2,7.33,3,9,8,9,5,3,9,6,9,9,Financial Analyst,Business & Finance
+6,8,9,9,11,8,12,12,7,9,6,3,8.33,8,3,6,9,3,5,9,10,6,8,Doctor,Health Sciences
+10,4,11,4,11,11,2,8,5,11,8,8,7.75,6,1,6,3,1,5,5,8,7,9,Logistics Officer,Transport & Aviation
+11,8,10,1,4,11,12,6,11,10,10,6,8.33,9,9,2,10,9,7,10,6,6,7,Mechatronics Engineer,Engineering & Technology
+6,12,9,1,5,9,10,12,12,3,10,10,8.25,3,4,9,2,2,9,3,10,2,2,Lawyer,Law & Governance
+12,8,6,8,6,8,7,11,12,12,5,4,8.25,1,9,9,1,4,10,1,4,3,9,Financial Analyst,Business & Finance
+10,11,7,12,7,4,8,5,12,5,3,4,7.33,1,9,5,10,1,5,5,1,7,9,Economist,Business & Finance
+9,7,6,10,3,4,11,11,6,2,11,7,7.25,8,8,8,2,2,2,7,8,8,8,Automotive Technician,Skilled Trades & Technical
+10,8,8,12,11,1,2,8,7,3,1,9,6.67,4,2,2,9,5,1,6,3,9,3,Animator,Creative Arts & Media
+10,5,2,11,12,12,5,9,2,11,11,2,7.67,9,9,7,6,9,7,7,2,3,10,Software Developer,ICT & Computing
+3,12,3,2,11,10,2,10,6,11,8,12,7.5,3,7,9,1,1,9,10,7,1,10,Lawyer,Law & Governance
+4,5,1,12,1,7,2,11,5,12,8,4,6.0,3,7,2,9,6,7,10,5,2,3,Automotive Technician,Skilled Trades & Technical
+2,11,5,10,3,4,11,2,5,12,12,9,7.17,9,1,3,8,6,7,8,7,4,2,Environmental Scientist,Agriculture & Environment
+9,3,11,11,7,9,12,11,7,9,5,9,8.58,4,5,9,1,7,2,8,7,6,5,Forester,Agriculture & Environment
+7,11,6,3,9,2,11,5,9,2,6,3,6.17,8,6,8,9,1,4,7,1,9,7,Journalist,Creative Arts & Media
+12,11,9,12,12,12,12,9,11,12,3,9,10.33,9,9,3,7,9,10,1,3,2,4,Electrical Engineer,Engineering & Technology
+10,6,6,11,10,11,4,2,2,8,6,11,7.25,8,2,8,5,10,5,9,3,3,4,Nurse,Health Sciences
+7,9,4,10,9,12,4,5,7,12,9,1,7.42,7,4,9,4,2,7,1,1,8,3,Lecturer,Education
+5,8,5,10,2,6,2,9,9,5,3,9,6.08,8,3,7,6,5,6,10,9,2,5,Military Officer,Security & Defense
+4,9,9,11,12,9,2,6,9,7,5,7,7.5,8,2,9,2,10,5,4,9,1,2,Education Officer,Education
+11,10,7,2,9,11,3,11,11,10,3,8,8.0,9,9,8,9,9,6,7,9,4,10,Mechanical Engineer,Engineering & Technology
+5,3,9,1,9,9,2,2,11,9,9,3,6.0,5,7,3,10,3,9,5,9,2,9,Tour Guide,Hospitality & Tourism
+9,12,1,4,4,11,8,3,2,4,12,11,6.75,9,2,9,2,1,4,5,6,6,5,Logistics Officer,Transport & Aviation
+9,4,9,12,9,7,10,9,9,12,10,11,9.25,8,3,5,1,5,1,9,6,5,10,Doctor,Health Sciences
+9,10,1,3,11,10,2,3,12,3,1,7,6.0,8,9,4,4,5,5,8,10,7,9,Banker,Business & Finance
+5,5,4,8,11,3,5,3,6,11,7,2,5.83,10,4,9,9,4,6,5,2,9,1,Animator,Creative Arts & Media
+4,9,5,12,3,6,12,3,9,6,9,9,7.25,5,5,5,8,1,1,6,6,6,2,Veterinary Officer,Agriculture & Environment
+12,8,10,2,12,7,6,9,9,4,12,11,8.5,3,3,4,1,9,10,6,3,2,10,Chef,Hospitality & Tourism
+6,1,7,8,6,4,11,12,6,10,4,2,6.42,8,2,6,1,10,9,1,1,5,2,Electrician,Skilled Trades & Technical
+9,12,3,7,3,10,8,7,9,10,7,4,7.42,10,9,8,7,10,2,7,5,7,9,Banker,Business & Finance
+3,5,4,10,11,4,1,11,11,2,2,4,5.67,9,1,1,7,2,8,8,5,2,7,Military Officer,Security & Defense
+11,1,12,9,11,2,1,9,6,12,6,1,6.75,10,5,3,4,9,9,1,8,8,5,Welder,Skilled Trades & Technical
+10,3,7,3,10,9,3,12,10,11,8,6,7.67,9,9,6,6,9,3,3,7,4,7,Electrical Engineer,Engineering & Technology
+8,2,10,7,11,6,11,4,11,7,10,3,7.5,6,6,1,6,10,1,7,10,1,6,Logistics Officer,Transport & Aviation
+9,7,2,7,4,10,5,7,8,10,7,4,6.67,9,9,5,4,9,9,2,1,6,8,AI Engineer,ICT & Computing
+10,12,7,5,8,3,11,7,12,6,8,11,8.33,10,9,4,9,9,9,3,9,9,1,Animator,Creative Arts & Media
+2,8,2,12,10,2,5,3,11,10,4,6,6.25,8,6,5,10,2,6,9,1,8,7,Clinical Officer,Health Sciences
+10,6,5,12,9,6,1,6,9,6,11,7,7.33,8,3,1,1,3,8,9,8,2,8,Doctor,Health Sciences
+5,3,6,11,2,3,11,2,10,7,9,12,6.75,1,3,8,3,9,8,9,9,10,2,Veterinary Officer,Agriculture & Environment
+10,8,6,4,7,11,8,8,9,5,9,9,7.83,5,9,1,8,1,3,5,5,5,9,Banker,Business & Finance
+7,8,8,12,7,7,7,7,10,2,6,11,7.67,1,10,10,4,3,7,3,2,4,5,Pilot,Transport & Aviation
+12,12,11,9,9,12,5,11,12,8,4,4,9.08,6,9,1,5,8,8,4,5,10,9,Financial Analyst,Business & Finance
+3,4,4,10,2,2,10,6,12,10,1,12,6.33,6,5,6,2,6,6,1,1,3,6,Electrician,Skilled Trades & Technical
+8,12,1,3,9,12,1,10,6,5,6,9,6.83,10,6,9,7,2,9,6,4,9,5,Judge,Law & Governance
+11,10,7,3,12,10,9,11,9,12,2,6,8.5,1,8,9,6,9,9,1,3,10,7,Public Administrator,Law & Governance
+8,12,7,10,9,2,12,7,4,9,7,12,8.25,8,5,3,8,8,5,9,9,1,10,Clinical Officer,Health Sciences
+9,2,6,2,8,5,12,4,12,10,7,8,7.08,9,9,2,9,3,8,1,3,4,9,Banker,Business & Finance
+10,5,8,9,11,5,9,2,7,7,9,7,7.42,8,5,3,10,6,6,9,4,1,10,Nurse,Health Sciences
+10,6,11,10,6,2,10,5,10,2,8,9,7.42,3,9,1,8,2,2,3,6,1,9,Economist,Business & Finance
+11,12,2,12,2,5,1,7,8,10,11,6,7.25,10,6,5,9,6,7,5,6,9,2,Journalist,Creative Arts & Media
+10,10,8,7,6,6,3,4,9,10,11,11,7.92,2,9,4,10,4,3,9,7,8,9,Economist,Business & Finance
+6,6,6,7,12,6,4,1,9,9,8,5,6.58,7,2,8,9,4,5,3,9,9,4,Graphic Designer,Creative Arts & Media
+11,3,10,9,7,1,8,8,6,5,10,7,7.08,5,6,1,1,6,10,10,9,8,1,Electrician,Skilled Trades & Technical
+4,1,2,7,2,8,3,10,6,5,4,4,4.67,6,7,8,5,2,6,5,6,9,6,Marine Engineer,Transport & Aviation
+9,5,12,3,7,5,3,8,10,3,3,8,6.33,3,9,4,2,7,5,7,4,7,9,Economist,Business & Finance
+12,4,4,11,6,12,11,2,7,11,1,8,7.42,9,9,8,8,9,9,3,10,1,10,Data Scientist,ICT & Computing
+12,6,9,7,3,10,3,9,4,12,10,9,7.83,9,9,5,7,9,2,7,1,9,10,Cybersecurity Analyst,ICT & Computing
+2,2,4,12,9,9,6,11,10,10,5,12,7.67,8,1,2,9,10,9,9,5,2,2,Lab Technologist,Health Sciences
+4,2,11,1,3,7,9,7,6,6,3,4,5.25,8,3,5,8,10,4,3,8,8,3,Tour Guide,Hospitality & Tourism
+9,7,2,10,9,3,12,9,8,2,11,10,7.67,3,9,7,8,9,1,1,4,2,10,Environmental Scientist,Agriculture & Environment
+4,11,9,1,10,3,1,12,4,2,5,9,5.92,4,5,9,9,1,9,5,8,2,3,Judge,Law & Governance
+10,3,4,9,8,10,11,9,2,10,2,10,7.33,9,9,6,10,9,6,5,2,3,4,Mechanical Engineer,Engineering & Technology
+9,9,5,3,4,7,8,9,9,3,4,11,6.75,8,5,8,8,4,9,1,10,3,2,Electrician,Skilled Trades & Technical
+4,9,12,11,6,1,9,2,2,12,10,9,7.25,1,8,2,9,10,1,9,6,10,10,Veterinary Officer,Agriculture & Environment
+12,5,6,2,3,2,10,3,9,1,10,12,6.25,4,8,2,5,9,2,7,1,9,4,Welder,Skilled Trades & Technical
+11,7,7,9,1,7,10,1,7,1,7,11,6.58,2,3,4,8,6,5,3,2,3,5,Environmental Scientist,Agriculture & Environment
+11,6,3,1,7,11,6,8,4,3,8,5,6.08,5,7,5,9,4,9,1,2,9,9,Journalist,Creative Arts & Media
+9,10,2,1,7,10,7,1,4,11,10,11,6.92,9,9,8,7,9,3,2,9,3,9,Mechanical Engineer,Engineering & Technology
+3,9,3,10,5,1,12,7,7,12,12,10,7.58,1,7,5,4,10,2,9,5,10,9,Forester,Agriculture & Environment
+12,11,9,5,1,8,8,5,11,11,1,5,7.25,5,8,4,1,4,5,1,6,4,2,Pilot,Transport & Aviation
+9,3,4,3,9,11,3,2,6,11,4,10,6.25,9,9,6,9,9,7,7,6,2,6,Cybersecurity Analyst,ICT & Computing
+7,4,10,3,3,4,8,6,2,10,4,4,5.42,4,3,1,9,3,7,6,10,9,10,Journalist,Creative Arts & Media
+1,11,3,10,11,10,9,11,3,4,11,5,7.42,8,8,9,3,10,5,9,7,1,2,Doctor,Health Sciences
+3,3,4,11,9,1,8,10,11,12,9,9,7.5,8,9,2,8,1,2,9,4,7,2,Clinical Officer,Health Sciences
+6,1,7,5,11,12,12,8,4,10,6,4,7.17,3,1,2,1,3,10,9,9,2,2,Police Officer,Security & Defense
+11,4,11,3,9,9,3,3,2,11,12,9,7.25,9,9,8,5,9,4,7,9,8,6,Data Scientist,ICT & Computing
+12,9,12,11,10,5,11,9,3,7,9,1,8.25,8,5,10,8,8,2,9,3,6,2,Doctor,Health Sciences
+1,11,11,7,3,8,12,3,10,4,7,9,7.17,5,9,8,9,3,6,7,5,1,8,Tour Guide,Hospitality & Tourism
+12,11,4,12,10,6,2,5,5,2,11,5,7.08,4,2,9,8,3,7,10,8,2,9,Teacher,Education
+12,11,7,3,2,10,3,3,9,10,8,9,7.25,9,9,6,10,9,8,2,5,7,4,Cybersecurity Analyst,ICT & Computing
+11,6,9,1,5,12,6,9,3,9,3,4,6.5,9,9,8,10,9,8,1,7,4,2,Civil Engineer,Engineering & Technology
+3,6,1,3,7,2,9,8,3,12,12,6,6.0,10,1,7,9,3,9,9,4,9,9,Film Producer,Creative Arts & Media
+11,12,7,10,5,12,6,1,1,10,1,11,7.25,9,9,10,10,9,3,10,1,6,6,AI Engineer,ICT & Computing
+11,4,8,7,3,12,9,10,4,9,11,2,7.5,9,9,4,2,9,1,6,9,7,2,Electrical Engineer,Engineering & Technology
+9,7,12,6,3,10,3,7,7,12,9,12,8.08,1,5,1,9,9,10,6,7,9,6,Journalist,Creative Arts & Media
+1,8,2,3,5,12,4,11,10,6,5,2,5.75,2,2,7,7,7,8,10,9,5,6,Tour Guide,Hospitality & Tourism
+4,1,2,12,10,7,9,2,12,2,2,9,6.0,8,6,9,2,3,1,9,10,2,3,Doctor,Health Sciences
+7,11,3,9,6,12,3,9,6,7,1,9,6.92,8,4,9,3,7,9,8,6,3,5,Lawyer,Law & Governance
+2,12,7,7,5,7,9,11,10,12,7,3,7.67,7,8,9,6,10,10,6,10,1,10,Lecturer,Education
+9,5,10,9,1,7,12,4,3,6,1,12,6.58,3,3,5,5,6,3,7,7,7,8,Environmental Scientist,Agriculture & Environment
+4,12,1,7,2,4,8,9,4,1,8,10,5.83,5,1,9,3,10,9,2,7,6,9,Lawyer,Law & Governance
+4,10,9,12,5,11,5,4,12,8,1,3,7.0,2,4,9,3,1,5,7,2,8,10,Logistics Officer,Transport & Aviation
+2,11,2,9,10,9,3,5,5,10,11,2,6.58,8,4,7,2,4,4,7,9,9,8,Police Officer,Security & Defense
+7,5,2,5,5,9,4,3,4,4,2,4,4.5,9,2,6,9,8,10,9,6,1,10,Marine Engineer,Transport & Aviation
+6,4,5,9,1,4,9,5,4,11,1,12,5.92,3,10,1,9,9,8,1,3,1,10,Logistics Officer,Transport & Aviation
+10,2,2,6,7,12,12,2,10,9,3,12,7.25,9,9,1,5,9,9,10,8,5,6,Data Scientist,ICT & Computing
+10,5,1,3,3,3,6,2,9,6,11,5,5.33,1,9,3,8,6,5,7,4,2,9,Banker,Business & Finance
+5,10,2,9,1,3,3,4,11,1,9,7,5.42,9,5,6,9,5,10,3,6,10,8,Automotive Technician,Skilled Trades & Technical
+4,1,6,12,12,7,1,8,2,4,7,6,5.83,8,5,3,1,9,6,9,10,4,8,Pharmacist,Health Sciences
+11,9,7,3,9,9,4,7,7,11,8,10,7.92,9,9,4,5,9,5,9,6,2,8,Data Scientist,ICT & Computing
+4,6,3,9,9,1,8,5,1,12,7,1,5.5,5,1,8,9,8,10,1,7,8,10,Automotive Technician,Skilled Trades & Technical
+9,1,9,9,1,12,12,6,10,8,1,9,7.25,1,6,2,5,6,1,8,9,9,5,Forester,Agriculture & Environment
+7,8,8,9,9,5,11,6,5,10,1,2,6.75,8,1,5,4,10,10,9,1,9,6,Nurse,Health Sciences
+9,8,3,1,4,8,6,8,5,4,3,11,5.83,9,5,9,6,4,4,8,4,2,5,Tour Guide,Hospitality & Tourism
+1,9,1,8,7,7,11,3,9,7,2,10,6.25,3,7,9,3,2,6,3,8,7,4,Education Officer,Education
+9,4,6,12,5,10,6,3,3,11,5,12,7.17,9,9,1,8,9,7,2,6,2,3,Civil Engineer,Engineering & Technology
+9,1,3,6,8,12,11,2,3,10,11,3,6.58,9,9,6,4,9,10,2,7,4,7,Data Scientist,ICT & Computing
+11,9,6,11,8,5,4,5,7,9,3,5,6.92,7,5,9,4,8,4,1,6,6,7,Teacher,Education
+6,11,9,9,10,9,10,6,1,6,4,11,7.67,9,7,10,6,8,10,8,1,6,6,Veterinary Officer,Agriculture & Environment
+9,1,9,5,9,5,8,3,1,6,1,6,5.25,8,5,7,5,3,7,3,9,8,4,Military Officer,Security & Defense
+1,9,12,7,7,4,10,1,9,5,5,2,6.0,9,1,9,4,1,3,9,1,6,6,Lecturer,Education
+10,6,9,12,9,11,12,10,12,11,3,9,9.5,9,9,9,4,9,8,4,10,9,9,Mechatronics Engineer,Engineering & Technology
+7,12,12,5,9,9,10,10,5,10,7,7,8.58,2,2,9,1,10,9,9,8,6,1,Lecturer,Education
+10,12,9,6,5,5,9,10,12,8,12,2,8.33,4,9,6,2,6,9,1,1,2,9,Accountant,Business & Finance
+5,3,9,10,9,1,4,9,4,7,1,6,5.67,8,9,10,5,1,4,9,7,6,7,Lab Technologist,Health Sciences
+6,10,2,10,8,8,11,12,3,6,11,2,7.42,6,4,7,1,4,4,9,10,3,6,Automotive Technician,Skilled Trades & Technical
+2,2,5,9,10,9,12,9,12,10,5,6,7.58,8,2,3,4,7,7,9,4,6,6,Nurse,Health Sciences
+10,7,4,7,11,1,1,1,12,1,12,8,6.25,7,9,1,7,10,1,1,4,9,9,Economist,Business & Finance
+2,2,10,9,3,3,10,3,11,12,9,10,7.0,1,7,6,3,5,9,4,2,7,3,Agronomist,Agriculture & Environment
+10,3,4,7,7,10,10,2,10,5,2,11,6.75,2,9,5,7,10,10,8,9,8,9,Economist,Business & Finance
+11,11,9,10,5,11,5,7,11,3,3,11,8.08,7,9,6,4,2,8,6,5,9,9,Banker,Business & Finance
+11,8,4,8,12,10,4,1,9,6,6,3,6.83,6,1,5,5,4,1,9,1,5,9,Tour Guide,Hospitality & Tourism
+10,3,3,1,2,10,2,6,10,11,1,7,5.5,9,9,5,3,9,2,5,9,10,2,Mechatronics Engineer,Engineering & Technology
+9,1,6,11,3,1,1,7,11,4,12,6,6.0,4,1,8,9,10,7,7,7,9,1,Graphic Designer,Creative Arts & Media
+6,1,10,7,6,9,9,8,12,3,12,1,7.0,7,4,6,9,2,7,2,7,4,10,Automotive Technician,Skilled Trades & Technical
+6,11,7,8,5,1,1,9,6,1,12,4,5.92,8,10,9,1,7,9,1,9,8,1,Public Administrator,Law & Governance
+11,3,5,11,10,8,12,12,9,5,10,9,8.75,4,8,6,3,1,9,1,10,9,4,Agronomist,Agriculture & Environment
+10,9,6,6,4,11,4,10,2,9,6,11,7.33,10,8,10,6,7,4,5,5,5,1,Electrician,Skilled Trades & Technical
+4,12,5,2,1,12,6,10,2,10,10,9,6.92,9,7,9,9,3,9,8,2,6,4,Public Administrator,Law & Governance
+11,10,9,3,10,1,3,5,1,2,2,1,4.83,5,3,9,2,7,10,5,7,10,1,Lecturer,Education
+10,2,2,8,6,2,12,4,9,2,4,5,5.5,7,9,8,3,10,8,2,4,5,9,Banker,Business & Finance
+1,4,8,12,4,5,5,1,4,11,7,2,5.33,7,3,1,9,5,10,6,10,9,4,Graphic Designer,Creative Arts & Media
+9,1,7,12,1,10,4,2,7,12,9,4,6.5,9,9,1,3,9,3,7,1,8,5,Data Scientist,ICT & Computing
+12,9,10,5,2,12,8,3,4,6,8,6,7.08,2,1,3,3,8,9,2,8,3,6,Chef,Hospitality & Tourism
+12,9,2,4,10,9,8,3,12,10,8,6,7.75,9,9,10,3,9,10,10,10,1,2,AI Engineer,ICT & Computing
+9,4,10,6,4,9,9,11,5,9,5,3,7.0,9,9,5,3,9,1,2,10,8,8,Mechanical Engineer,Engineering & Technology
+6,12,4,1,8,6,6,9,6,1,11,6,6.33,2,10,9,8,9,9,4,1,4,3,Public Administrator,Law & Governance
+10,9,11,2,10,1,2,3,8,2,12,4,6.17,8,4,6,7,1,2,7,1,3,5,Automotive Technician,Skilled Trades & Technical
+11,11,3,12,9,10,12,2,1,8,2,8,7.42,8,6,5,8,5,6,9,4,2,3,Clinical Officer,Health Sciences
+7,12,6,7,2,6,9,10,12,1,2,12,7.17,4,8,2,9,10,6,5,5,9,4,Animator,Creative Arts & Media
+2,6,11,12,11,6,3,11,2,7,11,8,7.5,5,3,2,9,9,4,8,4,9,3,Electrician,Skilled Trades & Technical
+6,10,3,3,9,1,7,2,7,8,9,9,6.17,3,2,7,8,9,10,10,2,5,3,Pilot,Transport & Aviation
+2,9,11,8,8,7,1,12,4,1,5,10,6.5,3,3,9,7,9,9,5,4,5,2,Public Administrator,Law & Governance
+10,2,9,6,12,10,4,4,12,10,12,4,7.92,5,9,3,1,2,3,1,4,3,9,Economist,Business & Finance
+9,3,8,11,9,11,12,11,5,12,1,1,7.75,9,9,4,6,9,8,3,8,7,10,Mechanical Engineer,Engineering & Technology
+12,5,11,2,9,9,11,5,11,12,10,12,9.08,9,9,2,7,9,5,7,9,6,9,Software Developer,ICT & Computing
+10,8,7,4,7,9,8,11,2,11,6,4,7.25,9,9,2,9,9,5,1,3,6,5,AI Engineer,ICT & Computing
+12,10,11,11,9,2,5,12,7,7,7,12,8.75,4,10,9,1,6,7,2,3,5,8,Teacher,Education
+6,9,4,1,1,12,5,12,3,4,8,3,5.67,1,9,7,6,9,6,10,2,3,2,Military Officer,Security & Defense
+5,9,3,3,2,11,12,1,11,2,5,3,5.58,4,4,1,9,7,8,8,5,5,3,Logistics Officer,Transport & Aviation
+7,5,8,12,1,5,7,8,9,4,9,1,6.33,10,5,9,1,9,5,3,2,2,3,Welder,Skilled Trades & Technical
+5,4,12,3,11,1,1,12,12,9,11,6,7.25,3,3,4,8,6,5,5,8,8,7,Chef,Hospitality & Tourism
+6,1,3,6,1,11,7,1,1,7,9,3,4.67,4,3,1,8,6,2,3,4,9,7,Military Officer,Security & Defense
+12,7,10,6,10,10,7,4,8,11,3,4,7.67,9,7,8,6,2,5,7,4,7,9,Hotel Manager,Hospitality & Tourism
+4,2,1,9,7,7,5,8,10,8,3,6,5.83,8,9,3,9,6,6,6,10,9,7,Graphic Designer,Creative Arts & Media
+1,4,7,6,2,8,2,9,3,2,9,4,4.75,10,3,1,5,9,5,8,6,2,2,Automotive Technician,Skilled Trades & Technical
+1,1,5,10,11,7,12,1,5,12,12,10,7.25,7,4,2,4,10,4,2,9,10,9,Agronomist,Agriculture & Environment
+5,5,1,10,7,5,8,2,1,4,11,2,5.08,2,4,1,4,7,4,8,6,9,2,Marine Engineer,Transport & Aviation
+4,9,1,11,3,7,1,12,8,9,10,8,6.92,9,9,9,2,1,9,7,6,8,4,Public Administrator,Law & Governance
+7,7,3,3,1,3,1,6,5,9,10,5,5.0,4,3,4,8,10,9,10,7,9,7,Marine Engineer,Transport & Aviation
+12,8,12,9,12,1,8,10,9,8,1,5,7.92,6,3,8,9,8,3,6,9,9,9,Journalist,Creative Arts & Media
+9,9,1,12,3,7,11,9,9,12,5,12,8.25,10,3,6,9,4,1,9,8,8,5,Veterinary Officer,Agriculture & Environment
+7,11,9,12,7,5,2,10,3,6,8,9,7.42,1,3,2,9,5,8,6,9,9,9,Animator,Creative Arts & Media
+12,11,6,4,12,3,3,11,4,2,3,11,6.83,2,10,9,1,4,9,2,3,2,6,Lawyer,Law & Governance
+4,6,7,3,6,11,10,6,7,11,12,9,7.67,5,4,5,9,5,4,1,7,9,5,Graphic Designer,Creative Arts & Media
+9,1,11,9,12,6,10,8,12,10,8,10,8.83,4,7,4,8,8,4,1,5,4,9,Forester,Agriculture & Environment
+9,9,11,11,1,1,9,4,11,9,11,1,7.25,6,1,8,5,3,3,1,2,4,2,Welder,Skilled Trades & Technical
+8,5,11,1,10,8,8,1,8,3,12,6,6.75,10,6,7,3,1,10,5,2,9,1,Chef,Hospitality & Tourism
+5,8,9,2,5,5,1,6,12,10,3,4,5.83,10,6,7,2,10,3,7,10,9,7,Pilot,Transport & Aviation
+11,8,10,6,1,9,10,4,11,11,9,6,8.0,9,9,1,3,9,5,8,8,1,5,Data Scientist,ICT & Computing
+10,7,4,5,1,9,5,10,3,10,2,6,6.0,9,9,2,8,9,2,9,8,3,1,Data Scientist,ICT & Computing
+4,6,2,4,12,11,8,6,4,9,8,6,6.67,6,4,3,6,5,8,3,1,2,7,Automotive Technician,Skilled Trades & Technical
+12,3,10,1,7,11,1,7,9,10,10,4,7.08,9,9,7,4,9,8,6,8,3,6,Electrical Engineer,Engineering & Technology
+6,8,6,10,3,5,10,7,7,11,3,9,7.08,3,9,5,6,9,5,5,10,10,3,Pilot,Transport & Aviation
+10,11,1,4,6,12,10,8,3,8,11,9,7.75,9,2,7,6,8,10,5,2,5,2,Automotive Technician,Skilled Trades & Technical
+3,12,2,10,11,10,6,7,9,11,10,10,8.42,6,2,9,1,3,1,4,2,10,7,Education Officer,Education
+5,11,3,6,4,11,4,9,7,7,12,8,7.25,4,6,9,2,7,9,1,10,2,6,Judge,Law & Governance
+6,8,2,10,11,2,6,10,6,3,6,7,6.42,8,4,2,3,8,1,9,8,8,4,Pharmacist,Health Sciences
+9,12,5,10,1,2,6,12,1,8,9,10,7.08,3,2,1,3,4,6,10,3,8,1,Marine Engineer,Transport & Aviation
+8,5,4,10,7,6,10,2,10,8,6,10,7.17,5,1,5,1,10,2,5,6,8,5,Environmental Scientist,Agriculture & Environment
+12,5,10,3,6,1,12,6,4,11,10,2,6.83,6,2,4,5,10,2,9,4,1,1,Electrician,Skilled Trades & Technical
+10,10,4,7,2,11,4,4,7,9,2,12,6.83,9,9,3,9,9,1,5,7,1,2,Civil Engineer,Engineering & Technology
+9,11,11,7,4,4,10,11,2,2,7,2,6.67,3,1,9,1,7,3,10,9,7,9,Lecturer,Education
+3,3,7,10,11,1,6,6,3,6,1,7,5.33,8,6,5,3,9,7,9,4,4,4,Nurse,Health Sciences
+1,5,11,11,12,11,3,9,5,2,1,3,6.17,8,6,5,8,10,9,9,2,1,6,Lab Technologist,Health Sciences
+5,12,5,2,9,8,3,5,8,10,11,7,7.08,3,4,5,10,2,10,5,2,9,2,Marine Engineer,Transport & Aviation
+11,7,1,2,11,9,10,1,1,12,2,7,6.17,9,9,4,7,9,4,6,3,2,6,Civil Engineer,Engineering & Technology
+12,5,11,4,11,9,2,3,9,4,12,12,7.83,7,9,4,2,3,1,1,5,8,5,Logistics Officer,Transport & Aviation
+12,12,12,11,5,7,5,11,10,3,10,3,8.42,3,5,9,6,7,9,10,8,8,9,Lawyer,Law & Governance
+9,4,4,4,3,6,12,9,9,12,6,5,6.92,9,8,6,6,1,10,1,1,8,6,Police Officer,Security & Defense
+6,3,11,5,10,9,2,1,7,6,5,3,5.67,6,5,10,4,9,1,6,8,6,9,Chef,Hospitality & Tourism
+5,9,12,8,8,8,5,2,6,11,8,8,7.5,4,3,2,9,10,3,8,1,9,10,Journalist,Creative Arts & Media
+4,10,12,10,7,4,5,11,10,3,1,7,7.0,8,4,9,10,5,9,6,2,4,4,Judge,Law & Governance
+6,12,11,5,9,7,12,1,1,9,12,6,7.58,6,3,1,9,8,2,10,9,8,7,Automotive Technician,Skilled Trades & Technical
+8,12,4,12,1,9,10,9,7,10,2,11,7.92,7,5,9,6,1,7,4,8,3,3,Lecturer,Education
+10,7,3,10,12,2,4,2,11,7,1,8,6.42,3,1,6,3,4,1,5,3,2,5,Marine Engineer,Transport & Aviation
+6,1,5,10,10,12,10,10,10,11,4,7,8.0,8,9,5,4,2,7,9,6,4,2,Nurse,Health Sciences
+12,10,3,12,8,4,11,4,7,11,6,2,7.5,5,4,5,9,2,6,8,10,8,3,Chef,Hospitality & Tourism
+4,9,11,6,2,12,12,10,11,7,1,5,7.5,3,5,9,4,1,6,6,4,4,9,Lecturer,Education
+9,6,10,5,12,9,6,12,5,10,11,5,8.33,9,9,1,4,9,5,2,6,9,4,Electrical Engineer,Engineering & Technology
+3,9,8,6,5,10,5,5,12,8,10,8,7.42,8,1,10,6,3,6,10,6,1,2,Automotive Technician,Skilled Trades & Technical
+7,11,2,10,10,12,2,11,8,6,9,9,8.08,8,10,6,5,3,5,9,2,3,1,Pharmacist,Health Sciences
+9,7,5,6,11,5,10,10,12,7,3,3,7.33,4,5,10,2,7,3,2,3,8,1,Military Officer,Security & Defense
+4,8,4,12,12,2,1,8,12,1,5,10,6.58,8,5,9,9,1,5,9,6,6,1,Clinical Officer,Health Sciences
+6,12,5,5,12,8,8,9,10,2,1,6,7.0,2,3,4,5,8,1,6,6,5,3,Welder,Skilled Trades & Technical
+10,3,10,9,9,11,2,12,4,5,12,12,8.25,7,1,10,2,7,3,6,3,7,4,Tour Guide,Hospitality & Tourism
+9,2,10,5,7,7,6,7,8,8,6,10,7.08,6,9,8,2,4,3,9,10,5,6,Marine Engineer,Transport & Aviation
+10,4,2,12,8,2,10,5,9,2,12,3,6.58,7,10,7,10,2,1,5,1,1,8,Pilot,Transport & Aviation
+9,2,6,6,11,10,6,5,6,8,11,8,7.33,3,1,7,4,8,7,10,1,2,5,Automotive Technician,Skilled Trades & Technical
+12,3,2,11,1,12,4,10,1,11,9,1,6.42,9,9,4,4,9,4,2,5,1,9,Mechanical Engineer,Engineering & Technology
+9,3,4,11,1,11,4,8,3,11,6,11,6.83,9,9,10,4,9,4,10,10,7,3,Mechatronics Engineer,Engineering & Technology
+7,12,8,4,4,9,8,12,9,7,10,11,8.42,1,5,9,10,4,9,10,9,3,1,Public Administrator,Law & Governance
+5,12,4,8,2,1,6,12,8,9,12,2,6.75,10,5,9,10,10,9,6,7,7,3,Public Administrator,Law & Governance
+5,2,6,9,10,8,11,10,5,5,12,5,7.33,8,10,9,3,3,6,9,1,9,3,Nurse,Health Sciences
+9,11,4,5,11,6,8,1,12,2,8,8,7.08,10,2,6,5,1,1,1,3,1,2,Chef,Hospitality & Tourism
+12,7,4,4,12,12,11,4,5,8,9,8,8.0,9,8,5,6,2,8,3,4,2,8,Pilot,Transport & Aviation
+9,7,11,12,12,7,12,10,9,5,7,7,9.0,8,10,2,9,8,7,9,6,10,9,Pharmacist,Health Sciences
+11,11,2,7,7,4,1,8,4,3,9,9,6.33,3,7,9,7,5,1,8,8,8,5,Tour Guide,Hospitality & Tourism
+10,11,3,7,4,10,7,10,8,11,1,6,7.33,9,9,8,4,9,5,1,8,3,9,Civil Engineer,Engineering & Technology
+3,6,8,9,10,5,10,9,3,8,6,12,7.42,9,2,2,1,4,1,7,9,7,3,Veterinary Officer,Agriculture & Environment
+8,5,6,3,5,10,1,10,3,6,7,9,6.08,4,9,8,9,2,2,3,4,3,6,Hotel Manager,Hospitality & Tourism
+1,10,12,2,11,11,1,10,8,4,12,2,7.0,4,10,9,7,9,10,8,2,10,6,Education Officer,Education
+1,7,10,1,3,11,12,9,5,9,12,2,6.83,6,3,6,2,8,4,8,3,1,10,Electrician,Skilled Trades & Technical
+12,5,4,8,8,10,12,5,4,12,11,3,7.83,9,9,4,9,9,4,7,1,7,9,Mechanical Engineer,Engineering & Technology
+4,8,2,4,1,6,11,11,3,7,9,7,6.08,3,8,6,8,2,10,3,5,1,10,Welder,Skilled Trades & Technical
+12,7,2,8,1,12,8,11,12,1,10,2,7.17,10,9,10,3,1,4,1,5,1,9,Actuary,Business & Finance
+8,10,6,9,3,5,7,3,9,7,8,1,6.33,3,5,6,6,5,2,4,10,7,4,Pilot,Transport & Aviation
+12,5,3,10,7,10,7,12,10,12,9,4,8.42,9,9,7,3,9,4,5,1,10,8,Software Developer,ICT & Computing
+11,9,12,1,10,12,11,4,6,9,12,8,8.75,9,9,7,3,9,7,6,10,7,2,Data Scientist,ICT & Computing
+10,4,7,8,3,9,3,2,6,11,6,1,5.83,9,9,4,7,9,10,7,6,1,7,Mechanical Engineer,Engineering & Technology
+10,8,12,4,4,2,2,7,2,4,6,3,5.33,5,1,2,7,6,10,9,3,8,5,Marine Engineer,Transport & Aviation
+3,5,12,4,9,8,5,7,10,10,7,10,7.5,6,2,10,8,3,3,6,4,10,1,Hotel Manager,Hospitality & Tourism
+6,9,11,11,2,10,12,9,6,3,9,2,7.5,1,8,9,7,3,9,2,5,9,4,Judge,Law & Governance
+7,4,2,9,3,5,12,5,9,9,11,12,7.33,5,5,4,5,3,5,1,9,5,1,Forester,Agriculture & Environment
+11,8,5,11,9,9,1,11,2,1,11,5,7.0,4,6,1,10,10,3,4,4,1,9,Police Officer,Security & Defense
+12,9,1,8,1,10,1,10,3,12,12,2,6.75,9,9,8,9,9,1,9,8,7,3,Cybersecurity Analyst,ICT & Computing
+6,12,9,11,4,11,11,4,6,2,4,12,7.67,8,5,5,2,3,10,6,9,2,9,Forester,Agriculture & Environment
+6,12,6,6,5,11,6,3,11,5,11,6,7.33,8,9,9,2,1,10,3,8,6,10,Education Officer,Education
+12,12,12,1,10,10,3,1,11,3,11,2,7.33,3,4,5,10,6,1,2,8,9,7,Pilot,Transport & Aviation
+12,11,7,2,1,7,12,8,2,7,6,3,6.5,8,4,5,9,8,10,5,9,9,2,Journalist,Creative Arts & Media
+10,3,10,12,7,4,12,3,10,1,12,9,7.75,10,10,2,5,1,4,3,2,3,5,Hotel Manager,Hospitality & Tourism
+5,10,10,3,7,2,1,7,7,11,2,11,6.33,10,10,9,3,3,7,2,7,2,9,Teacher,Education
+4,12,10,7,11,11,5,1,12,8,1,3,7.08,8,6,7,1,5,7,7,2,1,10,Automotive Technician,Skilled Trades & Technical
+4,1,1,11,10,5,11,8,3,2,5,4,5.42,4,3,9,8,9,6,6,6,6,8,Hotel Manager,Hospitality & Tourism
+10,12,7,4,5,5,8,12,8,3,12,9,7.92,10,7,9,2,8,1,4,5,3,7,Education Officer,Education
+8,8,10,8,7,6,5,8,11,2,10,9,7.67,2,7,9,9,5,2,4,2,9,5,Graphic Designer,Creative Arts & Media
+12,6,6,2,7,9,5,3,7,11,5,8,6.75,9,9,9,4,9,4,10,2,1,8,Software Developer,ICT & Computing
+11,11,4,2,3,1,6,10,9,6,6,3,6.0,2,1,9,2,8,9,2,4,8,6,Public Administrator,Law & Governance
+6,4,3,11,5,10,9,7,8,9,11,9,7.67,1,4,5,1,7,6,7,9,1,7,Forester,Agriculture & Environment
+10,11,3,7,6,11,12,12,2,10,11,8,8.58,9,9,7,1,9,9,5,4,2,10,Software Developer,ICT & Computing
+11,6,8,11,11,3,10,9,6,5,6,8,7.83,1,9,1,9,3,2,1,3,9,4,Graphic Designer,Creative Arts & Media
+2,11,9,10,12,12,10,8,6,9,10,11,9.17,6,2,9,3,1,7,3,8,8,5,Environmental Scientist,Agriculture & Environment
+9,4,1,8,7,9,5,2,9,4,2,12,6.0,1,10,9,8,4,10,9,8,10,6,Welder,Skilled Trades & Technical
+12,12,8,2,5,12,11,11,4,12,1,8,8.17,9,9,7,5,9,7,7,2,4,1,Civil Engineer,Engineering & Technology
+6,2,8,11,5,11,10,1,4,12,10,2,6.83,9,10,8,9,1,5,5,3,6,1,Police Officer,Security & Defense
+7,8,5,5,7,6,5,5,11,4,1,3,5.58,4,7,5,7,9,7,4,8,5,8,Military Officer,Security & Defense
+12,11,7,11,6,2,3,6,1,7,7,4,6.42,5,10,9,1,7,8,6,1,9,3,Lecturer,Education
+12,3,4,3,1,10,3,2,10,9,6,9,6.0,9,9,2,3,9,5,2,1,3,7,Electrical Engineer,Engineering & Technology
+2,8,6,10,3,11,7,5,1,9,5,7,6.17,5,5,10,9,7,7,3,9,8,3,Police Officer,Security & Defense
+9,7,6,8,7,2,2,5,10,2,12,1,5.92,8,3,1,8,1,2,9,5,7,10,Police Officer,Security & Defense
+11,3,12,11,5,10,10,4,5,10,12,10,8.58,9,9,7,7,9,9,10,10,5,6,Civil Engineer,Engineering & Technology
+12,2,9,7,11,9,3,3,9,9,3,2,6.58,9,9,10,2,9,3,2,6,4,5,Mechatronics Engineer,Engineering & Technology
+7,8,1,1,8,7,2,8,7,5,5,12,5.92,2,7,1,1,7,10,3,1,2,4,Police Officer,Security & Defense
+10,8,9,11,10,8,9,2,10,8,9,5,8.25,5,9,1,4,5,6,6,6,4,9,Accountant,Business & Finance
+9,1,5,5,4,11,9,10,5,10,12,7,7.33,9,9,4,1,9,3,5,5,9,6,Cybersecurity Analyst,ICT & Computing
+6,7,6,3,5,11,8,12,7,9,7,7,7.33,5,5,1,6,6,5,7,5,3,6,Chef,Hospitality & Tourism
+5,3,4,12,12,5,8,2,11,9,8,4,6.92,8,8,10,8,9,8,9,1,10,8,Lab Technologist,Health Sciences
+11,3,4,11,7,9,4,8,9,5,2,9,6.83,9,9,2,7,8,5,8,9,2,9,Economist,Business & Finance
+10,9,5,7,6,10,7,4,9,12,12,8,8.25,9,9,5,4,9,6,9,2,7,9,Mechanical Engineer,Engineering & Technology
+4,10,2,10,2,1,10,1,7,11,7,12,6.42,5,9,1,3,7,3,5,2,3,9,Forester,Agriculture & Environment
+8,9,11,11,10,2,11,1,12,1,11,7,7.83,4,8,8,3,8,3,1,7,8,4,Military Officer,Security & Defense
+7,4,1,1,10,7,5,3,12,5,10,1,5.5,5,6,1,9,10,1,2,3,9,6,Film Producer,Creative Arts & Media
+4,9,1,2,10,1,6,2,4,6,3,9,4.75,8,10,9,8,4,7,5,6,1,8,Lecturer,Education
+10,10,11,7,6,10,2,6,7,12,3,5,7.42,4,5,2,9,5,5,10,3,9,6,Animator,Creative Arts & Media
+9,2,4,11,10,3,10,5,12,1,8,4,6.58,2,9,6,7,2,6,2,6,5,9,Economist,Business & Finance
+7,2,1,4,5,12,8,12,7,12,1,6,6.42,8,3,2,10,3,2,6,2,1,7,Automotive Technician,Skilled Trades & Technical
+11,6,10,7,6,4,7,2,9,2,1,3,5.67,6,9,4,7,7,3,8,10,5,9,Banker,Business & Finance
+1,12,8,11,7,8,4,10,12,11,6,9,8.25,5,7,4,9,5,6,2,6,9,3,Film Producer,Creative Arts & Media
+12,11,12,2,6,11,6,12,6,10,12,10,9.17,7,4,9,4,6,9,8,8,6,5,Public Administrator,Law & Governance
+10,12,5,11,9,12,5,12,10,8,3,12,9.08,7,10,9,10,3,9,4,3,3,10,Public Administrator,Law & Governance
+9,11,4,11,11,1,9,6,8,2,11,9,7.67,10,5,7,9,2,1,3,3,3,9,Police Officer,Security & Defense
+10,9,10,8,5,3,1,4,10,9,2,8,6.58,3,9,6,3,3,10,2,6,5,9,Economist,Business & Finance
+10,9,4,11,4,12,7,12,9,11,5,1,7.92,9,9,6,5,9,7,10,1,3,3,Data Scientist,ICT & Computing
+1,4,8,6,9,12,10,11,7,4,3,7,6.83,1,4,6,10,4,3,1,1,7,1,Military Officer,Security & Defense
+2,6,8,1,10,10,1,1,8,11,2,7,5.58,7,8,7,1,9,6,8,3,2,7,Tour Guide,Hospitality & Tourism
+12,7,6,5,4,9,6,2,10,12,5,1,6.58,2,1,3,9,4,8,1,7,9,1,Graphic Designer,Creative Arts & Media
+8,9,5,4,7,7,11,12,4,4,1,6,6.5,5,2,6,9,10,3,3,1,9,2,Graphic Designer,Creative Arts & Media
+5,8,2,11,7,11,12,7,11,1,8,10,7.75,7,9,5,4,9,2,1,9,1,3,Veterinary Officer,Agriculture & Environment
+11,8,8,4,1,12,11,1,4,9,5,7,6.75,9,9,7,3,9,7,1,2,2,1,Software Developer,ICT & Computing
+11,10,6,10,12,4,4,9,3,2,3,4,6.5,10,9,9,1,1,9,1,2,6,5,Public Administrator,Law & Governance
+5,6,4,9,9,11,12,9,4,4,1,2,6.33,8,9,6,5,6,9,5,2,7,1,Chef,Hospitality & Tourism
+2,5,4,9,9,5,3,1,4,10,5,7,5.33,8,4,5,4,6,8,9,3,3,9,Nurse,Health Sciences
+3,7,4,2,3,12,7,1,10,7,2,11,5.75,9,1,1,6,4,2,6,4,9,10,Police Officer,Security & Defense
+6,7,5,6,9,6,3,6,7,6,2,4,5.58,3,4,1,1,5,3,5,3,1,9,Pilot,Transport & Aviation
+7,4,5,12,9,1,3,5,1,8,3,8,5.5,6,5,5,1,2,10,4,9,6,9,Marine Engineer,Transport & Aviation
+5,12,11,9,10,4,3,10,8,11,10,7,8.33,8,4,10,2,3,8,9,8,6,4,Pharmacist,Health Sciences
+10,7,11,12,11,9,6,6,12,4,2,11,8.42,6,9,7,7,7,6,3,7,9,9,Accountant,Business & Finance
+7,7,6,10,10,9,3,5,10,11,3,10,7.58,8,2,8,4,8,3,9,7,9,3,Lab Technologist,Health Sciences
+1,2,12,12,12,12,8,11,1,4,5,1,6.75,4,6,6,5,7,1,6,5,8,10,Pilot,Transport & Aviation
+10,8,2,11,4,1,11,10,10,7,9,8,7.58,5,9,8,9,8,4,5,6,2,9,Financial Analyst,Business & Finance
+9,7,2,10,11,9,6,10,9,10,5,12,8.33,9,9,6,5,9,6,2,1,4,2,Civil Engineer,Engineering & Technology
+12,3,10,2,4,9,8,9,9,2,2,10,6.67,8,7,3,9,2,3,2,4,9,7,Graphic Designer,Creative Arts & Media
+9,6,4,7,6,10,11,10,7,12,5,8,7.92,9,9,5,9,9,4,2,2,9,9,Cybersecurity Analyst,ICT & Computing
+12,12,11,2,3,9,7,12,9,12,5,1,7.92,9,9,9,1,9,5,8,10,5,6,Mechanical Engineer,Engineering & Technology
+11,2,4,5,3,12,2,6,9,9,6,2,5.92,10,9,4,7,1,1,10,6,6,9,Financial Analyst,Business & Finance
+6,12,6,9,1,10,8,8,12,7,1,10,7.5,3,5,5,3,3,8,9,4,4,1,Hotel Manager,Hospitality & Tourism
+11,2,5,6,3,7,9,3,10,4,7,10,6.42,4,9,10,7,9,5,10,5,5,9,Accountant,Business & Finance
+2,5,5,11,12,6,11,8,8,4,7,10,7.42,3,2,6,8,2,4,10,8,9,10,Welder,Skilled Trades & Technical
+10,9,4,1,7,7,2,10,8,6,3,10,6.42,3,5,9,1,1,9,1,3,10,10,Lawyer,Law & Governance
+4,10,9,12,6,7,4,8,12,1,12,6,7.58,1,4,9,7,10,10,7,3,8,2,Lecturer,Education
+9,5,7,7,1,9,11,1,2,9,4,12,6.42,9,9,7,1,9,8,8,2,10,1,Data Scientist,ICT & Computing
+12,8,8,2,4,10,3,1,2,9,9,7,6.25,9,9,1,7,9,3,5,7,10,9,Mechatronics Engineer,Engineering & Technology
+2,1,11,2,9,3,4,1,12,12,11,6,6.17,7,4,7,3,9,6,1,3,10,4,Police Officer,Security & Defense
+11,2,9,2,8,10,8,10,7,12,1,11,7.58,9,9,10,8,9,2,2,4,3,7,Mechatronics Engineer,Engineering & Technology
+1,7,5,11,12,6,11,6,8,6,6,6,7.08,3,10,10,10,9,8,9,1,1,4,Electrician,Skilled Trades & Technical
+7,4,6,9,12,8,3,4,4,1,2,4,5.33,6,9,8,3,7,3,9,10,1,3,Tour Guide,Hospitality & Tourism
+12,3,9,8,10,11,11,4,8,11,10,2,8.25,6,3,6,8,9,7,5,5,8,8,Chef,Hospitality & Tourism
+5,5,6,1,10,6,4,8,1,1,1,6,4.5,8,4,3,6,8,6,5,5,9,4,Logistics Officer,Transport & Aviation
+5,4,1,3,6,7,6,11,12,7,4,3,5.75,9,3,9,4,9,5,2,10,9,1,Electrician,Skilled Trades & Technical
+10,12,3,5,9,8,7,11,6,9,6,10,8.0,7,3,9,5,6,9,3,2,6,5,Judge,Law & Governance
+11,8,2,7,8,7,8,4,12,12,11,4,7.83,5,9,6,9,8,9,4,3,3,9,Banker,Business & Finance
+10,1,3,3,8,10,7,4,6,6,9,6,6.08,2,1,10,5,4,6,1,1,9,9,Tour Guide,Hospitality & Tourism
+1,9,10,12,6,2,9,11,9,8,3,11,7.58,3,2,9,7,7,9,1,3,6,5,Lawyer,Law & Governance
+12,2,4,8,9,8,5,9,5,3,11,8,7.0,6,3,6,7,8,2,9,2,9,2,Electrician,Skilled Trades & Technical
+11,1,10,2,9,10,1,9,9,12,7,3,7.0,9,9,3,4,9,6,1,4,9,8,AI Engineer,ICT & Computing
+9,2,8,8,3,12,11,5,11,11,8,9,8.08,1,9,2,8,4,1,9,4,6,9,Economist,Business & Finance
+12,4,2,8,11,10,1,2,8,4,8,10,6.67,5,6,10,6,5,9,4,6,7,2,Automotive Technician,Skilled Trades & Technical
+6,1,4,8,10,6,11,1,10,5,7,2,5.92,1,10,10,9,1,8,4,3,9,5,Graphic Designer,Creative Arts & Media
+2,3,5,9,11,11,1,11,7,12,10,8,7.5,8,7,8,7,5,9,9,8,1,9,Pharmacist,Health Sciences
+12,11,5,10,11,10,2,5,11,1,5,10,7.75,8,9,10,5,5,4,9,1,6,6,Clinical Officer,Health Sciences
+11,9,3,2,1,1,7,12,7,2,3,10,5.67,5,6,10,9,7,4,2,10,9,2,Animator,Creative Arts & Media
+9,3,3,6,3,12,5,12,12,11,2,1,6.58,9,9,10,1,9,7,4,3,4,7,Electrical Engineer,Engineering & Technology
+2,11,1,6,11,3,1,12,8,10,4,9,6.5,1,6,9,3,9,3,7,6,9,9,Education Officer,Education
+2,12,11,6,6,11,12,7,3,5,10,3,7.33,9,7,9,5,4,5,5,8,7,8,Education Officer,Education
+7,8,12,10,8,7,12,11,1,11,3,12,8.5,4,2,2,9,4,2,10,5,10,1,Forester,Agriculture & Environment
+10,3,4,6,1,2,9,1,5,7,10,2,5.0,7,7,8,9,1,10,9,7,9,8,Film Producer,Creative Arts & Media
+4,11,9,6,7,5,7,11,5,12,2,7,7.17,10,5,9,5,7,9,3,7,6,8,Public Administrator,Law & Governance
+10,6,12,11,7,10,3,9,9,12,7,4,8.33,9,9,8,1,9,10,1,5,9,4,Civil Engineer,Engineering & Technology
+11,6,3,10,11,1,9,12,6,11,4,7,7.58,4,4,5,6,4,7,9,6,3,7,Marine Engineer,Transport & Aviation
+12,9,1,12,3,10,9,10,9,12,5,3,7.92,9,9,6,7,9,3,6,2,9,6,AI Engineer,ICT & Computing
+4,1,8,10,10,2,2,7,8,5,3,7,5.58,6,2,2,9,7,4,5,10,9,1,Tour Guide,Hospitality & Tourism
+5,10,5,1,3,12,1,11,12,11,2,6,6.58,7,10,9,9,8,9,3,6,10,4,Lawyer,Law & Governance
+8,9,12,9,8,9,6,7,8,10,10,7,8.58,6,9,9,5,8,10,6,6,5,10,Education Officer,Education
+10,3,2,2,4,10,10,4,12,9,7,12,7.08,9,9,6,6,9,2,9,2,6,6,AI Engineer,ICT & Computing
+7,4,8,2,4,4,2,3,5,8,2,1,4.17,8,2,5,5,7,9,3,6,6,1,Logistics Officer,Transport & Aviation
+11,10,6,11,6,7,3,12,1,2,8,5,6.83,3,7,9,5,2,9,9,4,10,6,Judge,Law & Governance
+12,2,8,1,9,7,6,3,11,12,11,3,7.08,4,9,5,8,10,2,2,8,2,9,Banker,Business & Finance
+5,9,2,8,10,3,8,9,11,11,12,5,7.75,8,6,9,8,3,9,10,4,8,9,Lawyer,Law & Governance
+2,3,5,2,4,5,11,1,5,10,5,4,4.75,10,7,5,5,9,5,10,7,9,3,Military Officer,Security & Defense
+9,4,10,9,11,3,11,6,3,8,5,10,7.42,8,10,3,4,5,7,9,3,3,7,Lab Technologist,Health Sciences
+1,10,4,11,11,8,9,8,8,10,6,12,8.17,5,3,7,6,9,7,3,3,6,6,Environmental Scientist,Agriculture & Environment
+6,10,9,6,12,9,1,10,7,5,2,5,6.83,5,8,4,10,3,2,8,7,3,10,Electrician,Skilled Trades & Technical
+11,4,3,4,6,10,7,4,9,11,5,5,6.58,9,9,3,2,9,3,5,10,1,7,Electrical Engineer,Engineering & Technology
+1,5,7,9,12,3,7,11,9,1,5,7,6.42,3,7,3,5,3,5,5,8,7,9,Pilot,Transport & Aviation
+12,12,10,10,7,10,12,2,6,9,7,1,8.17,9,9,8,6,9,7,4,5,10,8,Electrical Engineer,Engineering & Technology
+6,11,9,3,6,9,11,9,3,9,3,9,7.33,2,9,2,2,10,5,2,2,4,4,Welder,Skilled Trades & Technical
+10,10,4,3,9,5,12,6,5,10,8,9,7.58,2,10,7,1,5,9,10,4,4,7,Pilot,Transport & Aviation
+11,11,10,8,8,11,6,3,11,6,4,9,8.17,5,9,3,4,7,8,1,9,6,7,Military Officer,Security & Defense
+5,2,2,9,2,5,5,2,8,9,6,4,4.92,5,5,9,1,6,9,4,6,4,4,Automotive Technician,Skilled Trades & Technical
+11,1,6,6,9,5,10,8,8,2,10,10,7.17,10,10,1,2,10,6,5,3,6,5,Chef,Hospitality & Tourism
+10,8,10,6,12,7,8,7,10,11,10,12,9.25,6,9,3,2,1,8,6,10,7,9,Actuary,Business & Finance
+10,8,1,2,3,10,8,5,1,10,11,11,6.67,9,9,4,5,9,8,6,2,10,2,Mechatronics Engineer,Engineering & Technology
+3,11,12,8,1,9,2,5,9,11,10,9,7.5,2,10,9,9,10,4,4,9,8,2,Automotive Technician,Skilled Trades & Technical
+4,11,11,7,9,7,5,5,5,4,5,8,6.75,2,3,3,1,9,3,6,3,3,10,Logistics Officer,Transport & Aviation
+5,8,12,6,3,1,10,1,10,12,7,12,7.25,8,10,3,5,8,7,6,8,2,2,Tour Guide,Hospitality & Tourism
+11,1,9,5,11,12,3,5,5,8,10,2,6.83,5,3,2,9,6,10,2,7,9,9,Journalist,Creative Arts & Media
+8,4,12,7,7,10,8,8,9,5,10,6,7.83,6,1,10,3,2,3,5,4,6,3,Chef,Hospitality & Tourism
+4,11,7,1,9,12,6,10,12,5,3,9,7.42,2,7,9,4,10,9,10,8,7,7,Public Administrator,Law & Governance
+9,7,12,4,11,12,5,11,2,11,8,1,7.75,9,9,8,2,9,2,7,8,1,7,AI Engineer,ICT & Computing
+2,12,3,7,5,5,7,12,7,4,6,12,6.83,10,3,9,10,2,9,1,5,2,10,Public Administrator,Law & Governance
+10,1,6,10,7,9,11,1,12,9,3,7,7.17,9,9,8,1,9,10,2,9,7,4,Electrical Engineer,Engineering & Technology
+4,9,8,7,2,10,7,12,9,4,4,6,6.83,2,2,9,1,1,9,3,1,1,4,Judge,Law & Governance
+12,10,8,12,11,4,7,11,3,3,7,1,7.42,8,3,4,6,1,3,9,8,7,9,Doctor,Health Sciences
+5,9,9,6,7,9,1,4,4,2,9,7,6.0,3,2,9,3,4,1,5,3,4,4,Education Officer,Education
+4,9,8,4,9,11,4,9,4,1,4,3,5.83,8,8,9,8,9,9,6,9,8,7,Judge,Law & Governance
+12,9,5,7,6,9,2,7,8,9,6,3,6.92,9,9,6,4,9,10,9,9,5,5,Mechatronics Engineer,Engineering & Technology
+9,3,11,9,2,9,11,6,12,7,9,2,7.5,9,9,4,4,1,8,5,5,2,3,Military Officer,Security & Defense
+11,10,3,2,3,4,6,12,7,4,1,12,6.25,9,4,3,6,8,7,5,9,8,9,Military Officer,Security & Defense
+12,10,12,9,1,2,4,12,1,1,1,1,5.5,5,4,9,5,10,9,6,6,7,1,Judge,Law & Governance
+4,3,2,3,12,11,10,12,1,12,9,11,7.5,8,9,6,6,4,5,8,9,10,3,Police Officer,Security & Defense
+4,6,1,7,9,9,5,11,5,5,1,6,5.75,7,2,5,7,3,4,2,10,5,5,Military Officer,Security & Defense
+2,5,8,12,9,5,10,9,10,5,5,11,7.58,8,9,2,9,10,9,9,2,3,9,Lab Technologist,Health Sciences
+6,6,8,5,12,4,8,10,9,10,7,4,7.42,3,3,5,5,4,9,6,4,8,2,Military Officer,Security & Defense
+12,7,4,3,12,10,7,4,10,10,9,4,7.67,9,9,1,7,9,10,6,10,4,6,Electrical Engineer,Engineering & Technology
+10,12,11,1,12,9,10,11,4,10,11,7,9.0,5,4,9,5,4,9,1,3,6,4,Lawyer,Law & Governance
+2,3,6,7,10,10,10,12,3,8,12,5,7.33,6,5,10,10,7,2,9,7,6,3,Police Officer,Security & Defense
+11,11,7,10,5,11,7,12,3,10,11,2,8.33,9,9,6,1,9,3,4,10,2,3,Mechatronics Engineer,Engineering & Technology
+11,6,12,5,12,11,4,3,3,6,2,3,6.5,8,8,6,2,6,1,7,6,3,4,Tour Guide,Hospitality & Tourism
+11,9,2,4,12,3,8,12,12,12,9,6,8.33,9,10,9,4,6,9,1,3,9,9,Judge,Law & Governance
+8,2,6,10,5,3,11,1,9,1,4,12,6.0,9,2,10,10,4,7,1,6,8,10,Veterinary Officer,Agriculture & Environment
+3,12,5,11,9,3,9,1,5,8,5,6,6.42,8,1,6,7,6,4,9,9,1,3,Doctor,Health Sciences
+7,6,9,11,1,11,6,7,7,11,11,12,8.25,7,4,8,7,10,2,9,4,6,6,Police Officer,Security & Defense
+6,2,4,8,8,7,12,11,6,8,3,1,6.33,8,5,3,3,7,8,6,4,5,10,Pilot,Transport & Aviation
+1,9,2,9,11,5,1,1,11,6,4,3,5.25,8,4,6,9,4,8,9,2,1,10,Clinical Officer,Health Sciences
+11,2,9,5,4,10,3,7,8,9,10,12,7.5,9,9,9,10,9,2,1,4,8,10,Data Scientist,ICT & Computing
+8,11,4,12,9,9,2,12,2,2,11,10,7.67,8,7,9,3,2,8,9,2,10,4,Pharmacist,Health Sciences
+9,7,3,7,1,10,8,4,12,12,12,3,7.33,9,9,5,1,10,8,9,6,10,9,Financial Analyst,Business & Finance
+5,6,5,10,12,11,11,1,4,2,11,9,7.25,2,1,1,7,4,10,1,7,10,2,Forester,Agriculture & Environment
+9,9,7,9,11,2,6,12,9,5,11,9,8.25,9,9,1,6,8,3,4,1,2,9,Economist,Business & Finance
+6,9,1,3,10,4,7,3,11,8,12,7,6.75,8,1,9,3,3,7,6,1,2,3,Teacher,Education
+6,12,11,8,11,11,2,8,8,6,9,4,8.0,10,9,3,2,9,7,10,7,7,10,Military Officer,Security & Defense
+10,3,5,11,4,2,7,8,8,5,5,9,6.42,7,9,3,9,9,2,4,2,9,6,Journalist,Creative Arts & Media
+5,1,3,9,7,3,11,4,11,6,10,12,6.83,6,5,1,5,7,4,8,5,5,5,Agronomist,Agriculture & Environment
+2,9,11,6,3,4,6,9,12,7,12,3,7.0,1,2,8,10,8,4,1,10,9,1,Automotive Technician,Skilled Trades & Technical
+9,1,8,1,5,10,12,7,10,11,2,2,6.5,9,6,1,2,7,1,2,10,4,4,Hotel Manager,Hospitality & Tourism
+10,12,2,9,8,12,9,4,9,10,5,12,8.5,1,9,1,6,4,9,8,5,7,7,Agronomist,Agriculture & Environment
+12,2,8,11,3,11,6,10,12,3,7,7,7.67,3,5,4,8,3,2,5,9,10,3,Logistics Officer,Transport & Aviation
+3,10,10,12,5,7,4,9,12,1,9,4,7.17,9,3,9,10,6,9,9,7,4,5,Lawyer,Law & Governance
+8,8,9,9,10,9,11,4,8,1,10,8,7.92,8,1,4,7,5,7,9,1,7,7,Clinical Officer,Health Sciences
+4,12,9,10,2,3,11,10,11,10,9,1,7.67,10,4,9,1,1,9,9,2,6,8,Lawyer,Law & Governance
+5,7,8,10,9,4,10,5,8,4,1,11,6.83,7,10,9,2,3,3,2,6,2,5,Police Officer,Security & Defense
+1,9,12,6,10,9,5,10,10,12,10,2,8.0,5,2,9,2,3,9,3,7,1,1,Public Administrator,Law & Governance
+3,12,11,12,11,3,11,5,2,1,6,3,6.67,1,8,5,9,10,4,9,3,9,4,Animator,Creative Arts & Media
+9,9,12,1,7,12,9,10,11,11,11,11,9.42,9,9,1,10,9,9,3,3,10,1,Electrical Engineer,Engineering & Technology
+9,12,3,3,1,7,2,5,10,10,5,2,5.75,1,9,3,7,9,3,7,1,10,9,Economist,Business & Finance
+9,4,2,10,4,10,4,4,3,11,3,5,5.75,3,2,4,4,1,3,1,1,2,6,Pilot,Transport & Aviation
+11,11,6,10,5,11,12,2,11,9,1,7,8.0,9,9,7,9,9,6,7,5,9,6,Cybersecurity Analyst,ICT & Computing
+5,9,2,11,9,12,12,12,9,4,4,9,8.17,4,3,9,10,8,9,1,9,6,3,Judge,Law & Governance
+2,5,5,1,2,6,1,9,5,1,11,8,4.67,2,9,3,3,8,3,6,8,2,5,Welder,Skilled Trades & Technical
+3,9,1,11,6,9,6,11,2,1,6,10,6.25,1,6,9,8,10,2,6,6,10,4,Education Officer,Education
+10,6,11,11,10,9,9,1,12,8,1,8,8.0,8,1,5,7,4,2,9,7,4,8,Clinical Officer,Health Sciences
+2,6,1,10,12,12,10,1,11,1,12,11,7.42,3,2,9,1,6,5,3,8,5,10,Environmental Scientist,Agriculture & Environment
+2,3,4,10,11,5,6,7,11,7,7,5,6.5,8,8,2,8,9,2,9,3,8,6,Doctor,Health Sciences
+5,2,3,12,8,3,11,5,10,5,7,9,6.67,2,4,9,4,8,7,9,1,2,7,Environmental Scientist,Agriculture & Environment
+1,10,11,12,2,8,4,10,9,4,5,12,7.33,7,7,9,6,5,9,5,2,10,4,Public Administrator,Law & Governance
+3,7,6,10,3,10,3,12,5,4,9,5,6.42,1,1,10,7,1,5,4,9,8,1,Police Officer,Security & Defense
+9,3,8,2,10,11,12,3,11,11,5,12,8.08,9,9,7,2,9,1,10,8,7,6,Electrical Engineer,Engineering & Technology
+9,9,2,2,11,4,12,4,3,9,9,7,6.75,6,10,3,4,7,5,8,9,8,7,Police Officer,Security & Defense
+12,4,7,12,8,12,8,9,11,11,4,11,9.08,4,2,7,9,10,1,3,9,2,9,Pilot,Transport & Aviation
+12,4,8,9,7,4,4,8,8,12,11,10,8.08,6,2,5,1,8,7,4,5,6,4,Pilot,Transport & Aviation
+8,3,6,10,11,1,9,4,1,1,4,12,5.83,5,9,3,10,3,10,10,8,4,5,Environmental Scientist,Agriculture & Environment
+9,7,4,9,7,10,8,11,9,12,4,3,7.75,9,9,2,2,9,8,7,10,9,9,Cybersecurity Analyst,ICT & Computing
+5,7,6,3,11,9,2,7,4,1,5,2,5.17,8,4,6,5,5,2,7,2,4,6,Pilot,Transport & Aviation
+4,11,9,12,6,4,11,10,12,8,5,12,8.67,1,1,9,4,9,9,4,6,7,10,Public Administrator,Law & Governance
+2,9,12,6,6,2,10,10,11,1,10,10,7.42,10,2,9,8,2,9,1,6,8,7,Lawyer,Law & Governance
+5,8,2,12,7,5,12,3,1,2,10,11,6.5,2,10,9,4,2,10,10,2,3,9,Agronomist,Agriculture & Environment
+9,9,4,10,7,11,3,1,12,3,7,7,6.92,3,9,7,2,7,2,3,4,8,9,Economist,Business & Finance
+12,5,2,12,11,9,11,9,10,9,10,2,8.5,9,9,1,9,9,1,5,10,10,10,Mechatronics Engineer,Engineering & Technology
+2,9,5,1,3,12,1,10,5,8,4,8,5.67,1,7,9,7,10,10,4,10,8,7,Education Officer,Education
+1,5,9,1,6,6,7,3,1,8,5,4,4.67,7,6,10,5,5,4,7,2,3,8,Police Officer,Security & Defense
+11,11,5,9,8,5,2,10,11,8,10,12,8.5,4,9,8,5,6,1,10,1,6,9,Financial Analyst,Business & Finance
+11,7,2,10,9,10,5,8,8,12,4,2,7.33,9,9,4,5,9,5,4,7,3,2,Data Scientist,ICT & Computing
+2,2,6,8,5,12,6,1,3,11,2,7,5.42,5,8,5,4,5,3,8,8,9,3,Marine Engineer,Transport & Aviation
+11,7,6,1,7,9,9,12,6,12,1,9,7.5,9,9,5,1,9,8,5,8,10,8,Electrical Engineer,Engineering & Technology
+12,8,2,11,4,1,4,3,11,1,8,4,5.75,6,9,5,9,2,5,9,2,10,9,Economist,Business & Finance
+11,3,2,12,4,11,12,4,2,9,3,11,7.0,9,9,6,6,2,4,7,5,7,2,Veterinary Officer,Agriculture & Environment
+4,12,7,7,9,8,3,7,1,3,10,10,6.75,7,10,9,4,7,1,4,4,10,10,Teacher,Education
+10,12,3,5,3,12,5,11,6,10,1,2,6.67,9,9,7,4,9,2,6,1,10,8,Civil Engineer,Engineering & Technology
+9,3,5,12,11,6,2,12,3,5,5,8,6.75,8,3,3,1,7,10,9,9,7,9,Doctor,Health Sciences
+7,6,9,12,1,9,8,1,1,8,6,5,6.08,4,7,4,6,6,1,8,8,7,4,Police Officer,Security & Defense
+8,10,5,4,11,11,3,8,5,6,4,10,7.08,1,1,9,5,9,8,10,2,9,2,Lecturer,Education
+4,9,2,6,12,9,12,8,5,10,4,11,7.67,9,9,9,6,7,5,5,2,1,6,Teacher,Education
+5,7,5,9,11,10,3,9,10,11,9,12,8.42,8,4,1,7,1,3,9,1,7,7,Nurse,Health Sciences
+11,10,6,5,8,12,2,9,10,9,12,12,8.83,9,9,9,2,9,1,2,8,1,3,AI Engineer,ICT & Computing
+8,5,2,12,8,10,3,11,12,9,3,9,7.67,9,7,9,2,6,8,4,8,2,4,Automotive Technician,Skilled Trades & Technical
+2,5,12,10,6,4,11,3,7,7,4,1,6.0,1,10,8,9,1,3,2,4,7,10,Automotive Technician,Skilled Trades & Technical
+8,7,7,10,10,7,1,2,6,10,9,1,6.5,8,4,7,8,3,8,9,4,6,5,Lab Technologist,Health Sciences
+11,4,1,6,7,12,12,8,7,10,2,8,7.33,9,9,1,2,9,5,5,3,3,3,Civil Engineer,Engineering & Technology
+3,4,11,1,12,9,10,2,10,5,11,10,7.33,7,1,8,9,2,4,4,1,9,10,Film Producer,Creative Arts & Media
+2,9,2,8,10,7,11,12,5,6,11,12,7.92,6,3,9,8,7,5,9,10,5,3,Military Officer,Security & Defense
+12,1,2,4,3,10,9,12,4,11,6,1,6.25,9,9,7,8,9,2,9,1,2,5,Data Scientist,ICT & Computing
+11,4,9,8,2,11,2,8,8,12,7,1,6.92,9,9,3,3,9,7,3,4,10,2,Software Developer,ICT & Computing
+7,9,11,2,1,11,10,5,9,12,10,4,7.58,7,1,9,4,8,3,5,5,5,6,Teacher,Education
+4,12,6,11,6,9,7,1,12,10,6,2,7.17,7,9,9,2,6,3,7,9,3,5,Teacher,Education
+11,8,2,10,7,11,11,5,9,11,12,11,9.0,2,2,2,4,2,5,3,6,8,6,Agronomist,Agriculture & Environment
+12,8,9,3,2,6,2,1,4,6,5,12,5.83,8,9,8,9,3,6,5,9,6,4,Hotel Manager,Hospitality & Tourism
+11,8,11,7,12,9,1,10,3,10,5,3,7.5,9,9,10,7,9,4,6,7,4,3,Electrical Engineer,Engineering & Technology
+10,3,12,6,8,9,2,11,6,10,4,9,7.5,9,9,1,10,9,3,7,6,8,9,Civil Engineer,Engineering & Technology
+12,3,9,2,11,11,6,12,2,9,6,11,7.83,9,9,8,8,9,5,6,5,1,2,Civil Engineer,Engineering & Technology
+10,5,1,12,4,10,3,6,11,2,7,12,6.92,5,3,10,4,6,7,8,7,4,5,Police Officer,Security & Defense
+1,12,10,4,6,1,9,6,11,7,9,2,6.5,9,7,9,5,4,3,8,10,5,8,Teacher,Education
+10,10,2,8,2,1,10,10,11,11,6,5,7.17,7,9,1,3,9,6,5,5,3,9,Accountant,Business & Finance
+6,8,11,7,4,11,2,3,3,11,2,9,6.42,5,3,3,4,9,1,4,4,3,8,Military Officer,Security & Defense
+2,7,5,5,3,2,10,5,2,2,2,7,4.33,4,7,4,3,7,5,3,9,8,3,Welder,Skilled Trades & Technical
+5,11,3,12,2,7,1,7,5,9,10,10,6.83,2,2,9,1,4,8,3,7,7,6,Teacher,Education
+2,4,10,2,11,4,4,4,9,2,1,7,5.0,5,8,6,6,5,2,9,5,3,9,Welder,Skilled Trades & Technical
+10,12,4,7,2,8,10,8,1,9,12,7,7.5,10,8,2,9,8,4,6,9,9,7,Graphic Designer,Creative Arts & Media
+12,6,10,2,9,12,6,11,9,10,11,5,8.58,10,9,10,2,3,1,4,10,2,9,Banker,Business & Finance
+11,4,7,8,1,3,7,11,11,10,8,2,6.92,8,9,10,7,9,9,2,6,7,9,Financial Analyst,Business & Finance
+12,11,6,11,4,2,9,12,3,8,5,9,7.67,7,1,9,10,6,9,2,1,3,5,Lawyer,Law & Governance
+1,8,1,5,2,1,2,2,7,6,8,5,4.0,4,7,4,9,4,1,2,5,9,2,Animator,Creative Arts & Media
+6,4,12,11,11,8,11,2,2,5,11,12,7.92,10,3,4,9,6,4,4,10,9,1,Animator,Creative Arts & Media
+1,2,2,11,1,6,6,12,8,11,4,8,6.0,1,10,2,5,7,8,6,1,10,7,Pilot,Transport & Aviation
+8,5,5,12,6,9,7,5,6,4,3,10,6.67,10,8,2,9,5,6,8,7,9,4,Film Producer,Creative Arts & Media
+10,11,6,7,10,8,1,12,4,8,1,9,7.25,7,10,9,1,2,9,7,5,3,8,Public Administrator,Law & Governance
+9,12,11,11,1,8,2,6,8,8,3,4,6.92,8,4,2,2,7,3,9,10,9,6,Automotive Technician,Skilled Trades & Technical
+8,12,8,8,6,10,10,10,12,9,12,5,9.17,1,2,1,9,3,10,8,1,1,6,Logistics Officer,Transport & Aviation
+9,5,1,6,7,9,5,6,11,10,8,4,6.75,9,9,9,4,9,5,3,5,1,8,Cybersecurity Analyst,ICT & Computing
+9,6,2,6,3,10,1,12,5,11,7,8,6.67,9,9,1,8,9,4,1,2,7,6,Mechatronics Engineer,Engineering & Technology
+9,6,3,6,11,10,10,5,3,11,9,1,7.0,9,9,1,8,9,10,1,7,5,6,Data Scientist,ICT & Computing
+4,1,7,3,12,10,12,1,9,5,3,4,5.92,2,8,10,1,6,3,1,7,10,6,Police Officer,Security & Defense
+11,5,7,12,10,2,11,2,5,3,3,6,6.42,7,5,7,1,2,8,4,9,7,1,Logistics Officer,Transport & Aviation
+11,12,7,6,12,8,1,9,12,1,10,9,8.17,2,9,6,3,2,9,1,2,1,9,Economist,Business & Finance
+12,1,9,12,11,11,3,3,7,12,12,5,8.17,9,9,3,2,9,5,10,2,2,9,Civil Engineer,Engineering & Technology
+12,8,11,1,11,9,1,6,10,4,3,11,7.25,2,10,7,6,5,3,7,7,10,7,Military Officer,Security & Defense
+8,12,7,5,8,10,3,3,11,11,10,2,7.5,4,10,10,9,10,9,1,1,9,5,Journalist,Creative Arts & Media
+1,8,4,6,7,4,2,3,6,10,9,4,5.33,1,2,7,6,3,5,4,5,5,9,Hotel Manager,Hospitality & Tourism
+9,5,7,7,1,12,1,11,11,9,8,9,7.5,9,9,4,1,9,3,7,5,4,4,Software Developer,ICT & Computing
+3,5,8,1,4,2,4,7,2,7,3,12,4.83,4,3,8,10,4,1,5,3,3,4,Military Officer,Security & Defense
+10,2,2,2,6,10,9,4,11,9,9,2,6.33,1,9,3,10,2,10,3,7,3,9,Actuary,Business & Finance
+6,10,6,1,7,3,9,2,9,10,12,10,7.08,1,8,9,2,8,9,7,3,2,1,Teacher,Education
+11,6,5,5,7,12,12,7,8,12,4,8,8.08,9,9,9,10,9,5,7,9,7,10,Data Scientist,ICT & Computing
+10,10,12,8,3,2,5,6,9,2,6,11,7.0,3,1,9,5,4,5,1,5,1,4,Tour Guide,Hospitality & Tourism
+12,10,7,2,11,11,12,9,8,11,2,2,8.08,9,9,6,3,2,8,10,7,10,6,Welder,Skilled Trades & Technical
+1,9,12,2,11,10,9,2,2,11,9,8,7.17,4,8,9,1,8,9,9,6,4,9,Lecturer,Education
+11,5,12,1,12,5,2,10,10,4,11,6,7.42,1,5,2,7,4,4,8,10,9,3,Automotive Technician,Skilled Trades & Technical
+6,1,3,11,9,6,9,9,4,3,12,7,6.67,8,10,6,2,9,9,9,5,10,4,Lab Technologist,Health Sciences
+10,5,5,5,12,12,6,3,12,1,10,11,7.67,8,9,6,10,6,9,10,2,5,9,Actuary,Business & Finance
+10,11,3,1,4,10,2,4,11,12,1,4,6.08,9,9,8,3,9,7,5,7,2,6,Software Developer,ICT & Computing
+12,10,2,4,2,1,3,7,10,11,11,1,6.17,8,1,4,6,8,9,2,10,3,6,Logistics Officer,Transport & Aviation
+9,6,6,6,7,4,2,11,10,9,10,6,7.17,5,9,8,1,4,2,9,9,2,9,Financial Analyst,Business & Finance
+1,10,7,1,7,4,7,10,3,6,3,5,5.33,6,8,9,7,9,9,9,7,6,6,Automotive Technician,Skilled Trades & Technical
+12,12,8,5,4,9,1,7,8,9,12,3,7.5,9,9,3,3,9,4,3,10,8,6,Data Scientist,ICT & Computing
+6,10,8,10,12,1,1,9,4,2,12,12,7.25,8,7,4,2,4,9,9,1,10,7,Pharmacist,Health Sciences
+11,9,11,2,2,12,11,5,3,10,7,9,7.67,9,9,8,4,9,1,6,8,1,9,Mechatronics Engineer,Engineering & Technology
+12,9,3,3,7,6,5,1,9,10,8,9,6.83,2,6,8,6,8,6,5,4,2,4,Logistics Officer,Transport & Aviation
+12,1,11,6,6,12,4,8,1,11,8,4,7.0,9,9,5,8,9,5,4,7,9,1,Electrical Engineer,Engineering & Technology
+12,1,3,2,12,6,12,9,7,10,10,9,7.75,2,1,9,7,4,4,6,7,1,3,Military Officer,Security & Defense
+2,10,1,8,10,3,4,8,8,8,7,5,6.17,8,2,9,10,4,8,10,7,1,10,Teacher,Education
+9,6,1,2,10,9,12,8,4,11,12,2,7.17,9,9,3,9,9,2,4,5,4,1,Mechanical Engineer,Engineering & Technology
+12,11,1,10,10,7,10,12,6,5,1,3,7.33,8,5,2,8,10,8,9,8,9,10,Lab Technologist,Health Sciences
+9,6,12,9,1,11,12,8,12,4,10,12,8.83,5,9,10,10,8,7,1,3,4,9,Accountant,Business & Finance
+8,11,5,11,2,6,4,9,12,5,3,11,7.25,1,1,9,9,5,9,5,6,1,1,Education Officer,Education
+11,1,10,8,8,10,3,9,12,12,9,5,8.17,4,10,3,9,5,8,10,2,9,5,Film Producer,Creative Arts & Media
+7,11,3,11,3,1,3,12,7,5,1,8,6.0,1,4,9,3,2,9,8,8,4,6,Public Administrator,Law & Governance
+11,12,2,4,10,12,4,9,7,12,11,11,8.75,7,7,1,2,6,10,2,2,1,7,Chef,Hospitality & Tourism
+10,5,9,11,10,10,9,10,12,2,9,5,8.5,7,9,6,8,4,2,5,1,5,9,Actuary,Business & Finance
+3,2,3,10,9,4,10,10,1,11,8,10,6.75,8,7,10,9,2,4,9,6,9,6,Doctor,Health Sciences
+11,5,11,11,6,2,7,12,9,3,10,9,8.0,7,9,9,4,3,3,8,4,1,9,Economist,Business & Finance
+4,6,2,11,10,7,3,8,11,2,8,7,6.58,8,6,9,1,1,7,9,3,3,5,Doctor,Health Sciences
+7,9,8,10,3,8,4,7,5,7,8,7,6.92,2,9,7,9,2,6,6,2,1,2,Tour Guide,Hospitality & Tourism
+12,3,4,9,6,9,9,9,5,10,1,2,6.58,9,9,2,3,9,6,1,2,6,1,Software Developer,ICT & Computing
+3,4,1,12,4,6,6,10,6,8,5,12,6.42,7,8,4,8,9,5,6,9,10,5,Chef,Hospitality & Tourism
+8,4,7,9,6,2,12,11,4,4,12,2,6.75,5,10,7,2,9,5,9,6,7,8,Logistics Officer,Transport & Aviation
+9,11,12,2,2,9,6,8,2,10,1,8,6.67,9,9,5,10,9,4,8,10,1,6,Data Scientist,ICT & Computing
+9,8,4,12,6,9,8,6,2,2,8,1,6.25,6,2,9,6,6,8,6,1,3,5,Police Officer,Security & Defense
+6,3,7,5,11,11,3,6,7,3,5,12,6.58,6,1,9,9,1,5,7,1,4,10,Police Officer,Security & Defense
+7,9,5,9,1,8,4,11,12,4,5,11,7.17,5,8,9,3,9,9,1,4,6,8,Judge,Law & Governance
+11,8,12,10,2,4,2,9,9,8,9,3,7.25,5,9,7,8,9,5,8,8,3,9,Actuary,Business & Finance
+3,1,6,7,12,7,9,5,1,11,2,11,6.25,3,2,5,5,8,6,9,3,7,7,Welder,Skilled Trades & Technical
+7,11,6,2,8,10,7,1,2,11,6,5,6.33,10,2,3,4,5,8,5,1,6,6,Military Officer,Security & Defense
+10,12,7,7,5,12,3,7,4,9,5,3,7.0,9,9,1,2,9,5,4,5,5,10,Software Developer,ICT & Computing
+12,8,6,9,7,11,2,5,6,10,5,12,7.75,9,9,6,1,9,1,1,3,9,1,Software Developer,ICT & Computing
+2,12,5,10,2,3,5,11,10,11,7,3,6.75,7,7,9,8,10,9,5,5,9,8,Lawyer,Law & Governance
+12,9,9,8,12,10,7,5,8,11,11,11,9.42,9,9,4,2,9,5,2,6,4,3,Software Developer,ICT & Computing
+1,9,8,11,9,3,8,9,11,4,5,2,6.67,5,1,9,3,3,10,9,3,6,5,Teacher,Education
+9,10,5,4,4,6,2,7,9,9,7,6,6.5,6,9,3,4,10,10,3,4,1,9,Actuary,Business & Finance
+2,12,7,9,12,12,6,12,11,6,5,4,8.17,8,1,7,1,10,7,9,9,3,2,Clinical Officer,Health Sciences
+7,11,4,9,7,4,9,4,3,3,10,2,6.08,3,3,2,1,8,4,5,3,8,7,Pilot,Transport & Aviation
+11,10,2,4,11,10,6,1,9,12,5,11,7.67,3,4,2,1,7,1,1,3,7,4,Tour Guide,Hospitality & Tourism
+8,8,3,9,10,5,8,3,9,6,12,12,7.75,4,2,10,9,9,6,2,5,2,8,Police Officer,Security & Defense
+9,3,8,12,7,10,12,8,6,8,4,12,8.25,4,8,6,9,5,3,3,2,7,8,Environmental Scientist,Agriculture & Environment
+8,7,10,12,10,2,9,7,6,10,3,5,7.42,3,4,9,7,2,8,2,9,8,5,Logistics Officer,Transport & Aviation
+4,10,1,9,2,5,1,10,11,12,6,4,6.25,4,3,9,5,8,9,10,8,5,2,Lawyer,Law & Governance
+10,11,9,4,7,11,1,10,4,8,5,9,7.42,5,6,9,3,5,9,4,6,7,3,Public Administrator,Law & Governance
+5,9,11,11,4,9,9,4,7,9,7,12,8.08,6,8,8,3,8,9,4,6,8,10,Environmental Scientist,Agriculture & Environment
+5,10,8,3,9,10,11,2,12,4,3,1,6.5,4,2,5,9,1,4,7,1,9,8,Animator,Creative Arts & Media
+2,10,12,10,3,9,9,10,8,12,11,1,8.08,6,2,9,9,7,2,9,5,7,7,Teacher,Education
+8,9,11,3,6,7,6,12,10,9,12,11,8.67,1,5,9,8,3,9,10,7,2,3,Lawyer,Law & Governance
+10,3,9,2,6,10,3,5,10,9,4,6,6.42,9,9,9,9,9,1,3,10,1,9,AI Engineer,ICT & Computing
+11,10,10,12,3,1,7,1,10,2,10,5,6.83,3,9,5,5,8,7,9,6,5,9,Banker,Business & Finance
+12,3,2,4,4,1,5,10,10,4,7,11,6.08,10,9,5,6,10,6,3,6,9,9,Banker,Business & Finance
+5,9,4,7,11,2,1,7,2,3,9,2,5.17,9,2,5,9,2,6,1,4,9,8,Animator,Creative Arts & Media
+4,1,7,9,12,11,12,1,11,2,11,11,7.67,8,2,5,8,9,8,9,7,4,8,Pharmacist,Health Sciences
+12,7,2,1,1,12,12,11,10,9,7,7,7.58,9,9,8,8,9,4,8,1,2,8,Electrical Engineer,Engineering & Technology
+4,5,2,10,10,3,11,5,4,4,12,10,6.67,9,2,5,1,4,8,5,9,5,2,Forester,Agriculture & Environment
+10,8,7,3,2,11,5,12,6,11,3,9,7.25,9,9,5,10,9,8,5,4,5,10,AI Engineer,ICT & Computing
+2,11,5,8,5,4,2,2,5,4,1,12,5.08,1,2,7,6,5,4,6,7,9,4,Logistics Officer,Transport & Aviation
+1,6,9,8,12,1,9,5,7,12,11,10,7.58,4,6,9,2,4,9,1,9,5,3,Welder,Skilled Trades & Technical
+5,1,5,9,7,8,9,8,5,10,11,9,7.25,8,5,6,7,9,7,6,1,8,4,Forester,Agriculture & Environment
+9,6,1,7,7,9,6,4,5,12,8,6,6.67,9,9,9,8,9,8,6,8,2,9,AI Engineer,ICT & Computing
+8,10,12,3,12,12,7,11,8,10,9,2,8.67,10,5,9,8,6,10,6,8,6,7,Teacher,Education
+9,3,11,7,4,2,6,10,10,3,5,1,5.92,4,8,9,6,2,1,5,2,2,10,Automotive Technician,Skilled Trades & Technical
+9,4,8,9,5,1,7,6,1,2,2,9,5.25,5,9,2,8,5,1,7,3,5,2,Tour Guide,Hospitality & Tourism
+11,5,7,10,9,9,1,4,9,12,7,1,7.08,9,9,9,4,9,8,4,10,2,9,Cybersecurity Analyst,ICT & Computing
+3,7,6,11,5,5,9,7,8,3,5,10,6.58,2,5,1,5,1,4,3,8,4,1,Veterinary Officer,Agriculture & Environment
+10,8,11,12,2,3,10,10,12,2,10,10,8.33,3,9,5,10,6,6,1,3,5,9,Banker,Business & Finance
+9,10,10,10,8,12,5,12,8,5,9,10,9.0,9,9,9,6,7,9,6,9,9,10,Judge,Law & Governance
+7,1,2,4,5,2,6,12,5,1,3,5,4.42,5,7,8,7,9,6,4,10,9,5,Police Officer,Security & Defense
+10,9,11,8,4,11,7,3,10,2,1,4,6.67,8,6,9,6,2,4,1,7,7,4,Teacher,Education
+12,6,4,7,11,4,8,1,11,1,4,10,6.58,9,9,5,10,7,9,5,3,1,9,Accountant,Business & Finance
+12,9,2,6,3,11,7,5,8,12,12,7,7.83,9,9,5,9,9,9,6,7,5,3,Software Developer,ICT & Computing
+11,11,6,5,1,11,9,5,4,11,7,3,7.0,9,9,1,10,9,7,5,4,5,10,Mechatronics Engineer,Engineering & Technology
+3,5,10,12,6,7,2,2,8,2,8,8,6.08,10,6,1,1,4,9,2,9,1,3,Military Officer,Security & Defense
+12,12,6,9,3,6,2,8,10,8,1,11,7.33,4,9,1,8,9,5,1,1,6,9,Economist,Business & Finance
+6,9,10,9,10,5,8,7,2,9,11,12,8.17,9,2,4,2,7,1,9,6,2,2,Police Officer,Security & Defense
+9,7,8,6,7,6,2,7,2,6,11,3,6.17,4,9,9,1,8,1,5,9,6,5,Chef,Hospitality & Tourism
+7,11,1,6,6,4,3,2,10,8,7,1,5.5,7,5,9,5,7,6,7,6,6,2,Teacher,Education
+9,1,9,11,12,10,11,6,5,7,3,6,7.5,10,10,6,3,6,8,3,2,1,9,Hotel Manager,Hospitality & Tourism
+5,5,3,12,2,1,11,12,4,6,3,12,6.33,1,7,5,6,5,5,4,8,2,7,Forester,Agriculture & Environment
+11,10,7,10,11,5,8,4,3,12,6,8,7.92,10,7,9,3,6,5,3,10,1,9,Education Officer,Education
+2,12,10,8,10,7,8,12,7,9,9,6,8.33,3,9,9,10,2,9,9,5,8,7,Judge,Law & Governance
+11,10,4,8,9,5,12,10,6,4,2,11,7.67,2,3,9,10,10,9,1,7,4,10,Judge,Law & Governance
+2,8,1,9,10,3,9,3,3,2,12,12,6.17,2,4,8,7,10,7,2,1,10,2,Logistics Officer,Transport & Aviation
+1,3,7,11,12,9,7,11,2,8,1,6,6.5,8,9,5,3,3,8,9,2,4,2,Doctor,Health Sciences
+1,10,6,3,12,9,10,12,5,7,5,4,7.0,2,8,9,5,4,9,1,7,3,9,Judge,Law & Governance
+4,7,5,5,3,5,12,8,10,1,12,5,6.42,9,8,5,10,6,6,4,2,2,8,Marine Engineer,Transport & Aviation
+3,4,9,3,6,7,8,2,6,6,12,8,6.17,3,6,10,2,3,3,10,3,10,5,Police Officer,Security & Defense

@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8">
+
+            <div class="card p-4 shadow-sm">
+                <h4 class="mb-3 text-center">Add Admin</h4>
+                <p class="text-muted text-center">
+                    Create another administrator account
+                </p>
+
+                {% if error %}
+                <div class="alert alert-danger">
+                    {{ error }}
+                </div>
+                {% endif %}
+
+                <form method="POST">
+
+                    <div class="mb-3">
+                        <label class="form-label">Full Name</label>
+                        <input
+                            type="text"
+                            name="name"
+                            class="form-control"
+                            required
+                        >
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email Address</label>
+                        <input
+                            type="email"
+                            name="email"
+                            class="form-control"
+                            required
+                        >
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input
+                            type="password"
+                            name="password"
+                            class="form-control"
+                            required
+                        >
+                    </div>
+
+                    <div class="alert alert-warning small">
+                        ⚠ This admin will have full system access.
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-4">
+                        <a href="{{ url_for('admin_dashboard') }}"
+                           class="btn btn-outline-secondary">
+                            Cancel
+                        </a>
+
+                        <button type="submit" class="btn btn-danger">
+                            Add Admin
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}

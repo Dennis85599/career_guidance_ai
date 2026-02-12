@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container mt-4">
+
+    <h3 class="mb-4">Admin Dashboard</h3>
+
+    <!-- STATS -->
+    <div class="row g-3 mb-4">
+        <div class="col-md-6">
+            <div class="card p-3">
+                <h6>Total Students</h6>
+                <h2>{{ total_students }}</h2>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card p-3">
+                <h6>Total Recommendations</h6>
+                <h2>{{ total_recommendations }}</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- STUDENT TABLE -->
+    <div class="card p-4">
+        <h5 class="mb-3">Registered Students</h5>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Date Joined</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for s in students %}
+                <tr>
+                    <td>{{ s[1] }}</td>
+                    <td>{{ s[2] }}</td>
+                    <td>{{ s[3] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+{% endblock %}
