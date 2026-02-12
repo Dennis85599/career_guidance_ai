@@ -1,15 +1,30 @@
 import joblib
 import numpy as np
+import os
 
 # =============================
-# LOAD MODELS
+# MODEL DIRECTORY
 # =============================
-cluster_model = joblib.load("models/cluster_model.pkl")
-career_models = joblib.load("models/career_models_by_cluster.pkl")
+MODEL_DIR = "models"
 
-cluster_encoder = joblib.load("models/cluster_encoder.pkl")
-career_encoder = joblib.load("models/career_encoder.pkl")
-scaler = joblib.load("models/feature_scaler.pkl")
+# =============================
+# LOAD MODELS (Lazy Loading)
+# =============================
+def load_models():
+    """
+    Loads all trained models.
+    Called inside recommend_careers() to prevent
+    loading before models are downloaded.
+    """
+
+    cluster_model = joblib.load(os.path.join(MODEL_DIR, "cluster_model.pkl"))
+    career_models = joblib.load(os.path.join(MODEL_DIR, "career_models_by_cluster.pkl"))
+    cluster_encoder = joblib.load(os.path.join(MODEL_DIR, "cluster_encoder.pkl"))
+    career_encoder = joblib.load(os.path.join(MODEL_DIR, "career_encoder.pkl"))
+    scaler = joblib.load(os.path.join(MODEL_DIR, "feature_scaler.pkl"))
+
+    return cluster_model, career_models, cluster_encoder, career_encoder, scaler
+
 
 # =============================
 # FEATURE ORDER (MUST MATCH TRAINING)
@@ -28,6 +43,7 @@ SKILL_COLS = [
 
 FEATURE_COUNT = len(SUBJECT_COLS) + len(SKILL_COLS)
 
+
 # =============================
 # CAREER ELIGIBILITY RULES
 # =============================
@@ -43,10 +59,11 @@ CAREER_REQUIREMENTS = {
     "Doctor": {"biology": 7, "chemistry": 7},
     "Pharmacist": {"chemistry": 6},
 
-    # Flexible careers (no hard cutoffs)
+    # Flexible careers
     "Entrepreneur": {},
     "Tour Guide": {},
 }
+
 
 # =============================
 # ELIGIBILITY CHECK
@@ -55,6 +72,7 @@ def is_eligible(career, grades):
     """
     grades: dict {subject: score}
     """
+
     if career not in CAREER_REQUIREMENTS:
         return True
 
@@ -66,14 +84,18 @@ def is_eligible(career, grades):
 
     return True
 
+
 # =============================
 # MAIN RECOMMENDER
 # =============================
 def recommend_careers(student_data, raw_grades, top_k=3):
     """
     student_data: full feature vector (subjects + skills)
-    raw_grades: dict of actual student KCSE grades
+    raw_grades: dict of actual KCSE grades
     """
+
+    # 🔥 Load models only when function is called
+    cluster_model, career_models, cluster_encoder, career_encoder, scaler = load_models()
 
     if len(student_data) != FEATURE_COUNT:
         raise ValueError(f"Expected {FEATURE_COUNT} features, got {len(student_data)}")
@@ -110,4 +132,3 @@ def recommend_careers(student_data, raw_grades, top_k=3):
             break
 
     return cluster_name, final_careers
-

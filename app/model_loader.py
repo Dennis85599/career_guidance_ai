@@ -1,7 +1,7 @@
 import os
 import requests
 
-MODEL_DIR = "model"
+MODEL_DIR = "models"
 
 # Direct download URLs
 MODEL_URLS = {
