@@ -8,3 +8,5 @@ class Config:
     MYSQL_PASSWORD = os.environ.get("MYSQL_PASSWORD")
     MYSQL_DB = os.environ.get("MYSQL_DB")
     MYSQL_PORT = int(os.environ.get("MYSQL_PORT", 3306))
+
+    MYSQL_SSL = {"ssl": {"ssl_mode": "REQUIRED"}}
