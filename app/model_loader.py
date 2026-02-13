@@ -6,14 +6,18 @@ MODEL_DIR = "models"
 # Direct download URLs
 MODEL_URLS = {
     "career_encoder.pkl": "https://drive.google.com/uc?export=download&id=1q1an6T4lI-J4Q3HHCzqp5d8yJLQJhljk",
-    "cluster_encoder.pkl": "https://drive.google.com/uc?export=download&id=1qwDmtY1pMpygbaOMVBwuOTljg-aR_KIv",
-    "cluster_model.pkl": "https://drive.google.com/uc?export=download&id=1yr7v15kSsopcmCfoifumeDrrZ12dIQ6d",
-    "career_model.pkl": "https://drive.google.com/uc?export=download&id=1c9kKWJRD4XxQA1yBJoi7AIxiUWyk_0fG",
+
+    "cluster_encoder.pkl": "https://drive.google.com/uc?export=download&id=1yr7v15kSsopcmCfoifumeDrrZ12dIQ6d",
+
+    "cluster_model.pkl": "https://drive.google.com/uc?export=download&id=1c9kKWJRD4XxQA1yBJoi7AIxiUWyk_0fG",
+
+    "career_model.pkl": "https://drive.google.com/uc?export=download&id=1Iycpr42Hc9B7gSA9uVBVyVCiHERGhp6O",
+
     "feature_scaler.pkl": "https://drive.google.com/uc?export=download&id=1kL7PRu5jxJvCTicoGNeiOuPOodTOdc1S",
 
-    # ✅ add this entry for the missing file:
     "career_models_by_cluster.pkl": "https://drive.google.com/uc?export=download&id=1qwDmtY1pMpygbaOMVBwuOTljg-aR_KIv"
 }
+
 
 def download_file(url: str, destination: str):
     response = requests.get(url, stream=True)
