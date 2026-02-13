@@ -204,6 +204,14 @@ def create_recommendations_table():
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         );
     """)
+    cur.execute("""
+    CREATE TABLE IF NOT EXISTS recommendations (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        student_id INT NOT NULL,
+        cluster VARCHAR(100),
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    );
+""")
 
     mysql.connection.commit()
     cur.close()
