@@ -191,3 +191,17 @@ def create_table():
     mysql.connection.commit()
     cur.close()
     return "Students table created successfully!"
+
+@main.route("/create-recommendations-table")
+def create_recommendations_table():
+    cur = mysql.connection.cursor()
+    cur.execute("""
+        CREATE TABLE IF NOT EXISTS recommendations (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            student_id INT NOT NULL,
+            cluster VARCHAR(100),
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        );
+    """)
+    mysql.connection.commit()
+    return "Table created successfully"
