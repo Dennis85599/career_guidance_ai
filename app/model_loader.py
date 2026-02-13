@@ -9,7 +9,10 @@ MODEL_URLS = {
     "cluster_encoder.pkl": "https://drive.google.com/uc?export=download&id=1qwDmtY1pMpygbaOMVBwuOTljg-aR_KIv",
     "cluster_model.pkl": "https://drive.google.com/uc?export=download&id=1yr7v15kSsopcmCfoifumeDrrZ12dIQ6d",
     "career_model.pkl": "https://drive.google.com/uc?export=download&id=1c9kKWJRD4XxQA1yBJoi7AIxiUWyk_0fG",
-    "feature_scaler.pkl": "https://drive.google.com/uc?export=download&id=1kL7PRu5jxJvCTicoGNeiOuPOodTOdc1S"
+    "feature_scaler.pkl": "https://drive.google.com/uc?export=download&id=1kL7PRu5jxJvCTicoGNeiOuPOodTOdc1S",
+
+    # ✅ add this entry for the missing file:
+    "career_models_by_cluster.pkl": "https://drive.google.com/uc?export=download&id=1qwDmtY1pMpygbaOMVBwuOTljg-aR_KIv"
 }
 
 def download_file(url: str, destination: str):
