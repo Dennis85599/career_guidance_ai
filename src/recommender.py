@@ -1,6 +1,7 @@
 import joblib
 import numpy as np
 import os
+import requests
 
 # =============================
 # MODEL DIRECTORY
@@ -8,23 +9,60 @@ import os
 MODEL_DIR = "models"
 
 # =============================
-# LOAD MODELS (Lazy Loading)
+# GOOGLE DRIVE FILE IDS
 # =============================
-def load_models():
-    """
-    Loads all trained models.
-    Called inside recommend_careers() to prevent
-    loading before models are downloaded.
-    """
+MODEL_FILES = {
+    "career_encoder.pkl": "1q1an6T4lI-J4Q3HHCzqp5d8yJLQJhljk",
+    "cluster_encoder.pkl": "1yr7v15kSsopcmCfoifumeDrrZ12dIQ6d",
+    "cluster_model.pkl": "1c9kKWJRD4XxQA1yBJoi7AIxiUWyk_0fG",
+    "career_model.pkl": "1Iycpr42Hc9B7gSA9uVBVyVCiHERGhp6O",
+    "feature_scaler.pkl": "1kL7PRu5jxJvCTicoGNeiOuPOodTOdc1S",
+    "career_models_by_cluster.pkl": "1qwDmtY1pMpygbaOMVBwuOTljg-aR_KIv",
+}
 
-    cluster_model = joblib.load(os.path.join(MODEL_DIR, "cluster_model.pkl"))
-    career_models = joblib.load(os.path.join(MODEL_DIR, "career_models_by_cluster.pkl"))
-    cluster_encoder = joblib.load(os.path.join(MODEL_DIR, "cluster_encoder.pkl"))
-    career_encoder = joblib.load(os.path.join(MODEL_DIR, "career_encoder.pkl"))
-    scaler = joblib.load(os.path.join(MODEL_DIR, "feature_scaler.pkl"))
+# =============================
+# DOWNLOAD FUNCTION
+# =============================
+def download_file(file_id, destination):
+    url = f"https://drive.google.com/uc?export=download&id={file_id}"
+    response = requests.get(url, stream=True)
 
-    return cluster_model, career_models, cluster_encoder, career_encoder, scaler
+    if response.status_code == 200:
+        with open(destination, "wb") as f:
+            f.write(response.content)
+        print(f"✅ Downloaded {destination}")
+    else:
+        raise Exception(f"❌ Failed to download {destination}")
 
+# =============================
+# ENSURE MODELS EXIST
+# =============================
+def ensure_models_exist():
+    if not os.path.exists(MODEL_DIR):
+        os.makedirs(MODEL_DIR)
+
+    for filename, file_id in MODEL_FILES.items():
+        path = os.path.join(MODEL_DIR, filename)
+        if not os.path.exists(path):
+            print(f"⬇ Downloading {filename}...")
+            download_file(file_id, path)
+        else:
+            print(f"✔ {filename} already exists")
+
+# =============================
+# LOAD MODELS ONCE (CRITICAL FIX)
+# =============================
+ensure_models_exist()
+
+print("🔄 Loading ML models...")
+
+cluster_model = joblib.load(os.path.join(MODEL_DIR, "cluster_model.pkl"))
+career_models = joblib.load(os.path.join(MODEL_DIR, "career_models_by_cluster.pkl"))
+cluster_encoder = joblib.load(os.path.join(MODEL_DIR, "cluster_encoder.pkl"))
+career_encoder = joblib.load(os.path.join(MODEL_DIR, "career_encoder.pkl"))
+scaler = joblib.load(os.path.join(MODEL_DIR, "feature_scaler.pkl"))
+
+print("✅ All models loaded successfully")
 
 # =============================
 # FEATURE ORDER (MUST MATCH TRAINING)
@@ -43,36 +81,25 @@ SKILL_COLS = [
 
 FEATURE_COUNT = len(SUBJECT_COLS) + len(SKILL_COLS)
 
-
 # =============================
 # CAREER ELIGIBILITY RULES
 # =============================
 CAREER_REQUIREMENTS = {
-    # Aviation / Engineering
     "Pilot": {"math": 7, "physics": 7},
     "Aeronautical Engineer": {"math": 7, "physics": 7},
     "Civil Engineer": {"math": 6},
     "Electrical Engineer": {"math": 6, "physics": 6},
     "Mechanical Engineer": {"math": 6, "physics": 6},
-
-    # Medical
     "Doctor": {"biology": 7, "chemistry": 7},
     "Pharmacist": {"chemistry": 6},
-
-    # Flexible careers
     "Entrepreneur": {},
     "Tour Guide": {},
 }
-
 
 # =============================
 # ELIGIBILITY CHECK
 # =============================
 def is_eligible(career, grades):
-    """
-    grades: dict {subject: score}
-    """
-
     if career not in CAREER_REQUIREMENTS:
         return True
 
@@ -84,18 +111,10 @@ def is_eligible(career, grades):
 
     return True
 
-
 # =============================
 # MAIN RECOMMENDER
 # =============================
 def recommend_careers(student_data, raw_grades, top_k=3):
-    """
-    student_data: full feature vector (subjects + skills)
-    raw_grades: dict of actual KCSE grades
-    """
-
-    # 🔥 Load models only when function is called
-    cluster_model, career_models, cluster_encoder, career_encoder, scaler = load_models()
 
     if len(student_data) != FEATURE_COUNT:
         raise ValueError(f"Expected {FEATURE_COUNT} features, got {len(student_data)}")
@@ -113,7 +132,7 @@ def recommend_careers(student_data, raw_grades, top_k=3):
 
     career_model = career_models[cluster_id]
 
-    # 2️⃣ Rank careers by probability
+    # 2️⃣ Rank careers
     probs = career_model.predict_proba(student_scaled)[0]
     classes = career_model.classes_
 
@@ -132,6 +151,3 @@ def recommend_careers(student_data, raw_grades, top_k=3):
             break
 
     return cluster_name, final_careers
-
-
-
