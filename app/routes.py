@@ -195,6 +195,7 @@ def create_table():
 @main.route("/create-recommendations-table")
 def create_recommendations_table():
     cur = mysql.connection.cursor()
+
     cur.execute("""
         CREATE TABLE IF NOT EXISTS recommendations (
             id INT AUTO_INCREMENT PRIMARY KEY,
@@ -203,5 +204,9 @@ def create_recommendations_table():
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         );
     """)
+
     mysql.connection.commit()
-    return "Table created successfully"
+    cur.close()
+
+    return "✅ recommendations table created successfully!"
+
