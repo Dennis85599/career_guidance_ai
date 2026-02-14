@@ -82,248 +82,250 @@ SKILL_COLS = [
 FEATURE_COUNT = len(SUBJECT_COLS) + len(SKILL_COLS)
 
 # =============================
-# KCSE CAREER REQUIREMENTS
-# =============================
+# KCSE CAREER REQUIREMENTS (Dataset-Derived)
+# ===========================================
+
 CAREER_REQUIREMENTS = {
 
 # ================= HEALTH SCIENCES =================
 
 "Doctor": {
-    "degree": {"mean_grade": 8, "subjects": {"biology": 8, "chemistry": 8, "physics": 6}},
-    "diploma": {"mean_grade": 6, "subjects": {"biology": 6, "chemistry": 6}}
+    "degree": {"mean_grade": 7, "subjects": {"biology": 10, "chemistry": 10, "history": 8}},
+    "diploma": {"mean_grade": 5, "subjects": {"biology": 8, "chemistry": 8, "history": 6}}
 },
 
 "Nurse": {
-    "degree": {"mean_grade": 7, "subjects": {"biology": 7, "chemistry": 6}},
-    "diploma": {"mean_grade": 5, "subjects": {"biology": 5}}
+    "degree": {"mean_grade": 7, "subjects": {"chemistry": 11, "biology": 10, "geography": 8}},
+    "diploma": {"mean_grade": 5, "subjects": {"chemistry": 9, "biology": 8, "geography": 6}}
 },
 
 "Clinical Officer": {
-    "degree": {"mean_grade": 7, "subjects": {"biology": 7}},
-    "diploma": {"mean_grade": 5, "subjects": {"biology": 5}}
+    "degree": {"mean_grade": 7, "subjects": {"chemistry": 10, "biology": 10, "business": 7}},
+    "diploma": {"mean_grade": 5, "subjects": {"chemistry": 8, "biology": 8, "business": 5}}
 },
 
 "Pharmacist": {
-    "degree": {"mean_grade": 8, "subjects": {"chemistry": 8, "biology": 7}},
-    "diploma": {"mean_grade": 6, "subjects": {"chemistry": 6}}
+    "degree": {"mean_grade": 7, "subjects": {"biology": 11, "chemistry": 10, "history": 8}},
+    "diploma": {"mean_grade": 5, "subjects": {"biology": 9, "chemistry": 8, "history": 6}}
 },
 
 "Lab Technologist": {
-    "degree": {"mean_grade": 7, "subjects": {"biology": 6, "chemistry": 6}},
-    "diploma": {"mean_grade": 5}
+    "degree": {"mean_grade": 7, "subjects": {"biology": 11, "chemistry": 10, "computer": 8}},
+    "diploma": {"mean_grade": 5, "subjects": {"biology": 9, "chemistry": 8, "computer": 6}}
 },
 
 "Veterinary Officer": {
-    "degree": {"mean_grade": 7, "subjects": {"biology": 7, "chemistry": 6}},
-    "diploma": {"mean_grade": 5}
+    "degree": {"mean_grade": 7, "subjects": {"geography": 11, "agriculture": 11, "biology": 10}},
+    "diploma": {"mean_grade": 5, "subjects": {"geography": 9, "agriculture": 9, "biology": 8}}
 },
 
 # ================= ENGINEERING =================
 
 "Civil Engineer": {
-    "degree": {"mean_grade": 7, "subjects": {"math": 7, "physics": 6}},
-    "diploma": {"mean_grade": 5, "subjects": {"math": 5}}
+    "degree": {"mean_grade": 8, "subjects": {"physics": 11, "math": 11, "computer": 10}},
+    "diploma": {"mean_grade": 6, "subjects": {"physics": 9, "math": 9, "computer": 8}}
 },
 
 "Mechanical Engineer": {
-    "degree": {"mean_grade": 7, "subjects": {"math": 7, "physics": 6}},
-    "diploma": {"mean_grade": 5}
+    "degree": {"mean_grade": 8, "subjects": {"computer": 11, "math": 11, "physics": 10}},
+    "diploma": {"mean_grade": 6, "subjects": {"computer": 9, "math": 9, "physics": 8}}
 },
 
 "Electrical Engineer": {
-    "degree": {"mean_grade": 7, "subjects": {"math": 7, "physics": 6}},
-    "diploma": {"mean_grade": 5}
+    "degree": {"mean_grade": 8, "subjects": {"physics": 11, "math": 11, "computer": 11}},
+    "diploma": {"mean_grade": 6, "subjects": {"physics": 9, "math": 9, "computer": 9}}
 },
 
 "Mechatronics Engineer": {
-    "degree": {"mean_grade": 8, "subjects": {"math": 8, "physics": 7}},
-    "diploma": {"mean_grade": 6}
+    "degree": {"mean_grade": 8, "subjects": {"math": 11, "computer": 10, "physics": 10}},
+    "diploma": {"mean_grade": 6, "subjects": {"math": 9, "computer": 8, "physics": 8}}
 },
 
 "Marine Engineer": {
-    "degree": {"mean_grade": 7, "subjects": {"math": 7, "physics": 6}},
-    "diploma": {"mean_grade": 5}
+    "degree": {"mean_grade": 6, "subjects": {"math": 7, "biology": 7, "agriculture": 7}},
+    "diploma": {"mean_grade": 4, "subjects": {"math": 5, "biology": 5, "agriculture": 5}}
 },
 
 "AI Engineer": {
-    "degree": {"mean_grade": 8, "subjects": {"math": 8}},
-    "diploma": {"mean_grade": 6}
+    "degree": {"mean_grade": 8, "subjects": {"physics": 11, "math": 11, "computer": 10}},
+    "diploma": {"mean_grade": 6, "subjects": {"physics": 9, "math": 9, "computer": 8}}
 },
 
 # ================= ICT =================
 
 "Software Developer": {
-    "degree": {"mean_grade": 7, "subjects": {"math": 6}},
-    "diploma": {"mean_grade": 5}
+    "degree": {"mean_grade": 8, "subjects": {"math": 11, "physics": 11, "computer": 10}},
+    "diploma": {"mean_grade": 6, "subjects": {"math": 9, "physics": 9, "computer": 8}}
 },
 
 "Data Scientist": {
-    "degree": {"mean_grade": 8, "subjects": {"math": 8}},
-    "diploma": {"mean_grade": 6}
+    "degree": {"mean_grade": 8, "subjects": {"math": 11, "computer": 11, "physics": 10}},
+    "diploma": {"mean_grade": 6, "subjects": {"math": 9, "computer": 9, "physics": 8}}
 },
 
 "Cybersecurity Analyst": {
-    "degree": {"mean_grade": 7, "subjects": {"math": 6}},
-    "diploma": {"mean_grade": 5}
+    "degree": {"mean_grade": 8, "subjects": {"math": 11, "computer": 11, "physics": 10}},
+    "diploma": {"mean_grade": 6, "subjects": {"math": 9, "computer": 9, "physics": 8}}
 },
 
 # ================= LAW =================
 
 "Lawyer": {
-    "degree": {"mean_grade": 8, "subjects": {"english": 7, "kiswahili": 6}},
-    "diploma": None
+    "degree": {"mean_grade": 7, "subjects": {"english": 11, "history": 10, "business": 7}},
+    "diploma": {"mean_grade": 5, "subjects": {"english": 9, "history": 8, "business": 5}}
 },
 
 "Judge": {
-    "degree": {"mean_grade": 9, "subjects": {"english": 8}},
-    "diploma": None
+    "degree": {"mean_grade": 7, "subjects": {"history": 11, "english": 10, "kiswahili": 7}},
+    "diploma": {"mean_grade": 5, "subjects": {"history": 9, "english": 8, "kiswahili": 5}}
 },
 
 "Public Administrator": {
-    "degree": {"mean_grade": 7},
-    "diploma": {"mean_grade": 5}
+    "degree": {"mean_grade": 7, "subjects": {"history": 11, "english": 11, "agriculture": 7}},
+    "diploma": {"mean_grade": 5, "subjects": {"history": 9, "english": 9, "agriculture": 5}}
 },
 
 # ================= BUSINESS =================
 
 "Accountant": {
-    "degree": {"mean_grade": 7, "subjects": {"math": 6}},
-    "diploma": {"mean_grade": 5}
+    "degree": {"mean_grade": 8, "subjects": {"business": 11, "math": 10, "geography": 8}},
+    "diploma": {"mean_grade": 6, "subjects": {"business": 9, "math": 8, "geography": 6}}
 },
 
 "Actuary": {
-    "degree": {"mean_grade": 9, "subjects": {"math": 9}},
-    "diploma": None
+    "degree": {"mean_grade": 7, "subjects": {"math": 11, "business": 10, "physics": 7}},
+    "diploma": {"mean_grade": 5, "subjects": {"math": 9, "business": 8, "physics": 5}}
 },
 
 "Economist": {
-    "degree": {"mean_grade": 8, "subjects": {"math": 7}},
-    "diploma": {"mean_grade": 6}
+    "degree": {"mean_grade": 7, "subjects": {"business": 11, "math": 11, "biology": 7}},
+    "diploma": {"mean_grade": 5, "subjects": {"business": 9, "math": 9, "biology": 5}}
 },
 
 "Financial Analyst": {
-    "degree": {"mean_grade": 7, "subjects": {"math": 6}},
-    "diploma": {"mean_grade": 5}
+    "degree": {"mean_grade": 7, "subjects": {"business": 11, "math": 10, "history": 8}},
+    "diploma": {"mean_grade": 5, "subjects": {"business": 9, "math": 8, "history": 6}}
 },
 
 "Banker": {
-    "degree": {"mean_grade": 7},
-    "diploma": {"mean_grade": 5}
+    "degree": {"mean_grade": 7, "subjects": {"math": 10, "business": 10, "computer": 7}},
+    "diploma": {"mean_grade": 5, "subjects": {"math": 8, "business": 8, "computer": 5}}
 },
 
 # ================= EDUCATION =================
 
 "Teacher": {
-    "degree": {"mean_grade": 7},
-    "diploma": {"mean_grade": 5}
+    "degree": {"mean_grade": 7, "subjects": {"english": 10, "computer": 7, "business": 7}},
+    "diploma": {"mean_grade": 5, "subjects": {"english": 8, "computer": 5, "business": 5}}
 },
 
 "Lecturer": {
-    "degree": {"mean_grade": 8},
-    "diploma": None
+    "degree": {"mean_grade": 7, "subjects": {"english": 11, "kiswahili": 8, "computer": 7}},
+    "diploma": {"mean_grade": 5, "subjects": {"english": 9, "kiswahili": 6, "computer": 5}}
 },
 
 "Education Officer": {
-    "degree": {"mean_grade": 7},
-    "diploma": {"mean_grade": 5}
+    "degree": {"mean_grade": 7, "subjects": {"english": 11, "physics": 8, "business": 7}},
+    "diploma": {"mean_grade": 5, "subjects": {"english": 9, "physics": 6, "business": 5}}
 },
 
 # ================= SECURITY =================
 
 "Police Officer": {
-    "degree": {"mean_grade": 6},
-    "diploma": {"mean_grade": 4}
+    "degree": {"mean_grade": 6, "subjects": {"physics": 7, "geography": 7, "chemistry": 7}},
+    "diploma": {"mean_grade": 4, "subjects": {"physics": 5, "geography": 5, "chemistry": 5}}
 },
 
 "Military Officer": {
-    "degree": {"mean_grade": 6},
-    "diploma": {"mean_grade": 4}
+    "degree": {"mean_grade": 7, "subjects": {"physics": 7, "chemistry": 7, "geography": 7}},
+    "diploma": {"mean_grade": 5, "subjects": {"physics": 5, "chemistry": 5, "geography": 5}}
 },
 
 # ================= HOSPITALITY =================
 
 "Chef": {
-    "degree": {"mean_grade": 6},
-    "diploma": {"mean_grade": 4}
+    "degree": {"mean_grade": 7, "subjects": {"physics": 7, "math": 7, "kiswahili": 7}},
+    "diploma": {"mean_grade": 5, "subjects": {"physics": 5, "math": 5, "kiswahili": 5}}
 },
 
 "Hotel Manager": {
-    "degree": {"mean_grade": 7},
-    "diploma": {"mean_grade": 5}
+    "degree": {"mean_grade": 7, "subjects": {"math": 8, "physics": 7, "kiswahili": 7}},
+    "diploma": {"mean_grade": 5, "subjects": {"math": 6, "physics": 5, "kiswahili": 5}}
 },
 
 "Tour Guide": {
-    "degree": {"mean_grade": 6},
-    "diploma": {"mean_grade": 4}
+    "degree": {"mean_grade": 6, "subjects": {"agriculture": 7, "physics": 7, "kiswahili": 7}},
+    "diploma": {"mean_grade": 4, "subjects": {"agriculture": 5, "physics": 5, "kiswahili": 5}}
 },
 
 # ================= CREATIVE =================
 
 "Graphic Designer": {
-    "degree": {"mean_grade": 6},
-    "diploma": {"mean_grade": 4}
+    "degree": {"mean_grade": 6, "subjects": {"math": 8, "biology": 7, "kiswahili": 7}},
+    "diploma": {"mean_grade": 4, "subjects": {"math": 6, "biology": 5, "kiswahili": 5}}
 },
 
 "Animator": {
-    "degree": {"mean_grade": 6},
-    "diploma": {"mean_grade": 4}
+    "degree": {"mean_grade": 7, "subjects": {"english": 8, "agriculture": 7, "biology": 7}},
+    "diploma": {"mean_grade": 5, "subjects": {"english": 6, "agriculture": 5, "biology": 5}}
 },
 
 "Film Producer": {
-    "degree": {"mean_grade": 6},
-    "diploma": {"mean_grade": 4}
+    "degree": {"mean_grade": 6, "subjects": {"history": 7, "computer": 7, "physics": 7}},
+    "diploma": {"mean_grade": 4, "subjects": {"history": 5, "computer": 5, "physics": 5}}
 },
 
 "Journalist": {
-    "degree": {"mean_grade": 7, "subjects": {"english": 6}},
-    "diploma": {"mean_grade": 5}
+    "degree": {"mean_grade": 7, "subjects": {"english": 7, "kiswahili": 7, "math": 7}},
+    "diploma": {"mean_grade": 5, "subjects": {"english": 5, "kiswahili": 5, "math": 5}}
 },
 
 # ================= AGRICULTURE =================
 
 "Agronomist": {
-    "degree": {"mean_grade": 7, "subjects": {"biology": 6}},
-    "diploma": {"mean_grade": 5}
+    "degree": {"mean_grade": 8, "subjects": {"agriculture": 11, "geography": 10, "biology": 10}},
+    "diploma": {"mean_grade": 6, "subjects": {"agriculture": 9, "geography": 8, "biology": 8}}
 },
 
 "Forester": {
-    "degree": {"mean_grade": 6},
-    "diploma": {"mean_grade": 4}
+    "degree": {"mean_grade": 8, "subjects": {"biology": 11, "geography": 10, "agriculture": 10}},
+    "diploma": {"mean_grade": 6, "subjects": {"biology": 9, "geography": 8, "agriculture": 8}}
 },
 
 "Environmental Scientist": {
-    "degree": {"mean_grade": 7, "subjects": {"biology": 6}},
-    "diploma": {"mean_grade": 5}
+    "degree": {"mean_grade": 7, "subjects": {"geography": 11, "biology": 11, "agriculture": 10}},
+    "diploma": {"mean_grade": 5, "subjects": {"geography": 9, "biology": 9, "agriculture": 8}}
 },
 
 # ================= TRADES =================
 
 "Electrician": {
-    "degree": {"mean_grade": 6},
-    "diploma": {"mean_grade": 4}
+    "degree": {"mean_grade": 7, "subjects": {"biology": 7, "kiswahili": 7, "history": 7}},
+    "diploma": {"mean_grade": 5, "subjects": {"biology": 5, "kiswahili": 5, "history": 5}}
 },
 
 "Welder": {
-    "degree": {"mean_grade": 6},
-    "diploma": {"mean_grade": 4}
+    "degree": {"mean_grade": 6, "subjects": {"chemistry": 7, "computer": 7, "geography": 7}},
+    "diploma": {"mean_grade": 4, "subjects": {"chemistry": 5, "computer": 5, "geography": 5}}
 },
 
 "Automotive Technician": {
-    "degree": {"mean_grade": 6},
-    "diploma": {"mean_grade": 4}
+    "degree": {"mean_grade": 6, "subjects": {"business": 7, "physics": 7, "agriculture": 7}},
+    "diploma": {"mean_grade": 4, "subjects": {"business": 5, "physics": 5, "agriculture": 5}}
 },
 
 # ================= AVIATION =================
 
 "Pilot": {
-    "degree": {"mean_grade": 8, "subjects": {"math": 8, "physics": 7}},
-    "diploma": {"mean_grade": 6}
+    "degree": {"mean_grade": 7, "subjects": {"biology": 7, "kiswahili": 7, "math": 7}},
+    "diploma": {"mean_grade": 5, "subjects": {"biology": 5, "kiswahili": 5, "math": 5}}
 },
 
 "Logistics Officer": {
-    "degree": {"mean_grade": 7},
-    "diploma": {"mean_grade": 5}
+    "degree": {"mean_grade": 6, "subjects": {"kiswahili": 7, "math": 7, "computer": 7}},
+    "diploma": {"mean_grade": 4, "subjects": {"kiswahili": 5, "math": 5, "computer": 5}}
 }
+
 }
 
 # =============================
