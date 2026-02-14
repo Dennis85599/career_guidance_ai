@@ -40,9 +40,9 @@
 }
 </style>
 
-<div class="container animate__animated animate__fadeIn">
+<div class="container py-5 animate__animated animate__fadeIn">
 
-    <!-- HERO -->
+    <!-- HERO SECTION -->
     <div class="result-hero text-center mb-5 shadow">
         <i class="fa-solid fa-brain fa-2x mb-3"></i>
         <h2 class="fw-bold mb-2">Your AI Career Recommendation</h2>
@@ -55,7 +55,7 @@
         </span>
     </div>
 
-    <!-- CAREERS -->
+    <!-- CAREER RESULTS -->
     <div class="row justify-content-center">
         <div class="col-lg-8">
 
@@ -64,13 +64,14 @@
             </h4>
 
             <p class="text-muted text-center mb-4">
-                These careers align best with your skills, interests, and grades
+                These careers align best with your skills, interests, and KCSE grades.
             </p>
 
+            {% if careers %}
             <div class="row g-3">
                 {% for career in careers %}
                 <div class="col-md-4">
-                    <div class="card career-card h-100 p-3 text-center">
+                    <div class="card career-card h-100 p-3 text-center shadow-sm">
                         <div class="icon-circle mx-auto mb-3">
                             <i class="fa fa-briefcase"></i>
                         </div>
@@ -82,18 +83,24 @@
                 </div>
                 {% endfor %}
             </div>
+            {% else %}
+            <div class="alert alert-warning text-center">
+                <strong>No eligible careers found.</strong><br>
+                You may need to improve some subject grades or retake the assessment.
+            </div>
+            {% endif %}
 
-            <!-- NEXT STEPS -->
+            <!-- ACTION BUTTONS -->
             <div class="text-center mt-5">
                 <p class="text-muted mb-3">
-                    Want to explore more details about these careers?
+                    Want to explore more options?
                 </p>
 
                 <a href="{{ url_for('main.home') }}" class="btn btn-outline-secondary me-2">
                     <i class="fa fa-home me-1"></i> Home
                 </a>
 
-                <a href="{{ url_for('main.subjects') }}" class="btn btn-main">
+                <a href="{{ url_for('main.subjects') }}" class="btn btn-primary">
                     <i class="fa fa-rotate me-1"></i> Retake Assessment
                 </a>
             </div>

@@ -50,7 +50,7 @@ def ensure_models_exist():
             print(f"✔ {filename} already exists")
 
 # =============================
-# LOAD MODELS ONCE (CRITICAL FIX)
+# LOAD MODELS
 # =============================
 ensure_models_exist()
 
@@ -82,72 +82,356 @@ SKILL_COLS = [
 FEATURE_COUNT = len(SUBJECT_COLS) + len(SKILL_COLS)
 
 # =============================
-# CAREER ELIGIBILITY RULES
+# KCSE CAREER REQUIREMENTS
 # =============================
 CAREER_REQUIREMENTS = {
-    "Pilot": {"math": 7, "physics": 7},
-    "Aeronautical Engineer": {"math": 7, "physics": 7},
-    "Civil Engineer": {"math": 6},
-    "Electrical Engineer": {"math": 6, "physics": 6},
-    "Mechanical Engineer": {"math": 6, "physics": 6},
-    "Doctor": {"biology": 7, "chemistry": 7},
-    "Pharmacist": {"chemistry": 6},
-    "Entrepreneur": {},
-    "Tour Guide": {},
+
+# ================= HEALTH SCIENCES =================
+
+"Doctor": {
+    "degree": {"mean_grade": 8, "subjects": {"biology": 8, "chemistry": 8, "physics": 6}},
+    "diploma": {"mean_grade": 6, "subjects": {"biology": 6, "chemistry": 6}}
+},
+
+"Nurse": {
+    "degree": {"mean_grade": 7, "subjects": {"biology": 7, "chemistry": 6}},
+    "diploma": {"mean_grade": 5, "subjects": {"biology": 5}}
+},
+
+"Clinical Officer": {
+    "degree": {"mean_grade": 7, "subjects": {"biology": 7}},
+    "diploma": {"mean_grade": 5, "subjects": {"biology": 5}}
+},
+
+"Pharmacist": {
+    "degree": {"mean_grade": 8, "subjects": {"chemistry": 8, "biology": 7}},
+    "diploma": {"mean_grade": 6, "subjects": {"chemistry": 6}}
+},
+
+"Lab Technologist": {
+    "degree": {"mean_grade": 7, "subjects": {"biology": 6, "chemistry": 6}},
+    "diploma": {"mean_grade": 5}
+},
+
+"Veterinary Officer": {
+    "degree": {"mean_grade": 7, "subjects": {"biology": 7, "chemistry": 6}},
+    "diploma": {"mean_grade": 5}
+},
+
+# ================= ENGINEERING =================
+
+"Civil Engineer": {
+    "degree": {"mean_grade": 7, "subjects": {"math": 7, "physics": 6}},
+    "diploma": {"mean_grade": 5, "subjects": {"math": 5}}
+},
+
+"Mechanical Engineer": {
+    "degree": {"mean_grade": 7, "subjects": {"math": 7, "physics": 6}},
+    "diploma": {"mean_grade": 5}
+},
+
+"Electrical Engineer": {
+    "degree": {"mean_grade": 7, "subjects": {"math": 7, "physics": 6}},
+    "diploma": {"mean_grade": 5}
+},
+
+"Mechatronics Engineer": {
+    "degree": {"mean_grade": 8, "subjects": {"math": 8, "physics": 7}},
+    "diploma": {"mean_grade": 6}
+},
+
+"Marine Engineer": {
+    "degree": {"mean_grade": 7, "subjects": {"math": 7, "physics": 6}},
+    "diploma": {"mean_grade": 5}
+},
+
+"AI Engineer": {
+    "degree": {"mean_grade": 8, "subjects": {"math": 8}},
+    "diploma": {"mean_grade": 6}
+},
+
+# ================= ICT =================
+
+"Software Developer": {
+    "degree": {"mean_grade": 7, "subjects": {"math": 6}},
+    "diploma": {"mean_grade": 5}
+},
+
+"Data Scientist": {
+    "degree": {"mean_grade": 8, "subjects": {"math": 8}},
+    "diploma": {"mean_grade": 6}
+},
+
+"Cybersecurity Analyst": {
+    "degree": {"mean_grade": 7, "subjects": {"math": 6}},
+    "diploma": {"mean_grade": 5}
+},
+
+# ================= LAW =================
+
+"Lawyer": {
+    "degree": {"mean_grade": 8, "subjects": {"english": 7, "kiswahili": 6}},
+    "diploma": None
+},
+
+"Judge": {
+    "degree": {"mean_grade": 9, "subjects": {"english": 8}},
+    "diploma": None
+},
+
+"Public Administrator": {
+    "degree": {"mean_grade": 7},
+    "diploma": {"mean_grade": 5}
+},
+
+# ================= BUSINESS =================
+
+"Accountant": {
+    "degree": {"mean_grade": 7, "subjects": {"math": 6}},
+    "diploma": {"mean_grade": 5}
+},
+
+"Actuary": {
+    "degree": {"mean_grade": 9, "subjects": {"math": 9}},
+    "diploma": None
+},
+
+"Economist": {
+    "degree": {"mean_grade": 8, "subjects": {"math": 7}},
+    "diploma": {"mean_grade": 6}
+},
+
+"Financial Analyst": {
+    "degree": {"mean_grade": 7, "subjects": {"math": 6}},
+    "diploma": {"mean_grade": 5}
+},
+
+"Banker": {
+    "degree": {"mean_grade": 7},
+    "diploma": {"mean_grade": 5}
+},
+
+# ================= EDUCATION =================
+
+"Teacher": {
+    "degree": {"mean_grade": 7},
+    "diploma": {"mean_grade": 5}
+},
+
+"Lecturer": {
+    "degree": {"mean_grade": 8},
+    "diploma": None
+},
+
+"Education Officer": {
+    "degree": {"mean_grade": 7},
+    "diploma": {"mean_grade": 5}
+},
+
+# ================= SECURITY =================
+
+"Police Officer": {
+    "degree": {"mean_grade": 6},
+    "diploma": {"mean_grade": 4}
+},
+
+"Military Officer": {
+    "degree": {"mean_grade": 6},
+    "diploma": {"mean_grade": 4}
+},
+
+# ================= HOSPITALITY =================
+
+"Chef": {
+    "degree": {"mean_grade": 6},
+    "diploma": {"mean_grade": 4}
+},
+
+"Hotel Manager": {
+    "degree": {"mean_grade": 7},
+    "diploma": {"mean_grade": 5}
+},
+
+"Tour Guide": {
+    "degree": {"mean_grade": 6},
+    "diploma": {"mean_grade": 4}
+},
+
+# ================= CREATIVE =================
+
+"Graphic Designer": {
+    "degree": {"mean_grade": 6},
+    "diploma": {"mean_grade": 4}
+},
+
+"Animator": {
+    "degree": {"mean_grade": 6},
+    "diploma": {"mean_grade": 4}
+},
+
+"Film Producer": {
+    "degree": {"mean_grade": 6},
+    "diploma": {"mean_grade": 4}
+},
+
+"Journalist": {
+    "degree": {"mean_grade": 7, "subjects": {"english": 6}},
+    "diploma": {"mean_grade": 5}
+},
+
+# ================= AGRICULTURE =================
+
+"Agronomist": {
+    "degree": {"mean_grade": 7, "subjects": {"biology": 6}},
+    "diploma": {"mean_grade": 5}
+},
+
+"Forester": {
+    "degree": {"mean_grade": 6},
+    "diploma": {"mean_grade": 4}
+},
+
+"Environmental Scientist": {
+    "degree": {"mean_grade": 7, "subjects": {"biology": 6}},
+    "diploma": {"mean_grade": 5}
+},
+
+# ================= TRADES =================
+
+"Electrician": {
+    "degree": {"mean_grade": 6},
+    "diploma": {"mean_grade": 4}
+},
+
+"Welder": {
+    "degree": {"mean_grade": 6},
+    "diploma": {"mean_grade": 4}
+},
+
+"Automotive Technician": {
+    "degree": {"mean_grade": 6},
+    "diploma": {"mean_grade": 4}
+},
+
+# ================= AVIATION =================
+
+"Pilot": {
+    "degree": {"mean_grade": 8, "subjects": {"math": 8, "physics": 7}},
+    "diploma": {"mean_grade": 6}
+},
+
+"Logistics Officer": {
+    "degree": {"mean_grade": 7},
+    "diploma": {"mean_grade": 5}
+}
 }
 
 # =============================
-# ELIGIBILITY CHECK
+# SAFE MEAN GRADE
 # =============================
-def is_eligible(career, grades):
-    if career not in CAREER_REQUIREMENTS:
-        return True
+def calculate_mean_grade(grades):
+    if not grades:
+        return 0.0
+    return round(sum(grades.values()) / max(len(grades), 1), 2)
 
-    rules = CAREER_REQUIREMENTS[career]
+# =============================
+# SAFE PATHWAY CHECK
+# =============================
+def evaluate_pathway(pathway_rules, grades):
 
-    for subject, min_score in rules.items():
+    if not pathway_rules:
+        return {"eligible": True, "missing_subjects": []}
+
+    mean_required = pathway_rules.get("mean_grade", 0)
+    subject_rules = pathway_rules.get("subjects", {})
+
+    student_mean = calculate_mean_grade(grades)
+
+    if student_mean < mean_required:
+        return {
+            "eligible": False,
+            "missing_subjects": ["Mean grade below requirement"]
+        }
+
+    missing = []
+
+    for subject, min_score in subject_rules.items():
         if grades.get(subject, 0) < min_score:
-            return False
+            missing.append(subject)
 
-    return True
+    return {
+        "eligible": len(missing) == 0,
+        "missing_subjects": missing
+    }
+
+# =============================
+# CAREER EVALUATION WRAPPER
+# =============================
+def evaluate_career_kcse(career, grades):
+
+    rules = CAREER_REQUIREMENTS.get(career, {})
+
+    degree_eval = evaluate_pathway(rules.get("degree"), grades)
+    diploma_eval = evaluate_pathway(rules.get("diploma"), grades)
+
+    if degree_eval["eligible"]:
+        return "Degree", "Eligible for direct university entry."
+
+    elif diploma_eval["eligible"]:
+        return "Diploma", "Consider diploma pathway then upgrade to degree."
+
+    else:
+        missing = degree_eval.get("missing_subjects", [])
+        return "Not Eligible", f"Consider retaking: {', '.join(missing)}"
 
 # =============================
 # MAIN RECOMMENDER
 # =============================
 def recommend_careers(student_data, raw_grades, top_k=3):
 
-    if len(student_data) != FEATURE_COUNT:
-        raise ValueError(f"Expected {FEATURE_COUNT} features, got {len(student_data)}")
+    try:
+        if len(student_data) != FEATURE_COUNT:
+            raise ValueError(f"Expected {FEATURE_COUNT} features, got {len(student_data)}")
 
-    # Scale input
-    student_array = np.array(student_data).reshape(1, -1)
-    student_scaled = scaler.transform(student_array)
+        # Scale input
+        student_array = np.array(student_data).reshape(1, -1)
+        student_scaled = scaler.transform(student_array)
 
-    # 1️⃣ Predict cluster
-    cluster_id = cluster_model.predict(student_scaled)[0]
-    cluster_name = cluster_encoder.inverse_transform([cluster_id])[0]
+        # 1️⃣ Predict cluster
+        cluster_id = cluster_model.predict(student_scaled)[0]
+        cluster_name = cluster_encoder.inverse_transform([cluster_id])[0]
 
-    if cluster_id not in career_models:
-        return cluster_name, []
+        if cluster_id not in career_models:
+            return cluster_name, []
 
-    career_model = career_models[cluster_id]
+        career_model = career_models[cluster_id]
 
-    # 2️⃣ Rank careers
-    probs = career_model.predict_proba(student_scaled)[0]
-    classes = career_model.classes_
+        # 2️⃣ Rank careers
+        probs = career_model.predict_proba(student_scaled)[0]
+        classes = career_model.classes_
 
-    ranked_indices = np.argsort(probs)[::-1]
-    ranked_ids = classes[ranked_indices]
-    ranked_careers = career_encoder.inverse_transform(ranked_ids)
+        ranked_indices = np.argsort(probs)[::-1]
+        ranked_ids = classes[ranked_indices]
+        ranked_careers = career_encoder.inverse_transform(ranked_ids)
 
-    # 3️⃣ Apply eligibility rules
-    final_careers = []
+        # 3️⃣ Apply KCSE pathway logic
+        final_careers = []
 
-    for career in ranked_careers:
-        if is_eligible(career, raw_grades):
-            final_careers.append(career)
+        for career in ranked_careers:
 
-        if len(final_careers) == top_k:
-            break
+            pathway, advice = evaluate_career_kcse(career, raw_grades)
 
-    return cluster_name, final_careers
+            final_careers.append({
+                "career": career,
+                "pathway": pathway,
+                "advice": advice
+            })
+
+            if len(final_careers) == top_k:
+                break
+
+        return cluster_name, final_careers
+
+    except Exception as e:
+        print("❌ Recommendation Error:", str(e))
+        return "Unknown Cluster", []
