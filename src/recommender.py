@@ -329,18 +329,22 @@ CAREER_REQUIREMENTS = {
 # =============================
 # SAFE MEAN GRADE
 # =============================
+# =============================
+# SAFE MEAN GRADE
+# =============================
 def calculate_mean_grade(grades):
     if not grades:
         return 0.0
     return round(sum(grades.values()) / max(len(grades), 1), 2)
 
+
 # =============================
-# SAFE PATHWAY CHECK
+# GENERIC PATHWAY CHECK
 # =============================
 def evaluate_pathway(pathway_rules, grades):
 
     if not pathway_rules:
-        return {"eligible": True, "missing_subjects": []}
+        return {"eligible": False, "missing_subjects": []}
 
     mean_required = pathway_rules.get("mean_grade", 0)
     subject_rules = pathway_rules.get("subjects", {})
@@ -364,25 +368,44 @@ def evaluate_pathway(pathway_rules, grades):
         "missing_subjects": missing
     }
 
+
 # =============================
-# CAREER EVALUATION WRAPPER
+# 4-LEVEL CAREER EVALUATION
 # =============================
 def evaluate_career_kcse(career, grades):
 
     rules = CAREER_REQUIREMENTS.get(career, {})
 
+    # -------- Degree --------
     degree_eval = evaluate_pathway(rules.get("degree"), grades)
-    diploma_eval = evaluate_pathway(rules.get("diploma"), grades)
-
     if degree_eval["eligible"]:
-        return "Degree", "Eligible for direct university entry."
+        return "Degree", "Eligible for direct university admission."
 
-    elif diploma_eval["eligible"]:
-        return "Diploma", "Consider diploma pathway then upgrade to degree."
+    # -------- Diploma --------
+    diploma_eval = evaluate_pathway(rules.get("diploma"), grades)
+    if diploma_eval["eligible"]:
+        return "Diploma", "Eligible for diploma program. Can upgrade to degree later."
 
-    else:
-        missing = degree_eval.get("missing_subjects", [])
-        return "Not Eligible", f"Consider retaking: {', '.join(missing)}"
+    # -------- Certificate (Auto if not defined) --------
+    certificate_rules = rules.get("certificate") or {
+        "mean_grade": 3  # KCSE D
+    }
+
+    certificate_eval = evaluate_pathway(certificate_rules, grades)
+    if certificate_eval["eligible"]:
+        return "Certificate", "Eligible for certificate program."
+
+    # -------- Artisan (Auto if not defined) --------
+    artisan_rules = rules.get("artisan") or {
+        "mean_grade": 2  # KCSE D-
+    }
+
+    artisan_eval = evaluate_pathway(artisan_rules, grades)
+    if artisan_eval["eligible"]:
+        return "Artisan", "Eligible for artisan/TVET training."
+
+    # -------- Not Eligible --------
+    return "Not Eligible", "Minimum KCSE requirements not met."
 
 # =============================
 # MAIN RECOMMENDER
