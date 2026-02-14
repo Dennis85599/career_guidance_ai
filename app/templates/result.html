@@ -57,7 +57,7 @@
 
     <!-- CAREER RESULTS -->
     <div class="row justify-content-center">
-        <div class="col-lg-8">
+        <div class="col-lg-10">
 
             <h4 class="fw-semibold mb-3 text-center">
                 🎯 Top Career Matches For You
@@ -68,17 +68,40 @@
             </p>
 
             {% if careers %}
-            <div class="row g-3">
-                {% for career in careers %}
+            <div class="row g-4">
+                {% for item in careers %}
                 <div class="col-md-4">
-                    <div class="card career-card h-100 p-3 text-center shadow-sm">
+                    <div class="card career-card h-100 p-4 text-center shadow-sm">
+
                         <div class="icon-circle mx-auto mb-3">
                             <i class="fa fa-briefcase"></i>
                         </div>
-                        <h6 class="fw-semibold mb-1">{{ career }}</h6>
+
+                        <!-- Career Name -->
+                        <h5 class="fw-semibold mb-2">
+                            {{ item.career }}
+                        </h5>
+
+                        <!-- Pathway Badge -->
+                        <div class="mb-3">
+                            <span class="badge px-3 py-2
+                                {% if item.pathway == 'Degree' %}
+                                    bg-success
+                                {% elif item.pathway == 'Diploma' %}
+                                    bg-warning text-dark
+                                {% else %}
+                                    bg-secondary
+                                {% endif %}
+                            ">
+                                {{ item.pathway }}
+                            </span>
+                        </div>
+
+                        <!-- Advice -->
                         <p class="small text-muted mb-0">
-                            Strong match based on your profile
+                            {{ item.advice }}
                         </p>
+
                     </div>
                 </div>
                 {% endfor %}
