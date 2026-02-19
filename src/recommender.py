@@ -85,6 +85,47 @@ FEATURE_COUNT = len(SUBJECT_COLS) + len(SKILL_COLS)
 # KCSE CAREER REQUIREMENTS (Dataset-Derived)
 # ===========================================
 
+
+
+# =============================
+# CLUSTER → CAREER FALLBACK MAP
+# =============================
+career_map = {
+    "health sciences": [
+        "Doctor","Nurse","Clinical Officer","Pharmacist","Lab Technologist"
+    ],
+    "engineering and technology":[
+        "Civil Engineer","Mechanical Engineer","Electrical Engineer","AI Engineer"
+    ],
+    "ict":[
+        "Software Developer","Data Scientist","Cybersecurity Analyst"
+    ],
+    "law and governance":[
+        "Lawyer","Judge","Public Administrator"
+    ],
+    "business and finance":[
+        "Accountant","Economist","Banker","Financial Analyst"
+    ],
+    "education":[
+        "Teacher","Lecturer","Education Officer"
+    ],
+    "creative arts":[
+        "Graphic Designer","Animator","Journalist","Film Producer"
+    ],
+    "agriculture and environment":[
+        "Agronomist","Environmental Scientist","Forester"
+    ],
+    "hospitality":[
+        "Chef","Hotel Manager","Tour Guide"
+    ],
+    "trades":[
+        "Electrician","Welder","Automotive Technician"
+    ],
+    "aviation":[
+        "Pilot","Logistics Officer"
+    ]
+}
+
 CAREER_REQUIREMENTS = {
 
 # ================= HEALTH SCIENCES =================
@@ -328,12 +369,16 @@ CAREER_REQUIREMENTS = {
 
 }
 
+
+
+
+
 # =============================
 # SAFE MEAN GRADE
 # =============================
 # =============================
 # SAFE MEAN GRADE
-# =============================
+# ============================
 def calculate_mean_grade(grades):
     if not grades:
         return 0.0
