@@ -130,182 +130,226 @@ career_map = {
 # ALL DATASET CAREERS — COMPLETE KCSE REQUIREMENTS
 # ============================================================
 
+# KCSE POINTS GUIDE (Kenya)
+# A=12, A-=11, B+=10, B=9, B-=8, C+=7, C=6, C-=5, D+=4, D=3, D-=2, E=1
+
 CAREER_REQUIREMENTS = {
 
 # ================= HEALTH =================
 "Doctor": {
-    "degree": {"mean_grade": 7, "subjects": {"biology": 10, "chemistry": 10}},
-    "diploma": {"mean_grade": 5, "subjects": {"biology": 8, "chemistry": 8}}
+    "degree": {"mean_grade": 9, "subjects": {"biology": 10, "chemistry": 10}},   # B mean
+    "diploma": {"mean_grade": 7, "subjects": {"biology": 8, "chemistry": 8}},    # C+
+    "certificate": {"mean_grade": 6, "subjects": {"biology": 6}},                # C
+    "artisan": {"mean_grade": 4}
 },
+
 "Nurse": {
-    "degree": {"mean_grade": 6, "subjects": {"biology": 9, "chemistry": 8}},
-    "diploma": {"mean_grade": 4, "subjects": {"biology": 6, "chemistry": 6}}
+    "degree": {"mean_grade": 8, "subjects": {"biology": 9, "chemistry": 8}},
+    "diploma": {"mean_grade": 6, "subjects": {"biology": 7, "chemistry": 6}},
+    "certificate": {"mean_grade": 5, "subjects": {"biology": 6}},
+    "artisan": {"mean_grade": 3}
 },
+
 "Clinical Officer": {
-    "degree": {"mean_grade": 6, "subjects": {"biology": 9, "chemistry": 8}},
-    "diploma": {"mean_grade": 4, "subjects": {"biology": 6, "chemistry": 6}}
+    "degree": {"mean_grade": 8, "subjects": {"biology": 9, "chemistry": 8}},
+    "diploma": {"mean_grade": 6, "subjects": {"biology": 7, "chemistry": 6}},
+    "certificate": {"mean_grade": 5},
+    "artisan": {"mean_grade": 3}
 },
+
 "Pharmacist": {
-    "degree": {"mean_grade": 7, "subjects": {"biology": 10, "chemistry": 10}},
-    "diploma": {"mean_grade": 5, "subjects": {"biology": 8, "chemistry": 8}}
-},
-"Lab Technologist": {
-    "degree": {"mean_grade": 6, "subjects": {"biology": 9, "chemistry": 8}},
-    "diploma": {"mean_grade": 4, "subjects": {"biology": 6, "chemistry": 6}}
-},
-"Veterinary Officer": {
-    "degree": {"mean_grade": 6, "subjects": {"biology": 8, "agriculture": 8}},
-    "diploma": {"mean_grade": 4, "subjects": {"biology": 6, "agriculture": 6}}
+    "degree": {"mean_grade": 9, "subjects": {"biology": 10, "chemistry": 10}},
+    "diploma": {"mean_grade": 7, "subjects": {"biology": 8, "chemistry": 8}},
+    "certificate": {"mean_grade": 6},
+    "artisan": {"mean_grade": 4}
 },
 
 # ================= ENGINEERING =================
 "Civil Engineer": {
-    "degree": {"mean_grade": 8, "subjects": {"math": 11, "physics": 10}},
-    "diploma": {"mean_grade": 6, "subjects": {"math": 8, "physics": 8}}
+    "degree": {"mean_grade": 9, "subjects": {"math": 10, "physics": 9}},
+    "diploma": {"mean_grade": 7, "subjects": {"math": 7, "physics": 7}},
+    "certificate": {"mean_grade": 6, "subjects": {"math": 6}},
+    "artisan": {"mean_grade": 4}
 },
+
 "Mechanical Engineer": {
-    "degree": {"mean_grade": 8, "subjects": {"math": 11, "physics": 10}},
-    "diploma": {"mean_grade": 6, "subjects": {"math": 8, "physics": 8}}
+    "degree": {"mean_grade": 9, "subjects": {"math": 10, "physics": 9}},
+    "diploma": {"mean_grade": 7, "subjects": {"math": 7, "physics": 7}},
+    "certificate": {"mean_grade": 6},
+    "artisan": {"mean_grade": 4}
 },
+
 "Electrical Engineer": {
-    "degree": {"mean_grade": 8, "subjects": {"math": 11, "physics": 11}},
-    "diploma": {"mean_grade": 6, "subjects": {"math": 8, "physics": 8}}
+    "degree": {"mean_grade": 9, "subjects": {"math": 10, "physics": 9}},
+    "diploma": {"mean_grade": 7, "subjects": {"math": 7, "physics": 7}},
+    "certificate": {"mean_grade": 6},
+    "artisan": {"mean_grade": 4}
 },
-"Mechatronics Engineer": {
-    "degree": {"mean_grade": 8, "subjects": {"math": 11, "physics": 10}},
-    "diploma": {"mean_grade": 6, "subjects": {"math": 8, "physics": 8}}
-},
-"Marine Engineer": {
-    "degree": {"mean_grade": 6, "subjects": {"math": 7, "physics": 7}},
-    "diploma": {"mean_grade": 4, "subjects": {"math": 5, "physics": 5}}
-},
+
 "AI Engineer": {
-    "degree": {"mean_grade": 8, "subjects": {"math": 11, "computer": 10}},
-    "diploma": {"mean_grade": 6, "subjects": {"math": 8, "computer": 8}}
+    "degree": {"mean_grade": 9, "subjects": {"math": 10}},
+    "diploma": {"mean_grade": 7, "subjects": {"math": 7}},
+    "certificate": {"mean_grade": 6},
+    "artisan": {"mean_grade": 4}
 },
 
 # ================= ICT =================
 "Software Developer": {
-    "degree": {"mean_grade": 7, "subjects": {"math": 10, "computer": 9}},
-    "diploma": {"mean_grade": 5, "subjects": {"math": 7, "computer": 7}}
+    "degree": {"mean_grade": 8, "subjects": {"math": 9}},
+    "diploma": {"mean_grade": 6, "subjects": {"math": 6}},
+    "certificate": {"mean_grade": 5},
+    "artisan": {"mean_grade": 3}
 },
+
 "Data Scientist": {
-    "degree": {"mean_grade": 8, "subjects": {"math": 11, "computer": 10}},
-    "diploma": {"mean_grade": 6, "subjects": {"math": 8, "computer": 8}}
+    "degree": {"mean_grade": 9, "subjects": {"math": 10}},
+    "diploma": {"mean_grade": 7, "subjects": {"math": 7}},
+    "certificate": {"mean_grade": 6},
+    "artisan": {"mean_grade": 4}
 },
+
 "Cybersecurity Analyst": {
-    "degree": {"mean_grade": 7, "subjects": {"math": 10, "computer": 10}},
-    "diploma": {"mean_grade": 5, "subjects": {"math": 7, "computer": 7}}
+    "degree": {"mean_grade": 8, "subjects": {"math": 9}},
+    "diploma": {"mean_grade": 6, "subjects": {"math": 6}},
+    "certificate": {"mean_grade": 5},
+    "artisan": {"mean_grade": 3}
 },
 
 # ================= LAW =================
 "Lawyer": {
-    "degree": {"mean_grade": 7, "subjects": {"english": 10}},
-    "diploma": {"mean_grade": 5, "subjects": {"english": 7}}
+    "degree": {"mean_grade": 9, "subjects": {"english": 9}},
+    "diploma": {"mean_grade": 7, "subjects": {"english": 7}},
+    "certificate": {"mean_grade": 6},
+    "artisan": {"mean_grade": 4}
 },
-"Judge": {
-    "degree": {"mean_grade": 7, "subjects": {"english": 10}},
-    "diploma": {"mean_grade": 5, "subjects": {"english": 7}}
-},
+
 "Public Administrator": {
-    "degree": {"mean_grade": 6, "subjects": {"english": 9}},
-    "diploma": {"mean_grade": 4, "subjects": {"english": 6}}
+    "degree": {"mean_grade": 7, "subjects": {"english": 7}},
+    "diploma": {"mean_grade": 6},
+    "certificate": {"mean_grade": 5},
+    "artisan": {"mean_grade": 3}
 },
 
 # ================= BUSINESS =================
 "Accountant": {
-    "degree": {"mean_grade": 7, "subjects": {"math": 10, "business": 9}},
-    "diploma": {"mean_grade": 5, "subjects": {"math": 7, "business": 7}}
+    "degree": {"mean_grade": 8, "subjects": {"math": 8}},
+    "diploma": {"mean_grade": 6, "subjects": {"math": 6}},
+    "certificate": {"mean_grade": 5},
+    "artisan": {"mean_grade": 3}
 },
-"Actuary": {
-    "degree": {"mean_grade": 8, "subjects": {"math": 11}},
-    "diploma": {"mean_grade": 6, "subjects": {"math": 9}}
-},
-"Economist": {
-    "degree": {"mean_grade": 7, "subjects": {"math": 10}},
-    "diploma": {"mean_grade": 5, "subjects": {"math": 7}}
-},
-"Financial Analyst": {
-    "degree": {"mean_grade": 7, "subjects": {"math": 10}},
-    "diploma": {"mean_grade": 5, "subjects": {"math": 7}}
-},
+
 "Banker": {
-    "degree": {"mean_grade": 6, "subjects": {"math": 9}},
-    "diploma": {"mean_grade": 4, "subjects": {"math": 6}}
+    "degree": {"mean_grade": 7, "subjects": {"math": 7}},
+    "diploma": {"mean_grade": 6},
+    "certificate": {"mean_grade": 5},
+    "artisan": {"mean_grade": 3}
 },
 
 # ================= EDUCATION =================
 "Teacher": {
-    "degree": {"mean_grade": 6, "subjects": {"english": 9}},
-    "diploma": {"mean_grade": 4, "subjects": {"english": 6}}
+    "degree": {"mean_grade": 7, "subjects": {"english": 7}},
+    "diploma": {"mean_grade": 6},
+    "certificate": {"mean_grade": 5},
+    "artisan": {"mean_grade": 3}
 },
+
 "Lecturer": {
-    "degree": {"mean_grade": 7, "subjects": {"english": 10}},
-    "diploma": {"mean_grade": 5, "subjects": {"english": 7}}
-},
-"Education Officer": {
-    "degree": {"mean_grade": 6},
-    "diploma": {"mean_grade": 4}
+    "degree": {"mean_grade": 9, "subjects": {"english": 9}},
+    "diploma": {"mean_grade": 7},
+    "certificate": {"mean_grade": 6},
+    "artisan": {"mean_grade": 4}
 },
 
 # ================= SECURITY =================
 "Police Officer": {
-    "degree": {"mean_grade": 5},
-    "diploma": {"mean_grade": 3}
-},
-"Military Officer": {
     "degree": {"mean_grade": 6},
-    "diploma": {"mean_grade": 3}
+    "diploma": {"mean_grade": 4},
+    "certificate": {"mean_grade": 3},
+    "artisan": {"mean_grade": 2}
+},
+
+"Military Officer": {
+    "degree": {"mean_grade": 7},
+    "diploma": {"mean_grade": 4},
+    "certificate": {"mean_grade": 3},
+    "artisan": {"mean_grade": 2}
 },
 
 # ================= CREATIVE =================
 "Graphic Designer": {
-    "degree": {"mean_grade": 5},
-    "diploma": {"mean_grade": 3}
+    "degree": {"mean_grade": 6},
+    "diploma": {"mean_grade": 5},
+    "certificate": {"mean_grade": 4},
+    "artisan": {"mean_grade": 3}
 },
-"Animator": {
-    "degree": {"mean_grade": 5},
-    "diploma": {"mean_grade": 3}
-},
-"Film Producer": {
-    "degree": {"mean_grade": 5},
-    "diploma": {"mean_grade": 3}
-},
+
 "Journalist": {
-    "degree": {"mean_grade": 6, "subjects": {"english": 8}},
-    "diploma": {"mean_grade": 4, "subjects": {"english": 6}}
+    "degree": {"mean_grade": 7, "subjects": {"english": 8}},
+    "diploma": {"mean_grade": 6, "subjects": {"english": 6}},
+    "certificate": {"mean_grade": 5},
+    "artisan": {"mean_grade": 3}
 },
 
 # ================= AGRICULTURE =================
 "Agronomist": {
-    "degree": {"mean_grade": 6, "subjects": {"agriculture": 9}},
-    "diploma": {"mean_grade": 4, "subjects": {"agriculture": 6}}
-},
-"Forester": {
-    "degree": {"mean_grade": 6, "subjects": {"biology": 8}},
-    "diploma": {"mean_grade": 4, "subjects": {"biology": 6}}
-},
-"Environmental Scientist": {
-    "degree": {"mean_grade": 6, "subjects": {"geography": 8}},
-    "diploma": {"mean_grade": 4, "subjects": {"geography": 6}}
+    "degree": {"mean_grade": 7, "subjects": {"agriculture": 7}},
+    "diploma": {"mean_grade": 6},
+    "certificate": {"mean_grade": 5},
+    "artisan": {"mean_grade": 3}
 },
 
 # ================= HOSPITALITY =================
-"Chef": {"degree": {"mean_grade": 5}, "diploma": {"mean_grade": 3}},
-"Hotel Manager": {"degree": {"mean_grade": 5}, "diploma": {"mean_grade": 3}},
-"Tour Guide": {"degree": {"mean_grade": 5}, "diploma": {"mean_grade": 3}},
+"Chef": {
+    "degree": {"mean_grade": 6},
+    "diploma": {"mean_grade": 5},
+    "certificate": {"mean_grade": 4},
+    "artisan": {"mean_grade": 2}
+},
+
+"Hotel Manager": {
+    "degree": {"mean_grade": 6},
+    "diploma": {"mean_grade": 5},
+    "certificate": {"mean_grade": 4},
+    "artisan": {"mean_grade": 2}
+},
 
 # ================= TRADES =================
-"Electrician": {"degree": {"mean_grade": 5}, "diploma": {"mean_grade": 3}},
-"Welder": {"degree": {"mean_grade": 4}, "diploma": {"mean_grade": 2}},
-"Automotive Technician": {"degree": {"mean_grade": 4}, "diploma": {"mean_grade": 2}},
+"Electrician": {
+    "degree": {"mean_grade": 6},
+    "diploma": {"mean_grade": 5},
+    "certificate": {"mean_grade": 4},
+    "artisan": {"mean_grade": 2}
+},
+
+"Welder": {
+    "degree": {"mean_grade": 5},
+    "diploma": {"mean_grade": 4},
+    "certificate": {"mean_grade": 3},
+    "artisan": {"mean_grade": 2}
+},
+
+"Automotive Technician": {
+    "degree": {"mean_grade": 5},
+    "diploma": {"mean_grade": 4},
+    "certificate": {"mean_grade": 3},
+    "artisan": {"mean_grade": 2}
+},
 
 # ================= AVIATION =================
 "Pilot": {
-    "degree": {"mean_grade": 7, "subjects": {"math": 8}},
-    "diploma": {"mean_grade": 5, "subjects": {"math": 6}}
+    "degree": {"mean_grade": 8, "subjects": {"math": 7, "physics": 7}},
+    "diploma": {"mean_grade": 6, "subjects": {"math": 6}},
+    "certificate": {"mean_grade": 5},
+    "artisan": {"mean_grade": 4}
 },
-"Logistics Officer": {"degree": {"mean_grade": 5}, "diploma": {"mean_grade": 3}},
+
+"Logistics Officer": {
+    "degree": {"mean_grade": 6},
+    "diploma": {"mean_grade": 5},
+    "certificate": {"mean_grade": 4},
+    "artisan": {"mean_grade": 3}
+}
+
 }
 
 # ============================================================
