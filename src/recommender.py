@@ -262,17 +262,11 @@ CAREER_REQUIREMENTS = {
 
 # ================= SECURITY =================
 "Police Officer": {
-    "degree": {"mean_grade": 6},
-    "diploma": {"mean_grade": 4},
-    "certificate": {"mean_grade": 3},
-    "artisan": {"mean_grade": 2}
+    "minimum_mean_grade": 1   # E and above automatically qualifies
 },
 
 "Military Officer": {
-    "degree": {"mean_grade": 7},
-    "diploma": {"mean_grade": 4},
-    "certificate": {"mean_grade": 3},
-    "artisan": {"mean_grade": 2}
+    "minimum_mean_grade": 1   # E and above automatically qualifies
 },
 
 # ================= CREATIVE =================
