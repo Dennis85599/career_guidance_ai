@@ -89,6 +89,8 @@
                                     bg-success
                                 {% elif item.pathway == 'Diploma' %}
                                     bg-warning text-dark
+                                {% elif item.pathway == 'Open Entry' %}
+                                    bg-info text-dark
                                 {% else %}
                                     bg-secondary
                                 {% endif %}
@@ -98,9 +100,23 @@
                         </div>
 
                         <!-- Advice -->
-                        <p class="small text-muted mb-0">
+                        <p class="small text-muted mb-2">
                             {{ item.advice }}
                         </p>
+
+                        <!-- WHY THIS CAREER -->
+                        {% if item.why %}
+                        <div class="mt-3 text-start">
+                            <small class="fw-semibold text-primary">
+                                Why this career fits you:
+                            </small>
+                            <ul class="small text-muted mb-0 mt-1">
+                                {% for reason in item.why %}
+                                <li>{{ reason }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
 
                     </div>
                 </div>
