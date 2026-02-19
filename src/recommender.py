@@ -458,7 +458,7 @@ def evaluate_career_kcse(career, grades):
 # MAIN RECOMMENDER
 # =============================
 def recommend_careers(student_data, raw_grades, top_k=3):
-
+    
     try:
         if len(student_data) != FEATURE_COUNT:
             raise ValueError(f"Expected {FEATURE_COUNT} features, got {len(student_data)}")
@@ -467,16 +467,20 @@ def recommend_careers(student_data, raw_grades, top_k=3):
         student_array = np.array(student_data).reshape(1, -1)
         student_scaled = scaler.transform(student_array)
 
-        # 1️⃣ Predict cluster
+        # ===== 1. Predict cluster =====
         cluster_id = cluster_model.predict(student_scaled)[0]
         cluster_name = cluster_encoder.inverse_transform([cluster_id])[0]
 
+        print("Predicted cluster:", cluster_name)
+
+        # ===== 2. Get model =====
         if cluster_id not in career_models:
-            return cluster_name, []
+            print("No cluster model found → fallback")
+            return cluster_name, fallback_all_clusters(raw_grades)
 
         career_model = career_models[cluster_id]
 
-        # 2️⃣ Rank careers
+        # ===== 3. Predict career probs =====
         probs = career_model.predict_proba(student_scaled)[0]
         classes = career_model.classes_
 
@@ -484,24 +488,69 @@ def recommend_careers(student_data, raw_grades, top_k=3):
         ranked_ids = classes[ranked_indices]
         ranked_careers = career_encoder.inverse_transform(ranked_ids)
 
-        # 3️⃣ Apply KCSE pathway logic
         final_careers = []
+        rejected = []
 
+        # ===== 4. KCSE filter =====
         for career in ranked_careers:
 
             pathway, advice = evaluate_career_kcse(career, raw_grades)
 
-            final_careers.append({
-                "career": career,
-                "pathway": pathway,
-                "advice": advice
-            })
+            if pathway != "Not Eligible":
+                final_careers.append({
+                    "career": career,
+                    "pathway": pathway,
+                    "advice": advice
+                })
+            else:
+                rejected.append(career)
 
             if len(final_careers) == top_k:
                 break
+
+        # ===== 5. IF NONE ELIGIBLE → SMART FALLBACK =====
+        if not final_careers:
+            print("⚠ No eligible careers in predicted cluster → searching all clusters")
+
+            final_careers = fallback_all_clusters(raw_grades)
+
+        # ===== 6. LAST RESORT → SHOW BEST EVEN IF NOT ELIGIBLE =====
+        if not final_careers:
+            print("⚠ Using best predicted careers even if not eligible")
+
+            for career in ranked_careers[:top_k]:
+                pathway, advice = evaluate_career_kcse(career, raw_grades)
+
+                final_careers.append({
+                    "career": career,
+                    "pathway": pathway,
+                    "advice": "You may need to upgrade KCSE subjects"
+                })
 
         return cluster_name, final_careers
 
     except Exception as e:
         print("❌ Recommendation Error:", str(e))
         return "Unknown Cluster", []
+
+
+def fallback_all_clusters(raw_grades):
+    
+    all_careers = list(CAREER_REQUIREMENTS.keys())
+    results = []
+
+    for career in all_careers:
+
+        pathway, advice = evaluate_career_kcse(career, raw_grades)
+
+        if pathway != "Not Eligible":
+            results.append({
+                "career": career,
+                "pathway": pathway,
+                "advice": advice
+            })
+
+        if len(results) == 3:
+            break
+
+    return results
