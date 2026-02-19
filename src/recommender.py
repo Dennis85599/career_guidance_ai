@@ -479,6 +479,53 @@ def evaluate_career_kcse(career, grades):
 
     return "Not Eligible", "Minimum KCSE requirements not met."
 
+
+
+
+
+# ============================================================
+# 🔥 AI EXPLANATION ENGINE (WHY THIS CAREER)
+# ============================================================
+def generate_career_explanation(career, student_data, grades, cluster_name):
+
+    subject_scores = dict(zip(SUBJECT_COLS, student_data[:len(SUBJECT_COLS)]))
+    skill_scores = dict(zip(SKILL_COLS, student_data[len(SUBJECT_COLS):]))
+
+    reasons = []
+
+    # =============================
+    # 1. Skill-based explanation
+    # =============================
+    top_skills = sorted(skill_scores.items(), key=lambda x: x[1], reverse=True)[:3]
+
+    skill_names = [s[0].replace("_skill","").replace("_"," ").title() for s in top_skills if s[1] >= 6]
+
+    if skill_names:
+        reasons.append(f"Strong {', '.join(skill_names)} skills")
+
+    # =============================
+    # 2. Subject strengths
+    # =============================
+    strong_subjects = [s for s,v in grades.items() if v >= 7]
+    if strong_subjects:
+        reasons.append(f"Good performance in {', '.join(strong_subjects).title()}")
+
+    # =============================
+    # 3. Cluster match
+    # =============================
+    reasons.append(f"Your strengths align with {cluster_name.title()} careers")
+
+    # =============================
+    # 4. Security special message
+    # =============================
+    if career in ["Police Officer", "Military Officer"]:
+        reasons.append("Meets minimum KCSE entry for security careers")
+
+    if not reasons:
+        reasons.append("Matches your overall performance and interests")
+
+    return reasons
+
 # =============================
 # MAIN RECOMMENDER
 # =============================
@@ -546,11 +593,20 @@ def recommend_careers(student_data, raw_grades, top_k=3):
             for career in ranked_careers[:top_k]:
                 pathway, advice = evaluate_career_kcse(career, raw_grades)
 
-                final_careers.append({
-                    "career": career,
-                    "pathway": pathway,
-                    "advice": "You may need to upgrade KCSE subjects"
-                })
+                explanation = generate_career_explanation(
+    career,
+    student_data,
+    raw_grades,
+    cluster_name
+)
+
+        final_careers.append({
+    "career": career,
+    "pathway": pathway,
+    "advice": advice,
+    "why": explanation
+})
+
 
         return cluster_name, final_careers
 
