@@ -8,151 +8,552 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts: Syne (display) + DM Sans (body) -->
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 
-    <!-- Animate.css -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
-
     <style>
+        /* ═══════════════════════════════════════════
+           DESIGN TOKENS
+        ═══════════════════════════════════════════ */
         :root {
-            --primary: #4f46e5;
-            --primary-soft: #eef2ff;
-            --dark: #0f172a;
-            --muted: #64748b;
-            --bg: #f6f8fc;
-            --card: #ffffff;
+            --c-bg:        #050b18;
+            --c-surface:   #0c1528;
+            --c-card:      #111e35;
+            --c-border:    rgba(99,179,237,0.12);
+            --c-accent1:   #38bdf8;   /* sky blue */
+            --c-accent2:   #818cf8;   /* indigo */
+            --c-accent3:   #34d399;   /* emerald */
+            --c-text:      #e2eaf6;
+            --c-muted:     #7e9ab5;
+
+            --font-display: 'Syne', sans-serif;
+            --font-body:    'DM Sans', sans-serif;
+
+            --nav-h: 68px;
+            --radius-card: 20px;
+            --shadow-glow: 0 0 40px rgba(56,189,248,.15);
         }
+
+        /* ═══════════════════════════════════════════
+           RESET & BASE
+        ═══════════════════════════════════════════ */
+        *, *::before, *::after { box-sizing: border-box; }
+
+        html { scroll-behavior: smooth; }
 
         body {
-            font-family: 'Poppins', sans-serif;
-            background: radial-gradient(circle at top, #eef2ff 0%, var(--bg) 45%);
+            font-family: var(--font-body);
+            background-color: var(--c-bg);
+            color: var(--c-text);
             min-height: 100vh;
-            padding-top: 80px;
-            color: #1f2937;
+            padding-top: var(--nav-h);
+            overflow-x: hidden;
         }
 
-        /* NAVBAR */
+        /* Animated star-field background */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background:
+                radial-gradient(ellipse 80% 50% at 20% -10%, rgba(56,189,248,.08) 0%, transparent 60%),
+                radial-gradient(ellipse 60% 40% at 80% 110%, rgba(129,140,248,.07) 0%, transparent 55%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        body > * { position: relative; z-index: 1; }
+
+        /* ═══════════════════════════════════════════
+           SCROLLBAR
+        ═══════════════════════════════════════════ */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: var(--c-bg); }
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(var(--c-accent1), var(--c-accent2));
+            border-radius: 99px;
+        }
+
+        /* ═══════════════════════════════════════════
+           SELECTION
+        ═══════════════════════════════════════════ */
+        ::selection { background: rgba(56,189,248,.25); color: #fff; }
+
+        /* ═══════════════════════════════════════════
+           NAVBAR
+        ═══════════════════════════════════════════ */
         .navbar {
-            backdrop-filter: blur(12px);
-            background: rgba(15, 23, 42, 0.9);
+            height: var(--nav-h);
+            background: rgba(5,11,24,.82);
+            backdrop-filter: blur(18px) saturate(1.4);
+            -webkit-backdrop-filter: blur(18px) saturate(1.4);
+            border-bottom: 1px solid var(--c-border);
+            transition: background .3s, box-shadow .3s;
+        }
+
+        .navbar.scrolled {
+            background: rgba(5,11,24,.96);
+            box-shadow: 0 4px 30px rgba(0,0,0,.5);
         }
 
         .navbar-brand {
-            font-weight: 600;
-            letter-spacing: .3px;
+            font-family: var(--font-display);
+            font-weight: 700;
+            font-size: 1.15rem;
+            letter-spacing: -.3px;
+            color: #fff !important;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
 
-        .navbar .nav-link {
-            font-size: 14px;
-            opacity: .9;
+        .brand-icon {
+            width: 34px;
+            height: 34px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, var(--c-accent1), var(--c-accent2));
+            display: grid;
+            place-items: center;
+            font-size: 15px;
+            flex-shrink: 0;
+            box-shadow: 0 0 14px rgba(56,189,248,.35);
         }
 
-        .navbar .nav-link:hover {
-            opacity: 1;
-        }
-
-        /* BUTTONS */
-        .btn-main {
-            background: linear-gradient(135deg, #4f46e5, #6366f1);
-            border: none;
-            padding: 10px 26px;
-            border-radius: 999px;
-            color: white;
+        .nav-link {
+            font-size: 13.5px;
             font-weight: 500;
+            color: var(--c-muted) !important;
+            padding: 6px 14px !important;
+            border-radius: 8px;
+            transition: color .2s, background .2s;
+            display: flex;
+            align-items: center;
+            gap: 7px;
         }
 
-        .btn-main:hover {
-            transform: translateY(-1px);
-            box-shadow: 0 10px 30px rgba(79,70,229,.25);
+        .nav-link i { font-size: 13px; }
+
+        .nav-link:hover {
+            color: var(--c-text) !important;
+            background: rgba(255,255,255,.05);
         }
 
-        /* CARDS */
-        .card {
-            border: none;
-            border-radius: 18px;
-            background: var(--card);
+        .nav-link.active {
+            color: var(--c-accent1) !important;
+            background: rgba(56,189,248,.08);
         }
 
-        /* MAIN CONTENT */
-        main {
-            min-height: calc(100vh - 220px);
-        }
-
-        /* FOOTER */
-        footer {
-            background: linear-gradient(180deg, #0f172a, #020617);
-            color: #cbd5f5;
-        }
-
-        footer p {
-            margin: 0;
+        /* Pill buttons in nav */
+        .btn-nav-outline {
             font-size: 13px;
-        }
-
-        footer a {
-            color: #cbd5f5;
+            font-weight: 500;
+            padding: 7px 20px;
+            border-radius: 99px;
+            border: 1px solid rgba(255,255,255,.18);
+            color: var(--c-text) !important;
+            background: transparent;
+            transition: border-color .2s, background .2s;
             text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
         }
 
-        footer a:hover {
-            color: white;
+        .btn-nav-outline:hover {
+            border-color: var(--c-accent1);
+            background: rgba(56,189,248,.07);
         }
 
-        /* RESPONSIVE */
-        @media (max-width: 768px) {
-            body {
-                padding-top: 70px;
+        .btn-nav-primary {
+            font-size: 13px;
+            font-weight: 600;
+            padding: 8px 22px;
+            border-radius: 99px;
+            background: linear-gradient(135deg, var(--c-accent1), var(--c-accent2));
+            color: #0c1528 !important;
+            border: none;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: transform .2s, box-shadow .2s, opacity .2s;
+            box-shadow: 0 4px 20px rgba(56,189,248,.3);
+        }
+
+        .btn-nav-primary:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 8px 28px rgba(56,189,248,.45);
+            opacity: .95;
+        }
+
+        /* Hamburger */
+        .navbar-toggler {
+            border: 1px solid var(--c-border);
+            border-radius: 8px;
+            padding: 6px 10px;
+            color: var(--c-text);
+        }
+
+        .navbar-toggler:focus { box-shadow: none; }
+        .navbar-toggler-icon {
+            filter: invert(1);
+            width: 18px;
+            height: 18px;
+        }
+
+        /* ═══════════════════════════════════════════
+           NOTIFICATION DOT (optional usage)
+        ═══════════════════════════════════════════ */
+        .nav-dot {
+            width: 6px; height: 6px;
+            background: var(--c-accent3);
+            border-radius: 50%;
+            display: inline-block;
+            margin-bottom: 6px;
+        }
+
+        /* ═══════════════════════════════════════════
+           MAIN / PAGE WRAPPER
+        ═══════════════════════════════════════════ */
+        main {
+            min-height: calc(100vh - var(--nav-h) - 120px);
+            padding: 48px 0;
+        }
+
+        /* ═══════════════════════════════════════════
+           CARDS
+        ═══════════════════════════════════════════ */
+        .card {
+            background: var(--c-card);
+            border: 1px solid var(--c-border);
+            border-radius: var(--radius-card);
+            color: var(--c-text);
+            transition: transform .25s, box-shadow .25s, border-color .25s;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-glow);
+            border-color: rgba(56,189,248,.22);
+        }
+
+        /* ═══════════════════════════════════════════
+           GENERIC BUTTON HELPERS
+        ═══════════════════════════════════════════ */
+        .btn-primary-glow {
+            background: linear-gradient(135deg, var(--c-accent1), var(--c-accent2));
+            color: #0c1528;
+            font-weight: 600;
+            border: none;
+            border-radius: 99px;
+            padding: 11px 28px;
+            transition: transform .2s, box-shadow .2s;
+            box-shadow: 0 4px 22px rgba(56,189,248,.28);
+            cursor: pointer;
+        }
+
+        .btn-primary-glow:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 36px rgba(56,189,248,.45);
+        }
+
+        .btn-ghost {
+            background: transparent;
+            border: 1px solid var(--c-border);
+            color: var(--c-text);
+            border-radius: 99px;
+            padding: 10px 26px;
+            font-weight: 500;
+            transition: border-color .2s, background .2s;
+            cursor: pointer;
+        }
+
+        .btn-ghost:hover {
+            border-color: var(--c-accent1);
+            background: rgba(56,189,248,.06);
+        }
+
+        /* ═══════════════════════════════════════════
+           FORM CONTROLS
+        ═══════════════════════════════════════════ */
+        .form-control, .form-select {
+            background: rgba(255,255,255,.04);
+            border: 1px solid var(--c-border);
+            border-radius: 12px;
+            color: var(--c-text);
+            padding: 12px 16px;
+            font-family: var(--font-body);
+            transition: border-color .2s, box-shadow .2s;
+        }
+
+        .form-control:focus, .form-select:focus {
+            background: rgba(56,189,248,.04);
+            border-color: var(--c-accent1);
+            box-shadow: 0 0 0 3px rgba(56,189,248,.12);
+            color: var(--c-text);
+            outline: none;
+        }
+
+        .form-control::placeholder { color: var(--c-muted); }
+
+        .form-label {
+            font-size: 13.5px;
+            font-weight: 500;
+            color: var(--c-muted);
+            margin-bottom: 7px;
+        }
+
+        /* ═══════════════════════════════════════════
+           BADGE / PILL TAGS
+        ═══════════════════════════════════════════ */
+        .tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 11.5px;
+            font-weight: 600;
+            letter-spacing: .4px;
+            text-transform: uppercase;
+            padding: 4px 12px;
+            border-radius: 99px;
+        }
+
+        .tag-sky  { background: rgba(56,189,248,.12);  color: var(--c-accent1); }
+        .tag-indigo{ background: rgba(129,140,248,.12); color: var(--c-accent2); }
+        .tag-emerald{ background: rgba(52,211,153,.12); color: var(--c-accent3); }
+
+        /* ═══════════════════════════════════════════
+           DIVIDER
+        ═══════════════════════════════════════════ */
+        .divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--c-border), transparent);
+            border: none;
+            margin: 40px 0;
+        }
+
+        /* ═══════════════════════════════════════════
+           ALERTS / TOASTS
+        ═══════════════════════════════════════════ */
+        .alert-info-custom {
+            background: rgba(56,189,248,.08);
+            border: 1px solid rgba(56,189,248,.2);
+            color: var(--c-text);
+            border-radius: 14px;
+            padding: 16px 20px;
+        }
+
+        /* ═══════════════════════════════════════════
+           TYPOGRAPHY HELPERS
+        ═══════════════════════════════════════════ */
+        .display-title {
+            font-family: var(--font-display);
+            font-weight: 800;
+            line-height: 1.1;
+            letter-spacing: -.5px;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, var(--c-accent1) 0%, var(--c-accent2) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .text-muted-custom { color: var(--c-muted) !important; }
+
+        /* ═══════════════════════════════════════════
+           SECTION HEADING DECORATOR
+        ═══════════════════════════════════════════ */
+        .section-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            color: var(--c-accent1);
+            margin-bottom: 14px;
+        }
+
+        .section-label::before {
+            content: '';
+            width: 20px;
+            height: 2px;
+            background: var(--c-accent1);
+            border-radius: 99px;
+        }
+
+        /* ═══════════════════════════════════════════
+           FOOTER
+        ═══════════════════════════════════════════ */
+        footer {
+            background: var(--c-surface);
+            border-top: 1px solid var(--c-border);
+            padding: 36px 0;
+        }
+
+        .footer-brand {
+            font-family: var(--font-display);
+            font-weight: 700;
+            font-size: 1rem;
+            color: #fff;
+            display: inline-flex;
+            align-items: center;
+            gap: 9px;
+            margin-bottom: 6px;
+        }
+
+        .footer-text {
+            font-size: 12.5px;
+            color: var(--c-muted);
+            margin: 0;
+        }
+
+        .footer-link {
+            font-size: 12.5px;
+            color: var(--c-muted);
+            text-decoration: none;
+            transition: color .2s;
+        }
+
+        .footer-link:hover { color: var(--c-accent1); }
+
+        .footer-icon-link {
+            width: 34px; height: 34px;
+            border: 1px solid var(--c-border);
+            border-radius: 8px;
+            display: grid;
+            place-items: center;
+            color: var(--c-muted);
+            text-decoration: none;
+            font-size: 13px;
+            transition: border-color .2s, color .2s, background .2s;
+        }
+
+        .footer-icon-link:hover {
+            border-color: var(--c-accent1);
+            color: var(--c-accent1);
+            background: rgba(56,189,248,.06);
+        }
+
+        /* ═══════════════════════════════════════════
+           PAGE LOAD ANIMATION
+        ═══════════════════════════════════════════ */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(22px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-up {
+            animation: fadeUp .55s ease both;
+        }
+
+        .fade-up-1 { animation-delay: .05s; }
+        .fade-up-2 { animation-delay: .15s; }
+        .fade-up-3 { animation-delay: .25s; }
+        .fade-up-4 { animation-delay: .35s; }
+
+        /* ═══════════════════════════════════════════
+           GLOW ORBS (decorative)
+        ═══════════════════════════════════════════ */
+        .orb {
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(90px);
+            pointer-events: none;
+            z-index: 0;
+            opacity: .35;
+        }
+
+        .orb-sky {
+            width: 460px; height: 460px;
+            background: radial-gradient(circle, rgba(56,189,248,.18), transparent 70%);
+            top: -120px; right: -120px;
+        }
+
+        .orb-indigo {
+            width: 380px; height: 380px;
+            background: radial-gradient(circle, rgba(129,140,248,.14), transparent 70%);
+            bottom: 80px; left: -80px;
+        }
+
+        /* ═══════════════════════════════════════════
+           RESPONSIVE
+        ═══════════════════════════════════════════ */
+        @media (max-width: 991px) {
+            .navbar-collapse {
+                background: rgba(5,11,24,.97);
+                border: 1px solid var(--c-border);
+                border-radius: 16px;
+                padding: 16px;
+                margin-top: 10px;
             }
 
-            .navbar-brand {
-                font-size: 15px;
-            }
+            .nav-link { padding: 10px 12px !important; }
 
-            .btn-main {
-                padding: 8px 20px;
-                font-size: 14px;
+            .btn-nav-outline,
+            .btn-nav-primary {
+                width: 100%;
+                justify-content: center;
+                margin-top: 6px;
             }
+        }
+
+        @media (max-width: 576px) {
+            main { padding: 28px 0; }
         }
     </style>
 </head>
 
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+<!-- DECORATIVE ORBS -->
+<div class="orb orb-sky"></div>
+<div class="orb orb-indigo"></div>
+
+<!-- ═══════════ NAVBAR ═══════════ -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
     <div class="container">
+
+        <!-- Brand -->
         <a class="navbar-brand" href="{{ url_for('main.home') }}">
-            <i class="fa-solid fa-brain me-1 text-primary"></i>
+            <span class="brand-icon">
+                <i class="fa-solid fa-brain" style="color:#0c1528;"></i>
+            </span>
             AI Career Guidance
         </a>
 
-        <button class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <!-- Hamburger -->
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navMenu"
+                aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
+        <!-- Nav links -->
         <div class="collapse navbar-collapse" id="navMenu">
-            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3 mt-3 mt-lg-0">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1 mt-3 mt-lg-0">
 
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url_for('main.help') }}">
-                        <i class="fa fa-circle-question me-1"></i> Help
+                        <i class="fa-regular fa-circle-question"></i> Help
                     </a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('main.login') }}">
-                        <i class="fa fa-sign-in-alt me-1"></i> Sign In
+                <li class="nav-item ms-lg-2">
+                    <a class="btn-nav-outline" href="{{ url_for('main.login') }}">
+                        <i class="fa-solid fa-arrow-right-to-bracket"></i> Sign In
                     </a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="btn btn-outline-light rounded-pill px-4 mt-2 mt-lg-0"
-                       href="{{ url_for('main.signup') }}">
-                        Sign Up
+                <li class="nav-item ms-lg-2">
+                    <a class="btn-nav-primary" href="{{ url_for('main.signup') }}">
+                        Get Started <i class="fa-solid fa-arrow-right fa-sm"></i>
                     </a>
                 </li>
 
@@ -161,22 +562,87 @@
     </div>
 </nav>
 
-<!-- PAGE CONTENT -->
-<main class="container py-4 py-lg-5">
-    {% block content %}{% endblock %}
+<!-- ═══════════ PAGE CONTENT ═══════════ -->
+<main>
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
 </main>
 
-<!-- FOOTER -->
-<footer class="pt-4 pb-4 mt-5">
-    <div class="container text-center">
-        <p>© 2026 AI Career Guidance System</p>
-        <p class="opacity-75">
-            Smart career recommendations powered by AI & data science
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer>
+    <div class="container">
+        <div class="row align-items-center gy-4">
+
+            <!-- Left: brand + tagline -->
+            <div class="col-12 col-md-6">
+                <div class="footer-brand">
+                    <span class="brand-icon" style="width:28px;height:28px;font-size:12px;">
+                        <i class="fa-solid fa-brain" style="color:#0c1528;"></i>
+                    </span>
+                    AI Career Guidance
+                </div>
+                <p class="footer-text mt-1">Smart career recommendations powered by AI & data science.</p>
+            </div>
+
+            <!-- Center: links -->
+            <div class="col-12 col-md-3 d-flex gap-4 flex-wrap">
+                <a href="#" class="footer-link">Privacy</a>
+                <a href="#" class="footer-link">Terms</a>
+                <a href="{{ url_for('main.help') }}" class="footer-link">Help</a>
+            </div>
+
+            <!-- Right: social icons -->
+            <div class="col-12 col-md-3 d-flex gap-2 justify-content-md-end">
+                <a href="#" class="footer-icon-link" aria-label="Twitter/X">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="footer-icon-link" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="footer-icon-link" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <hr class="divider mt-4 mb-3">
+
+        <p class="footer-text text-center">
+            © 2026 AI Career Guidance System — All rights reserved.
         </p>
     </div>
 </footer>
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    /* Navbar scroll effect */
+    const nav = document.getElementById('mainNav');
+    window.addEventListener('scroll', () => {
+        nav.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+
+    /* Highlight active nav link */
+    const links = document.querySelectorAll('.nav-link');
+    const path = location.pathname;
+    links.forEach(l => {
+        if (l.getAttribute('href') === path) l.classList.add('active');
+    });
+
+    /* Intersection Observer: fade-up on scroll */
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+            if (e.isIntersecting) {
+                e.target.classList.add('fade-up');
+                observer.unobserve(e.target);
+            }
+        });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.observe').forEach(el => observer.observe(el));
+</script>
 </body>
 </html>
